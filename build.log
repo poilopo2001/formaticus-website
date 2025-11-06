@@ -1,0 +1,48 @@
+
+> formaticus-website@1.0.0 build
+> next build
+
+  ▲ Next.js 14.2.33
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+
+./app/page.tsx
+3:10  Warning: 'Button' is defined but never used.  @typescript-eslint/no-unused-vars
+7:3  Warning: 'Milk' is defined but never used.  @typescript-eslint/no-unused-vars
+12:3  Warning: 'CheckCircle' is defined but never used.  @typescript-eslint/no-unused-vars
+15:3  Warning: 'Clock' is defined but never used.  @typescript-eslint/no-unused-vars
+16:3  Warning: 'Quote' is defined but never used.  @typescript-eslint/no-unused-vars
+17:3  Warning: 'HelpCircle' is defined but never used.  @typescript-eslint/no-unused-vars
+22:9  Warning: 'featuredServices' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+24:9  Warning: 'cheeseCategories' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+   Collecting page data ...
+   Generating static pages (0/11) ...
+   Generating static pages (2/11) 
+   Generating static pages (5/11) 
+   Generating static pages (8/11) 
+ ✓ Generating static pages (11/11)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    193 B           101 kB
+├ ○ /_not-found                          873 B          88.1 kB
+├ ○ /a-propos                            193 B           101 kB
+├ ○ /contact                             138 B          87.4 kB
+├ ○ /evenements                          193 B           101 kB
+├ ○ /fromages                            291 B          92.7 kB
+├ ○ /reserver                            3.8 kB         99.3 kB
+├ ○ /sitemap.xml                         0 B                0 B
+└ ○ /traiteur                            193 B           101 kB
++ First Load JS shared by all            87.2 kB
+  ├ chunks/117-9710a79d70118eb5.js       31.7 kB
+  ├ chunks/fd9d1056-357a9aa7cf7b0906.js  53.6 kB
+  └ other shared chunks (total)          1.89 kB
+
+
+○  (Static)  prerendered as static content
+

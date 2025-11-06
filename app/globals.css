@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --primary-900: 10 10 10;
+    --primary-800: 15 15 15;
+    --primary-700: 24 24 24;
+    --accent-600: 212 175 55;
+    --gold: 212 175 55;
+  }
+
+  * {
+    @apply border-primary-200;
+  }
+
+  body {
+    @apply bg-primary-900 text-primary-50 font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-light tracking-wider;
+  }
+}
+
+@layer utilities {
+  .hover-lift {
+    @apply transition-transform duration-300 ease-out;
+  }
+
+  .hover-lift:hover {
+    @apply -translate-y-1;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-on-scroll {
+    @apply opacity-0 translate-y-8;
+    animation: fadeInUp 1s ease-out forwards;
+  }
+
+  .cheese-card-shimmer:hover img {
+    animation: shimmer 2s ease-in-out infinite;
+  }
+}
+
+/* Custom scrollbar warm theme */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(255 251 235);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(217 119 6);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(146 64 14);
+}
+
+/* Selection color warm theme */
+::selection {
+  background-color: rgb(251 191 36 / 0.3);
+  color: rgb(120 53 15);
+}
+
+/* Focus visible warm theme */
+:focus-visible {
+  outline: 2px solid rgb(251 191 36);
+  outline-offset: 2px;
+}
