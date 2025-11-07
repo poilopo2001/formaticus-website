@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
 import { Ornament } from '@/components/ui/Ornament'
@@ -7,74 +9,147 @@ import {
   Star,
   GraduationCap,
   Award,
-  ChevronDown,
   Users,
   Phone
 } from 'lucide-react'
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from '@/components/ui/carousel'
+import Autoplay from 'embla-carousel-autoplay'
+
+// Données des slides pour le carousel hero
+const heroSlides = [
+  {
+    image: 'https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?q=80&w=2940',
+    tagline: 'EXPÉRIENCE FROMAGÈRE',
+    title: ['Saveurs Inspirées par', 'les Saisons'],
+    description: 'Venez en famille et ressentez la joie d\'une expérience fromagère inoubliable',
+    cta: 'VOIR NOTRE SÉLECTION'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=2940',
+    tagline: 'SOIRÉES CONVIVIALES',
+    title: ['L\'Art de la Raclette', 'et du Partage'],
+    description: 'Découvrez nos soirées raclette, fondue et tartiflette dans une ambiance chaleureuse',
+    cta: 'RÉSERVER UNE SOIRÉE'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1530648672449-81f6c723e2f1?q=80&w=2940',
+    tagline: 'SÉLECTION ARTISANALE',
+    title: ['Plus de 150 Fromages', 'AOP et Fermiers'],
+    description: 'Des trésors fromagers sélectionnés avec passion auprès des meilleurs artisans',
+    cta: 'DÉCOUVRIR LA CAVE'
+  }
+]
 
 export default function HomePage() {
 
   return (
     <main className="min-h-screen bg-primary-900">
-      {/* 1. Hero Section - Delici Style */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="https://images.unsplash.com/photo-1452195100486-9cc805987862"
-            alt="Fromager artisan Formaticus Luxembourg"
-            fill
-            className="object-cover opacity-50"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/80" />
-        </div>
+      {/* 1. Hero Section - Carousel Style Delici */}
+      <section className="relative h-screen">
+        <Carousel
+          opts={{
+            align: 'start',
+            loop: true,
+          }}
+          plugins={[
+            Autoplay({
+              delay: 6000,
+            }),
+          ]}
+          className="h-full"
+        >
+          <CarouselContent className="h-screen -ml-0">
+            {heroSlides.map((slide, index) => (
+              <CarouselItem key={index} className="pl-0">
+                <div className="relative h-screen flex items-center justify-center overflow-hidden">
+                  {/* Background Image avec overlay */}
+                  <div className="absolute inset-0 z-0">
+                    <Image
+                      src={slide.image}
+                      alt={`${slide.tagline} - Formaticus Luxembourg`}
+                      fill
+                      className="object-cover"
+                      priority={index === 0}
+                    />
+                    {/* Overlay sombre exactement comme Delici */}
+                    <div className="absolute inset-0 bg-black/50" />
+                  </div>
 
-        <div className="relative z-10 container mx-auto px-4 text-center">
-          <div className="max-w-5xl mx-auto space-y-8">
-            {/* Label élégant */}
-            <div className="flex justify-center">
-              <Ornament className="text-accent-600" />
-            </div>
+                  {/* Contenu centré */}
+                  <div className="relative z-10 container mx-auto px-4 text-center">
+                    <div className="max-w-4xl mx-auto">
+                      {/* Tagline doré en majuscules avec espacement large */}
+                      <div className="mb-8">
+                        <p className="text-accent-600 tracking-[0.4em] text-[11px] md:text-xs font-normal uppercase mb-6">
+                          {slide.tagline}
+                        </p>
+                        {/* Ornement décoratif sous le tagline */}
+                        <div className="flex justify-center">
+                          <svg className="w-12 h-3 text-accent-600" viewBox="0 0 48 12" fill="none">
+                            <path d="M0 6h18M24 0l-6 6 6 6M24 0l6 6-6 6M30 6h18" stroke="currentColor" strokeWidth="0.5"/>
+                            <circle cx="24" cy="6" r="1.5" fill="currentColor"/>
+                          </svg>
+                        </div>
+                      </div>
 
-            <p className="text-accent-600 tracking-[0.35em] text-xs md:text-sm font-light uppercase">
-              Expérience Fromagère d'Exception
-            </p>
+                      {/* Titre principal - très grand, serif, blanc */}
+                      <h1 className="text-6xl md:text-7xl lg:text-8xl font-serif font-light text-white leading-[1.15] mb-8">
+                        {slide.title[0]}<br />
+                        {slide.title[1]}
+                      </h1>
 
-            {/* Titre principal massif */}
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-light text-white leading-[1.1] tracking-wide">
-              L'Art du Fromage<br />
-              <span className="italic">et du Partage</span>
-            </h1>
+                      {/* Description - blanc, taille moyenne */}
+                      <p className="text-base md:text-lg text-white font-light mb-12 max-w-2xl mx-auto">
+                        {slide.description}
+                      </p>
 
-            {/* Sous-titre */}
-            <p className="text-lg md:text-xl text-primary-100 font-light max-w-2xl mx-auto">
-              Découvrez plus de 150 fromages artisanaux et vivez des soirées conviviales inoubliables
-            </p>
+                      {/* Bouton CTA - bordure dorée, fond transparent */}
+                      <div className="inline-block">
+                        <Link href="/reserver">
+                          <button className="px-12 py-4 bg-transparent border border-accent-600 text-accent-600 font-sans tracking-[0.25em] text-[11px] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
+                            {slide.cta}
+                          </button>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
 
-            {/* Ornament */}
-            <div className="flex justify-center py-2">
-              <Ornament className="text-accent-600 opacity-60" />
-            </div>
+          {/* Navigation du carousel */}
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
 
-            {/* CTA */}
-            <div className="pt-8">
-              <Link href="/reserver">
-                <button className="group relative px-14 py-5 bg-transparent border border-accent-600 text-accent-600 font-sans tracking-[0.2em] text-xs uppercase overflow-hidden transition-all duration-700 hover:text-black">
-                  <span className="relative z-10">Découvrir Nos Fromages</span>
-                  <div className="absolute inset-0 bg-accent-600 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-700" />
-                </button>
-              </Link>
+        {/* Bouton "Book A Table" fixe en bas à droite - style Delici */}
+        <Link href="/reserver">
+          <div className="fixed bottom-8 right-8 z-30 hidden lg:block">
+            <div className="relative group">
+              {/* Cadre décoratif doré */}
+              <div className="absolute -inset-2 border border-accent-600/30 rotate-45 transition-transform duration-500 group-hover:rotate-90" />
+              <div className="relative bg-accent-600 px-6 py-6 hover:bg-accent-500 transition-colors duration-500">
+                <div className="text-black text-center">
+                  <div className="mb-1">
+                    <svg className="w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 9.5L12 4l9 5.5M12 4v13M5 12v6h14v-6" />
+                    </svg>
+                  </div>
+                  <div className="text-[10px] tracking-[0.15em] uppercase font-medium">
+                    Réserver<br />Une Table
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-
-          {/* Scroll indicator */}
-          <div className="absolute bottom-12 left-1/2 -translate-x-1/2 animate-bounce">
-            <div className="flex flex-col items-center gap-3">
-              <div className="w-px h-16 bg-gradient-to-b from-transparent via-accent-600 to-transparent" />
-              <ChevronDown className="w-5 h-5 text-accent-600" />
-            </div>
-          </div>
-        </div>
+        </Link>
       </section>
 
       {/* 2. We Offer Top Notch - 3 Column Grid comme Delici */}
