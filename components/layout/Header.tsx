@@ -67,6 +67,12 @@ export function Header() {
               Nos Fromages
             </Link>
             <Link
+              href="/producteurs"
+              className="text-primary-900 hover:text-accent-600 font-medium transition-colors"
+            >
+              Nos Producteurs
+            </Link>
+            <Link
               href="/evenements"
               className="text-primary-900 hover:text-accent-600 font-medium transition-colors"
             >
@@ -129,6 +135,13 @@ export function Header() {
               className="text-primary-900 hover:text-accent-600 font-medium transition-colors py-2"
             >
               Nos Fromages
+            </Link>
+            <Link
+              href="/producteurs"
+              onClick={() => setMobileMenuOpen(false)}
+              className="text-primary-900 hover:text-accent-600 font-medium transition-colors py-2"
+            >
+              Nos Producteurs
             </Link>
             <Link
               href="/evenements"

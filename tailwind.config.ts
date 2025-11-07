@@ -28,15 +28,15 @@ const config: Config = {
           300: '#fff59d',
           400: '#fff176',
           500: '#ffeb3b',
-          600: '#d4af37', // Or élégant principal
-          700: '#c5a028',
-          800: '#a68620',
-          900: '#8b7218',
+          600: '#E4C590', // Or élégant principal
+          700: '#d4b67f',
+          800: '#c4a66f',
+          900: '#b4965f',
         },
         gold: {
           light: '#f4e5c2',
-          DEFAULT: '#d4af37',
-          dark: '#b8941f',
+          DEFAULT: '#E4C590',
+          dark: '#d4b67f',
         },
       },
       fontFamily: {

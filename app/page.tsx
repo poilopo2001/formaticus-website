@@ -20,6 +20,8 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel'
 import Autoplay from 'embla-carousel-autoplay'
+import { CountdownTimer } from '@/components/CountdownTimer'
+import { ParallaxScroll } from '@/components/ui/parallax-scroll'
 
 // Données des slides pour le carousel hero
 const heroSlides = [
@@ -153,11 +155,18 @@ export default function HomePage() {
       </section>
 
       {/* 2. We Offer Top Notch - 3 Column Grid comme Delici */}
-      <section className="py-32 bg-primary-900 relative">
-        {/* Ornament pattern subtil */}
-        <div className="absolute inset-0 opacity-[0.02]" style={{
-          backgroundImage: `repeating-linear-gradient(0deg, #d4af37, #d4af37 1px, transparent 1px, transparent 60px), repeating-linear-gradient(90deg, #d4af37, #d4af37 1px, transparent 1px, transparent 60px)`,
-        }} />
+      <section className="py-32 bg-black relative">
+        {/* Option: Background image avec overlay - décommenter si souhaité */}
+        {/*
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/background-pattern.jpg"
+            alt="Background pattern"
+            fill
+            className="object-cover opacity-5"
+          />
+        </div>
+        */}
 
         <div className="container mx-auto px-4 relative z-10">
           {/* Header */}
@@ -169,116 +178,144 @@ export default function HomePage() {
             <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-6">
               Trois Piliers d'Excellence
             </h2>
-            <p className="text-primary-200 text-lg max-w-2xl mx-auto font-light leading-relaxed">
+            <p className="text-white/80 text-lg max-w-2xl mx-auto font-light leading-relaxed">
               Chez Formaticus, nous célébrons la culture fromagère à travers trois expériences uniques : notre sélection exceptionnelle de fromages artisanaux, nos soirées conviviales inoubliables, et nos ateliers de découverte passionnants.
             </p>
           </div>
 
-          {/* 3 Column Grid avec ornements */}
+          {/* 3 Column Grid avec ornements étoile */}
           <div className="grid md:grid-cols-3 gap-12">
-            {/* Colonne 1 - Breakfast Style */}
+            {/* Colonne 1 - Sélection Fromages */}
             <div className="group text-center">
-              {/* Ornement top */}
-              <div className="mb-6 flex justify-center">
-                <svg className="w-20 h-16 text-accent-600" viewBox="0 0 80 64" fill="none">
-                  <path d="M10 32h60M40 2v60M30 22l10 10 10-10M30 42l10-10 10 10" stroke="currentColor" strokeWidth="0.5"/>
-                  <circle cx="40" cy="32" r="4" fill="currentColor"/>
+              {/* Ornement étoile top avec pulse au hover */}
+              <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
+                <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.6)]" viewBox="0 0 32 32" fill="none">
+                  <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
+                  <circle cx="16" cy="16" r="2" fill="black"/>
                 </svg>
               </div>
 
-              {/* Image */}
-              <div className="relative h-80 mb-8 overflow-hidden">
+              {/* Image avec glow et lift effect */}
+              <div className="relative h-96 mb-8 overflow-hidden shadow-2xl transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(212,175,55,0.3)]">
                 <Image
                   src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d"
                   alt="Sélection fromages"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                {/* Overlay avec texte au hover */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center p-8">
+                  <p className="text-white/90 text-sm font-light leading-relaxed text-center">
+                    Plus de 150 fromages AOP et fermiers sélectionnés avec passion auprès des meilleurs artisans. De la Tomme de Savoie au Comté 36 mois, découvrez notre cave exceptionnelle.
+                  </p>
+                </div>
+                {/* Glow border interne */}
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
+                  <div className="absolute inset-0 border-2 border-accent-600/40 shadow-[inset_0_0_20px_rgba(212,175,55,0.2)]" />
+                </div>
               </div>
 
-              {/* Ornement bottom */}
-              <div className="mb-6 flex justify-center">
-                <svg className="w-20 h-16 text-accent-600" viewBox="0 0 80 64" fill="none">
-                  <path d="M10 32h60M20 22l20 10-20 10M60 22l-20 10 20 10" stroke="currentColor" strokeWidth="0.5"/>
+              {/* Ornement géométrique bottom */}
+              <div className="mb-8 flex justify-center">
+                <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
+                  <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
+                  <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
                 </svg>
               </div>
 
               {/* Titre */}
-              <h3 className="text-3xl font-serif font-light text-white mb-6">
+              <h3 className="text-3xl font-serif font-light text-white mb-8">
                 Sélection Fromages
               </h3>
 
-              {/* CTA */}
-              <button className="px-10 py-3 border border-accent-600/50 text-accent-600 text-xs tracking-[0.2em] uppercase hover:border-accent-600 hover:bg-accent-600/10 transition-all duration-500">
+              {/* CTA avec bordure solide */}
+              <button className="px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
                 Découvrir
               </button>
             </div>
 
-            {/* Colonne 2 - Appetizers Style */}
+            {/* Colonne 2 - Soirées Conviviales */}
             <div className="group text-center">
-              <div className="mb-6 flex justify-center">
-                <svg className="w-20 h-16 text-accent-600" viewBox="0 0 80 64" fill="none">
-                  <path d="M10 32h60M40 2v60M30 22l10 10 10-10M30 42l10-10 10 10" stroke="currentColor" strokeWidth="0.5"/>
-                  <circle cx="40" cy="32" r="4" fill="currentColor"/>
+              <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
+                <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.6)]" viewBox="0 0 32 32" fill="none">
+                  <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
+                  <circle cx="16" cy="16" r="2" fill="black"/>
                 </svg>
               </div>
 
-              <div className="relative h-80 mb-8 overflow-hidden">
+              <div className="relative h-96 mb-8 overflow-hidden shadow-2xl transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(212,175,55,0.3)]">
                 <Image
                   src="https://images.unsplash.com/photo-1530648672449-81f6c723e2f1"
                   alt="Soirées raclette"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                {/* Overlay avec texte au hover */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center p-8">
+                  <p className="text-white/90 text-sm font-light leading-relaxed text-center">
+                    Chaque vendredi et samedi soir, vivez l'expérience d'une raclette, fondue ou tartiflette authentique dans une ambiance chaleureuse. Réservation recommandée.
+                  </p>
+                </div>
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
+                  <div className="absolute inset-0 border-2 border-accent-600/40 shadow-[inset_0_0_20px_rgba(212,175,55,0.2)]" />
+                </div>
               </div>
 
-              <div className="mb-6 flex justify-center">
-                <svg className="w-20 h-16 text-accent-600" viewBox="0 0 80 64" fill="none">
-                  <path d="M10 32h60M20 22l20 10-20 10M60 22l-20 10 20 10" stroke="currentColor" strokeWidth="0.5"/>
+              <div className="mb-8 flex justify-center">
+                <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
+                  <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
+                  <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
                 </svg>
               </div>
 
-              <h3 className="text-3xl font-serif font-light text-white mb-6">
+              <h3 className="text-3xl font-serif font-light text-white mb-8">
                 Soirées Conviviales
               </h3>
 
-              <button className="px-10 py-3 border border-accent-600/50 text-accent-600 text-xs tracking-[0.2em] uppercase hover:border-accent-600 hover:bg-accent-600/10 transition-all duration-500">
+              <button className="px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
                 Nos Événements
               </button>
             </div>
 
-            {/* Colonne 3 - Drinks Style */}
+            {/* Colonne 3 - Ateliers & Cours */}
             <div className="group text-center">
-              <div className="mb-6 flex justify-center">
-                <svg className="w-20 h-16 text-accent-600" viewBox="0 0 80 64" fill="none">
-                  <path d="M10 32h60M40 2v60M30 22l10 10 10-10M30 42l10-10 10 10" stroke="currentColor" strokeWidth="0.5"/>
-                  <circle cx="40" cy="32" r="4" fill="currentColor"/>
+              <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
+                <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.6)]" viewBox="0 0 32 32" fill="none">
+                  <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
+                  <circle cx="16" cy="16" r="2" fill="black"/>
                 </svg>
               </div>
 
-              <div className="relative h-80 mb-8 overflow-hidden">
+              <div className="relative h-96 mb-8 overflow-hidden shadow-2xl transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(212,175,55,0.3)]">
                 <Image
                   src="https://images.unsplash.com/photo-1559339352-11d035aa65de"
                   alt="Cave à fromages"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                {/* Overlay avec texte au hover */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center p-8">
+                  <p className="text-white/90 text-sm font-light leading-relaxed text-center">
+                    Initiez-vous à l'art de la dégustation fromagère ou apprenez à créer vos propres plateaux. Ateliers mensuels pour tous les niveaux, de débutant à expert.
+                  </p>
+                </div>
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
+                  <div className="absolute inset-0 border-2 border-accent-600/40 shadow-[inset_0_0_20px_rgba(212,175,55,0.2)]" />
+                </div>
               </div>
 
-              <div className="mb-6 flex justify-center">
-                <svg className="w-20 h-16 text-accent-600" viewBox="0 0 80 64" fill="none">
-                  <path d="M10 32h60M20 22l20 10-20 10M60 22l-20 10 20 10" stroke="currentColor" strokeWidth="0.5"/>
+              <div className="mb-8 flex justify-center">
+                <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
+                  <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
+                  <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
                 </svg>
               </div>
 
-              <h3 className="text-3xl font-serif font-light text-white mb-6">
+              <h3 className="text-3xl font-serif font-light text-white mb-8">
                 Ateliers & Cours
               </h3>
 
-              <button className="px-10 py-3 border border-accent-600/50 text-accent-600 text-xs tracking-[0.2em] uppercase hover:border-accent-600 hover:bg-accent-600/10 transition-all duration-500">
+              <button className="px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
                 Participer
               </button>
             </div>
@@ -322,6 +359,11 @@ export default function HomePage() {
                 Vivez une authentique soirée raclette dans notre espace chaleureux comme en montagne. Raclette artisanale à volonté (4 variétés), charcuterie fine, pommes de terre bio et accompagnements traditionnels. Une expérience conviviale de 2h30-3h animée par nos experts fromagers passionnés.
               </p>
 
+              {/* Timer compte à rebours */}
+              <div className="mb-8">
+                <CountdownTimer targetDate="2025-11-27T19:00:00" />
+              </div>
+
               <div className="flex items-baseline gap-4 mb-10">
                 <span className="text-accent-600 text-4xl font-serif">42€</span>
                 <span className="text-primary-300 text-xl font-light">par personne</span>
@@ -335,81 +377,133 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 4. Grid Gallery - 3 colonnes type Delici Events */}
-      <section className="grid md:grid-cols-3">
-        {/* Best Menu */}
-        <div className="relative h-96 md:h-[500px] group overflow-hidden">
-          <Image
-            src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d"
-            alt="Special Dishes"
-            fill
-            className="object-cover transition-transform duration-700 group-hover:scale-110"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-8">
-            <p className="text-accent-600 tracking-[0.25em] text-xs font-light uppercase mb-4">
-              Sélection Premium
+      {/* 3b. Autres Événements à Venir - 3 cartes avec Stats */}
+      <section className="py-32 bg-primary-800">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-20">
+            <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+              Actualités Fromagères
             </p>
-            <h3 className="text-3xl md:text-4xl font-serif font-light text-white mb-4">
-              Fromages d'Exception
-            </h3>
-            <p className="text-primary-200 text-sm mb-6 font-light">
-              Plus de 150 fromages artisanaux soigneusement sélectionnés
-            </p>
-            <button className="px-8 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.15em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
-              Notre Sélection
-            </button>
+            <h2 className="text-5xl md:text-6xl font-serif font-light text-white">
+              Autres Événements à Venir
+            </h2>
           </div>
-        </div>
 
-        {/* Upcoming Events */}
-        <div className="relative h-96 md:h-[500px] group overflow-hidden">
-          <Image
-            src="https://images.unsplash.com/photo-1530648672449-81f6c723e2f1"
-            alt="Upcoming Events"
-            fill
-            className="object-cover transition-transform duration-700 group-hover:scale-110"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-8">
-            <Ornament className="text-accent-600 mb-4" />
-            <p className="text-accent-600 tracking-[0.25em] text-xs font-light uppercase mb-4">
-              Prochainement
-            </p>
-            <h3 className="text-3xl md:text-4xl font-serif font-light text-white mb-4">
-              Soirées à Venir
-            </h3>
-            <p className="text-primary-200 text-sm mb-6 font-light">
-              Raclette, Fondue, Tartiflette - Ambiance conviviale garantie
-            </p>
-            <button className="px-8 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.15em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
-              Réserver
-            </button>
+          <div className="grid md:grid-cols-3 gap-8 mb-20">
+            {/* Event 1 */}
+            <div className="group bg-primary-900 overflow-hidden">
+              <div className="relative h-72 overflow-hidden">
+                <Image
+                  src="https://images.unsplash.com/photo-1530648672449-81f6c723e2f1"
+                  alt="Soirée Raclette Conviviale"
+                  fill
+                  className="object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute bottom-4 left-4 bg-accent-600 text-black px-4 py-2 text-xs tracking-wider uppercase">
+                  <div className="font-bold">15</div>
+                  <div className="font-light">Fév</div>
+                </div>
+              </div>
+              <div className="p-8">
+                <div className="flex items-center gap-4 text-xs text-primary-400 mb-4 font-light">
+                  <span className="flex items-center gap-2">
+                    <Users className="w-4 h-4" />
+                    Formaticus
+                  </span>
+                  <span>•</span>
+                  <span>Événement</span>
+                </div>
+                <h4 className="text-2xl font-serif font-light text-white mb-4 group-hover:text-accent-600 transition-colors">
+                  Grande Soirée Raclette : Saveurs Authentiques de Montagne
+                </h4>
+                <Link href="/evenements" className="text-accent-600 text-sm tracking-wider uppercase hover:underline font-light">
+                  Réserver →
+                </Link>
+              </div>
+            </div>
+
+            {/* Event 2 */}
+            <div className="group bg-primary-900 overflow-hidden">
+              <div className="relative h-72 overflow-hidden">
+                <Image
+                  src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d"
+                  alt="Atelier Dégustation"
+                  fill
+                  className="object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute bottom-4 left-4 bg-accent-600 text-black px-4 py-2 text-xs tracking-wider uppercase">
+                  <div className="font-bold">22</div>
+                  <div className="font-light">Fév</div>
+                </div>
+              </div>
+              <div className="p-8">
+                <div className="flex items-center gap-4 text-xs text-primary-400 mb-4 font-light">
+                  <span className="flex items-center gap-2">
+                    <Users className="w-4 h-4" />
+                    Formaticus
+                  </span>
+                  <span>•</span>
+                  <span>Atelier</span>
+                </div>
+                <h4 className="text-2xl font-serif font-light text-white mb-4 group-hover:text-accent-600 transition-colors">
+                  Masterclass : Découverte des Fromages AOP et Accords Vins
+                </h4>
+                <Link href="/evenements" className="text-accent-600 text-sm tracking-wider uppercase hover:underline font-light">
+                  Réserver →
+                </Link>
+              </div>
+            </div>
+
+            {/* Event 3 */}
+            <div className="group bg-primary-900 overflow-hidden">
+              <div className="relative h-72 overflow-hidden">
+                <Image
+                  src="https://images.unsplash.com/photo-1559339352-11d035aa65de"
+                  alt="Soirée Fondue"
+                  fill
+                  className="object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute bottom-4 left-4 bg-accent-600 text-black px-4 py-2 text-xs tracking-wider uppercase">
+                  <div className="font-bold">28</div>
+                  <div className="font-light">Fév</div>
+                </div>
+              </div>
+              <div className="p-8">
+                <div className="flex items-center gap-4 text-xs text-primary-400 mb-4 font-light">
+                  <span className="flex items-center gap-2">
+                    <Users className="w-4 h-4" />
+                    Formaticus
+                  </span>
+                  <span>•</span>
+                  <span>Événement</span>
+                </div>
+                <h4 className="text-2xl font-serif font-light text-white mb-4 group-hover:text-accent-600 transition-colors">
+                  Soirée Fondue Savoyarde : Tradition et Convivialité
+                </h4>
+                <Link href="/evenements" className="text-accent-600 text-sm tracking-wider uppercase hover:underline font-light">
+                  Réserver →
+                </Link>
+              </div>
+            </div>
           </div>
-        </div>
 
-        {/* Chef Choice */}
-        <div className="relative h-96 md:h-[500px] group overflow-hidden">
-          <Image
-            src="https://images.unsplash.com/photo-1559339352-11d035aa65de"
-            alt="Chef Choice"
-            fill
-            className="object-cover transition-transform duration-700 group-hover:scale-110"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-8">
-            <p className="text-accent-600 tracking-[0.25em] text-xs font-light uppercase mb-4">
-              Nos Ateliers
-            </p>
-            <h3 className="text-3xl md:text-4xl font-serif font-light text-white mb-4">
-              Cours de Dégustation
-            </h3>
-            <p className="text-primary-200 text-sm mb-6 font-light">
-              Apprenez l'art du fromage avec nos experts passionnés
-            </p>
-            <button className="px-8 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.15em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
-              S'inscrire
-            </button>
+          {/* Stats Counter */}
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 text-center mt-20">
+            {[
+              { value: '150+', label: 'Fromages Artisanaux' },
+              { value: '3500+', label: 'Clients Satisfaits' },
+              { value: '12', label: 'Soirées par Mois' },
+              { value: '98%', label: 'Taux de Satisfaction' }
+            ].map((stat, idx) => (
+              <div key={idx} className="group">
+                <div className="text-6xl md:text-7xl font-serif font-light text-accent-600 mb-4">
+                  {stat.value}
+                </div>
+                <div className="text-sm text-primary-300 tracking-wider uppercase font-light">
+                  {stat.label}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -979,237 +1073,32 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 10. Gallery Grid - 3x2 images avec overlays */}
-      <section className="grid grid-cols-2 lg:grid-cols-3">
-        {/* Image 1 - Wine */}
-        <div className="relative h-96 group overflow-hidden">
-          <Image
-            src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3"
-            alt="Wine selection"
-            fill
-            className="object-cover transition-transform duration-700 group-hover:scale-110"
-          />
-          <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors duration-500" />
-        </div>
-
-        {/* Image 2 - Cheese */}
-        <div className="relative h-96 group overflow-hidden">
-          <Image
-            src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d"
-            alt="Cheese board"
-            fill
-            className="object-cover transition-transform duration-700 group-hover:scale-110"
-          />
-          <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors duration-500" />
-        </div>
-
-        {/* Image 3 - Dining */}
-        <div className="relative h-96 group overflow-hidden">
-          <Image
-            src="https://images.unsplash.com/photo-1559339352-11d035aa65de"
-            alt="Fine dining"
-            fill
-            className="object-cover transition-transform duration-700 group-hover:scale-110"
-          />
-          <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors duration-500" />
-        </div>
-
-        {/* Image 4 - Kitchen */}
-        <div className="relative h-96 group overflow-hidden">
-          <Image
-            src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c"
-            alt="Chef at work"
-            fill
-            className="object-cover transition-transform duration-700 group-hover:scale-110"
-          />
-          <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors duration-500" />
-        </div>
-
-        {/* Image 5 - Table Setting */}
-        <div className="relative h-96 group overflow-hidden">
-          <Image
-            src="https://images.unsplash.com/photo-1530648672449-81f6c723e2f1"
-            alt="Restaurant ambiance"
-            fill
-            className="object-cover transition-transform duration-700 group-hover:scale-110"
-          />
-          <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors duration-500" />
-        </div>
-
-        {/* Image 6 - Details */}
-        <div className="relative h-96 group overflow-hidden">
-          <Image
-            src="https://images.unsplash.com/photo-1452195100486-9cc805987862"
-            alt="Culinary details"
-            fill
-            className="object-cover transition-transform duration-700 group-hover:scale-110"
-          />
-          <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors duration-500" />
-        </div>
-      </section>
-
-      {/* 11. Watch Our Video */}
-      <section className="relative h-screen flex items-center justify-center">
-        <div className="absolute inset-0">
-          <Image
-            src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c"
-            alt="Chef preparing food"
-            fill
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-black/70" />
-        </div>
-
-        <div className="relative z-10 text-center px-4">
-          <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
-            Découvrez
-          </p>
-          <h2 className="text-5xl md:text-7xl font-serif font-light text-white mb-8 leading-tight">
-            L'Univers Formaticus
-          </h2>
-          <p className="text-xl text-primary-100 mb-12 max-w-2xl mx-auto font-light">
-            Plongez dans notre passion du fromage artisanal et découvrez nos soirées conviviales inoubliables
-          </p>
-
-          <button className="w-24 h-24 rounded-full border-2 border-accent-600 flex items-center justify-center mx-auto hover:bg-accent-600 hover:scale-110 transition-all duration-500 group">
-            <div className="w-0 h-0 border-t-[12px] border-t-transparent border-l-[20px] border-l-accent-600 border-b-[12px] border-b-transparent ml-1 group-hover:border-l-black" />
-          </button>
-        </div>
-      </section>
-
-      {/* 12. Stats Counter */}
-      <section className="py-24 bg-primary-900">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 text-center">
-            {[
-              { value: '150+', label: 'Fromages Artisanaux' },
-              { value: '3500+', label: 'Clients Satisfaits' },
-              { value: '12', label: 'Soirées par Mois' },
-              { value: '98%', label: 'Taux de Satisfaction' }
-            ].map((stat, idx) => (
-              <div key={idx} className="group">
-                <div className="text-6xl md:text-7xl font-serif font-light text-accent-600 mb-4">
-                  {stat.value}
-                </div>
-                <div className="text-sm text-primary-300 tracking-wider uppercase font-light">
-                  {stat.label}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 13. Upcoming Events - 3 cartes */}
-      <section className="py-32 bg-primary-800">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-20">
-            <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
-              Actualités Fromagères
-            </p>
-            <h2 className="text-5xl md:text-6xl font-serif font-light text-white">
-              Prochains Événements
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {/* Event 1 */}
-            <div className="group bg-primary-900 overflow-hidden">
-              <div className="relative h-72 overflow-hidden">
-                <Image
-                  src="https://images.unsplash.com/photo-1530648672449-81f6c723e2f1"
-                  alt="Soirée Raclette Conviviale"
-                  fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-110"
-                />
-                <div className="absolute bottom-4 left-4 bg-accent-600 text-black px-4 py-2 text-xs tracking-wider uppercase">
-                  <div className="font-bold">15</div>
-                  <div className="font-light">Fév</div>
-                </div>
-              </div>
-              <div className="p-8">
-                <div className="flex items-center gap-4 text-xs text-primary-400 mb-4 font-light">
-                  <span className="flex items-center gap-2">
-                    <Users className="w-4 h-4" />
-                    Formaticus
-                  </span>
-                  <span>•</span>
-                  <span>Événement</span>
-                </div>
-                <h4 className="text-2xl font-serif font-light text-white mb-4 group-hover:text-accent-600 transition-colors">
-                  Grande Soirée Raclette : Saveurs Authentiques de Montagne
-                </h4>
-                <Link href="/evenements" className="text-accent-600 text-sm tracking-wider uppercase hover:underline font-light">
-                  Réserver →
-                </Link>
-              </div>
-            </div>
-
-            {/* Event 2 */}
-            <div className="group bg-primary-900 overflow-hidden">
-              <div className="relative h-72 overflow-hidden">
-                <Image
-                  src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d"
-                  alt="Atelier Dégustation"
-                  fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-110"
-                />
-                <div className="absolute bottom-4 left-4 bg-accent-600 text-black px-4 py-2 text-xs tracking-wider uppercase">
-                  <div className="font-bold">22</div>
-                  <div className="font-light">Fév</div>
-                </div>
-              </div>
-              <div className="p-8">
-                <div className="flex items-center gap-4 text-xs text-primary-400 mb-4 font-light">
-                  <span className="flex items-center gap-2">
-                    <Users className="w-4 h-4" />
-                    Formaticus
-                  </span>
-                  <span>•</span>
-                  <span>Atelier</span>
-                </div>
-                <h4 className="text-2xl font-serif font-light text-white mb-4 group-hover:text-accent-600 transition-colors">
-                  Masterclass : Découverte des Fromages AOP et Accords Vins
-                </h4>
-                <Link href="/evenements" className="text-accent-600 text-sm tracking-wider uppercase hover:underline font-light">
-                  Réserver →
-                </Link>
-              </div>
-            </div>
-
-            {/* Event 3 */}
-            <div className="group bg-primary-900 overflow-hidden">
-              <div className="relative h-72 overflow-hidden">
-                <Image
-                  src="https://images.unsplash.com/photo-1559339352-11d035aa65de"
-                  alt="Soirée Fondue"
-                  fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-110"
-                />
-                <div className="absolute bottom-4 left-4 bg-accent-600 text-black px-4 py-2 text-xs tracking-wider uppercase">
-                  <div className="font-bold">28</div>
-                  <div className="font-light">Fév</div>
-                </div>
-              </div>
-              <div className="p-8">
-                <div className="flex items-center gap-4 text-xs text-primary-400 mb-4 font-light">
-                  <span className="flex items-center gap-2">
-                    <Users className="w-4 h-4" />
-                    Formaticus
-                  </span>
-                  <span>•</span>
-                  <span>Événement</span>
-                </div>
-                <h4 className="text-2xl font-serif font-light text-white mb-4 group-hover:text-accent-600 transition-colors">
-                  Soirée Fondue Savoyarde : Tradition et Convivialité
-                </h4>
-                <Link href="/evenements" className="text-accent-600 text-sm tracking-wider uppercase hover:underline font-light">
-                  Réserver →
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
+      {/* 10. Gallery Parallax Scroll - 4 colonnes avec effet scroll opposé */}
+      <section className="py-20 bg-primary-950">
+        <ParallaxScroll
+          images={[
+            // Colonne 1 - scroll vers le bas
+            "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3",
+            "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d",
+            "https://images.unsplash.com/photo-1559339352-11d035aa65de",
+            "https://images.unsplash.com/photo-1577219491135-ce391730fb2c",
+            // Colonne 2 - scroll vers le haut
+            "https://images.unsplash.com/photo-1530648672449-81f6c723e2f1",
+            "https://images.unsplash.com/photo-1452195100486-9cc805987862",
+            "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3",
+            "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d",
+            // Colonne 3 - scroll vers le bas
+            "https://images.unsplash.com/photo-1559339352-11d035aa65de",
+            "https://images.unsplash.com/photo-1577219491135-ce391730fb2c",
+            "https://images.unsplash.com/photo-1530648672449-81f6c723e2f1",
+            "https://images.unsplash.com/photo-1452195100486-9cc805987862",
+            // Colonne 4 - scroll vers le haut
+            "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3",
+            "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d",
+            "https://images.unsplash.com/photo-1559339352-11d035aa65de",
+            "https://images.unsplash.com/photo-1577219491135-ce391730fb2c",
+          ]}
+        />
       </section>
 
       {/* 14. Customer Testimonials */}
@@ -1627,6 +1516,20 @@ export default function HomePage() {
                 <div className="text-accent-600 text-xs tracking-wider uppercase">Normandie, France</div>
               </div>
             </div>
+
+            {/* CTA vers page producteurs */}
+            <div className="text-center mt-12">
+              <Link
+                href="/producteurs"
+                className="group relative inline-flex items-center gap-2 px-8 py-4 border-2 border-accent-600 text-accent-600 font-light tracking-wider uppercase overflow-hidden transition-all duration-300 hover:text-primary-900"
+              >
+                <span className="relative z-10">Découvrir tous nos producteurs</span>
+                <svg className="w-5 h-5 relative z-10 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+                <div className="absolute inset-0 bg-accent-600 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300" />
+              </Link>
+            </div>
           </div>
 
           {/* Quality Commitments */}
@@ -1693,7 +1596,7 @@ export default function HomePage() {
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0 bg-primary-900">
           <div className="absolute inset-0 opacity-5" style={{
-            backgroundImage: `repeating-linear-gradient(0deg, #d4af37, #d4af37 1px, transparent 1px, transparent 40px), repeating-linear-gradient(90deg, #d4af37, #d4af37 1px, transparent 1px, transparent 40px)`,
+            backgroundImage: `repeating-linear-gradient(0deg, #E4C590, #E4C590 1px, transparent 1px, transparent 40px), repeating-linear-gradient(90deg, #E4C590, #E4C590 1px, transparent 1px, transparent 40px)`,
           }} />
         </div>
 
