@@ -201,16 +201,22 @@ const CarouselPrevious = React.forwardRef<
     <button
       ref={ref}
       className={cn(
-        'absolute left-8 top-1/2 -translate-y-1/2 z-20 w-12 h-12 border border-white/30 text-white hover:border-accent-600 hover:text-accent-600 transition-all duration-300 hidden md:flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed',
+        'absolute left-8 top-1/2 -translate-y-1/2 z-20 group disabled:opacity-50 disabled:cursor-not-allowed hidden md:block',
         className
       )}
       disabled={!canScrollPrev}
       onClick={scrollPrev}
       {...props}
     >
-      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M15 19l-7-7 7-7" />
-      </svg>
+      {/* Cadre losange doré rotatif */}
+      <div className="relative w-16 h-16">
+        <div className="absolute inset-0 border border-accent-600/50 rotate-45 transition-all duration-500 group-hover:border-accent-600 group-hover:rotate-90" />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <svg className="w-5 h-5 text-accent-600/70 transition-colors duration-300 group-hover:text-accent-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19l-7-7 7-7" />
+          </svg>
+        </div>
+      </div>
       <span className="sr-only">Previous slide</span>
     </button>
   )
@@ -227,16 +233,22 @@ const CarouselNext = React.forwardRef<
     <button
       ref={ref}
       className={cn(
-        'absolute right-8 top-1/2 -translate-y-1/2 z-20 w-12 h-12 border border-white/30 text-white hover:border-accent-600 hover:text-accent-600 transition-all duration-300 hidden md:flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed',
+        'absolute right-8 top-1/2 -translate-y-1/2 z-20 group disabled:opacity-50 disabled:cursor-not-allowed hidden md:block',
         className
       )}
       disabled={!canScrollNext}
       onClick={scrollNext}
       {...props}
     >
-      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 5l7 7-7 7" />
-      </svg>
+      {/* Cadre losange doré rotatif */}
+      <div className="relative w-16 h-16">
+        <div className="absolute inset-0 border border-accent-600/50 rotate-45 transition-all duration-500 group-hover:border-accent-600 group-hover:rotate-90" />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <svg className="w-5 h-5 text-accent-600/70 transition-colors duration-300 group-hover:text-accent-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
+          </svg>
+        </div>
+      </div>
       <span className="sr-only">Next slide</span>
     </button>
   )
