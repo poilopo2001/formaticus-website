@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { SITE_DATA } from '@/lib/constants'
 import { Button } from '@/components/ui/Button'
+import { Ornament } from '@/components/ui/Ornament'
 import {
   Users,
   Calendar,
@@ -51,7 +52,7 @@ const EVENT_TYPES: EventType[] = [
     name: 'Soirée Raclette',
     description: 'Fromage fondu et convivialité à l\'état pur',
     price: 35,
-    image: '/images/raclette.jpg',
+    image: 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=2940',
     icon: '🧀',
   },
   {
@@ -59,7 +60,7 @@ const EVENT_TYPES: EventType[] = [
     name: 'Soirée Fondue',
     description: 'L\'authentique expérience savoyarde',
     price: 38,
-    image: '/images/fondue.jpg',
+    image: 'https://images.unsplash.com/photo-1551248429-40975aa4de74?q=80&w=2940',
     icon: '🫕',
   },
   {
@@ -67,7 +68,7 @@ const EVENT_TYPES: EventType[] = [
     name: 'Soirée Tartiflette',
     description: 'Le classique des Alpes revisité',
     price: 32,
-    image: '/images/tartiflette.jpg',
+    image: 'https://images.unsplash.com/photo-1619378082972-44bc0c30838f?q=80&w=2940',
     icon: '🥔',
   },
 ]
@@ -183,53 +184,85 @@ export default function ReserverPage() {
     const selectedEvent = EVENT_TYPES.find((e) => e.id === bookingData.eventType)
 
     return (
-      <main className="min-h-screen pt-32 pb-16 bg-gradient-to-br from-primary-50 via-white to-accent-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto">
-            {/* Success animation */}
-            <div className="text-center mb-12 animate-scale-in">
-              <div className="relative inline-block mb-6">
-                <div className="absolute inset-0 bg-accent-600 rounded-full animate-ping opacity-25"></div>
-                <CheckCircle2 className="relative w-24 h-24 mx-auto text-accent-600" strokeWidth={1.5} />
+      <main className="min-h-screen bg-black">
+        {/* Success Hero */}
+        <section className="relative min-h-screen flex items-center justify-center py-32">
+          <div className="absolute inset-0 z-0">
+            <Image
+              src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?q=80&w=2940"
+              alt="Réservation confirmée"
+              fill
+              className="object-cover"
+              priority
+            />
+            <div className="absolute inset-0 bg-black/70" />
+          </div>
+
+          <div className="relative z-10 container mx-auto px-4">
+            <div className="max-w-4xl mx-auto text-center">
+              {/* Star ornament */}
+              <div className="mb-8 flex justify-center">
+                <svg className="w-12 h-12 text-accent-600 animate-pulse" viewBox="0 0 32 32" fill="none">
+                  <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
+                  <circle cx="16" cy="16" r="2" fill="black"/>
+                </svg>
               </div>
-              <h1 className="text-4xl md:text-5xl font-serif font-bold text-primary-900 mb-4">
-                Réservation Confirmée !
+
+              <CheckCircle2 className="w-24 h-24 mx-auto text-accent-600 mb-8" strokeWidth={1.5} />
+
+              <h1 className="text-6xl md:text-7xl lg:text-8xl font-serif font-light text-white leading-[1.15] mb-8">
+                Réservation<br />Confirmée
               </h1>
-              <p className="text-xl text-primary-700 max-w-2xl mx-auto">
-                Merci pour votre confiance. Un email de confirmation a été envoyé à{' '}
-                <span className="font-semibold text-accent-700">{bookingData.email}</span>
+
+              <p className="text-lg md:text-xl text-white font-light mb-12 max-w-2xl mx-auto">
+                Un email de confirmation a été envoyé à{' '}
+                <span className="text-accent-600">{bookingData.email}</span>
               </p>
-            </div>
 
-            {/* Booking summary card */}
-            <div className="bg-white rounded-2xl shadow-2xl overflow-hidden mb-8 border border-primary-100">
-              <div className="bg-gradient-to-r from-accent-600 to-accent-700 p-6 text-primary-900">
-                <div className="flex items-center gap-3 mb-2">
-                  <PartyPopper className="w-6 h-6" />
-                  <h2 className="text-2xl font-serif font-bold">Récapitulatif de votre soirée</h2>
-                </div>
-                <p className="text-primary-800">Votre expérience gourmande vous attend</p>
+              {/* Geometric ornament */}
+              <div className="flex justify-center mb-12">
+                <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
+                  <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
+                  <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
+                </svg>
               </div>
+            </div>
+          </div>
+        </section>
 
-              <div className="p-8 space-y-6">
-                <div className="flex items-start gap-4 pb-6 border-b border-primary-100">
-                  <div className="text-4xl">{selectedEvent?.icon}</div>
+        {/* Booking summary */}
+        <section className="py-32 bg-primary-900">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <Ornament className="text-accent-600 mx-auto mb-6" />
+
+              <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6 text-center">
+                Récapitulatif
+              </p>
+
+              <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-12 leading-tight text-center">
+                Votre Soirée<br />Gourmande
+              </h2>
+
+              <div className="bg-black/40 border border-accent-600/30 p-8 md:p-12 space-y-8">
+                <div className="flex items-start gap-4 pb-8 border-b border-accent-600/20">
+                  <div className="text-5xl">{selectedEvent?.icon}</div>
                   <div className="flex-1">
-                    <div className="text-sm font-semibold text-accent-700 uppercase tracking-wider mb-1">
+                    <div className="text-accent-600 tracking-[0.2em] text-xs font-light uppercase mb-2">
                       Événement
                     </div>
-                    <div className="text-2xl font-serif font-bold text-primary-900">
+                    <div className="text-3xl md:text-4xl font-serif font-light text-white">
                       {bookingData.eventName}
                     </div>
                   </div>
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-6">
+                <div className="grid md:grid-cols-2 gap-8">
                   <div className="flex items-start gap-3">
                     <Calendar className="w-5 h-5 text-accent-600 mt-1" />
                     <div>
-                      <div className="text-sm font-semibold text-primary-600 mb-1">Date</div>
-                      <div className="text-lg font-semibold text-primary-900">
+                      <div className="text-accent-600 text-xs tracking-[0.2em] uppercase mb-2 font-light">Date</div>
+                      <div className="text-lg text-white font-light">
                         {new Date(bookingData.date + 'T00:00:00').toLocaleDateString('fr-FR', {
                           weekday: 'long',
                           year: 'numeric',
@@ -243,8 +276,8 @@ export default function ReserverPage() {
                   <div className="flex items-start gap-3">
                     <Users className="w-5 h-5 text-accent-600 mt-1" />
                     <div>
-                      <div className="text-sm font-semibold text-primary-600 mb-1">Convives</div>
-                      <div className="text-lg font-semibold text-primary-900">
+                      <div className="text-accent-600 text-xs tracking-[0.2em] uppercase mb-2 font-light">Convives</div>
+                      <div className="text-lg text-white font-light">
                         {bookingData.numberOfPeople} personne{bookingData.numberOfPeople! > 1 ? 's' : ''}
                       </div>
                     </div>
@@ -253,625 +286,521 @@ export default function ReserverPage() {
                   <div className="flex items-start gap-3">
                     <User className="w-5 h-5 text-accent-600 mt-1" />
                     <div>
-                      <div className="text-sm font-semibold text-primary-600 mb-1">Contact</div>
-                      <div className="text-lg font-semibold text-primary-900">
+                      <div className="text-accent-600 text-xs tracking-[0.2em] uppercase mb-2 font-light">Contact</div>
+                      <div className="text-lg text-white font-light">
                         {bookingData.firstName} {bookingData.lastName}
                       </div>
-                      <div className="text-sm text-primary-600 mt-1">{bookingData.phone}</div>
+                      <div className="text-sm text-primary-200 mt-1">{bookingData.phone}</div>
                     </div>
                   </div>
 
                   <div className="flex items-start gap-3">
                     <Euro className="w-5 h-5 text-accent-600 mt-1" />
                     <div>
-                      <div className="text-sm font-semibold text-primary-600 mb-1">Prix total</div>
-                      <div className="text-lg font-semibold text-primary-900">{totalPrice}€</div>
-                      <div className="text-sm text-primary-600 mt-1">
+                      <div className="text-accent-600 text-xs tracking-[0.2em] uppercase mb-2 font-light">Prix total</div>
+                      <div className="text-lg text-white font-light">{totalPrice}€</div>
+                      <div className="text-sm text-primary-200 mt-1">
                         {selectedEvent?.price}€ / personne
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            {/* Important info */}
-            <div className="bg-gradient-to-r from-accent-50 to-accent-100 rounded-xl p-6 mb-8 border border-accent-200">
-              <div className="flex gap-4">
-                <div className="flex-shrink-0">
-                  <div className="w-12 h-12 bg-accent-600 rounded-full flex items-center justify-center">
-                    <Clock className="w-6 h-6 text-primary-900" />
-                  </div>
-                </div>
-                <div>
-                  <h3 className="font-bold text-primary-900 mb-2">Informations importantes</h3>
-                  <ul className="space-y-2 text-sm text-primary-800">
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 mt-0.5 text-accent-700 flex-shrink-0" />
-                      <span>Un acompte de 30% ({Math.round(totalPrice * 0.3)}€) vous sera demandé pour confirmer</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 mt-0.5 text-accent-700 flex-shrink-0" />
-                      <span>Annulation gratuite jusqu'à 72h avant l'événement</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="w-4 h-4 mt-0.5 text-accent-700 flex-shrink-0" />
-                      <span>Notre équipe vous contactera sous 24h pour finaliser les détails</span>
-                    </li>
-                  </ul>
-                </div>
+              <div className="mt-12 flex flex-col sm:flex-row gap-6 justify-center">
+                <Link
+                  href="/"
+                  className="px-12 py-4 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500 text-center"
+                >
+                  Retour à l'Accueil
+                </Link>
+                <a
+                  href={`tel:${SITE_DATA.business.contact.phone}`}
+                  className="px-12 py-4 bg-accent-600 border border-accent-600 text-black text-xs tracking-[0.2em] uppercase hover:bg-transparent hover:text-accent-600 transition-all duration-500 text-center flex items-center justify-center gap-2"
+                >
+                  <PhoneIcon className="w-4 h-4" />
+                  Nous Appeler
+                </a>
               </div>
             </div>
-
-            {/* Action buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/">
-                <Button variant="primary" size="lg" className="w-full sm:w-auto">
-                  Retour à l'Accueil
-                </Button>
-              </Link>
-              <a href={`tel:${SITE_DATA.business.contact.phone}`}>
-                <Button variant="outline" size="lg" className="w-full sm:w-auto flex items-center gap-2">
-                  <PhoneIcon className="w-5 h-5" />
-                  Nous Appeler
-                </Button>
-              </a>
-            </div>
           </div>
-        </div>
+        </section>
       </main>
     )
   }
 
   // Booking form
   return (
-    <main className="min-h-screen pt-32 pb-16 bg-gradient-to-br from-primary-50 via-white to-accent-50">
-      <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto">
-          {/* Header */}
-          <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-primary-900 mb-4">
-              Réservez Votre Soirée Gourmande
+    <main className="min-h-screen bg-black">
+      {/* Hero Section */}
+      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="https://images.unsplash.com/photo-1530554764233-e79e16c91d08?q=80&w=2940"
+            alt="Réserver une soirée - Formaticus"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-black/60" />
+        </div>
+
+        <div className="relative z-10 container mx-auto px-4 text-center">
+          <div className="max-w-4xl mx-auto">
+            <p className="text-accent-600 tracking-[0.4em] text-[11px] md:text-xs font-normal uppercase mb-6">
+              Expérience Gourmande
+            </p>
+
+            <div className="flex justify-center mb-8">
+              <svg className="w-12 h-3 text-accent-600" viewBox="0 0 48 12" fill="none">
+                <path d="M0 6h18M24 0l-6 6 6 6M24 0l6 6-6 6M30 6h18" stroke="currentColor" strokeWidth="0.5"/>
+                <circle cx="24" cy="6" r="1.5" fill="currentColor"/>
+              </svg>
+            </div>
+
+            <h1 className="text-6xl md:text-7xl lg:text-8xl font-serif font-light text-white leading-[1.15] mb-8">
+              Réservez Votre<br />Soirée Fromagère
             </h1>
-            <p className="text-lg md:text-xl text-primary-700 max-w-2xl mx-auto">
-              Une expérience conviviale autour des meilleurs fromages
+
+            <p className="text-base md:text-lg text-white font-light mb-12 max-w-2xl mx-auto">
+              Une expérience conviviale autour des meilleurs fromages artisanaux
             </p>
           </div>
+        </div>
+      </section>
 
-          {/* Progress bar */}
-          <div className="mb-12">
-            <div className="flex items-center justify-between mb-6 relative">
-              {/* Connection line */}
-              <div className="absolute left-0 right-0 top-1/2 h-1 bg-primary-200 -translate-y-1/2" />
+      {/* Form Section */}
+      <section className="py-32 bg-primary-900">
+        <div className="container mx-auto px-4">
+          <div className="max-w-5xl mx-auto">
+            {/* Progress bar */}
+            <div className="mb-16">
+              <div className="flex items-center justify-between mb-6 relative">
+                {/* Connection line */}
+                <div className="absolute left-0 right-0 top-1/2 h-0.5 bg-accent-600/20 -translate-y-1/2" />
+                <div
+                  className="absolute left-0 top-1/2 h-0.5 bg-accent-600 -translate-y-1/2 transition-all duration-500"
+                  style={{ width: `${((currentStep - 1) / 3) * 100}%` }}
+                />
+
+                {[1, 2, 3, 4].map((step) => (
+                  <div key={step} className="relative z-10 flex flex-col items-center">
+                    <div
+                      className={`w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center font-light text-lg transition-all duration-500 ${
+                        step <= currentStep
+                          ? 'bg-accent-600 text-black shadow-[0_0_20px_rgba(228,197,144,0.4)]'
+                          : 'bg-black border border-accent-600/30 text-accent-600/50'
+                      }`}
+                    >
+                      {step < currentStep ? (
+                        <CheckCircle2 className="w-6 h-6" />
+                      ) : (
+                        step
+                      )}
+                    </div>
+                    <div
+                      className={`hidden md:block absolute top-full mt-4 text-xs tracking-[0.2em] uppercase whitespace-nowrap transition-colors font-light ${
+                        step <= currentStep ? 'text-accent-600' : 'text-primary-400'
+                      }`}
+                    >
+                      {step === 1 && 'Type'}
+                      {step === 2 && 'Date'}
+                      {step === 3 && 'Message'}
+                      {step === 4 && 'Contact'}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Form */}
+            <form onSubmit={handleSubmit}>
               <div
-                className="absolute left-0 top-1/2 h-1 bg-accent-600 -translate-y-1/2 transition-all duration-500"
-                style={{ width: `${((currentStep - 1) / 3) * 100}%` }}
-              />
-
-              {[1, 2, 3, 4].map((step) => (
-                <div key={step} className="relative z-10 flex flex-col items-center">
-                  <div
-                    className={`w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center font-bold text-lg transition-all duration-300 ${
-                      step <= currentStep
-                        ? 'bg-accent-600 text-primary-900 shadow-lg scale-110'
-                        : 'bg-white text-primary-400 border-2 border-primary-200'
-                    }`}
-                  >
-                    {step < currentStep ? (
-                      <CheckCircle2 className="w-6 h-6" />
-                    ) : (
-                      step
-                    )}
-                  </div>
-                  <div
-                    className={`hidden md:block absolute top-full mt-3 text-xs md:text-sm font-medium whitespace-nowrap transition-colors ${
-                      step <= currentStep ? 'text-accent-700' : 'text-primary-400'
-                    }`}
-                  >
-                    {step === 1 && 'Type de soirée'}
-                    {step === 2 && 'Date & Convives'}
-                    {step === 3 && 'Message'}
-                    {step === 4 && 'Coordonnées'}
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {/* Mobile step labels */}
-            <div className="md:hidden text-center mt-8">
-              <p className="text-sm font-medium text-accent-700">
-                {currentStep === 1 && 'Type de soirée'}
-                {currentStep === 2 && 'Date & Convives'}
-                {currentStep === 3 && 'Message (optionnel)'}
-                {currentStep === 4 && 'Vos coordonnées'}
-              </p>
-            </div>
-          </div>
-
-          {/* Form */}
-          <form onSubmit={handleSubmit}>
-            <div
-              className={`transition-opacity duration-300 ${
-                isAnimating ? 'opacity-0' : 'opacity-100'
-              }`}
-            >
-              {/* Step 1: Choose Event Type */}
-              {currentStep === 1 && (
-                <div className="space-y-6 animate-fade-in-up">
-                  <div className="text-center mb-8">
-                    <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary-900 mb-3">
-                      Quelle soirée souhaitez-vous vivre ?
-                    </h2>
-                    <p className="text-primary-600">
-                      Choisissez l'expérience fromagère qui vous fait rêver
-                    </p>
-                  </div>
-
-                  <div className="grid md:grid-cols-3 gap-6">
-                    {EVENT_TYPES.map((event) => (
-                      <button
-                        key={event.id}
-                        type="button"
-                        onClick={() => {
-                          updateBookingData({ eventType: event.id, eventName: event.name })
-                          setTimeout(handleNext, 300)
-                        }}
-                        className={`group relative text-left bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 ${
-                          bookingData.eventType === event.id
-                            ? 'border-accent-600 ring-4 ring-accent-200'
-                            : 'border-transparent'
-                        }`}
-                      >
-                        {/* Image placeholder */}
-                        <div className="relative h-48 bg-gradient-to-br from-accent-100 to-accent-200 flex items-center justify-center overflow-hidden">
-                          <div className="text-7xl group-hover:scale-110 transition-transform duration-300">
-                            {event.icon}
-                          </div>
-                          {bookingData.eventType === event.id && (
-                            <div className="absolute top-4 right-4">
-                              <CheckCircle2 className="w-8 h-8 text-accent-600 bg-white rounded-full" />
-                            </div>
-                          )}
-                        </div>
-
-                        <div className="p-6">
-                          <h3 className="text-xl font-serif font-bold text-primary-900 mb-2 group-hover:text-accent-700 transition-colors">
-                            {event.name}
-                          </h3>
-                          <p className="text-sm text-primary-600 mb-4 line-clamp-2">
-                            {event.description}
-                          </p>
-                          <div className="flex items-baseline gap-2">
-                            <span className="text-3xl font-bold text-accent-600">{event.price}€</span>
-                            <span className="text-sm text-primary-500">/ personne</span>
-                          </div>
-                        </div>
-
-                        {/* Hover effect */}
-                        <div className="absolute inset-0 bg-gradient-to-t from-accent-600/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" />
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* Step 2: Date & Number of People */}
-              {currentStep === 2 && (
-                <div className="space-y-6 animate-fade-in-up">
-                  <div className="text-center mb-8">
-                    <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary-900 mb-3">
-                      Planifions votre soirée
-                    </h2>
-                    <p className="text-primary-600">
-                      Choisissez la date et le nombre de convives
-                    </p>
-                  </div>
-
-                  {/* Date selection */}
-                  <div className="bg-white rounded-2xl p-6 md:p-8 shadow-lg border border-primary-100">
-                    <div className="flex items-center gap-3 mb-6">
-                      <Calendar className="w-6 h-6 text-accent-600" />
-                      <label className="text-lg font-bold text-primary-900">
-                        Choisissez une date <span className="text-accent-600">*</span>
-                      </label>
+                className={`transition-opacity duration-300 ${
+                  isAnimating ? 'opacity-0' : 'opacity-100'
+                }`}
+              >
+                {/* Step 1: Choose Event Type */}
+                {currentStep === 1 && (
+                  <div className="space-y-12 animate-fade-in-up">
+                    <div className="text-center">
+                      <Ornament className="text-accent-600 mx-auto mb-6" />
+                      <h2 className="text-4xl md:text-5xl font-serif font-light text-white mb-4">
+                        Choisissez Votre<br />Expérience
+                      </h2>
+                      <p className="text-primary-200 font-light">
+                        Trois soirées emblématiques de la tradition savoyarde
+                      </p>
                     </div>
 
-                    <div className="grid md:grid-cols-2 gap-4">
-                      {availableDates.map((availableDate) => (
+                    <div className="grid md:grid-cols-3 gap-8">
+                      {EVENT_TYPES.map((event) => (
                         <button
-                          key={availableDate.date}
-                          type="button"
-                          onClick={() => updateBookingData({ date: availableDate.date })}
-                          className={`group relative text-left p-6 rounded-xl border-2 transition-all duration-300 hover:shadow-lg ${
-                            bookingData.date === availableDate.date
-                              ? 'border-accent-600 bg-gradient-to-br from-accent-50 to-accent-100 shadow-md'
-                              : 'border-primary-200 bg-white hover:border-accent-300'
-                          }`}
-                        >
-                          <div className="flex items-center gap-4">
-                            {/* Date number */}
-                            <div className={`flex-shrink-0 w-16 h-16 rounded-xl flex flex-col items-center justify-center font-bold transition-colors ${
-                              bookingData.date === availableDate.date
-                                ? 'bg-accent-600 text-primary-900'
-                                : 'bg-primary-100 text-primary-900 group-hover:bg-accent-100'
-                            }`}>
-                              <div className="text-2xl">{availableDate.dayNumber}</div>
-                              <div className="text-xs uppercase">{availableDate.month.substring(0, 3)}</div>
-                            </div>
-
-                            {/* Date info */}
-                            <div className="flex-1">
-                              <div className={`text-lg font-bold capitalize mb-1 ${
-                                bookingData.date === availableDate.date
-                                  ? 'text-accent-700'
-                                  : 'text-primary-900'
-                              }`}>
-                                {availableDate.dayName}
-                              </div>
-                              <div className="text-sm text-primary-600">
-                                {availableDate.dayNumber} {availableDate.month} {availableDate.year}
-                              </div>
-                              <div className="text-xs text-primary-500 mt-1 flex items-center gap-1">
-                                <Clock className="w-3 h-3" />
-                                19h00
-                              </div>
-                            </div>
-
-                            {/* Checkmark */}
-                            {bookingData.date === availableDate.date && (
-                              <CheckCircle2 className="w-6 h-6 text-accent-600 flex-shrink-0" />
-                            )}
-                          </div>
-                        </button>
-                      ))}
-                    </div>
-
-                    <p className="mt-4 text-sm text-primary-500 flex items-center gap-2">
-                      <Calendar className="w-4 h-4" />
-                      Nouvelles dates disponibles toutes les 2 semaines
-                    </p>
-                  </div>
-
-                  {/* Number of people */}
-                  <div className="bg-white rounded-2xl p-6 md:p-8 shadow-lg border border-primary-100">
-                    <div className="flex items-center gap-3 mb-4">
-                      <Users className="w-6 h-6 text-accent-600" />
-                      <label className="text-lg font-bold text-primary-900">
-                        Nombre de convives <span className="text-accent-600">*</span>
-                      </label>
-                    </div>
-                    <div className="flex items-center justify-center gap-4 md:gap-6">
-                      <button
-                        type="button"
-                        onClick={() =>
-                          updateBookingData({
-                            numberOfPeople: Math.max(2, (bookingData.numberOfPeople || 4) - 1),
-                          })
-                        }
-                        className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-gradient-to-br from-primary-100 to-primary-200 hover:from-accent-100 hover:to-accent-200 flex items-center justify-center text-primary-900 font-bold text-2xl md:text-3xl transition-all shadow-md hover:shadow-lg active:scale-95"
-                      >
-                        −
-                      </button>
-                      <div className="text-center min-w-[120px]">
-                        <div className="text-5xl md:text-6xl font-bold text-accent-600 mb-2">
-                          {bookingData.numberOfPeople || 4}
-                        </div>
-                        <div className="text-sm md:text-base text-primary-600 font-medium">
-                          personne{(bookingData.numberOfPeople || 4) > 1 ? 's' : ''}
-                        </div>
-                      </div>
-                      <button
-                        type="button"
-                        onClick={() =>
-                          updateBookingData({
-                            numberOfPeople: Math.min(40, (bookingData.numberOfPeople || 4) + 1),
-                          })
-                        }
-                        className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-gradient-to-br from-primary-100 to-primary-200 hover:from-accent-100 hover:to-accent-200 flex items-center justify-center text-primary-900 font-bold text-2xl md:text-3xl transition-all shadow-md hover:shadow-lg active:scale-95"
-                      >
-                        +
-                      </button>
-                    </div>
-                    <p className="mt-6 text-sm text-center text-primary-500">
-                      Minimum 2 personnes • Maximum 40 personnes
-                    </p>
-
-                    {/* Price preview */}
-                    {bookingData.eventType && (
-                      <div className="mt-6 pt-6 border-t border-primary-100">
-                        <div className="flex items-center justify-between">
-                          <span className="text-primary-700 font-medium">Prix estimé</span>
-                          <div className="text-right">
-                            <div className="text-3xl font-bold text-accent-600">{totalPrice}€</div>
-                            <div className="text-sm text-primary-500">
-                              {EVENT_TYPES.find((e) => e.id === bookingData.eventType)?.price}€ × {bookingData.numberOfPeople}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              )}
-
-              {/* Step 3: Additional Message */}
-              {currentStep === 3 && (
-                <div className="space-y-6 animate-fade-in-up">
-                  <div className="text-center mb-8">
-                    <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary-900 mb-3">
-                      Un message particulier ?
-                    </h2>
-                    <p className="text-primary-600">
-                      Partagez-nous vos envies, allergies ou occasions spéciales
-                    </p>
-                  </div>
-
-                  <div className="bg-white rounded-2xl p-6 md:p-8 shadow-lg border border-primary-100">
-                    <div className="flex items-center gap-3 mb-4">
-                      <MessageSquare className="w-6 h-6 text-accent-600" />
-                      <label className="text-lg font-bold text-primary-900">
-                        Message (optionnel)
-                      </label>
-                    </div>
-                    <textarea
-                      value={bookingData.message || ''}
-                      onChange={(e) => updateBookingData({ message: e.target.value })}
-                      rows={6}
-                      placeholder="Exemple : Nous célébrons un anniversaire, mon ami est végétarien, j'aimerais un fromage moins fort..."
-                      className="w-full px-4 md:px-6 py-4 md:py-5 text-base md:text-lg border-2 border-primary-200 rounded-xl focus:border-accent-600 focus:ring-4 focus:ring-accent-100 focus:outline-none transition-all resize-none"
-                    />
-                    <p className="mt-3 text-sm text-primary-500">
-                      Ces informations nous aident à personnaliser votre expérience
-                    </p>
-                  </div>
-
-                  {/* Quick suggestions */}
-                  <div className="bg-gradient-to-br from-accent-50 to-accent-100 rounded-xl p-6 border border-accent-200">
-                    <h3 className="font-bold text-primary-900 mb-3 flex items-center gap-2">
-                      <PartyPopper className="w-5 h-5 text-accent-600" />
-                      Suggestions
-                    </h3>
-                    <div className="flex flex-wrap gap-2">
-                      {[
-                        'Occasion spéciale',
-                        'Allergies alimentaires',
-                        'Préférences végétariennes',
-                        'Fromages doux uniquement',
-                        'Anniversaire',
-                      ].map((suggestion) => (
-                        <button
-                          key={suggestion}
+                          key={event.id}
                           type="button"
                           onClick={() => {
-                            const current = bookingData.message || ''
-                            const newMessage = current ? `${current}\n${suggestion}` : suggestion
-                            updateBookingData({ message: newMessage })
+                            updateBookingData({ eventType: event.id, eventName: event.name })
+                            setTimeout(handleNext, 300)
                           }}
-                          className="px-4 py-2 bg-white hover:bg-accent-200 text-primary-700 text-sm rounded-full border border-accent-300 transition-colors"
+                          className="group text-center"
                         >
-                          + {suggestion}
+                          {/* Star ornament */}
+                          <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
+                            <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
+                              <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
+                              <circle cx="16" cy="16" r="2" fill="black"/>
+                            </svg>
+                          </div>
+
+                          {/* Image */}
+                          <div className="relative h-80 mb-8 overflow-hidden shadow-2xl transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(228,197,144,0.3)]">
+                            <Image
+                              src={event.image}
+                              alt={event.name}
+                              fill
+                              className="object-cover transition-transform duration-700 group-hover:scale-110"
+                            />
+                            {/* Overlay */}
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-center p-8">
+                              <div className="text-white/90 text-sm font-light text-center">
+                                <p>{event.description}</p>
+                              </div>
+                            </div>
+                            {/* Glow border */}
+                            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
+                              <div className="absolute inset-0 border-2 border-accent-600/40 shadow-[inset_0_0_20px_rgba(228,197,144,0.2)]" />
+                            </div>
+                          </div>
+
+                          {/* Geometric ornament */}
+                          <div className="mb-8 flex justify-center">
+                            <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
+                              <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
+                              <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
+                            </svg>
+                          </div>
+
+                          <h3 className="text-3xl font-serif font-light text-white mb-4 group-hover:text-accent-600 transition-colors duration-300">
+                            {event.name}
+                          </h3>
+
+                          <div className="text-2xl text-accent-600 font-light mb-6">
+                            {event.price}€ <span className="text-sm text-primary-400">/ personne</span>
+                          </div>
+
+                          <div className="px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase group-hover:bg-accent-600 group-hover:text-black transition-all duration-500">
+                            Sélectionner
+                          </div>
                         </button>
                       ))}
                     </div>
                   </div>
-                </div>
-              )}
+                )}
 
-              {/* Step 4: Contact Information */}
-              {currentStep === 4 && (
-                <div className="space-y-6 animate-fade-in-up">
-                  <div className="text-center mb-8">
-                    <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary-900 mb-3">
-                      Vos coordonnées
-                    </h2>
-                    <p className="text-primary-600">
-                      Dernière étape pour confirmer votre réservation
-                    </p>
-                  </div>
+                {/* Step 2: Date & Number of People */}
+                {currentStep === 2 && (
+                  <div className="space-y-12 animate-fade-in-up">
+                    <div className="text-center">
+                      <Ornament className="text-accent-600 mx-auto mb-6" />
+                      <h2 className="text-4xl md:text-5xl font-serif font-light text-white mb-4">
+                        Planifions<br />Votre Soirée
+                      </h2>
+                      <p className="text-primary-200 font-light">
+                        Choisissez la date et le nombre de convives
+                      </p>
+                    </div>
 
-                  <div className="bg-white rounded-2xl p-6 md:p-8 shadow-lg border border-primary-100 space-y-6">
-                    {/* Name fields */}
-                    <div className="grid md:grid-cols-2 gap-6">
-                      <div>
-                        <label className="block text-sm font-bold text-primary-900 mb-2 flex items-center gap-2">
-                          <User className="w-4 h-4 text-accent-600" />
-                          Prénom <span className="text-accent-600">*</span>
-                        </label>
-                        <input
-                          type="text"
-                          required
-                          value={bookingData.firstName || ''}
-                          onChange={(e) => updateBookingData({ firstName: e.target.value })}
-                          className="w-full px-4 py-4 text-base border-2 border-primary-200 rounded-xl focus:border-accent-600 focus:ring-4 focus:ring-accent-100 focus:outline-none transition-all"
-                          placeholder="Jean"
-                        />
+                    {/* Date selection */}
+                    <div className="bg-black/40 border border-accent-600/30 p-8 md:p-12">
+                      <div className="flex items-center gap-3 mb-8">
+                        <Calendar className="w-6 h-6 text-accent-600" />
+                        <h3 className="text-xl font-serif font-light text-white">
+                          Date disponible
+                        </h3>
                       </div>
-                      <div>
-                        <label className="block text-sm font-bold text-primary-900 mb-2 flex items-center gap-2">
-                          <User className="w-4 h-4 text-accent-600" />
-                          Nom <span className="text-accent-600">*</span>
-                        </label>
-                        <input
-                          type="text"
-                          required
-                          value={bookingData.lastName || ''}
-                          onChange={(e) => updateBookingData({ lastName: e.target.value })}
-                          className="w-full px-4 py-4 text-base border-2 border-primary-200 rounded-xl focus:border-accent-600 focus:ring-4 focus:ring-accent-100 focus:outline-none transition-all"
-                          placeholder="Dupont"
-                        />
+
+                      <div className="grid md:grid-cols-2 gap-6">
+                        {availableDates.map((availableDate) => (
+                          <button
+                            key={availableDate.date}
+                            type="button"
+                            onClick={() => updateBookingData({ date: availableDate.date })}
+                            className={`group text-left p-6 border transition-all duration-500 ${
+                              bookingData.date === availableDate.date
+                                ? 'border-accent-600 bg-accent-600/10 shadow-[0_0_20px_rgba(228,197,144,0.2)]'
+                                : 'border-accent-600/30 hover:border-accent-600/60'
+                            }`}
+                          >
+                            <div className="flex items-center gap-4">
+                              <div className={`flex-shrink-0 w-16 h-16 flex flex-col items-center justify-center font-light transition-colors ${
+                                bookingData.date === availableDate.date
+                                  ? 'bg-accent-600 text-black'
+                                  : 'bg-black/60 text-accent-600 border border-accent-600/30'
+                              }`}>
+                                <div className="text-2xl">{availableDate.dayNumber}</div>
+                                <div className="text-xs uppercase tracking-wider">{availableDate.month.substring(0, 3)}</div>
+                              </div>
+
+                              <div className="flex-1">
+                                <div className={`text-lg font-light capitalize mb-1 ${
+                                  bookingData.date === availableDate.date
+                                    ? 'text-accent-600'
+                                    : 'text-white'
+                                }`}>
+                                  {availableDate.dayName}
+                                </div>
+                                <div className="text-sm text-primary-300 font-light">
+                                  {availableDate.dayNumber} {availableDate.month} {availableDate.year}
+                                </div>
+                                <div className="text-xs text-primary-400 mt-1 flex items-center gap-1">
+                                  <Clock className="w-3 h-3" />
+                                  19h00
+                                </div>
+                              </div>
+
+                              {bookingData.date === availableDate.date && (
+                                <CheckCircle2 className="w-6 h-6 text-accent-600 flex-shrink-0" />
+                              )}
+                            </div>
+                          </button>
+                        ))}
                       </div>
                     </div>
 
-                    {/* Email */}
-                    <div>
-                      <label className="block text-sm font-bold text-primary-900 mb-2 flex items-center gap-2">
-                        <Mail className="w-4 h-4 text-accent-600" />
-                        Email <span className="text-accent-600">*</span>
-                      </label>
-                      <input
-                        type="email"
-                        required
-                        value={bookingData.email || ''}
-                        onChange={(e) => updateBookingData({ email: e.target.value })}
-                        className="w-full px-4 py-4 text-base border-2 border-primary-200 rounded-xl focus:border-accent-600 focus:ring-4 focus:ring-accent-100 focus:outline-none transition-all"
-                        placeholder="jean.dupont@email.com"
+                    {/* Number of people */}
+                    <div className="bg-black/40 border border-accent-600/30 p-8 md:p-12">
+                      <div className="flex items-center gap-3 mb-8">
+                        <Users className="w-6 h-6 text-accent-600" />
+                        <h3 className="text-xl font-serif font-light text-white">
+                          Nombre de convives
+                        </h3>
+                      </div>
+
+                      <div className="flex items-center justify-center gap-6 md:gap-8">
+                        <button
+                          type="button"
+                          onClick={() =>
+                            updateBookingData({
+                              numberOfPeople: Math.max(2, (bookingData.numberOfPeople || 4) - 1),
+                            })
+                          }
+                          className="w-14 h-14 md:w-16 md:h-16 border border-accent-600 text-accent-600 hover:bg-accent-600 hover:text-black flex items-center justify-center font-light text-2xl md:text-3xl transition-all duration-500"
+                        >
+                          −
+                        </button>
+
+                        <div className="text-center min-w-[140px]">
+                          <div className="text-6xl md:text-7xl font-serif font-light text-accent-600 mb-2">
+                            {bookingData.numberOfPeople || 4}
+                          </div>
+                          <div className="text-sm md:text-base text-primary-300 font-light tracking-wider uppercase">
+                            personne{(bookingData.numberOfPeople || 4) > 1 ? 's' : ''}
+                          </div>
+                        </div>
+
+                        <button
+                          type="button"
+                          onClick={() =>
+                            updateBookingData({
+                              numberOfPeople: Math.min(40, (bookingData.numberOfPeople || 4) + 1),
+                            })
+                          }
+                          className="w-14 h-14 md:w-16 md:h-16 border border-accent-600 text-accent-600 hover:bg-accent-600 hover:text-black flex items-center justify-center font-light text-2xl md:text-3xl transition-all duration-500"
+                        >
+                          +
+                        </button>
+                      </div>
+
+                      {/* Price preview */}
+                      {bookingData.eventType && (
+                        <div className="mt-12 pt-8 border-t border-accent-600/20">
+                          <div className="flex items-center justify-between">
+                            <span className="text-primary-200 font-light tracking-wider uppercase text-sm">Prix estimé</span>
+                            <div className="text-right">
+                              <div className="text-4xl font-serif font-light text-accent-600">{totalPrice}€</div>
+                              <div className="text-sm text-primary-400 font-light">
+                                {EVENT_TYPES.find((e) => e.id === bookingData.eventType)?.price}€ × {bookingData.numberOfPeople}
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                )}
+
+                {/* Step 3: Additional Message */}
+                {currentStep === 3 && (
+                  <div className="space-y-12 animate-fade-in-up">
+                    <div className="text-center">
+                      <Ornament className="text-accent-600 mx-auto mb-6" />
+                      <h2 className="text-4xl md:text-5xl font-serif font-light text-white mb-4">
+                        Un Message<br />Particulier ?
+                      </h2>
+                      <p className="text-primary-200 font-light">
+                        Partagez vos envies, allergies ou occasions spéciales
+                      </p>
+                    </div>
+
+                    <div className="bg-black/40 border border-accent-600/30 p-8 md:p-12">
+                      <div className="flex items-center gap-3 mb-6">
+                        <MessageSquare className="w-6 h-6 text-accent-600" />
+                        <label className="text-xl font-serif font-light text-white">
+                          Message (optionnel)
+                        </label>
+                      </div>
+                      <textarea
+                        value={bookingData.message || ''}
+                        onChange={(e) => updateBookingData({ message: e.target.value })}
+                        rows={6}
+                        placeholder="Exemple : Nous célébrons un anniversaire, mon ami est végétarien..."
+                        className="w-full px-6 py-5 text-base bg-black/60 border border-accent-600/30 text-white placeholder-primary-400 focus:border-accent-600 focus:outline-none transition-all resize-none font-light"
                       />
                     </div>
-
-                    {/* Phone */}
-                    <div>
-                      <label className="block text-sm font-bold text-primary-900 mb-2 flex items-center gap-2">
-                        <PhoneIcon className="w-4 h-4 text-accent-600" />
-                        Téléphone <span className="text-accent-600">*</span>
-                      </label>
-                      <input
-                        type="tel"
-                        required
-                        value={bookingData.phone || ''}
-                        onChange={(e) => updateBookingData({ phone: e.target.value })}
-                        className="w-full px-4 py-4 text-base border-2 border-primary-200 rounded-xl focus:border-accent-600 focus:ring-4 focus:ring-accent-100 focus:outline-none transition-all"
-                        placeholder="+352 621 234 567"
-                      />
-                    </div>
-
-                    {/* Terms */}
-                    <div className="pt-4">
-                      <label className="flex items-start gap-3 cursor-pointer group">
-                        <input
-                          type="checkbox"
-                          required
-                          checked={bookingData.acceptTerms || false}
-                          onChange={(e) => updateBookingData({ acceptTerms: e.target.checked })}
-                          className="w-6 h-6 mt-0.5 text-accent-600 rounded-md focus:ring-accent-600 focus:ring-2 border-2 border-primary-300 transition-all"
-                        />
-                        <span className="text-sm text-primary-700 leading-relaxed">
-                          J'accepte les{' '}
-                          <Link href="/mentions-legales" className="text-accent-700 hover:underline font-semibold">
-                            conditions générales
-                          </Link>{' '}
-                          et la{' '}
-                          <Link href="/politique-confidentialite" className="text-accent-700 hover:underline font-semibold">
-                            politique de confidentialité
-                          </Link>{' '}
-                          <span className="text-accent-600">*</span>
-                        </span>
-                      </label>
-                    </div>
                   </div>
+                )}
 
-                  {/* Important info */}
-                  <div className="bg-gradient-to-br from-accent-50 to-accent-100 rounded-xl p-6 border border-accent-200">
-                    <div className="flex gap-3">
-                      <div className="flex-shrink-0">
-                        <div className="w-10 h-10 bg-accent-600 rounded-full flex items-center justify-center">
-                          <CheckCircle2 className="w-5 h-5 text-primary-900" />
+                {/* Step 4: Contact Information */}
+                {currentStep === 4 && (
+                  <div className="space-y-12 animate-fade-in-up">
+                    <div className="text-center">
+                      <Ornament className="text-accent-600 mx-auto mb-6" />
+                      <h2 className="text-4xl md:text-5xl font-serif font-light text-white mb-4">
+                        Vos<br />Coordonnées
+                      </h2>
+                      <p className="text-primary-200 font-light">
+                        Dernière étape pour confirmer votre réservation
+                      </p>
+                    </div>
+
+                    <div className="bg-black/40 border border-accent-600/30 p-8 md:p-12 space-y-8">
+                      <div className="grid md:grid-cols-2 gap-8">
+                        <div>
+                          <label className="block text-sm text-accent-600 tracking-[0.2em] uppercase mb-3 font-light flex items-center gap-2">
+                            <User className="w-4 h-4" />
+                            Prénom *
+                          </label>
+                          <input
+                            type="text"
+                            required
+                            value={bookingData.firstName || ''}
+                            onChange={(e) => updateBookingData({ firstName: e.target.value })}
+                            className="w-full px-6 py-4 text-base bg-black/60 border border-accent-600/30 text-white placeholder-primary-400 focus:border-accent-600 focus:outline-none transition-all font-light"
+                            placeholder="Jean"
+                          />
+                        </div>
+                        <div>
+                          <label className="block text-sm text-accent-600 tracking-[0.2em] uppercase mb-3 font-light flex items-center gap-2">
+                            <User className="w-4 h-4" />
+                            Nom *
+                          </label>
+                          <input
+                            type="text"
+                            required
+                            value={bookingData.lastName || ''}
+                            onChange={(e) => updateBookingData({ lastName: e.target.value })}
+                            className="w-full px-6 py-4 text-base bg-black/60 border border-accent-600/30 text-white placeholder-primary-400 focus:border-accent-600 focus:outline-none transition-all font-light"
+                            placeholder="Dupont"
+                          />
                         </div>
                       </div>
+
                       <div>
-                        <h3 className="font-bold text-primary-900 mb-2">Avant de confirmer</h3>
-                        <ul className="space-y-2 text-sm text-primary-800">
-                          <li className="flex items-start gap-2">
-                            <span className="text-accent-600 font-bold">•</span>
-                            <span>Un acompte de 30% sera demandé pour valider votre réservation</span>
-                          </li>
-                          <li className="flex items-start gap-2">
-                            <span className="text-accent-600 font-bold">•</span>
-                            <span>Annulation gratuite jusqu'à 72h avant l'événement</span>
-                          </li>
-                          <li className="flex items-start gap-2">
-                            <span className="text-accent-600 font-bold">•</span>
-                            <span>Vous recevrez une confirmation par email et SMS</span>
-                          </li>
-                        </ul>
+                        <label className="block text-sm text-accent-600 tracking-[0.2em] uppercase mb-3 font-light flex items-center gap-2">
+                          <Mail className="w-4 h-4" />
+                          Email *
+                        </label>
+                        <input
+                          type="email"
+                          required
+                          value={bookingData.email || ''}
+                          onChange={(e) => updateBookingData({ email: e.target.value })}
+                          className="w-full px-6 py-4 text-base bg-black/60 border border-accent-600/30 text-white placeholder-primary-400 focus:border-accent-600 focus:outline-none transition-all font-light"
+                          placeholder="jean.dupont@email.com"
+                        />
+                      </div>
+
+                      <div>
+                        <label className="block text-sm text-accent-600 tracking-[0.2em] uppercase mb-3 font-light flex items-center gap-2">
+                          <PhoneIcon className="w-4 h-4" />
+                          Téléphone *
+                        </label>
+                        <input
+                          type="tel"
+                          required
+                          value={bookingData.phone || ''}
+                          onChange={(e) => updateBookingData({ phone: e.target.value })}
+                          className="w-full px-6 py-4 text-base bg-black/60 border border-accent-600/30 text-white placeholder-primary-400 focus:border-accent-600 focus:outline-none transition-all font-light"
+                          placeholder="+352 621 234 567"
+                        />
+                      </div>
+
+                      <div className="pt-6">
+                        <label className="flex items-start gap-4 cursor-pointer group">
+                          <input
+                            type="checkbox"
+                            required
+                            checked={bookingData.acceptTerms || false}
+                            onChange={(e) => updateBookingData({ acceptTerms: e.target.checked })}
+                            className="w-6 h-6 mt-0.5 accent-accent-600 border-accent-600/30"
+                          />
+                          <span className="text-sm text-primary-200 font-light leading-relaxed">
+                            J'accepte les{' '}
+                            <Link href="/mentions-legales" className="text-accent-600 hover:underline">
+                              conditions générales
+                            </Link>{' '}
+                            et la{' '}
+                            <Link href="/politique-confidentialite" className="text-accent-600 hover:underline">
+                              politique de confidentialité
+                            </Link>
+                          </span>
+                        </label>
                       </div>
                     </div>
                   </div>
-                </div>
-              )}
-            </div>
-
-            {/* Navigation buttons */}
-            <div className="flex flex-col-reverse sm:flex-row justify-between gap-4 mt-8 pt-8 border-t border-primary-200">
-              {currentStep > 1 && (
-                <Button
-                  type="button"
-                  variant="outline"
-                  size="lg"
-                  onClick={handleBack}
-                  className="flex items-center justify-center gap-2 min-h-[56px]"
-                >
-                  <ChevronLeft className="w-5 h-5" />
-                  <span>Retour</span>
-                </Button>
-              )}
-
-              <div className={`${currentStep === 1 ? 'w-full sm:ml-auto sm:w-auto' : 'w-full sm:w-auto'}`}>
-                {currentStep < 4 ? (
-                  <Button
-                    type="button"
-                    variant="primary"
-                    size="lg"
-                    onClick={handleNext}
-                    disabled={!isStepValid()}
-                    className="w-full flex items-center justify-center gap-2 min-h-[56px] disabled:opacity-50 disabled:cursor-not-allowed"
-                  >
-                    <span>Continuer</span>
-                    <ChevronRight className="w-5 h-5" />
-                  </Button>
-                ) : (
-                  <Button
-                    type="submit"
-                    variant="primary"
-                    size="lg"
-                    disabled={!isStepValid()}
-                    className="w-full flex items-center justify-center gap-2 min-h-[56px] disabled:opacity-50 disabled:cursor-not-allowed"
-                  >
-                    <CheckCircle2 className="w-5 h-5" />
-                    <span>Confirmer la Réservation</span>
-                  </Button>
                 )}
               </div>
-            </div>
-          </form>
 
-          {/* Trust indicators */}
-          <div className="mt-12 pt-8 border-t border-primary-200">
-            <div className="grid md:grid-cols-3 gap-6 text-center">
-              <div className="flex flex-col items-center gap-3">
-                <div className="w-12 h-12 bg-accent-100 rounded-full flex items-center justify-center">
-                  <CheckCircle2 className="w-6 h-6 text-accent-600" />
-                </div>
-                <div>
-                  <div className="font-bold text-primary-900">Paiement Sécurisé</div>
-                  <div className="text-sm text-primary-600">Protection de vos données</div>
+              {/* Navigation buttons */}
+              <div className="flex flex-col-reverse sm:flex-row justify-between gap-6 mt-16 pt-8 border-t border-accent-600/20">
+                {currentStep > 1 && (
+                  <button
+                    type="button"
+                    onClick={handleBack}
+                    className="px-12 py-4 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500 flex items-center justify-center gap-2"
+                  >
+                    <ChevronLeft className="w-5 h-5" />
+                    <span>Retour</span>
+                  </button>
+                )}
+
+                <div className={`${currentStep === 1 ? 'w-full sm:ml-auto sm:w-auto' : 'w-full sm:w-auto'}`}>
+                  {currentStep < 4 ? (
+                    <button
+                      type="button"
+                      onClick={handleNext}
+                      disabled={!isStepValid()}
+                      className="w-full px-12 py-4 bg-accent-600 border border-accent-600 text-black text-xs tracking-[0.2em] uppercase hover:bg-transparent hover:text-accent-600 transition-all duration-500 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      <span>Continuer</span>
+                      <ChevronRight className="w-5 h-5" />
+                    </button>
+                  ) : (
+                    <button
+                      type="submit"
+                      disabled={!isStepValid()}
+                      className="w-full px-12 py-4 bg-accent-600 border border-accent-600 text-black text-xs tracking-[0.2em] uppercase hover:bg-transparent hover:text-accent-600 transition-all duration-500 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      <CheckCircle2 className="w-5 h-5" />
+                      <span>Confirmer</span>
+                    </button>
+                  )}
                 </div>
               </div>
-              <div className="flex flex-col items-center gap-3">
-                <div className="w-12 h-12 bg-accent-100 rounded-full flex items-center justify-center">
-                  <Clock className="w-6 h-6 text-accent-600" />
-                </div>
-                <div>
-                  <div className="font-bold text-primary-900">Confirmation Rapide</div>
-                  <div className="text-sm text-primary-600">Réponse sous 24h</div>
-                </div>
-              </div>
-              <div className="flex flex-col items-center gap-3">
-                <div className="w-12 h-12 bg-accent-100 rounded-full flex items-center justify-center">
-                  <PhoneIcon className="w-6 h-6 text-accent-600" />
-                </div>
-                <div>
-                  <div className="font-bold text-primary-900">Support Disponible</div>
-                  <div className="text-sm text-primary-600">
-                    <a href={`tel:${SITE_DATA.business.contact.phone}`} className="text-accent-600 hover:underline">
-                      {SITE_DATA.business.contact.phoneDisplay}
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </form>
           </div>
         </div>
-      </div>
+      </section>
     </main>
   )
 }

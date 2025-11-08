@@ -30,21 +30,32 @@ const heroSlides = [
     tagline: 'EXPÉRIENCE FROMAGÈRE',
     title: ['Saveurs Inspirées par', 'les Saisons'],
     description: 'Venez en famille et ressentez la joie d\'une expérience fromagère inoubliable',
-    cta: 'VOIR NOTRE SÉLECTION'
+    cta: 'VOIR NOTRE SÉLECTION',
+    href: '/fromages'
   },
   {
-    image: 'https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=2940',
+    image: '/soiree amis.png',
     tagline: 'SOIRÉES CONVIVIALES',
     title: ['L\'Art de la Raclette', 'et du Partage'],
     description: 'Découvrez nos soirées raclette, fondue et tartiflette dans une ambiance chaleureuse',
-    cta: 'RÉSERVER UNE SOIRÉE'
+    cta: 'RÉSERVER UNE SOIRÉE',
+    href: '/reserver'
   },
   {
     image: 'https://images.unsplash.com/photo-1530648672449-81f6c723e2f1?q=80&w=2940',
     tagline: 'SÉLECTION ARTISANALE',
     title: ['Plus de 150 Fromages', 'AOP et Fermiers'],
     description: 'Des trésors fromagers sélectionnés avec passion auprès des meilleurs artisans',
-    cta: 'DÉCOUVRIR LA CAVE'
+    cta: 'DÉCOUVRIR LA CAVE',
+    href: '/fromages'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=2940',
+    tagline: 'OFFRE DU MOIS',
+    title: ['Coffrets Découverte', 'et Sélections Exclusives'],
+    description: 'Découvrez notre produit vedette et nos coffrets fromagers mis à jour chaque mois',
+    cta: 'VOIR LES OFFRES',
+    href: '/offres'
   }
 ]
 
@@ -113,7 +124,7 @@ export default function HomePage() {
 
                       {/* Bouton CTA - bordure dorée, fond transparent */}
                       <div className="inline-block">
-                        <Link href="/reserver">
+                        <Link href={slide.href}>
                           <button className="px-12 py-4 bg-transparent border border-accent-600 text-accent-600 font-sans tracking-[0.25em] text-[11px] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
                             {slide.cta}
                           </button>
@@ -229,9 +240,9 @@ export default function HomePage() {
               </h3>
 
               {/* CTA avec bordure solide */}
-              <button className="px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
+              <Link href="/fromages" className="inline-block px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
                 Découvrir
-              </button>
+              </Link>
             </div>
 
             {/* Colonne 2 - Soirées Conviviales */}
@@ -272,9 +283,9 @@ export default function HomePage() {
                 Soirées Conviviales
               </h3>
 
-              <button className="px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
+              <Link href="/evenements" className="inline-block px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
                 Nos Événements
-              </button>
+              </Link>
             </div>
 
             {/* Colonne 3 - Ateliers & Cours */}
@@ -315,9 +326,9 @@ export default function HomePage() {
                 Ateliers & Cours
               </h3>
 
-              <button className="px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
+              <Link href="/evenements" className="inline-block px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
                 Participer
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -369,9 +380,9 @@ export default function HomePage() {
                 <span className="text-primary-300 text-xl font-light">par personne</span>
               </div>
 
-              <button className="px-12 py-4 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
+              <Link href="/reserver" className="inline-block px-12 py-4 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
                 Réserver Une Soirée
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -704,9 +715,9 @@ export default function HomePage() {
                   <div className="text-accent-600 font-serif text-xl">42€/pers</div>
                 </div>
               </div>
-              <button className="px-8 py-3 border border-accent-600/50 text-accent-600 text-xs tracking-[0.15em] uppercase hover:border-accent-600 hover:bg-accent-600/10 transition-all duration-500">
+              <Link href="/reserver" className="inline-block px-8 py-3 border border-accent-600/50 text-accent-600 text-xs tracking-[0.15em] uppercase hover:border-accent-600 hover:bg-accent-600/10 transition-all duration-500">
                 Réserver
-              </button>
+              </Link>
             </div>
 
             {/* Carte 2 */}
@@ -732,9 +743,9 @@ export default function HomePage() {
                   <div className="text-accent-600 font-serif text-xl">44€/pers</div>
                 </div>
               </div>
-              <button className="px-8 py-3 border border-accent-600/50 text-accent-600 text-xs tracking-[0.15em] uppercase hover:border-accent-600 hover:bg-accent-600/10 transition-all duration-500">
+              <Link href="/reserver" className="inline-block px-8 py-3 border border-accent-600/50 text-accent-600 text-xs tracking-[0.15em] uppercase hover:border-accent-600 hover:bg-accent-600/10 transition-all duration-500">
                 Réserver
-              </button>
+              </Link>
             </div>
 
             {/* Carte 3 */}
@@ -760,9 +771,9 @@ export default function HomePage() {
                   <div className="text-accent-600 font-serif text-xl">38€/pers</div>
                 </div>
               </div>
-              <button className="px-8 py-3 border border-accent-600/50 text-accent-600 text-xs tracking-[0.15em] uppercase hover:border-accent-600 hover:bg-accent-600/10 transition-all duration-500">
+              <Link href="/evenements" className="inline-block px-8 py-3 border border-accent-600/50 text-accent-600 text-xs tracking-[0.15em] uppercase hover:border-accent-600 hover:bg-accent-600/10 transition-all duration-500">
                 Réserver
-              </button>
+              </Link>
             </div>
 
             {/* Carte 4 */}
@@ -788,9 +799,9 @@ export default function HomePage() {
                   <div className="text-accent-600 font-serif text-xl">Dès 65€</div>
                 </div>
               </div>
-              <button className="px-8 py-3 border border-accent-600/50 text-accent-600 text-xs tracking-[0.15em] uppercase hover:border-accent-600 hover:bg-accent-600/10 transition-all duration-500">
+              <Link href="/traiteur" className="inline-block px-8 py-3 border border-accent-600/50 text-accent-600 text-xs tracking-[0.15em] uppercase hover:border-accent-600 hover:bg-accent-600/10 transition-all duration-500">
                 Commander
-              </button>
+              </Link>
             </div>
           </div>
 

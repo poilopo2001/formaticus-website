@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { MapPin, Award, Heart } from 'lucide-react'
+import { Ornament } from '@/components/ui/Ornament'
 
 // Données des producteurs partenaires
 const producteurs = [
@@ -64,9 +65,9 @@ const producteurs = [
 
 export default function ProducteursPage() {
   return (
-    <main className="min-h-screen bg-primary-900">
+    <main className="min-h-screen bg-black">
       {/* Hero Section */}
-      <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
+      <section className="relative h-screen flex items-center justify-center overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
@@ -76,13 +77,13 @@ export default function ProducteursPage() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-black/60" />
+          <div className="absolute inset-0 bg-black/50" />
         </div>
 
         {/* Contenu Hero */}
         <div className="relative z-10 container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
-            <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+            <p className="text-accent-600 tracking-[0.4em] text-[11px] md:text-xs font-normal uppercase mb-6">
               Artisans Partenaires
             </p>
 
@@ -94,11 +95,11 @@ export default function ProducteursPage() {
               </svg>
             </div>
 
-            <h1 className="text-5xl md:text-7xl font-serif font-light text-white mb-8 leading-tight">
-              Nos Producteurs
+            <h1 className="text-6xl md:text-7xl lg:text-8xl font-serif font-light text-white leading-[1.15] mb-8">
+              Nos Producteurs<br />d'Exception
             </h1>
 
-            <p className="text-xl text-gray-300 font-light leading-relaxed max-w-2xl mx-auto">
+            <p className="text-base md:text-lg text-white font-light mb-12 max-w-2xl mx-auto">
               Découvrez les artisans passionnés qui perpétuent les traditions fromagères ancestrales et font la richesse de notre sélection.
             </p>
           </div>
@@ -106,22 +107,19 @@ export default function ProducteursPage() {
       </section>
 
       {/* Section Engagement */}
-      <section className="py-20 bg-primary-950">
+      <section className="py-32 bg-primary-900">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center gap-3 mb-6">
-              <Heart className="w-5 h-5 text-accent-600" />
-              <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase">
-                Notre Engagement
-              </p>
-              <Heart className="w-5 h-5 text-accent-600" />
-            </div>
+            <Ornament className="text-accent-600 mx-auto mb-6" />
+            <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+              Notre Engagement
+            </p>
 
-            <h2 className="text-4xl md:text-5xl font-serif font-light text-white mb-8">
-              Des Artisans, Une Passion Commune
+            <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
+              Des Artisans,<br />Une Passion Commune
             </h2>
 
-            <div className="space-y-6 text-lg text-gray-400 font-light leading-relaxed">
+            <div className="space-y-6 text-lg text-primary-200 font-light leading-relaxed">
               <p>
                 Chez <span className="text-accent-600">Formaticus</span>, nous croyons que chaque fromage raconte une histoire.
                 Celle d'un terroir unique, d'un savoir-faire transmis de génération en génération, et d'une passion dévorante pour l'excellence.
@@ -140,68 +138,79 @@ export default function ProducteursPage() {
       </section>
 
       {/* Grid des Producteurs */}
-      <section className="py-20 bg-primary-900">
+      <section className="py-32 bg-black">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
             {producteurs.map((producteur) => (
               <div
                 key={producteur.id}
-                className="group relative bg-primary-950 overflow-hidden hover:bg-primary-900 transition-all duration-500"
+                className="group text-center"
               >
-                {/* Image */}
-                <div className="relative h-80 overflow-hidden">
+                {/* Ornement étoile top avec pulse au hover */}
+                <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
+                  <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
+                    <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
+                    <circle cx="16" cy="16" r="2" fill="black"/>
+                  </svg>
+                </div>
+
+                {/* Image avec glow et lift effect */}
+                <div className="relative h-96 mb-8 overflow-hidden shadow-2xl transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(228,197,144,0.3)]">
                   <Image
                     src={producteur.image}
                     alt={producteur.nom}
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
                   />
-                  {/* Overlay doré au hover */}
-                  <div className="absolute inset-0 bg-accent-600/0 group-hover:bg-accent-600/10 transition-all duration-500" />
-
-                  {/* Cadre doré qui apparaît au hover */}
-                  <div className="absolute inset-4 border border-accent-600/0 group-hover:border-accent-600/50 transition-all duration-500" />
-                </div>
-
-                {/* Contenu */}
-                <div className="p-8">
-                  {/* Nom */}
-                  <h3 className="text-2xl font-serif font-light text-white mb-2 group-hover:text-accent-600 transition-colors duration-300">
-                    {producteur.nom}
-                  </h3>
-
-                  {/* Région */}
-                  <div className="flex items-center gap-2 text-accent-600/70 text-sm mb-4">
-                    <MapPin className="w-4 h-4" />
-                    <span>{producteur.region}</span>
+                  {/* Overlay avec description au hover */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-center p-8">
+                    <div className="text-white/90 text-sm font-light leading-relaxed text-center">
+                      <div className="flex items-center justify-center gap-2 mb-2">
+                        <MapPin className="w-4 h-4 text-accent-600" />
+                        <span className="text-accent-600 text-xs">{producteur.region}</span>
+                      </div>
+                      <div className="flex items-center justify-center gap-2 mb-4">
+                        <Award className="w-4 h-4 text-accent-600" />
+                        <span className="text-xs">{producteur.specialite}</span>
+                      </div>
+                      <p>{producteur.description}</p>
+                    </div>
                   </div>
-
-                  {/* Spécialité */}
-                  <div className="flex items-center gap-2 text-gray-400 text-sm mb-4">
-                    <Award className="w-4 h-4 text-accent-600" />
-                    <span>{producteur.specialite}</span>
-                  </div>
-
-                  {/* Description */}
-                  <p className="text-gray-400 font-light text-sm leading-relaxed mb-6">
-                    {producteur.description}
-                  </p>
-
-                  {/* Valeurs / Tags */}
-                  <div className="flex flex-wrap gap-2">
-                    {producteur.valeurs.map((valeur, idx) => (
-                      <span
-                        key={idx}
-                        className="px-3 py-1 border border-accent-600/30 text-accent-600 text-xs tracking-wider uppercase"
-                      >
-                        {valeur}
-                      </span>
-                    ))}
+                  {/* Glow border interne */}
+                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
+                    <div className="absolute inset-0 border-2 border-accent-600/40 shadow-[inset_0_0_20px_rgba(228,197,144,0.2)]" />
                   </div>
                 </div>
 
-                {/* Ligne dorée en bas */}
-                <div className="h-px bg-gradient-to-r from-transparent via-accent-600/50 to-transparent" />
+                {/* Ornement géométrique bottom */}
+                <div className="mb-8 flex justify-center">
+                  <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
+                    <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
+                    <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
+                  </svg>
+                </div>
+
+                {/* Nom */}
+                <h3 className="text-3xl font-serif font-light text-white mb-4 group-hover:text-accent-600 transition-colors duration-300">
+                  {producteur.nom}
+                </h3>
+
+                {/* Valeurs / Tags */}
+                <div className="flex flex-wrap gap-2 justify-center mb-6">
+                  {producteur.valeurs.map((valeur, idx) => (
+                    <span
+                      key={idx}
+                      className="px-4 py-1 border border-accent-600/30 text-accent-600 text-[10px] tracking-[0.2em] uppercase"
+                    >
+                      {valeur}
+                    </span>
+                  ))}
+                </div>
+
+                {/* CTA */}
+                <button className="px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
+                  Découvrir
+                </button>
               </div>
             ))}
           </div>
@@ -209,13 +218,17 @@ export default function ProducteursPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-primary-950">
+      <section className="py-32 bg-primary-900">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-serif font-light text-white mb-8">
-              Goûtez l'Excellence de nos Terroirs
+            <Ornament className="text-accent-600 mx-auto mb-6" />
+            <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+              Excellence & Terroir
+            </p>
+            <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
+              Goûtez l'Excellence<br />de nos Terroirs
             </h2>
-            <p className="text-xl text-gray-400 font-light mb-12 leading-relaxed">
+            <p className="text-primary-200 text-lg mb-12 leading-relaxed font-light max-w-2xl mx-auto">
               Découvrez notre sélection de fromages issus de ces artisans d'exception,
               ou rejoignez-nous lors d'une soirée conviviale pour une dégustation guidée.
             </p>
@@ -223,17 +236,16 @@ export default function ProducteursPage() {
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Link
                 href="/fromages"
-                className="group relative px-10 py-4 border-2 border-accent-600 text-accent-600 font-light tracking-wider uppercase overflow-hidden transition-all duration-300 hover:text-primary-900"
+                className="px-12 py-4 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500"
               >
-                <span className="relative z-10">Voir nos Fromages</span>
-                <div className="absolute inset-0 bg-accent-600 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300" />
+                Voir nos Fromages
               </Link>
 
               <Link
-                href="/#events"
-                className="group relative px-10 py-4 bg-accent-600 text-primary-900 font-light tracking-wider uppercase overflow-hidden transition-all duration-300 hover:bg-accent-700"
+                href="/reserver"
+                className="px-12 py-4 bg-accent-600 border border-accent-600 text-black text-xs tracking-[0.2em] uppercase hover:bg-transparent hover:text-accent-600 transition-all duration-500"
               >
-                <span className="relative z-10">Réserver une Soirée</span>
+                Réserver une Soirée
               </Link>
             </div>
           </div>

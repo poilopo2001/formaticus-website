@@ -4,9 +4,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 import { MapPin, Milk, ChevronDown } from 'lucide-react'
+import { Ornament } from '@/components/ui/Ornament'
 
 // Types de fromages
-type TypeFromage = 'pate-molle' | 'pate-pressee' | 'pate-persillee' | 'chevre' | 'brebis'
+type TypeFromage = 'pate-fraiche' | 'pate-molle-croute-fleurie' | 'pate-molle-croute-lavee' | 'pate-pressee-non-cuite' | 'pate-pressee-cuite' | 'pate-persillee' | 'pate-fondue'
 type TypeLait = 'vache' | 'chevre' | 'brebis'
 type Origine = 'france' | 'suisse' | 'belgique' | 'italie'
 
@@ -33,7 +34,7 @@ const fromages: Fromage[] = [
     nom: 'Comté 24 mois',
     origine: 'france',
     region: 'Jura, France',
-    type: 'pate-pressee',
+    type: 'pate-pressee-cuite',
     lait: 'vache',
     image: 'https://images.unsplash.com/photo-1618164435735-413d3b066c9a?q=80&w=2940',
     aop: true,
@@ -47,7 +48,7 @@ const fromages: Fromage[] = [
     nom: 'Époisses AOP',
     origine: 'france',
     region: 'Bourgogne, France',
-    type: 'pate-molle',
+    type: 'pate-molle-croute-lavee',
     lait: 'vache',
     image: 'https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=2940',
     aop: true,
@@ -61,7 +62,7 @@ const fromages: Fromage[] = [
     nom: 'Raclette du Valais AOP',
     origine: 'suisse',
     region: 'Valais, Suisse',
-    type: 'pate-pressee',
+    type: 'pate-pressee-non-cuite',
     lait: 'vache',
     image: 'https://images.unsplash.com/photo-1570197788417-0e82375c9371?q=80&w=2940',
     aop: true,
@@ -89,7 +90,7 @@ const fromages: Fromage[] = [
     nom: 'Reblochon Fermier AOP',
     origine: 'france',
     region: 'Savoie, France',
-    type: 'pate-molle',
+    type: 'pate-molle-croute-lavee',
     lait: 'vache',
     image: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=2940',
     aop: true,
@@ -103,7 +104,7 @@ const fromages: Fromage[] = [
     nom: 'Crottin de Chavignol AOP',
     origine: 'france',
     region: 'Sancerre, France',
-    type: 'chevre',
+    type: 'pate-molle-croute-fleurie',
     lait: 'chevre',
     image: 'https://images.unsplash.com/photo-1530648672449-81f6c723e2f1?q=80&w=2940',
     aop: true,
@@ -117,7 +118,7 @@ const fromages: Fromage[] = [
     nom: "Beaufort d'Été",
     origine: 'france',
     region: 'Savoie, France',
-    type: 'pate-pressee',
+    type: 'pate-pressee-cuite',
     lait: 'vache',
     image: 'https://images.unsplash.com/photo-1577219491135-ce391730fb2c?q=80&w=2940',
     aop: true,
@@ -131,7 +132,7 @@ const fromages: Fromage[] = [
     nom: 'Camembert de Normandie AOP',
     origine: 'france',
     region: 'Normandie, France',
-    type: 'pate-molle',
+    type: 'pate-molle-croute-fleurie',
     lait: 'vache',
     image: 'https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=2940',
     aop: true,
@@ -145,7 +146,7 @@ const fromages: Fromage[] = [
     nom: 'Pecorino Romano DOP',
     origine: 'italie',
     region: 'Lazio, Italie',
-    type: 'pate-pressee',
+    type: 'pate-pressee-cuite',
     lait: 'brebis',
     image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=2940',
     aop: true,
@@ -159,7 +160,7 @@ const fromages: Fromage[] = [
     nom: 'Sainte-Maure de Touraine AOP',
     origine: 'france',
     region: 'Val de Loire, France',
-    type: 'chevre',
+    type: 'pate-molle-croute-fleurie',
     lait: 'chevre',
     image: 'https://images.unsplash.com/photo-1530648672449-81f6c723e2f1?q=80&w=2940',
     aop: true,
@@ -173,7 +174,7 @@ const fromages: Fromage[] = [
     nom: 'Munster-Géromé AOP',
     origine: 'france',
     region: 'Alsace/Vosges, France',
-    type: 'pate-molle',
+    type: 'pate-molle-croute-lavee',
     lait: 'vache',
     image: 'https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?q=80&w=2940',
     aop: true,
@@ -187,7 +188,7 @@ const fromages: Fromage[] = [
     nom: "Fromage d'Orval",
     origine: 'belgique',
     region: 'Gaume, Belgique',
-    type: 'pate-pressee',
+    type: 'pate-pressee-cuite',
     lait: 'vache',
     image: 'https://images.unsplash.com/photo-1618164435735-413d3b066c9a?q=80&w=2940',
     aop: false,
@@ -200,11 +201,13 @@ const fromages: Fromage[] = [
 // Options de filtres
 const filtresType = [
   { value: '', label: 'Tous les types' },
-  { value: 'pate-molle', label: 'Pâte Molle' },
-  { value: 'pate-pressee', label: 'Pâte Pressée' },
-  { value: 'pate-persillee', label: 'Pâte Persillée' },
-  { value: 'chevre', label: 'Chèvre' },
-  { value: 'brebis', label: 'Brebis' },
+  { value: 'pate-fraiche', label: 'Pâtes fraîches' },
+  { value: 'pate-molle-croute-fleurie', label: 'Pâtes molles à croûte fleurie' },
+  { value: 'pate-molle-croute-lavee', label: 'Pâtes molles à croûte lavée' },
+  { value: 'pate-pressee-non-cuite', label: 'Pâtes pressées non cuites' },
+  { value: 'pate-pressee-cuite', label: 'Pâtes pressées cuites' },
+  { value: 'pate-persillee', label: 'Pâtes persillées' },
+  { value: 'pate-fondue', label: 'Pâtes fondues' },
 ]
 
 const filtresLait = [
@@ -238,9 +241,9 @@ export default function FromagesPage() {
   })
 
   return (
-    <main className="min-h-screen bg-primary-900">
+    <main className="min-h-screen bg-black">
       {/* Hero Section */}
-      <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
+      <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?q=80&w=2940"
@@ -249,12 +252,12 @@ export default function FromagesPage() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-black/60" />
+          <div className="absolute inset-0 bg-black/50" />
         </div>
 
         <div className="relative z-10 container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
-            <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+            <p className="text-accent-600 tracking-[0.4em] text-[11px] md:text-xs font-normal uppercase mb-6">
               Sélection Artisanale
             </p>
 
@@ -265,11 +268,11 @@ export default function FromagesPage() {
               </svg>
             </div>
 
-            <h1 className="text-5xl md:text-7xl font-serif font-light text-white mb-8 leading-tight">
-              Notre Cave Affinée
+            <h1 className="text-6xl md:text-7xl lg:text-8xl font-serif font-light text-white leading-[1.15] mb-8">
+              Notre Cave<br />Affinée
             </h1>
 
-            <p className="text-xl text-gray-300 font-light leading-relaxed max-w-2xl mx-auto">
+            <p className="text-base md:text-lg text-white font-light mb-12 max-w-2xl mx-auto">
               Plus de 150 fromages AOP et fermiers sélectionnés avec passion auprès des meilleurs artisans.
             </p>
           </div>
@@ -277,23 +280,24 @@ export default function FromagesPage() {
       </section>
 
       {/* Section Filtres */}
-      <section className="py-12 bg-primary-950 border-b border-accent-600/20">
+      <section className="py-20 bg-primary-900 border-b border-accent-600/20">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <p className="text-accent-600 text-sm tracking-wider uppercase text-center mb-8">
+            <Ornament className="text-accent-600 mx-auto mb-6" />
+            <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase text-center mb-12">
               Affiner votre recherche
             </p>
 
             <div className="grid md:grid-cols-4 gap-6">
               <div className="relative">
-                <label className="block text-gray-400 text-xs tracking-wider uppercase mb-2">
+                <label className="block text-primary-300 text-xs tracking-[0.15em] uppercase mb-3 font-light">
                   Type de fromage
                 </label>
                 <div className="relative">
                   <select
                     value={filtreType}
                     onChange={(e) => setFiltreType(e.target.value)}
-                    className="w-full bg-primary-900 border border-accent-600/30 text-white px-4 py-3 appearance-none cursor-pointer focus:border-accent-600 focus:outline-none transition-colors"
+                    className="w-full bg-black border border-accent-600/30 text-white px-4 py-4 appearance-none cursor-pointer focus:border-accent-600 focus:outline-none transition-colors font-light"
                   >
                     {filtresType.map((option) => (
                       <option key={option.value} value={option.value}>
@@ -306,14 +310,14 @@ export default function FromagesPage() {
               </div>
 
               <div className="relative">
-                <label className="block text-gray-400 text-xs tracking-wider uppercase mb-2">
+                <label className="block text-primary-300 text-xs tracking-[0.15em] uppercase mb-3 font-light">
                   Type de lait
                 </label>
                 <div className="relative">
                   <select
                     value={filtreLait}
                     onChange={(e) => setFiltreLait(e.target.value)}
-                    className="w-full bg-primary-900 border border-accent-600/30 text-white px-4 py-3 appearance-none cursor-pointer focus:border-accent-600 focus:outline-none transition-colors"
+                    className="w-full bg-black border border-accent-600/30 text-white px-4 py-4 appearance-none cursor-pointer focus:border-accent-600 focus:outline-none transition-colors font-light"
                   >
                     {filtresLait.map((option) => (
                       <option key={option.value} value={option.value}>
@@ -326,14 +330,14 @@ export default function FromagesPage() {
               </div>
 
               <div className="relative">
-                <label className="block text-gray-400 text-xs tracking-wider uppercase mb-2">
+                <label className="block text-primary-300 text-xs tracking-[0.15em] uppercase mb-3 font-light">
                   Origine
                 </label>
                 <div className="relative">
                   <select
                     value={filtreOrigine}
                     onChange={(e) => setFiltreOrigine(e.target.value)}
-                    className="w-full bg-primary-900 border border-accent-600/30 text-white px-4 py-3 appearance-none cursor-pointer focus:border-accent-600 focus:outline-none transition-colors"
+                    className="w-full bg-black border border-accent-600/30 text-white px-4 py-4 appearance-none cursor-pointer focus:border-accent-600 focus:outline-none transition-colors font-light"
                   >
                     {filtresOrigine.map((option) => (
                       <option key={option.value} value={option.value}>
@@ -346,15 +350,15 @@ export default function FromagesPage() {
               </div>
 
               <div>
-                <label className="block text-gray-400 text-xs tracking-wider uppercase mb-2">
+                <label className="block text-primary-300 text-xs tracking-[0.15em] uppercase mb-3 font-light">
                   Appellation
                 </label>
                 <button
                   onClick={() => setFiltreAOP(!filtreAOP)}
-                  className={`w-full border px-4 py-3 text-left transition-all duration-300 ${
+                  className={`w-full border px-4 py-4 text-left transition-all duration-500 font-light tracking-wide ${
                     filtreAOP
-                      ? 'bg-accent-600 border-accent-600 text-primary-900'
-                      : 'bg-primary-900 border-accent-600/30 text-white hover:border-accent-600'
+                      ? 'bg-accent-600 border-accent-600 text-black'
+                      : 'bg-black border-accent-600/30 text-white hover:border-accent-600'
                   }`}
                 >
                   AOP / IGP uniquement
@@ -362,87 +366,119 @@ export default function FromagesPage() {
               </div>
             </div>
 
-            <p className="text-center text-gray-400 text-sm mt-8">
-              <span className="text-accent-600 font-light">{fromagesFiltres.length}</span> fromage{fromagesFiltres.length > 1 ? 's' : ''} trouvé{fromagesFiltres.length > 1 ? 's' : ''}
+            <div className="mt-12 flex justify-center">
+              <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
+                <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
+                <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
+              </svg>
+            </div>
+
+            <p className="text-center text-primary-300 text-sm mt-8 font-light">
+              <span className="text-accent-600 text-lg">{fromagesFiltres.length}</span> fromage{fromagesFiltres.length > 1 ? 's' : ''} trouvé{fromagesFiltres.length > 1 ? 's' : ''}
             </p>
           </div>
         </div>
       </section>
 
       {/* Catalogue de fromages */}
-      <section className="py-20 bg-primary-900">
+      <section className="py-32 bg-black">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
             {fromagesFiltres.map((fromage) => (
               <Link
                 key={fromage.id}
                 href={`/fromages/${fromage.slug}`}
-                className="group relative bg-primary-950 overflow-hidden hover:bg-primary-900 transition-all duration-500"
+                className="group text-center"
               >
+                {/* Ornement étoile top avec pulse au hover */}
+                <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
+                  <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
+                    <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
+                    <circle cx="16" cy="16" r="2" fill="black"/>
+                  </svg>
+                </div>
+
+                {/* Badge AOP */}
                 {fromage.aop && (
-                  <div className="absolute top-4 right-4 z-20 bg-accent-600 text-primary-900 px-3 py-1 text-xs tracking-wider uppercase font-light">
-                    AOP
+                  <div className="relative z-20 mb-4">
+                    <span className="inline-block bg-accent-600 text-black px-4 py-1 text-[10px] tracking-[0.2em] uppercase font-medium">
+                      AOP
+                    </span>
                   </div>
                 )}
 
-                <div className="relative h-72 overflow-hidden">
+                {/* Image avec glow et lift effect */}
+                <div className="relative h-96 mb-8 overflow-hidden shadow-2xl transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(228,197,144,0.3)]">
                   <Image
                     src={fromage.image}
                     alt={fromage.nom}
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
                   />
-                  <div className="absolute inset-0 bg-accent-600/0 group-hover:bg-accent-600/10 transition-all duration-500" />
-                  <div className="absolute inset-4 border border-accent-600/0 group-hover:border-accent-600/50 transition-all duration-500" />
-                </div>
-
-                <div className="p-6">
-                  <h3 className="text-2xl font-serif font-light text-white mb-3 group-hover:text-accent-600 transition-colors duration-300">
-                    {fromage.nom}
-                  </h3>
-
-                  <div className="flex items-center gap-2 text-accent-600/70 text-sm mb-2">
-                    <MapPin className="w-4 h-4" />
-                    <span>{fromage.region}</span>
-                  </div>
-
-                  <div className="flex items-center gap-2 text-gray-400 text-sm mb-4">
-                    <Milk className="w-4 h-4 text-accent-600" />
-                    <span className="capitalize">Lait de {fromage.lait}</span>
-                  </div>
-
-                  <p className="text-gray-400 font-light text-sm leading-relaxed mb-4">
-                    {fromage.description}
-                  </p>
-
-                  <div className="flex items-center gap-2 mb-4">
-                    <span className="text-gray-500 text-xs tracking-wider uppercase">Intensité</span>
-                    <div className="flex gap-1">
-                      {[1, 2, 3, 4, 5].map((level) => (
-                        <div
-                          key={level}
-                          className={`w-6 h-1 ${
-                            level <= fromage.intensite ? 'bg-accent-600' : 'bg-gray-700'
-                          }`}
-                        />
-                      ))}
+                  {/* Overlay avec infos au hover */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-center p-8">
+                    <div className="text-white/90 text-sm font-light leading-relaxed text-center">
+                      <div className="flex items-center justify-center gap-2 mb-2">
+                        <MapPin className="w-4 h-4 text-accent-600" />
+                        <span className="text-accent-600">{fromage.region}</span>
+                      </div>
+                      <div className="flex items-center justify-center gap-2 mb-3">
+                        <Milk className="w-4 h-4 text-accent-600" />
+                        <span className="capitalize">Lait de {fromage.lait}</span>
+                      </div>
+                      <p className="mb-3">{fromage.description}</p>
+                      <div className="flex items-center justify-center gap-2 mb-2">
+                        <span className="text-xs tracking-wider uppercase text-primary-300">Intensité</span>
+                        <div className="flex gap-1">
+                          {[1, 2, 3, 4, 5].map((level) => (
+                            <div
+                              key={level}
+                              className={`w-6 h-1 ${
+                                level <= fromage.intensite ? 'bg-accent-600' : 'bg-gray-700'
+                              }`}
+                            />
+                          ))}
+                        </div>
+                      </div>
                     </div>
                   </div>
-
-                  <div className="flex items-baseline gap-2">
-                    <span className="text-2xl font-light text-accent-600">{fromage.prixKg}€</span>
-                    <span className="text-gray-500 text-sm">/kg</span>
+                  {/* Glow border interne */}
+                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
+                    <div className="absolute inset-0 border-2 border-accent-600/40 shadow-[inset_0_0_20px_rgba(228,197,144,0.2)]" />
                   </div>
                 </div>
 
-                <div className="h-px bg-gradient-to-r from-transparent via-accent-600/50 to-transparent" />
+                {/* Ornement géométrique bottom */}
+                <div className="mb-8 flex justify-center">
+                  <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
+                    <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
+                    <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
+                  </svg>
+                </div>
+
+                {/* Titre */}
+                <h3 className="text-3xl font-serif font-light text-white mb-4 group-hover:text-accent-600 transition-colors duration-300">
+                  {fromage.nom}
+                </h3>
+
+                {/* Prix */}
+                <div className="flex items-baseline justify-center gap-2 mb-6">
+                  <span className="text-3xl font-serif text-accent-600">{fromage.prixKg}€</span>
+                  <span className="text-primary-300 text-lg font-light">/kg</span>
+                </div>
+
+                {/* CTA avec bordure solide */}
+                <button className="px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
+                  Découvrir
+                </button>
               </Link>
             ))}
           </div>
 
           {fromagesFiltres.length === 0 && (
             <div className="text-center py-20">
-              <p className="text-gray-400 text-lg font-light mb-6">
+              <Ornament className="text-accent-600 mx-auto mb-8" />
+              <p className="text-primary-200 text-xl font-light mb-8 leading-relaxed">
                 Aucun fromage ne correspond à vos critères.
               </p>
               <button
@@ -452,7 +488,7 @@ export default function FromagesPage() {
                   setFiltreOrigine('')
                   setFiltreAOP(false)
                 }}
-                className="px-8 py-3 border border-accent-600 text-accent-600 hover:bg-accent-600 hover:text-primary-900 transition-all duration-300 tracking-wider uppercase text-sm"
+                className="px-12 py-4 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500"
               >
                 Réinitialiser les filtres
               </button>
@@ -462,30 +498,33 @@ export default function FromagesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-primary-950">
+      <section className="py-32 bg-primary-900">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-serif font-light text-white mb-8">
+            <Ornament className="text-accent-600 mx-auto mb-6" />
+            <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+              Expertise & Passion
+            </p>
+            <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
               Besoin de Conseils ?
             </h2>
-            <p className="text-xl text-gray-400 font-light mb-12 leading-relaxed">
-              Nos fromagers passionnés vous guident dans le choix de vos fromages lors de nos dégustations guidées.
+            <p className="text-primary-200 text-lg mb-12 leading-relaxed font-light max-w-2xl mx-auto">
+              Nos fromagers passionnés vous guident dans le choix de vos fromages lors de nos dégustations guidées. Découvrez l'art de composer un plateau parfait ou trouvez l'accord idéal pour vos événements.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Link
                 href="/producteurs"
-                className="group relative px-10 py-4 border-2 border-accent-600 text-accent-600 font-light tracking-wider uppercase overflow-hidden transition-all duration-300 hover:text-primary-900"
+                className="px-12 py-4 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500"
               >
-                <span className="relative z-10">Nos Producteurs</span>
-                <div className="absolute inset-0 bg-accent-600 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300" />
+                Nos Producteurs
               </Link>
 
               <Link
-                href="/#events"
-                className="group relative px-10 py-4 bg-accent-600 text-primary-900 font-light tracking-wider uppercase overflow-hidden transition-all duration-300 hover:bg-accent-700"
+                href="/reserver"
+                className="px-12 py-4 bg-accent-600 border border-accent-600 text-black text-xs tracking-[0.2em] uppercase hover:bg-transparent hover:text-accent-600 transition-all duration-500"
               >
-                <span className="relative z-10">Réserver une Soirée</span>
+                Réserver une Soirée
               </Link>
             </div>
           </div>
