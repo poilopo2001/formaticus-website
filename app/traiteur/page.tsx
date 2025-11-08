@@ -4,6 +4,7 @@ import { SITE_DATA } from '@/lib/constants'
 import { Users, Briefcase, Home, CheckCircle, Calendar, Award } from 'lucide-react'
 import Link from 'next/link'
 import { Ornament } from '@/components/ui/Ornament'
+import { FadeInSection } from '@/components/ui/FadeInSection'
 
 export const metadata: Metadata = {
   title: 'Service Traiteur & Événements Privés | Formaticus Luxembourg',
@@ -72,24 +73,27 @@ export default function TraiteurPage() {
       </section>
 
       {/* Types d'événements */}
-      <section className="py-32 bg-primary-900">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-20">
-            <Ornament className="text-accent-600 mx-auto mb-6" />
-            <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
-              Nos Services
-            </p>
-            <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
-              Tous Vos<br />Événements
-            </h2>
-            <p className="text-lg text-primary-200 font-light max-w-3xl mx-auto leading-relaxed">
-              Événements professionnels, privés, team building... Nous nous adaptons à toutes vos demandes
-            </p>
-          </div>
+      <section className="py-40 bg-primary-900">
+        <div className="container mx-auto px-6 lg:px-12">
+          <FadeInSection delay={0.2}>
+            <div className="text-center mb-20">
+              <Ornament className="text-accent-600 mx-auto mb-6" />
+              <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+                Nos Services
+              </p>
+              <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
+                Tous Vos<br />Événements
+              </h2>
+              <p className="text-lg text-primary-200 font-light max-w-3xl mx-auto leading-relaxed">
+                Événements professionnels, privés, team building... Nous nous adaptons à toutes vos demandes
+              </p>
+            </div>
+          </FadeInSection>
 
           <div className="grid md:grid-cols-3 gap-12">
             {/* Événements d'Entreprise */}
-            <div className="group text-center">
+            <FadeInSection delay={0.4} direction="up">
+              <div className="group text-center">
               <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
                 <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
                   <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
@@ -130,10 +134,12 @@ export default function TraiteurPage() {
                   <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
                 </svg>
               </div>
-            </div>
+              </div>
+            </FadeInSection>
 
             {/* Événements Privés */}
-            <div className="group text-center">
+            <FadeInSection delay={0.5} direction="up">
+              <div className="group text-center">
               <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
                 <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
                   <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
@@ -174,10 +180,12 @@ export default function TraiteurPage() {
                   <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
                 </svg>
               </div>
-            </div>
+              </div>
+            </FadeInSection>
 
             {/* Animations Spéciales */}
-            <div className="group text-center">
+            <FadeInSection delay={0.6} direction="up">
+              <div className="group text-center">
               <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
                 <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
                   <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
@@ -218,31 +226,35 @@ export default function TraiteurPage() {
                   <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
                 </svg>
               </div>
-            </div>
+              </div>
+            </FadeInSection>
           </div>
         </div>
       </section>
 
       {/* Nos Formules */}
       {traiteurService && (
-        <section className="py-32 bg-black">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-20">
-              <Ornament className="text-accent-600 mx-auto mb-6" />
-              <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
-                Nos Formules
-              </p>
-              <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
-                Prestations<br />Sur Mesure
-              </h2>
-              <p className="text-lg text-primary-200 font-light max-w-3xl mx-auto leading-relaxed">
-                Des formules flexibles adaptées à tous vos besoins et budgets
-              </p>
-            </div>
+        <section className="py-40 bg-black">
+          <div className="container mx-auto px-6 lg:px-12">
+            <FadeInSection delay={0.2}>
+              <div className="text-center mb-20">
+                <Ornament className="text-accent-600 mx-auto mb-6" />
+                <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+                  Nos Formules
+                </p>
+                <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
+                  Prestations<br />Sur Mesure
+                </h2>
+                <p className="text-lg text-primary-200 font-light max-w-3xl mx-auto leading-relaxed">
+                  Des formules flexibles adaptées à tous vos besoins et budgets
+                </p>
+              </div>
+            </FadeInSection>
 
             <div className="grid md:grid-cols-2 gap-20 items-center max-w-6xl mx-auto">
               {/* Image */}
-              <div className="group">
+              <FadeInSection delay={0.4} direction="left">
+                <div className="group">
                 <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
                   <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
                     <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
@@ -268,10 +280,12 @@ export default function TraiteurPage() {
                     <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
                   </svg>
                 </div>
-              </div>
+                </div>
+              </FadeInSection>
 
               {/* Contenu */}
-              <div className="space-y-6">
+              <FadeInSection delay={0.5} direction="right">
+                <div className="space-y-6">
                 {traiteurService.benefits.map((benefit, idx) => (
                   <div
                     key={idx}
@@ -294,30 +308,34 @@ export default function TraiteurPage() {
                     Devis personnalisé gratuit sous 24h selon vos besoins
                   </p>
                 </div>
-              </div>
+                </div>
+              </FadeInSection>
             </div>
           </div>
         </section>
       )}
 
       {/* Notre Processus */}
-      <section className="py-32 bg-primary-900">
-        <div className="container mx-auto px-4">
+      <section className="py-40 bg-primary-900">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-20">
-              <Ornament className="text-accent-600 mx-auto mb-6" />
-              <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
-                Notre Méthode
-              </p>
-              <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
-                Comment<br />Ça Marche ?
-              </h2>
-              <p className="text-lg text-primary-200 font-light leading-relaxed">
-                Un processus simple et personnalisé
-              </p>
-            </div>
+            <FadeInSection delay={0.2}>
+              <div className="text-center mb-20">
+                <Ornament className="text-accent-600 mx-auto mb-6" />
+                <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+                  Notre Méthode
+                </p>
+                <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
+                  Comment<br />Ça Marche ?
+                </h2>
+                <p className="text-lg text-primary-200 font-light leading-relaxed">
+                  Un processus simple et personnalisé
+                </p>
+              </div>
+            </FadeInSection>
 
-            <div className="space-y-6">
+            <FadeInSection delay={0.4}>
+              <div className="space-y-6">
               {traiteurService?.process.map((step, idx) => (
                 <div
                   key={idx}
@@ -331,72 +349,79 @@ export default function TraiteurPage() {
                   </div>
                 </div>
               ))}
-            </div>
+              </div>
+            </FadeInSection>
           </div>
         </div>
       </section>
 
       {/* Garanties */}
       {traiteurService?.guarantees && (
-        <section className="py-32 bg-black">
-          <div className="container mx-auto px-4">
+        <section className="py-40 bg-black">
+          <div className="container mx-auto px-6 lg:px-12">
             <div className="max-w-4xl mx-auto">
-              <div className="text-center mb-20">
-                <Ornament className="text-accent-600 mx-auto mb-6" />
-                <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
-                  Excellence
-                </p>
-                <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
-                  Nos<br />Garanties
-                </h2>
-              </div>
+              <FadeInSection delay={0.2}>
+                <div className="text-center mb-20">
+                  <Ornament className="text-accent-600 mx-auto mb-6" />
+                  <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+                    Excellence
+                  </p>
+                  <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
+                    Nos<br />Garanties
+                  </h2>
+                </div>
+              </FadeInSection>
 
-              <div className="grid sm:grid-cols-2 gap-6">
-                {traiteurService.guarantees.map((guarantee, idx) => (
-                  <div
-                    key={idx}
-                    className="flex items-start gap-4 bg-black/40 border border-accent-600/30 p-8"
-                  >
-                    <CheckCircle className="w-6 h-6 text-accent-600 flex-shrink-0 mt-1" />
-                    <p className="text-primary-200 font-light">{guarantee}</p>
-                  </div>
-                ))}
-              </div>
+              <FadeInSection delay={0.4}>
+                <div className="grid sm:grid-cols-2 gap-6">
+                  {traiteurService.guarantees.map((guarantee, idx) => (
+                    <div
+                      key={idx}
+                      className="flex items-start gap-4 bg-black/40 border border-accent-600/30 p-8"
+                    >
+                      <CheckCircle className="w-6 h-6 text-accent-600 flex-shrink-0 mt-1" />
+                      <p className="text-primary-200 font-light">{guarantee}</p>
+                    </div>
+                  ))}
+                </div>
+              </FadeInSection>
             </div>
           </div>
         </section>
       )}
 
       {/* CTA */}
-      <section className="py-32 bg-primary-900">
-        <div className="container mx-auto px-4 text-center">
-          <div className="max-w-3xl mx-auto">
-            <Ornament className="text-accent-600 mx-auto mb-6" />
-            <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
-              Contact
-            </p>
-            <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
-              Demandez Votre<br />Devis Gratuit
-            </h2>
-            <p className="text-lg text-primary-200 font-light mb-12 leading-relaxed max-w-2xl mx-auto">
-              Contactez-nous pour discuter de votre projet et recevoir un devis personnalisé sous 24h
-            </p>
+      <section className="py-40 bg-primary-900">
+        <div className="container mx-auto px-6 lg:px-12 text-center">
+          <FadeInSection delay={0.2}>
+            <div className="max-w-3xl mx-auto">
+              <Ornament className="text-accent-600 mx-auto mb-6" />
+              <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+                Contact
+              </p>
+              <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
+                Demandez Votre<br />Devis Gratuit
+              </h2>
+              <p className="text-lg text-primary-200 font-light mb-12 leading-relaxed max-w-2xl mx-auto">
+                Contactez-nous pour discuter de votre projet et recevoir un devis personnalisé sous 24h
+              </p>
 
-            <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <Link
-                href="/contact"
-                className="px-12 py-4 bg-accent-600 border border-accent-600 text-black text-xs tracking-[0.2em] uppercase hover:bg-transparent hover:text-accent-600 transition-all duration-500"
-              >
-                Demander un Devis
-              </Link>
-              <a
-                href={`tel:${SITE_DATA.business.contact.phone}`}
-                className="px-12 py-4 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500"
-              >
-                Nous Appeler
-              </a>
+              <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                <Link
+                  href="/contact"
+                  className="px-12 py-4 bg-accent-600 border border-accent-600 text-black text-xs tracking-[0.2em] uppercase hover:bg-transparent hover:text-accent-600 transition-all duration-500"
+                >
+                  Demander un Devis
+                </Link>
+                <a
+                  href={`tel:${SITE_DATA.business.contact.phone}`}
+                  className="px-12 py-4 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500"
+                >
+                  Nous Appeler
+                </a>
+              </div>
             </div>
-          </div>
+          </FadeInSection>
         </div>
       </section>
     </main>

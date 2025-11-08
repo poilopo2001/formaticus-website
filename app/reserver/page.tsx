@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { SITE_DATA } from '@/lib/constants'
 import { Button } from '@/components/ui/Button'
 import { Ornament } from '@/components/ui/Ornament'
+import { FadeInSection } from '@/components/ui/FadeInSection'
 import {
   Users,
   Calendar,
@@ -186,7 +187,7 @@ export default function ReserverPage() {
     return (
       <main className="min-h-screen bg-black">
         {/* Success Hero */}
-        <section className="relative min-h-screen flex items-center justify-center py-32">
+        <section className="relative min-h-screen flex items-center justify-center py-40">
           <div className="absolute inset-0 z-0">
             <Image
               src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?q=80&w=2940"
@@ -198,53 +199,58 @@ export default function ReserverPage() {
             <div className="absolute inset-0 bg-black/70" />
           </div>
 
-          <div className="relative z-10 container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              {/* Star ornament */}
-              <div className="mb-8 flex justify-center">
-                <svg className="w-12 h-12 text-accent-600 animate-pulse" viewBox="0 0 32 32" fill="none">
-                  <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
-                  <circle cx="16" cy="16" r="2" fill="black"/>
-                </svg>
+          <div className="relative z-10 container mx-auto px-6 lg:px-12">
+            <FadeInSection delay={0.2}>
+              <div className="max-w-4xl mx-auto text-center">
+                {/* Star ornament */}
+                <div className="mb-8 flex justify-center">
+                  <svg className="w-12 h-12 text-accent-600 animate-pulse" viewBox="0 0 32 32" fill="none">
+                    <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
+                    <circle cx="16" cy="16" r="2" fill="black"/>
+                  </svg>
+                </div>
+
+                <CheckCircle2 className="w-24 h-24 mx-auto text-accent-600 mb-8" strokeWidth={1.5} />
+
+                <h1 className="text-6xl md:text-7xl lg:text-8xl font-serif font-light text-white leading-[1.15] mb-8">
+                  Réservation<br />Confirmée
+                </h1>
+
+                <p className="text-lg md:text-xl text-white font-light mb-12 max-w-2xl mx-auto">
+                  Un email de confirmation a été envoyé à{' '}
+                  <span className="text-accent-600">{bookingData.email}</span>
+                </p>
+
+                {/* Geometric ornament */}
+                <div className="flex justify-center mb-12">
+                  <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
+                    <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
+                    <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
+                  </svg>
+                </div>
               </div>
-
-              <CheckCircle2 className="w-24 h-24 mx-auto text-accent-600 mb-8" strokeWidth={1.5} />
-
-              <h1 className="text-6xl md:text-7xl lg:text-8xl font-serif font-light text-white leading-[1.15] mb-8">
-                Réservation<br />Confirmée
-              </h1>
-
-              <p className="text-lg md:text-xl text-white font-light mb-12 max-w-2xl mx-auto">
-                Un email de confirmation a été envoyé à{' '}
-                <span className="text-accent-600">{bookingData.email}</span>
-              </p>
-
-              {/* Geometric ornament */}
-              <div className="flex justify-center mb-12">
-                <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
-                  <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
-                  <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
-                </svg>
-              </div>
-            </div>
+            </FadeInSection>
           </div>
         </section>
 
         {/* Booking summary */}
-        <section className="py-32 bg-primary-900">
-          <div className="container mx-auto px-4">
+        <section className="py-40 bg-primary-900">
+          <div className="container mx-auto px-6 lg:px-12">
             <div className="max-w-4xl mx-auto">
-              <Ornament className="text-accent-600 mx-auto mb-6" />
+              <FadeInSection delay={0.2}>
+                <Ornament className="text-accent-600 mx-auto mb-6" />
 
-              <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6 text-center">
-                Récapitulatif
-              </p>
+                <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6 text-center">
+                  Récapitulatif
+                </p>
 
-              <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-12 leading-tight text-center">
-                Votre Soirée<br />Gourmande
-              </h2>
+                <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-12 leading-tight text-center">
+                  Votre Soirée<br />Gourmande
+                </h2>
+              </FadeInSection>
 
-              <div className="bg-black/40 border border-accent-600/30 p-8 md:p-12 space-y-8">
+              <FadeInSection delay={0.4}>
+                <div className="bg-black/40 border border-accent-600/30 p-8 md:p-12 space-y-8">
                 <div className="flex items-start gap-4 pb-8 border-b border-accent-600/20">
                   <div className="text-5xl">{selectedEvent?.icon}</div>
                   <div className="flex-1">
@@ -306,8 +312,10 @@ export default function ReserverPage() {
                   </div>
                 </div>
               </div>
+              </FadeInSection>
 
-              <div className="mt-12 flex flex-col sm:flex-row gap-6 justify-center">
+              <FadeInSection delay={0.6}>
+                <div className="mt-12 flex flex-col sm:flex-row gap-6 justify-center">
                 <Link
                   href="/"
                   className="px-12 py-4 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500 text-center"
@@ -322,6 +330,7 @@ export default function ReserverPage() {
                   Nous Appeler
                 </a>
               </div>
+              </FadeInSection>
             </div>
           </div>
         </section>
@@ -345,7 +354,7 @@ export default function ReserverPage() {
           <div className="absolute inset-0 bg-black/60" />
         </div>
 
-        <div className="relative z-10 container mx-auto px-4 text-center">
+        <div className="relative z-10 container mx-auto px-6 lg:px-12 text-center">
           <div className="max-w-4xl mx-auto">
             <p className="text-accent-600 tracking-[0.4em] text-[11px] md:text-xs font-normal uppercase mb-6">
               Expérience Gourmande
@@ -370,8 +379,8 @@ export default function ReserverPage() {
       </section>
 
       {/* Form Section */}
-      <section className="py-32 bg-primary-900">
-        <div className="container mx-auto px-4">
+      <section className="py-40 bg-primary-900">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-5xl mx-auto">
             {/* Progress bar */}
             <div className="mb-16">

@@ -8,6 +8,90 @@ import { Clock, Users, CheckCircle, Calendar } from 'lucide-react'
 
 export const metadata: Metadata = generateEvenementsMetadata()
 
+// Prochaines dates disponibles (dates réelles à mettre à jour)
+const prochainesDates = [
+  {
+    id: 1,
+    eventType: 'Soirée Raclette',
+    eventSlug: 'soiree-raclette',
+    date: '2025-12-13',
+    day: 'Vendredi',
+    dayNum: '13',
+    month: 'DÉC',
+    time: '19h00',
+    duration: '2h30',
+    placesTotal: 24,
+    placesRestantes: 6,
+    price: 42,
+    badge: 'Presque complet',
+    badgeColor: 'red'
+  },
+  {
+    id: 2,
+    eventType: 'Soirée Cheese & Wine',
+    eventSlug: 'soiree-cheese-wine',
+    date: '2025-12-14',
+    day: 'Samedi',
+    dayNum: '14',
+    month: 'DÉC',
+    time: '18h30',
+    duration: '2h30',
+    placesTotal: 20,
+    placesRestantes: 12,
+    price: 48,
+    badge: null,
+    badgeColor: null
+  },
+  {
+    id: 3,
+    eventType: 'Soirée Raclette',
+    eventSlug: 'soiree-raclette',
+    date: '2025-12-20',
+    day: 'Vendredi',
+    dayNum: '20',
+    month: 'DÉC',
+    time: '19h00',
+    duration: '2h30',
+    placesTotal: 24,
+    placesRestantes: 18,
+    price: 42,
+    badge: 'Places disponibles',
+    badgeColor: 'green'
+  },
+  {
+    id: 4,
+    eventType: 'Soirée Fondue',
+    eventSlug: 'soiree-fondue',
+    date: '2025-12-21',
+    day: 'Samedi',
+    dayNum: '21',
+    month: 'DÉC',
+    time: '19h30',
+    duration: '3h',
+    placesTotal: 30,
+    placesRestantes: 22,
+    price: 44,
+    badge: null,
+    badgeColor: null
+  },
+  {
+    id: 5,
+    eventType: 'Soirée Tartiflette',
+    eventSlug: 'soiree-tartiflette',
+    date: '2025-12-22',
+    day: 'Dimanche',
+    dayNum: '22',
+    month: 'DÉC',
+    time: '12h00',
+    duration: '2h',
+    placesTotal: 35,
+    placesRestantes: 28,
+    price: 38,
+    badge: 'Nouveauté',
+    badgeColor: 'gold'
+  }
+]
+
 // Événements disponibles
 const evenements = [
   {
@@ -147,7 +231,7 @@ export default function EvenementsPage() {
               Partagez des moments uniques autour du fromage dans une ambiance chaleureuse et authentique
             </p>
 
-            <div className="flex flex-wrap gap-6 justify-center">
+            <div className="flex flex-wrap gap-6 justify-center mb-8">
               <div className="px-6 py-3 border border-accent-600/30 text-white backdrop-blur-sm">
                 <span className="text-accent-600 font-light">{SITE_DATA.stats.eventsPerMonth}</span> soirées/mois
               </div>
@@ -158,12 +242,158 @@ export default function EvenementsPage() {
                 <span className="text-accent-600 font-light">{SITE_DATA.stats.satisfactionRate}%</span> satisfaits
               </div>
             </div>
+
+            {/* Badge prochaines dates */}
+            <a
+              href="#prochaines-dates"
+              className="inline-flex items-center gap-3 px-8 py-4 bg-accent-600/20 border-2 border-accent-600 text-white backdrop-blur-md hover:bg-accent-600 hover:text-black transition-all duration-500 group"
+            >
+              <Calendar className="w-5 h-5 text-accent-600 group-hover:text-black transition-colors" />
+              <span className="font-light">
+                <span className="text-accent-600 font-normal text-xl group-hover:text-black transition-colors">{prochainesDates.length}</span> dates disponibles ce mois-ci
+              </span>
+              <svg className="w-4 h-4 text-accent-600 group-hover:text-black transition-all group-hover:translate-y-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Section Prochaines Dates */}
+      <section id="prochaines-dates" className="py-32 bg-primary-900">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-20">
+            <Ornament className="text-accent-600 mx-auto mb-6" />
+            <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+              Réservez Maintenant
+            </p>
+            <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
+              Prochaines Dates<br />Disponibles
+            </h2>
+            <p className="text-lg text-primary-200 font-light max-w-2xl mx-auto">
+              Places limitées · Réservation en ligne instantanée
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+            {prochainesDates.map((date) => (
+              <div key={date.id} className="group relative">
+                {/* Badge si présent */}
+                {date.badge && (
+                  <div className="absolute -top-3 left-1/2 -translate-x-1/2 z-20">
+                    <span className={`inline-block px-4 py-1 text-xs tracking-[0.2em] uppercase font-medium ${
+                      date.badgeColor === 'red' ? 'bg-red-600 text-white' :
+                      date.badgeColor === 'green' ? 'bg-green-600 text-white' :
+                      'bg-accent-600 text-black'
+                    }`}>
+                      {date.badge}
+                    </span>
+                  </div>
+                )}
+
+                {/* Carte événement */}
+                <div className="bg-black border border-accent-600/30 p-8 transition-all duration-500 hover:border-accent-600 hover:shadow-[0_10px_40px_-10px_rgba(228,197,144,0.4)] hover:-translate-y-2">
+                  {/* Date */}
+                  <div className="text-center mb-6 pb-6 border-b border-accent-600/20">
+                    <div className="text-accent-600 text-sm tracking-[0.2em] uppercase font-light mb-2">
+                      {date.day}
+                    </div>
+                    <div className="text-6xl font-serif font-light text-white mb-1">
+                      {date.dayNum}
+                    </div>
+                    <div className="text-accent-600 text-sm tracking-[0.2em] uppercase font-light">
+                      {date.month}
+                    </div>
+                  </div>
+
+                  {/* Infos événement */}
+                  <div className="space-y-4 mb-6">
+                    <h3 className="text-2xl font-serif font-light text-white text-center">
+                      {date.eventType}
+                    </h3>
+
+                    <div className="flex items-center justify-center gap-2 text-primary-200 text-sm">
+                      <Clock className="w-4 h-4 text-accent-600" />
+                      <span className="font-light">{date.time} · {date.duration}</span>
+                    </div>
+
+                    {/* Disponibilité */}
+                    <div className="bg-primary-900/50 border border-accent-600/20 p-4">
+                      <div className="flex items-center justify-between mb-2">
+                        <span className="text-primary-300 text-sm font-light">Places restantes</span>
+                        <span className={`text-sm font-medium ${
+                          date.placesRestantes <= 6 ? 'text-red-500' : 'text-accent-600'
+                        }`}>
+                          {date.placesRestantes}/{date.placesTotal}
+                        </span>
+                      </div>
+                      <div className="w-full bg-primary-900 h-2 rounded-full overflow-hidden">
+                        <div
+                          className={`h-full transition-all duration-500 ${
+                            date.placesRestantes <= 6 ? 'bg-red-600' : 'bg-accent-600'
+                          }`}
+                          style={{ width: `${(date.placesRestantes / date.placesTotal) * 100}%` }}
+                        />
+                      </div>
+                    </div>
+
+                    {/* Prix */}
+                    <div className="text-center py-4">
+                      <div className="text-4xl font-serif text-accent-600 mb-1">
+                        {date.price}€
+                      </div>
+                      <div className="text-sm text-primary-300 font-light">
+                        par personne
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Boutons */}
+                  <div className="space-y-3">
+                    <Link
+                      href="/reserver"
+                      className="block w-full px-6 py-3 bg-accent-600 border border-accent-600 text-black text-xs tracking-[0.2em] uppercase hover:bg-transparent hover:text-accent-600 transition-all duration-500 text-center"
+                    >
+                      Réserver cette Date
+                    </Link>
+                    <Link
+                      href={`/evenements/${date.eventSlug}`}
+                      className="block w-full px-6 py-3 border border-accent-600/50 text-accent-600 text-xs tracking-[0.2em] uppercase hover:border-accent-600 transition-all duration-300 text-center"
+                    >
+                      Voir Détails
+                    </Link>
+                  </div>
+                </div>
+
+                {/* Ornament hover */}
+                <div className="mt-6 flex justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                  <svg className="w-12 h-2 text-accent-600" viewBox="0 0 48 8" fill="none">
+                    <path d="M0 4h20M24 0v8M28 4h20" stroke="currentColor" strokeWidth="0.5"/>
+                    <circle cx="24" cy="4" r="1" fill="currentColor"/>
+                  </svg>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* CTA bas de section */}
+          <div className="text-center mt-16">
+            <p className="text-primary-300 font-light mb-6">
+              Vous ne trouvez pas votre date idéale ?
+            </p>
+            <a
+              href={`tel:${SITE_DATA.business.contact.phone}`}
+              className="inline-block px-10 py-4 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500"
+            >
+              Contactez-nous pour une Date Personnalisée
+            </a>
           </div>
         </div>
       </section>
 
       {/* Liste des événements */}
-      <section className="py-32 bg-primary-900">
+      <section className="py-32 bg-black">
         <div className="container mx-auto px-4">
           <div className="text-center mb-20">
             <Ornament className="text-accent-600 mx-auto mb-6" />

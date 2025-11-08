@@ -3,11 +3,12 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Ornament } from '@/components/ui/Ornament'
 import { SITE_DATA } from '@/lib/constants'
+import { coffrets } from '@/lib/coffrets-data'
 import { Gift, Star, Award, CheckCircle, Package } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Offre du Mois & Coffrets | Formaticus Luxembourg',
-  description: 'Découvrez notre sélection du mois et nos coffrets découverte. Produits vedettes et collections exclusives mis à jour mensuellement.',
+  title: 'Box Fromage & Vin - Coffrets Premium | Formaticus Luxembourg',
+  description: 'Découvrez nos box fromage-vin et coffrets découverte. Sélections premium de fromages artisanaux AOP avec accords vins recommandés. Livraison Luxembourg.',
 }
 
 // Offre du mois actuelle
@@ -31,85 +32,7 @@ const offreDuMois = {
   validite: 'Valable jusqu\'au 31 décembre 2025'
 }
 
-// Coffrets disponibles
-const coffrets = [
-  {
-    id: 1,
-    nom: 'Coffret Découverte',
-    slug: 'coffret-decouverte',
-    image: 'https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=2940',
-    prix: 45,
-    description: 'Un voyage gustatif à travers 6 fromages AOP soigneusement sélectionnés pour découvrir la diversité fromagère.',
-    contenu: [
-      'Camembert de Normandie AOP',
-      'Comté 18 mois AOP',
-      'Roquefort AOP',
-      'Crottin de Chavignol AOP',
-      'Reblochon fermier AOP',
-      'Morbier AOP'
-    ],
-    ideal: 'Parfait pour découvrir les grands classiques',
-    badge: 'Best-Seller'
-  },
-  {
-    id: 2,
-    nom: 'Coffret Prestige',
-    slug: 'coffret-prestige',
-    image: 'https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?q=80&w=2940',
-    prix: 85,
-    description: 'Une sélection premium de 8 fromages d\'exception pour les palais les plus exigeants.',
-    contenu: [
-      'Comté 24 mois AOP Extra',
-      'Époisses AOP lavé au marc',
-      'Beaufort d\'alpage AOP',
-      'Roquefort Papillon AOP',
-      'Brie de Meaux AOP',
-      'Saint-Nectaire fermier AOP',
-      'Ossau-Iraty AOP',
-      'Munster-Géromé AOP'
-    ],
-    ideal: 'Le cadeau parfait pour les connaisseurs',
-    badge: 'Premium'
-  },
-  {
-    id: 3,
-    nom: 'Coffret Raclette Party',
-    slug: 'coffret-raclette-party',
-    image: 'https://images.unsplash.com/photo-1570197788417-0e82375c9371?q=80&w=2940',
-    prix: 52,
-    description: 'Tout le nécessaire pour une soirée raclette réussie avec 4 variétés de raclette artisanale.',
-    contenu: [
-      'Raclette du Valais AOP (500g)',
-      'Raclette fumée artisanale (500g)',
-      'Raclette aux herbes (500g)',
-      'Raclette au poivre (500g)',
-      'Charcuterie fine sélection',
-      'Cornichons et oignons grelots'
-    ],
-    ideal: 'Pour 4 à 6 personnes',
-    badge: 'Soirée'
-  },
-  {
-    id: 4,
-    nom: 'Coffret Fromages de Chèvre',
-    slug: 'coffret-chevre',
-    image: 'https://images.unsplash.com/photo-1530648672449-81f6c723e2f1?q=80&w=2940',
-    prix: 42,
-    description: 'Une exploration complète des fromages de chèvre, des plus doux aux plus affinés.',
-    contenu: [
-      'Crottin de Chavignol AOP frais',
-      'Crottin de Chavignol AOP sec',
-      'Sainte-Maure de Touraine AOP',
-      'Valençay AOP',
-      'Pouligny-Saint-Pierre AOP',
-      'Cabécou du Périgord'
-    ],
-    ideal: 'Pour les amateurs de fromages caprins',
-    badge: 'Spécialité'
-  }
-]
-
-export default function OffresPage() {
+export default function BoxFromageVinPage() {
   return (
     <main className="min-h-screen bg-black">
       {/* Hero Section */}
@@ -139,11 +62,11 @@ export default function OffresPage() {
             </div>
 
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-serif font-light text-white leading-[1.15] mb-8">
-              Offre du Mois<br />& Coffrets
+              Box Fromage & Vin
             </h1>
 
             <p className="text-base md:text-lg text-white font-light mb-12 max-w-2xl mx-auto">
-              Découvrez notre produit vedette et nos coffrets découverte mis à jour chaque mois
+              Découvrez nos coffrets premium de fromages artisanaux avec accords vins recommandés
             </p>
 
             <div className="flex flex-wrap gap-6 justify-center">
@@ -369,10 +292,10 @@ export default function OffresPage() {
 
                 <div className="text-center">
                   <Link
-                    href="/contact"
+                    href={`/box-fromage-vin/${coffret.slug}`}
                     className="inline-block px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500"
                   >
-                    Commander ce Coffret
+                    Découvrir ce Coffret
                   </Link>
                 </div>
               </div>
@@ -398,10 +321,10 @@ export default function OffresPage() {
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Link
-                href="/contact"
+                href="/plateau-sur-mesure"
                 className="px-12 py-4 bg-accent-600 border border-accent-600 text-black text-xs tracking-[0.2em] uppercase hover:bg-transparent hover:text-accent-600 transition-all duration-500"
               >
-                Nous Contacter
+                Créer Mon Plateau
               </Link>
               <a
                 href={`tel:${SITE_DATA.business.contact.phone}`}

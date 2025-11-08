@@ -1,19 +1,20 @@
 import type { Metadata } from 'next'
-import { Merriweather, Inter } from 'next/font/google'
+import { Cormorant_Garamond, Crimson_Text } from 'next/font/google'
 import './globals.css'
 import { generateHomeMetadata } from '@/lib/metadata'
 import { generateLocalBusinessSchema, generateOrganizationSchema } from '@/lib/schema'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 
-const merriweather = Merriweather({
-  weight: ['300', '400', '700', '900'],
+const cormorant = Cormorant_Garamond({
+  weight: ['300', '400', '500', '600', '700'],
   subsets: ['latin'],
   variable: '--font-serif',
   display: 'swap',
 })
 
-const inter = Inter({
+const crimson = Crimson_Text({
+  weight: ['400', '600', '700'],
   subsets: ['latin'],
   variable: '--font-sans',
   display: 'swap',
@@ -30,7 +31,7 @@ export default function RootLayout({
   const organizationSchema = generateOrganizationSchema()
 
   return (
-    <html lang="fr" className={`${merriweather.variable} ${inter.variable}`}>
+    <html lang="fr" className={`${cormorant.variable} ${crimson.variable}`}>
       <head>
         <script
           type="application/ld+json"

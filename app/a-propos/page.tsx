@@ -5,6 +5,7 @@ import { SITE_DATA } from '@/lib/constants'
 import { Award, Heart, Users, Leaf, CheckCircle } from 'lucide-react'
 import Link from 'next/link'
 import { Ornament } from '@/components/ui/Ornament'
+import { FadeInSection } from '@/components/ui/FadeInSection'
 
 export const metadata: Metadata = generateAboutMetadata()
 
@@ -49,11 +50,12 @@ export default function AProposPage() {
       </section>
 
       {/* Notre Histoire */}
-      <section className="py-32 bg-primary-900">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-20 items-center max-w-6xl mx-auto">
-            {/* Image */}
-            <div className="group">
+      <section className="py-40 bg-primary-900">
+        <div className="container mx-auto px-6 lg:px-12">
+          <FadeInSection delay={0.2}>
+            <div className="grid md:grid-cols-2 gap-20 items-center max-w-6xl mx-auto">
+              {/* Image */}
+              <div className="group">
               <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
                 <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
                   <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
@@ -103,27 +105,31 @@ export default function AProposPage() {
               </div>
             </div>
           </div>
+          </FadeInSection>
         </div>
       </section>
 
       {/* Nos Valeurs */}
-      <section className="py-32 bg-black">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-20">
-            <Ornament className="text-accent-600 mx-auto mb-6" />
-            <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
-              Nos Valeurs
-            </p>
-            <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
-              Principes<br />Fondamentaux
-            </h2>
-            <p className="text-lg text-primary-200 font-light max-w-3xl mx-auto leading-relaxed">
-              Les principes qui guident chacune de nos actions
-            </p>
-          </div>
+      <section className="py-40 bg-black">
+        <div className="container mx-auto px-6 lg:px-12">
+          <FadeInSection delay={0.2}>
+            <div className="text-center mb-20">
+              <Ornament className="text-accent-600 mx-auto mb-6" />
+              <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+                Nos Valeurs
+              </p>
+              <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
+                Principes<br />Fondamentaux
+              </h2>
+              <p className="text-lg text-primary-200 font-light max-w-3xl mx-auto leading-relaxed">
+                Les principes qui guident chacune de nos actions
+              </p>
+            </div>
+          </FadeInSection>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 max-w-6xl mx-auto">
-            <div className="group text-center">
+            <FadeInSection delay={0.4} direction="up">
+              <div className="group text-center">
               <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
                 <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
                   <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
@@ -146,8 +152,10 @@ export default function AProposPage() {
                 </svg>
               </div>
             </div>
+            </FadeInSection>
 
-            <div className="group text-center">
+            <FadeInSection delay={0.5} direction="up">
+              <div className="group text-center">
               <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
                 <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
                   <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
@@ -170,8 +178,10 @@ export default function AProposPage() {
                 </svg>
               </div>
             </div>
+            </FadeInSection>
 
-            <div className="group text-center">
+            <FadeInSection delay={0.6} direction="up">
+              <div className="group text-center">
               <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
                 <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
                   <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
@@ -194,8 +204,10 @@ export default function AProposPage() {
                 </svg>
               </div>
             </div>
+            </FadeInSection>
 
-            <div className="group text-center">
+            <FadeInSection delay={0.7} direction="up">
+              <div className="group text-center">
               <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
                 <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
                   <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
@@ -218,30 +230,34 @@ export default function AProposPage() {
                 </svg>
               </div>
             </div>
+            </FadeInSection>
           </div>
         </div>
       </section>
 
       {/* Notre Équipe */}
       {SITE_DATA.team && SITE_DATA.team.members && SITE_DATA.team.members.length > 0 && (
-        <section className="py-32 bg-primary-900">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-20">
-              <Ornament className="text-accent-600 mx-auto mb-6" />
-              <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
-                Notre Équipe
-              </p>
-              <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
-                Experts<br />Passionnés
-              </h2>
-              <p className="text-lg text-primary-200 font-light max-w-3xl mx-auto leading-relaxed">
-                Des experts passionnés à votre service
-              </p>
-            </div>
+        <section className="py-40 bg-primary-900">
+          <div className="container mx-auto px-6 lg:px-12">
+            <FadeInSection delay={0.2}>
+              <div className="text-center mb-20">
+                <Ornament className="text-accent-600 mx-auto mb-6" />
+                <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+                  Notre Équipe
+                </p>
+                <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
+                  Experts<br />Passionnés
+                </h2>
+                <p className="text-lg text-primary-200 font-light max-w-3xl mx-auto leading-relaxed">
+                  Des experts passionnés à votre service
+                </p>
+              </div>
+            </FadeInSection>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
               {SITE_DATA.team.members.map((member, idx) => (
-                <div key={idx} className="group text-center">
+                <FadeInSection key={idx} delay={0.4 + idx * 0.1} direction="up">
+                  <div className="group text-center">
                   <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
                     <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
                       <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
@@ -279,6 +295,7 @@ export default function AProposPage() {
                     </svg>
                   </div>
                 </div>
+                </FadeInSection>
               ))}
             </div>
           </div>
@@ -286,25 +303,29 @@ export default function AProposPage() {
       )}
 
       {/* Nos Engagements */}
-      <section className="py-32 bg-black">
-        <div className="container mx-auto px-4">
+      <section className="py-40 bg-black">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-20">
-              <Ornament className="text-accent-600 mx-auto mb-6" />
-              <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
-                Engagements
-              </p>
-              <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
-                Notre<br />Responsabilité
-              </h2>
-            </div>
+            <FadeInSection delay={0.2}>
+              <div className="text-center mb-20">
+                <Ornament className="text-accent-600 mx-auto mb-6" />
+                <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+                  Engagements
+                </p>
+                <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
+                  Notre<br />Responsabilité
+                </h2>
+              </div>
+            </FadeInSection>
 
             <div className="space-y-6">
               {SITE_DATA.sustainability && SITE_DATA.sustainability.commitments && SITE_DATA.sustainability.commitments.map((commitment, idx) => (
-                <div key={idx} className="flex items-start gap-4 bg-black/40 border border-accent-600/30 p-8">
+                <FadeInSection key={idx} delay={0.4 + idx * 0.1} direction="left">
+                  <div className="flex items-start gap-4 bg-black/40 border border-accent-600/30 p-8">
                   <CheckCircle className="w-6 h-6 text-accent-600 flex-shrink-0 mt-1" />
                   <p className="text-primary-200 font-light">{commitment}</p>
                 </div>
+                </FadeInSection>
               ))}
             </div>
           </div>
@@ -313,21 +334,24 @@ export default function AProposPage() {
 
       {/* Certifications */}
       {SITE_DATA.certifications && SITE_DATA.certifications.length > 0 && (
-        <section className="py-32 bg-primary-900">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-20">
-              <Ornament className="text-accent-600 mx-auto mb-6" />
-              <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
-                Reconnaissance
-              </p>
-              <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
-                Certifications<br />& Labels
-              </h2>
-            </div>
+        <section className="py-40 bg-primary-900">
+          <div className="container mx-auto px-6 lg:px-12">
+            <FadeInSection delay={0.2}>
+              <div className="text-center mb-20">
+                <Ornament className="text-accent-600 mx-auto mb-6" />
+                <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+                  Reconnaissance
+                </p>
+                <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
+                  Certifications<br />& Labels
+                </h2>
+              </div>
+            </FadeInSection>
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               {SITE_DATA.certifications.map((cert, idx) => (
-                <div key={idx} className="group text-center">
+                <FadeInSection key={idx} delay={0.4 + idx * 0.1} direction="up">
+                  <div className="group text-center">
                   <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
                     <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
                       <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
@@ -347,6 +371,7 @@ export default function AProposPage() {
                     </svg>
                   </div>
                 </div>
+                </FadeInSection>
               ))}
             </div>
           </div>
@@ -354,35 +379,37 @@ export default function AProposPage() {
       )}
 
       {/* CTA */}
-      <section className="py-32 bg-black">
-        <div className="container mx-auto px-4 text-center">
-          <div className="max-w-3xl mx-auto">
-            <Ornament className="text-accent-600 mx-auto mb-6" />
-            <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
-              Rejoignez-nous
-            </p>
-            <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
-              Prêt à Vivre<br />l'Expérience Formaticus ?
-            </h2>
-            <p className="text-lg text-primary-200 font-light mb-12 leading-relaxed max-w-2xl mx-auto">
-              Venez nous rencontrer en boutique ou réservez votre prochaine soirée conviviale
-            </p>
+      <section className="py-40 bg-black">
+        <div className="container mx-auto px-6 lg:px-12 text-center">
+          <FadeInSection delay={0.2}>
+            <div className="max-w-3xl mx-auto">
+              <Ornament className="text-accent-600 mx-auto mb-6" />
+              <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+                Rejoignez-nous
+              </p>
+              <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
+                Prêt à Vivre<br />l'Expérience Formaticus ?
+              </h2>
+              <p className="text-lg text-primary-200 font-light mb-12 leading-relaxed max-w-2xl mx-auto">
+                Venez nous rencontrer en boutique ou réservez votre prochaine soirée conviviale
+              </p>
 
-            <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <Link
-                href="/reserver"
-                className="px-12 py-4 bg-accent-600 border border-accent-600 text-black text-xs tracking-[0.2em] uppercase hover:bg-transparent hover:text-accent-600 transition-all duration-500"
-              >
-                Réserver une Soirée
-              </Link>
-              <Link
-                href="/contact"
-                className="px-12 py-4 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500"
-              >
-                Nous Contacter
-              </Link>
+              <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                <Link
+                  href="/reserver"
+                  className="px-12 py-4 bg-accent-600 border border-accent-600 text-black text-xs tracking-[0.2em] uppercase hover:bg-transparent hover:text-accent-600 transition-all duration-500"
+                >
+                  Réserver une Soirée
+                </Link>
+                <Link
+                  href="/contact"
+                  className="px-12 py-4 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-transparent hover:text-black transition-all duration-500"
+                >
+                  Nous Contacter
+                </Link>
+              </div>
             </div>
-          </div>
+          </FadeInSection>
         </div>
       </section>
     </main>

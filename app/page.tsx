@@ -22,6 +22,7 @@ import {
 import Autoplay from 'embla-carousel-autoplay'
 import { CountdownTimer } from '@/components/CountdownTimer'
 import { ParallaxScroll } from '@/components/ui/parallax-scroll'
+import { FadeInSection } from '@/components/ui/FadeInSection'
 
 // Données des slides pour le carousel hero
 const heroSlides = [
@@ -55,7 +56,7 @@ const heroSlides = [
     title: ['Coffrets Découverte', 'et Sélections Exclusives'],
     description: 'Découvrez notre produit vedette et nos coffrets fromagers mis à jour chaque mois',
     cta: 'VOIR LES OFFRES',
-    href: '/offres'
+    href: '/box-fromage-vin'
   }
 ]
 
@@ -95,7 +96,7 @@ export default function HomePage() {
                   </div>
 
                   {/* Contenu centré */}
-                  <div className="relative z-10 container mx-auto px-4 text-center">
+                  <div className="relative z-10 container mx-auto px-6 lg:px-12 text-center">
                     <div className="max-w-4xl mx-auto">
                       {/* Tagline doré en majuscules avec espacement large */}
                       <div className="mb-8">
@@ -166,7 +167,7 @@ export default function HomePage() {
       </section>
 
       {/* 2. We Offer Top Notch - 3 Column Grid comme Delici */}
-      <section className="py-32 bg-black relative">
+      <section className="py-40 bg-black relative">
         {/* Option: Background image avec overlay - décommenter si souhaité */}
         {/*
         <div className="absolute inset-0 z-0">
@@ -179,25 +180,28 @@ export default function HomePage() {
         </div>
         */}
 
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px-6 lg:px-12 relative z-10">
           {/* Header */}
-          <div className="text-center mb-20">
-            <Ornament className="text-accent-600 mx-auto mb-6" />
-            <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
-              Notre Univers Fromager
-            </p>
-            <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-6">
-              Trois Piliers d'Excellence
-            </h2>
-            <p className="text-white/80 text-lg max-w-2xl mx-auto font-light leading-relaxed">
-              Chez Formaticus, nous célébrons la culture fromagère à travers trois expériences uniques : notre sélection exceptionnelle de fromages artisanaux, nos soirées conviviales inoubliables, et nos ateliers de découverte passionnants.
-            </p>
-          </div>
+          <FadeInSection delay={0.2}>
+            <div className="text-center mb-20">
+              <Ornament className="text-accent-600 mx-auto mb-6" />
+              <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+                Notre Univers Fromager
+              </p>
+              <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-6">
+                Trois Piliers d'Excellence
+              </h2>
+              <p className="text-white/80 text-lg max-w-2xl mx-auto font-light leading-relaxed">
+                Chez Formaticus, nous célébrons la culture fromagère à travers trois expériences uniques : notre sélection exceptionnelle de fromages artisanaux, nos soirées conviviales inoubliables, et nos ateliers de découverte passionnants.
+              </p>
+            </div>
+          </FadeInSection>
 
           {/* 3 Column Grid avec ornements étoile */}
           <div className="grid md:grid-cols-3 gap-12">
             {/* Colonne 1 - Sélection Fromages */}
-            <div className="group text-center">
+            <FadeInSection delay={0.4} direction="up">
+              <div className="group text-center">
               {/* Ornement étoile top avec pulse au hover */}
               <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
                 <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.6)]" viewBox="0 0 32 32" fill="none">
@@ -243,10 +247,12 @@ export default function HomePage() {
               <Link href="/fromages" className="inline-block px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
                 Découvrir
               </Link>
-            </div>
+              </div>
+            </FadeInSection>
 
             {/* Colonne 2 - Soirées Conviviales */}
-            <div className="group text-center">
+            <FadeInSection delay={0.6} direction="up">
+              <div className="group text-center">
               <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
                 <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.6)]" viewBox="0 0 32 32" fill="none">
                   <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
@@ -286,10 +292,12 @@ export default function HomePage() {
               <Link href="/evenements" className="inline-block px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
                 Nos Événements
               </Link>
-            </div>
+              </div>
+            </FadeInSection>
 
             {/* Colonne 3 - Ateliers & Cours */}
-            <div className="group text-center">
+            <FadeInSection delay={0.8} direction="up">
+              <div className="group text-center">
               <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
                 <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.6)]" viewBox="0 0 32 32" fill="none">
                   <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
@@ -329,7 +337,8 @@ export default function HomePage() {
               <Link href="/evenements" className="inline-block px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
                 Participer
               </Link>
-            </div>
+              </div>
+            </FadeInSection>
           </div>
         </div>
       </section>
@@ -389,8 +398,8 @@ export default function HomePage() {
       </section>
 
       {/* 3b. Autres Événements à Venir - 3 cartes avec Stats */}
-      <section className="py-32 bg-primary-800">
-        <div className="container mx-auto px-4">
+      <section className="py-40 bg-primary-800">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="text-center mb-20">
             <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
               Actualités Fromagères
@@ -400,7 +409,7 @@ export default function HomePage() {
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-20">
+          <div className="grid md:grid-cols-3 gap-12 mb-20">
             {/* Event 1 */}
             <div className="group bg-primary-900 overflow-hidden">
               <div className="relative h-72 overflow-hidden">
@@ -520,8 +529,8 @@ export default function HomePage() {
       </section>
 
       {/* 5. Delicious Menu - Grid avec plats */}
-      <section className="py-32 bg-primary-900">
-        <div className="container mx-auto px-4">
+      <section className="py-40 bg-primary-900">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="text-center mb-20">
             <Ornament className="text-accent-600 mx-auto mb-6" />
             <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
@@ -680,8 +689,8 @@ export default function HomePage() {
       </section>
 
       {/* 6. Best Specialties - 4 cartes de plats */}
-      <section className="py-32 bg-primary-800">
-        <div className="container mx-auto px-4">
+      <section className="py-40 bg-primary-800">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="text-center mb-20">
             <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
               Nos Formules Phares
@@ -691,7 +700,7 @@ export default function HomePage() {
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
             {/* Carte 1 */}
             <div className="group text-center">
               <div className="relative h-80 mb-6 overflow-hidden rounded-sm">
@@ -948,69 +957,9 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 8. Meet Our Chef - Split Layout inversé */}
-      <section className="relative overflow-hidden">
-        <div className="grid lg:grid-cols-2">
-          {/* Contenu gauche */}
-          <div className="bg-primary-900 py-20 px-8 md:px-16 lg:px-24 flex items-center order-2 lg:order-1">
-            <div className="max-w-xl">
-              <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-4">
-                Équipe Passionnée
-              </p>
-
-              <Ornament className="text-accent-600 mb-8" />
-
-              <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-8 leading-tight">
-                Nos Experts<br />Fromagers
-              </h2>
-
-              <p className="text-primary-200 text-lg mb-8 leading-relaxed font-light">
-                Chez Formaticus, notre équipe d'experts fromagers diplômés partage avec vous leur passion et leurs connaissances. Formés auprès des meilleurs affineurs de France et de Suisse, ils sélectionnent avec soin chaque fromage et animent nos soirées et ateliers avec expertise et convivialité. Leur mission : vous faire découvrir l'univers fascinant du fromage artisanal.
-              </p>
-
-              <div className="mb-10">
-                <p className="text-primary-300 text-sm mb-2 font-light">Contactez nos Experts</p>
-                <a href={`tel:${SITE_DATA.business.contact.phone}`} className="text-accent-600 text-3xl font-serif hover:text-accent-500 transition-colors">
-                  {SITE_DATA.business.contact.phoneDisplay}
-                </a>
-              </div>
-
-              <Link href="/a-propos">
-                <button className="px-12 py-4 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
-                  Notre Histoire
-                </button>
-              </Link>
-            </div>
-          </div>
-
-          {/* Image droite + badge circulaire */}
-          <div className="relative h-[600px] lg:h-auto order-1 lg:order-2">
-            <Image
-              src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c"
-              alt="Nos experts fromagers"
-              fill
-              className="object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-l from-transparent to-black/20" />
-
-            {/* Badge circulaire "Since 2020" style */}
-            <div className="absolute top-8 right-8">
-              <div className="w-32 h-32 rounded-full border-2 border-accent-600 flex items-center justify-center bg-primary-900/90 backdrop-blur-sm">
-                <div className="text-center">
-                  <p className="text-accent-600 text-[10px] tracking-[0.2em] uppercase mb-1">Passion Artisanale</p>
-                  <p className="text-accent-600 text-xs tracking-[0.15em]">150+ Fromages</p>
-                  <div className="w-12 h-px bg-accent-600 mx-auto my-2"></div>
-                  <p className="text-accent-600 text-2xl font-serif">Depuis<br/>2020</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 9. Our Strength - 4 cartes */}
-      <section className="py-32 bg-primary-900">
-        <div className="container mx-auto px-4">
+      {/* 8. Our Strength - 4 cartes */}
+      <section className="py-40 bg-primary-900">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="text-center mb-20">
             <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
               Pourquoi Formaticus
@@ -1020,7 +969,7 @@ export default function HomePage() {
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
             {/* Strength 1 */}
             <div className="text-center group">
               <div className="mb-6 flex justify-center">
@@ -1113,8 +1062,8 @@ export default function HomePage() {
       </section>
 
       {/* 14. Customer Testimonials */}
-      <section className="py-32 bg-primary-900">
-        <div className="container mx-auto px-4">
+      <section className="py-40 bg-primary-900">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="text-center mb-20">
             <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
               Témoignages
@@ -1124,7 +1073,7 @@ export default function HomePage() {
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-12 max-w-6xl mx-auto">
             {/* Testimonial 1 */}
             <div className="bg-primary-800 p-8 group hover:bg-primary-750 transition-colors">
               <div className="flex gap-1 mb-6">
@@ -1192,8 +1141,8 @@ export default function HomePage() {
       </section>
 
       {/* 15. FAQ Section */}
-      <section className="py-32 bg-primary-800">
-        <div className="container mx-auto px-4">
+      <section className="py-40 bg-primary-800">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-20">
               <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
@@ -1310,8 +1259,8 @@ export default function HomePage() {
       </section>
 
       {/* 16. Instagram Feed / Social Gallery */}
-      <section className="py-32 bg-primary-900">
-        <div className="container mx-auto px-4">
+      <section className="py-40 bg-primary-900">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="text-center mb-20">
             <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
               Suivez-Nous
@@ -1430,8 +1379,8 @@ export default function HomePage() {
       </section>
 
       {/* 17. Partners & Certifications */}
-      <section className="py-32 bg-primary-800">
-        <div className="container mx-auto px-4">
+      <section className="py-40 bg-primary-800">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="text-center mb-20">
             <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
               Qualité & Confiance
@@ -1450,7 +1399,7 @@ export default function HomePage() {
             <h3 className="text-3xl font-serif font-light text-white text-center mb-12">
               Certifications Officielles
             </h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-12">
               {/* AOP Certification */}
               <div className="bg-primary-900 p-8 flex flex-col items-center justify-center group hover:bg-primary-750 transition-colors">
                 <div className="w-24 h-24 rounded-full bg-accent-600/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
@@ -1490,7 +1439,7 @@ export default function HomePage() {
             <h3 className="text-3xl font-serif font-light text-white text-center mb-12">
               Nos Producteurs Partenaires
             </h3>
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 gap-12">
               {/* Partner 1 */}
               <div className="bg-primary-900 p-8 group hover:bg-primary-750 transition-colors">
                 <div className="aspect-square mb-6 bg-accent-600/5 flex items-center justify-center">
@@ -1604,14 +1553,14 @@ export default function HomePage() {
       </section>
 
       {/* 18. Newsletter / Footer CTA */}
-      <section className="relative py-32 overflow-hidden">
+      <section className="relative py-40 overflow-hidden">
         <div className="absolute inset-0 bg-primary-900">
           <div className="absolute inset-0 opacity-5" style={{
             backgroundImage: `repeating-linear-gradient(0deg, #E4C590, #E4C590 1px, transparent 1px, transparent 40px), repeating-linear-gradient(90deg, #E4C590, #E4C590 1px, transparent 1px, transparent 40px)`,
           }} />
         </div>
 
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <Ornament className="text-accent-600 mx-auto mb-8" />
             <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">

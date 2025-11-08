@@ -13,7 +13,7 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
       {/* Top bar - Contact info */}
-      <div className="bg-black/10 backdrop-blur-lg border-b border-accent-600/20">
+      <div className="glass-light border-b border-accent-600/20">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center py-2.5 text-xs">
             {/* Adresse - Gauche */}
@@ -52,12 +52,12 @@ export function Header() {
       </div>
 
       {/* Main navigation */}
-      <div className="bg-black/10 backdrop-blur-lg">
+      <div className="glass-light">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group">
-              <div className="relative w-16 h-16 md:w-20 md:h-20">
+              <div className="relative w-16 h-16 md:w-20 md:h-20 hover-scale overflow-hidden rounded-full">
                 <Image
                   src="/FORMATICUS-1.jpg"
                   alt={SITE_DATA.business.name}
@@ -72,55 +72,55 @@ export function Header() {
             <nav className="hidden lg:flex items-center gap-8">
               <Link
                 href="/"
-                className="text-white hover:text-accent-600 font-light text-sm transition-colors"
+                className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300"
               >
                 Accueil
               </Link>
               <Link
                 href="/fromages"
-                className="text-white hover:text-accent-600 font-light text-sm transition-colors"
+                className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300"
               >
                 Nos Fromages
               </Link>
               <Link
                 href="/producteurs"
-                className="text-white hover:text-accent-600 font-light text-sm transition-colors"
+                className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300"
               >
                 Nos Producteurs
               </Link>
               <Link
-                href="/offres"
-                className="text-white hover:text-accent-600 font-light text-sm transition-colors"
+                href="/box-fromage-vin"
+                className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300"
               >
-                Offres
+                Box Fromage & Vin
               </Link>
               <Link
                 href="/evenements"
-                className="text-white hover:text-accent-600 font-light text-sm transition-colors"
+                className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300"
               >
                 Événements
               </Link>
               <Link
                 href="/traiteur"
-                className="text-white hover:text-accent-600 font-light text-sm transition-colors"
+                className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300"
               >
                 Traiteur
               </Link>
               <Link
                 href="/a-propos"
-                className="text-white hover:text-accent-600 font-light text-sm transition-colors"
+                className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300"
               >
                 À Propos
               </Link>
               <Link
                 href="/contact"
-                className="text-white hover:text-accent-600 font-light text-sm transition-colors"
+                className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300"
               >
                 Contact
               </Link>
               <Link
                 href="/reserver"
-                className="px-6 py-2.5 bg-accent-600 border border-accent-600 text-black text-xs tracking-[0.2em] uppercase hover:bg-transparent hover:text-accent-600 transition-all duration-500"
+                className="px-6 py-2.5 bg-accent-600 border border-accent-600 text-black text-xs tracking-[0.2em] uppercase hover:bg-transparent hover:text-accent-600 transition-all duration-500 hover-glow"
               >
                 Réserver
               </Link>
@@ -144,7 +144,7 @@ export function Header() {
 
       {/* Mobile menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-black/10 backdrop-blur-lg border-t border-accent-600/20">
+        <div className="lg:hidden glass-light border-t border-accent-600/20">
           <nav className="container mx-auto px-4 py-6 flex flex-col gap-4">
             <Link
               href="/"
@@ -168,11 +168,11 @@ export function Header() {
               Nos Producteurs
             </Link>
             <Link
-              href="/offres"
+              href="/box-fromage-vin"
               onClick={() => setMobileMenuOpen(false)}
               className="text-white hover:text-accent-600 font-light transition-colors py-2"
             >
-              Offres
+              Box Fromage & Vin
             </Link>
             <Link
               href="/evenements"
@@ -205,7 +205,7 @@ export function Header() {
             <Link
               href="/reserver"
               onClick={() => setMobileMenuOpen(false)}
-              className="w-full px-6 py-3 bg-accent-600 border border-accent-600 text-black text-xs tracking-[0.2em] uppercase hover:bg-transparent hover:text-accent-600 transition-all duration-500 text-center"
+              className="w-full px-6 py-3 bg-accent-600 border border-accent-600 text-black text-xs tracking-[0.2em] uppercase hover:bg-transparent hover:text-accent-600 transition-all duration-500 text-center hover-glow"
             >
               Réserver
             </Link>
