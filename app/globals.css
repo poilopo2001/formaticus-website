@@ -17,11 +17,14 @@
 
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
   body {
     @apply bg-primary-900 text-primary-50 font-sans antialiased;
     position: relative;
+    overflow-x: hidden;
+    max-width: 100vw;
   }
 
   /* Texture grain subtile sur le background */

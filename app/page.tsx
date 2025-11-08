@@ -65,7 +65,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-primary-900">
       {/* 1. Hero Section - Carousel Style Delici */}
-      <section className="relative h-screen">
+      <section className="relative h-screen pt-20">
         <Carousel
           opts={{
             align: 'start',
@@ -78,10 +78,10 @@ export default function HomePage() {
           ]}
           className="h-full"
         >
-          <CarouselContent className="h-screen -ml-0">
+          <CarouselContent className="h-full -ml-0">
             {heroSlides.map((slide, index) => (
               <CarouselItem key={index} className="pl-0">
-                <div className="relative h-screen flex items-center justify-center overflow-hidden">
+                <div className="relative h-full flex items-center justify-center overflow-hidden">
                   {/* Background Image avec overlay */}
                   <div className="absolute inset-0 z-0">
                     <Image
