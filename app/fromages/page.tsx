@@ -16,6 +16,7 @@ const filtresType = [
   { value: 'pate-pressee-cuite', label: 'Pâtes pressées cuites' },
   { value: 'pate-persillee', label: 'Pâtes persillées' },
   { value: 'chevre', label: 'Fromages de chèvre' },
+  { value: 'brebis', label: 'Fromages de brebis' },
 ]
 
 const filtresLait = [

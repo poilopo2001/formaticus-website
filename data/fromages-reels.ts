@@ -1,5 +1,5 @@
 // Types de fromages
-export type TypeFromage = 'pate-fraiche' | 'pate-molle-croute-fleurie' | 'pate-molle-croute-lavee' | 'pate-pressee-non-cuite' | 'pate-pressee-cuite' | 'pate-persillee' | 'chevre'
+export type TypeFromage = 'pate-molle-croute-fleurie' | 'pate-molle-croute-lavee' | 'pate-pressee-non-cuite' | 'pate-pressee-cuite' | 'pate-persillee' | 'chevre' | 'brebis'
 export type TypeLait = 'vache' | 'chevre' | 'brebis' | 'mixte'
 
 export interface Fromage {
@@ -168,7 +168,7 @@ export const fromagesReels: Fromage[] = [
     nom: 'Manchego',
     origine: 'Espagne',
     region: 'La Mancha, Espagne',
-    type: 'pate-pressee-non-cuite',
+    type: 'brebis',
     lait: 'brebis',
     image: '/Séance Photo Nicolas 20220423/manchego.jpg',
     aop: true,
@@ -400,7 +400,7 @@ export const fromagesReels: Fromage[] = [
     nom: 'Roquefort',
     origine: 'France',
     region: 'Aveyron, France',
-    type: 'pate-persillee',
+    type: 'brebis',
     lait: 'brebis',
     image: '/Séance Photo Nicolas 20220423/roquefort.jpg',
     aop: true,
@@ -614,7 +614,7 @@ export const fromagesReels: Fromage[] = [
     nom: 'Pécorino Sarde',
     origine: 'Italie',
     region: 'Sardaigne, Italie',
-    type: 'pate-pressee-cuite',
+    type: 'brebis',
     lait: 'brebis',
     image: '/Séance Photo Nicolas 20220423/pecorino-sarde.jpg',
     aop: false,
