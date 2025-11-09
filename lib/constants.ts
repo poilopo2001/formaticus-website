@@ -11,31 +11,31 @@ export const SITE_DATA: SiteData = {
     "siret": null,
     "tva": null,
     "contact": {
-      "phone": "+352 XX XX XX XX",
-      "phoneDisplay": "+352 XX XX XX XX",
-      "mobile": "+352 6XX XXX XXX",
-      "mobileDisplay": "+352 6XX XXX XXX",
+      "phone": "+352 27 51 78 85",
+      "phoneDisplay": "+352 27 51 78 85",
+      "mobile": "+352 27 51 78 85",
+      "mobileDisplay": "+352 27 51 78 85",
       "email": "contact@formaticus.lu",
       "website": "www.formaticus.lu",
       "address": {
-        "street": "[Adresse à compléter]",
-        "city": "Luxembourg",
-        "postalCode": "[Code postal]",
-        "canton": "Luxembourg",
+        "street": "2 Am Duerf",
+        "city": "Dudelange",
+        "postalCode": "3436",
+        "canton": "Esch-sur-Alzette",
         "country": "Luxembourg"
       },
       "shop": {
-        "street": "[Adresse à compléter]",
-        "city": "Luxembourg",
-        "postalCode": "[Code postal]",
+        "street": "2 Am Duerf",
+        "city": "Dudelange",
+        "postalCode": "3436",
         "hours": "Mar-Sam 10h-19h, Dim 10h-14h",
         "description": "Boutique fromagère avec espace dégustation et événements"
       },
       "coordinates": {
-        "lat": 49.6116,
-        "lng": 6.1319
+        "lat": 49.4813,
+        "lng": 6.0868
       },
-      "serviceRadius": "Luxembourg-Ville et Grand-Duché + livraison zones frontalières"
+      "serviceRadius": "Grand-Duché de Luxembourg + livraison zones frontalières"
     },
     "hours": {
       "weekdays": "Mardi - Vendredi: 10h00 - 19h00",
@@ -361,12 +361,12 @@ export const SITE_DATA: SiteData = {
       "priceRange": "€€",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "[Adresse]",
-        "addressLocality": "Luxembourg",
-        "postalCode": "[Code postal]",
+        "streetAddress": "2 Am Duerf",
+        "addressLocality": "Dudelange",
+        "postalCode": "3436",
         "addressCountry": "LU"
       },
-      "telephone": "+352-XX-XX-XX-XX",
+      "telephone": "+352-27-51-78-85",
       "openingHours": "Tu-Fr 10:00-19:00, Sa 10:00-19:00, Su 10:00-14:00",
       "aggregateRating": {
         "@type": "AggregateRating",
