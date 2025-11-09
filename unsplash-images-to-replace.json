@@ -1,0 +1,383 @@
+{
+  "metadata": {
+    "projet": "Formaticus - Fromagerie Artisanale Luxembourg",
+    "total_images_uniques": 25,
+    "total_occurrences": 135,
+    "instructions": "Utiliser Nano Banana ou autre AI image generator avec les prompts fournis. Les images générées doivent être placées dans /public/images-ai/ avec le nom de fichier indiqué.",
+    "format_recommande": "JPEG qualité 90%, dimensions selon usage",
+    "style_general": "Photographie professionnelle, lumière naturelle, style lifestyle premium, ambiance chaleureuse et artisanale"
+  },
+  "images": [
+    {
+      "id": 1,
+      "unsplash_id": "photo-1452195100486-9cc805987862",
+      "occurrences": 25,
+      "usage_principal": "Fromages variés - Image principale multi-usage",
+      "nouveau_nom": "fromages-variete-principale.jpg",
+      "dimensions": "1920x1080 (hero), 800x600 (cards)",
+      "prompt_ai": "Professional food photography of an artisanal cheese selection display on a rustic wooden board. Multiple varieties of French and Swiss cheeses beautifully arranged: aged Comté, creamy Brie, blue-veined Roquefort, and golden Gruyère. Soft natural window light from the left, warm color palette with amber and cream tones. Shallow depth of field focusing on the foreground cheeses. Artisanal presentation with fresh herbs (rosemary, thyme), dried fruits, walnuts scattered around. Background slightly blurred showing a cozy cheese shop interior. High-end lifestyle magazine aesthetic, appetizing and premium feel. Shot with 50mm lens at f/2.8.",
+      "fichiers_concernes": [
+        "app/page.tsx (hero, galerie, sections multiples)",
+        "app/evenements/[slug]/page.tsx (hero raclette, galerie)",
+        "app/evenements/page.tsx (card)",
+        "lib/constants.ts (service fromages)",
+        "lib/coffrets-data.ts (coffret découverte)",
+        "lib/metadata.ts (OpenGraph)",
+        "app/contact/page.tsx (galerie)",
+        "app/plateau-sur-mesure/page.tsx (formules)",
+        "app/producteurs/page.tsx (producteur)",
+        "app/a-propos/page.tsx (hero, histoire)"
+      ],
+      "contexte": "Image polyvalente représentant la diversité et qualité de la sélection fromagère"
+    },
+    {
+      "id": 2,
+      "unsplash_id": "photo-1530648672449-81f6c723e2f1",
+      "occurrences": 20,
+      "usage_principal": "Raclette / Fromage fondu",
+      "nouveau_nom": "raclette-fondue.jpg",
+      "dimensions": "1920x1080 (hero), 800x600 (cards)",
+      "prompt_ai": "Professional close-up food photography of melting raclette cheese being scraped onto boiled potatoes and charcuterie. Golden molten cheese stretching beautifully, steam rising. Traditional raclette grill visible in soft focus. Warm ambient lighting creating a cozy convivial atmosphere. Color palette: golden yellow, cream, warm browns. Background shows a rustic wooden table with guests slightly blurred. Shallow depth of field (f/2.0), focus on the melting cheese action. Lifestyle photography style, appetizing and inviting. Premium restaurant quality presentation.",
+      "fichiers_concernes": [
+        "app/page.tsx (hero slide, sections)",
+        "app/evenements/[slug]/page.tsx (galerie raclette, hero fondue)",
+        "app/evenements/page.tsx (cards raclette/fondue, hero)",
+        "lib/constants.ts (service raclette)",
+        "lib/coffrets-data.ts (coffret chèvre)"
+      ],
+      "contexte": "Événements conviviaux, soirées raclette et fondue"
+    },
+    {
+      "id": 3,
+      "unsplash_id": "photo-1486297678162-eb2a19b0a32d",
+      "occurrences": 19,
+      "usage_principal": "Plateau de fromages élégant",
+      "nouveau_nom": "plateau-fromages-elegant.jpg",
+      "dimensions": "1920x1080 (hero), 800x600 (sections)",
+      "prompt_ai": "Professional overhead food photography of an elegant cheese board on dark slate. Beautifully arranged artisanal cheeses with labels: aged hard cheese wedges, soft-ripened rounds, blue-veined portions. Accompanied by fresh figs, grapes, honey in small jar, walnuts, dried apricots, and fresh baguette slices. Two wine glasses with red wine in soft focus. Natural light from top-left creating dramatic shadows. Color palette: deep slate gray, golden cheese tones, purple grapes, amber honey. Premium lifestyle magazine aesthetic. Shot from directly above at 90 degrees, high-end presentation, aspirational and sophisticated feel.",
+      "fichiers_concernes": [
+        "app/page.tsx (hero slide, sections, galerie)",
+        "app/evenements/[slug]/page.tsx (galerie)",
+        "lib/coffrets-data.ts (coffret prestige)",
+        "app/contact/page.tsx (hero, galerie)",
+        "app/plateau-sur-mesure/page.tsx (budget découverte)",
+        "app/producteurs/page.tsx (producteur)",
+        "app/reserver/page.tsx (hero)",
+        "app/fromages/page.tsx (hero)"
+      ],
+      "contexte": "Présentation premium des plateaux et services sur mesure"
+    },
+    {
+      "id": 4,
+      "unsplash_id": "photo-1559339352-11d035aa65de",
+      "occurrences": 19,
+      "usage_principal": "Fromages artisanaux texture",
+      "nouveau_nom": "fromages-artisanaux-texture.jpg",
+      "dimensions": "1920x1080 (hero), 800x600 (cards)",
+      "prompt_ai": "Professional macro food photography of artisanal cheese textures. Close-up showing the beautiful aged rind of a farmhouse cheese wheel, with visible natural molds and rustic character. Background shows aging cave or cellar with wooden shelves stacked with cheese wheels. Warm diffused lighting highlighting the texture details. Color palette: earthy browns, cream, golden amber. Shallow depth of field focusing on the rind texture. Artisanal and authentic feel, celebrating traditional cheese-making craftsmanship. Shot with macro lens, high detail, professional food photography style.",
+      "fichiers_concernes": [
+        "app/page.tsx (hero slide, sections, galerie)",
+        "app/evenements/[slug]/page.tsx (tartiflette)",
+        "app/evenements/page.tsx (card tartiflette)",
+        "app/traiteur/page.tsx (hero)",
+        "app/box-fromage-vin/page.tsx (hero)",
+        "app/producteurs/page.tsx (hero)"
+      ],
+      "contexte": "Authenticité artisanale, affinage, tradition fromagère"
+    },
+    {
+      "id": 5,
+      "unsplash_id": "photo-1510812431401-41d2bd2722f3",
+      "occurrences": 8,
+      "usage_principal": "Dégustation vin et fromage",
+      "nouveau_nom": "degustation-vin-fromage.jpg",
+      "dimensions": "1920x1080 (hero), 800x600 (cards)",
+      "prompt_ai": "Professional lifestyle photography of a cheese and wine tasting event. Elegant table setup with multiple artisanal cheeses on wooden board, wine glasses with red and white wine, cheese knives, fresh grapes, and tasting notes. Hands of sommelier or cheese expert visible, pointing at cheese. Warm ambient lighting, candles in background creating intimate atmosphere. Color palette: warm browns, golden cheese, deep wine reds, cream linens. Shallow depth of field, focus on the tasting board in foreground. Premium event photography style, sophisticated and educational ambiance. Shot at 45-degree angle.",
+      "fichiers_concernes": [
+        "app/evenements/[slug]/page.tsx (cheese & wine hero et galerie)"
+      ],
+      "contexte": "Événement Cheese & Wine, ateliers dégustation"
+    },
+    {
+      "id": 6,
+      "unsplash_id": "photo-1618164435735-413d3b066c9a",
+      "occurrences": 7,
+      "usage_principal": "Fromages affinés en cave",
+      "nouveau_nom": "fromages-affines-cave.jpg",
+      "dimensions": "800x600",
+      "prompt_ai": "Professional photography of aged cheese wheels in traditional cheese cave or cellar. Multiple rounds of artisanal cheese on wooden shelves, showing various stages of affinage. Dramatic side lighting revealing the cave atmosphere, moisture on walls, cool temperature visible. Color palette: earthy browns, cream cheese, gray cave walls. Rustic and authentic environment. Focus on the cheese wheels in foreground with cave extending into soft focus background. Traditional cheese-making heritage aesthetic. Documentary-style photography celebrating artisanal craftsmanship.",
+      "fichiers_concernes": [
+        "app/contact/page.tsx (galerie)",
+        "app/box-fromage-vin/page.tsx (offre du mois)",
+        "app/plateau-sur-mesure/page.tsx (budget prestige)",
+        "app/producteurs/page.tsx (producteur)"
+      ],
+      "contexte": "Affinage professionnel, caves d'affinage, expertise"
+    },
+    {
+      "id": 7,
+      "unsplash_id": "photo-1628180188089-dc64ab3db923",
+      "occurrences": 3,
+      "usage_principal": "Fabrication artisanale du fromage",
+      "nouveau_nom": "fabrication-artisanale.jpg",
+      "dimensions": "800x600",
+      "prompt_ai": "Professional documentary-style photography of artisan cheese maker at work. Hands of craftsman working with cheese curd in traditional copper vat, stirring or cutting. Steam rising from fresh milk or whey. Rustic dairy workshop environment. Warm natural light from windows. Color palette: copper tones, white milk, cream curds, wooden tools. Focus on the hands and process, showing traditional savoir-faire. Authentic artisanal production atmosphere. Shot with documentary photography style, celebrating traditional cheese-making methods and expertise.",
+      "fichiers_concernes": [
+        "app/page.tsx (sections)",
+        "app/evenements/[slug]/page.tsx (galerie raclette)",
+        "app/producteurs/page.tsx (producteur Beillevaire)"
+      ],
+      "contexte": "Savoir-faire artisanal, producteurs partenaires, tradition"
+    },
+    {
+      "id": 8,
+      "unsplash_id": "photo-1570197788417-0e82375c9371",
+      "occurrences": 3,
+      "usage_principal": "Raclette fromage roue",
+      "nouveau_nom": "raclette-roue.jpg",
+      "dimensions": "800x600",
+      "prompt_ai": "Professional food photography of traditional raclette cheese half-wheel in special raclette heating device. The cut surface of the cheese facing heating element, beginning to melt. Golden melted layer visible on surface. Traditional Swiss or Savoyard raclette setup. Warm ambient lighting creating cozy atmosphere. Color palette: golden yellow cheese, dark heating device, rustic wood. Background shows convivial dining scene slightly blurred. Premium restaurant or event photography style. Shot at 45-degree angle showing the melting process.",
+      "fichiers_concernes": [
+        "lib/coffrets-data.ts (coffret raclette party)",
+        "app/producteurs/page.tsx (producteur Val d'Hérens)"
+      ],
+      "contexte": "Raclette traditionnelle, événements raclette party"
+    },
+    {
+      "id": 9,
+      "unsplash_id": "photo-1577219491135-ce391730fb2c",
+      "occurrences": 3,
+      "usage_principal": "Texture fromage macro",
+      "nouveau_nom": "texture-fromage-macro.jpg",
+      "dimensions": "800x600",
+      "prompt_ai": "Extreme close-up macro photography of artisanal cheese texture and interior. Beautiful crystalline structure of aged hard cheese like Comté or Parmigiano visible. Natural holes and moisture beads catching light. Creamy paste texture in sharp focus. Warm natural lighting highlighting the texture details. Color palette: cream, golden yellow, natural cheese tones. Abstract yet recognizable as cheese. High-end food photography celebrating the beauty and complexity of aged cheese. Shot with macro lens at high magnification, shallow depth of field.",
+      "fichiers_concernes": [
+        "app/page.tsx (sections)"
+      ],
+      "contexte": "Détails qualité, texture des fromages d'exception"
+    },
+    {
+      "id": 10,
+      "unsplash_id": "photo-1574071318508-1cdbab80d002",
+      "occurrences": 1,
+      "usage_principal": "Raclette événement",
+      "nouveau_nom": "raclette-evenement.jpg",
+      "dimensions": "400x300 (card)",
+      "prompt_ai": "Professional event photography of raclette evening party. Multiple raclette grills on table with people enjoying melted cheese on plates. Convivial atmosphere with friends/family gathered around. Warm glowing lights, candles, cozy winter ambiance. Color palette: warm oranges, golden cheese, soft candlelight. Lifestyle photography capturing the social and festive aspect of raclette dining. Shot from medium distance showing the gathering, focus on food and conviviality. Premium event photography style.",
+      "fichiers_concernes": [
+        "app/reserver/page.tsx (event type raclette card)"
+      ],
+      "contexte": "Sélection type d'événement raclette"
+    },
+    {
+      "id": 11,
+      "unsplash_id": "photo-1551248429-40975aa4de74",
+      "occurrences": 1,
+      "usage_principal": "Fondue événement",
+      "nouveau_nom": "fondue-evenement.jpg",
+      "dimensions": "400x300 (card)",
+      "prompt_ai": "Professional event photography of Swiss cheese fondue dinner. Fondue pot (caquelon) in center of table with bubbling melted cheese. Hands of guests dipping bread cubes on fondue forks. Wine glasses, bread basket, and small dishes of accompaniments visible. Warm intimate lighting creating cozy alpine atmosphere. Color palette: golden cheese, dark fondue pot, warm candlelight. Social and convivial scene. Lifestyle photography celebrating the Swiss fondue tradition. Shot from 45-degree angle, focus on the fondue pot and dining action.",
+      "fichiers_concernes": [
+        "app/reserver/page.tsx (event type fondue card)"
+      ],
+      "contexte": "Sélection type d'événement fondue"
+    },
+    {
+      "id": 12,
+      "unsplash_id": "photo-1619378082972-44bc0c30838f",
+      "occurrences": 1,
+      "usage_principal": "Tartiflette événement",
+      "nouveau_nom": "tartiflette-evenement.jpg",
+      "dimensions": "400x300 (card)",
+      "prompt_ai": "Professional food photography of tartiflette dish fresh from oven. Golden bubbling Reblochon cheese on top of potatoes, lardons, and onions in rustic baking dish. Steam rising from the hot dish. Checkered kitchen towel underneath. Warm kitchen lighting. Color palette: golden brown crispy cheese top, creamy interior, rustic earthenware dish. Background shows cozy mountain chalet dining scene. Appetizing and comforting feel. Shot at 45-degree angle, focus on the melted cheese surface. Premium food photography style.",
+      "fichiers_concernes": [
+        "app/reserver/page.tsx (event type tartiflette card)"
+      ],
+      "contexte": "Sélection type d'événement tartiflette"
+    },
+    {
+      "id": 13,
+      "unsplash_id": "photo-1530554764233-e79e16c91d08",
+      "occurrences": 1,
+      "usage_principal": "Confirmation réservation",
+      "nouveau_nom": "confirmation-success.jpg",
+      "dimensions": "800x600",
+      "prompt_ai": "Professional lifestyle photography conveying success and celebration. Elegant cheese and wine setup on beautiful table with champagne or wine glasses raised in toast. Soft bokeh lights in background creating festive atmosphere. Hands clinking glasses in foreground. Color palette: warm golds, sparkling bubbles, soft ambient lighting. Celebratory and uplifting mood. Premium event photography style. Shot with shallow depth of field, focus on the toast gesture. Conveys reservation confirmed, celebration beginning.",
+      "fichiers_concernes": [
+        "app/reserver/page.tsx (section confirmation)"
+      ],
+      "contexte": "Message de confirmation après réservation"
+    },
+    {
+      "id": 14,
+      "unsplash_id": "photo-1554009975-d74653b879f1",
+      "occurrences": 1,
+      "usage_principal": "Producteur fromager",
+      "nouveau_nom": "producteur-fromager-1.jpg",
+      "dimensions": "400x300",
+      "prompt_ai": "Professional portrait photography of artisan cheese maker in traditional dairy workshop. Cheese maker wearing white coat or apron, holding a cheese wheel with pride. Cheese aging shelves in background. Natural window light creating authentic workshop atmosphere. Color palette: white coat, cream cheese, wooden shelves, natural tones. Documentary-style portrait celebrating artisanal craftsmanship. Subject looking at camera or at cheese, professional yet warm expression. Shot at medium distance showing person and environment.",
+      "fichiers_concernes": [
+        "app/producteurs/page.tsx (Fromagerie Gaugry)"
+      ],
+      "contexte": "Portrait producteur partenaire Fromagerie Gaugry"
+    },
+    {
+      "id": 15,
+      "unsplash_id": "photo-1534536281715-e28d76689b4d",
+      "occurrences": 1,
+      "usage_principal": "Contact boutique",
+      "nouveau_nom": "boutique-interieur-1.jpg",
+      "dimensions": "800x600",
+      "prompt_ai": "Professional interior photography of artisanal cheese shop. Beautiful display counter with various cheese wheels and wedges under glass. Wooden shelves in background with more cheese aging. Warm welcoming lighting. Chalkboard menu on wall with cheese names. Fresh flowers or plants adding life. Color palette: warm woods, cream cheese displays, soft ambient lighting. Clean and inviting retail space. Shot from customer perspective showing the welcoming counter and expert ready to serve. Premium retail photography style.",
+      "fichiers_concernes": [
+        "app/contact/page.tsx (galerie)"
+      ],
+      "contexte": "Page contact, galerie boutique"
+    },
+    {
+      "id": 16,
+      "unsplash_id": "photo-1559561853-08451507cbe7",
+      "occurrences": 1,
+      "usage_principal": "Contact boutique 2",
+      "nouveau_nom": "boutique-interieur-2.jpg",
+      "dimensions": "800x600",
+      "prompt_ai": "Professional interior photography of cheese shop from different angle. Focus on cheese display cases with beautiful presentation. Wooden cutting boards, cheese knives, and tasting samples visible. Soft natural light from windows. Artisanal and welcoming atmosphere. Color palette: natural woods, stainless steel displays, warm lighting. Clean professional retail environment. Shot showing depth of shop, inviting customers to explore. Premium retail photography style.",
+      "fichiers_concernes": [
+        "app/contact/page.tsx (galerie)"
+      ],
+      "contexte": "Page contact, galerie boutique vue 2"
+    },
+    {
+      "id": 17,
+      "unsplash_id": "photo-1556910103-1c02745aae4d",
+      "occurrences": 1,
+      "usage_principal": "Contact boutique 3",
+      "nouveau_nom": "boutique-interieur-3.jpg",
+      "dimensions": "800x600",
+      "prompt_ai": "Professional lifestyle photography of customer interaction in cheese shop. Cheese expert (fromager) showing and cutting cheese for customer. Warm human interaction, explaining cheese characteristics. Natural friendly atmosphere. Color palette: warm tones, natural lighting, genuine human connection. Documentary-style retail photography showing excellent customer service. Shot from side angle capturing the consultation moment. Premium service photography style.",
+      "fichiers_concernes": [
+        "app/contact/page.tsx (galerie)"
+      ],
+      "contexte": "Page contact, interaction client-fromager"
+    },
+    {
+      "id": 18,
+      "unsplash_id": "photo-1506377247377-2a5b3b417ebb",
+      "occurrences": 1,
+      "usage_principal": "Cheese & Wine galerie 1",
+      "nouveau_nom": "cheese-wine-galerie-1.jpg",
+      "dimensions": "800x600",
+      "prompt_ai": "Professional event photography of wine and cheese pairing workshop. Wine bottles and glasses arranged with various cheeses on tasting table. Educational setting with tasting notes visible. Natural light from windows. Color palette: wine reds, golden cheese, white paper notes, wooden table. Learning and discovery atmosphere. Lifestyle event photography showing educational gastronomy experience. Shot from overhead showing the complete tasting setup.",
+      "fichiers_concernes": [
+        "app/evenements/[slug]/page.tsx (cheese & wine galerie)"
+      ],
+      "contexte": "Galerie événement Cheese & Wine"
+    },
+    {
+      "id": 19,
+      "unsplash_id": "photo-1543007631-283050bb3e8c",
+      "occurrences": 1,
+      "usage_principal": "Cheese & Wine galerie 2",
+      "nouveau_nom": "cheese-wine-galerie-2.jpg",
+      "dimensions": "800x600",
+      "prompt_ai": "Professional lifestyle photography of wine cellar or tasting room. Wooden wine barrels in background, wine bottles and cheese board on barrel top in foreground. Atmospheric cellar lighting with warm spots. Color palette: dark wine cellar, warm barrel wood, glowing bottles. Premium wine and cheese experience setting. Shot with depth of field showing cellar ambiance. Sophisticated and authentic feel.",
+      "fichiers_concernes": [
+        "app/evenements/[slug]/page.tsx (cheese & wine galerie)"
+      ],
+      "contexte": "Galerie événement Cheese & Wine"
+    },
+    {
+      "id": 20,
+      "unsplash_id": "photo-1474722883778-792e7990302f",
+      "occurrences": 1,
+      "usage_principal": "Cheese & Wine galerie 3",
+      "nouveau_nom": "cheese-wine-galerie-3.jpg",
+      "dimensions": "800x600",
+      "prompt_ai": "Professional close-up photography of wine being poured into glass next to artisanal cheese. Beautiful pour action captured with wine flowing. Cheese wedge in focus in foreground with wooden board. Warm ambient lighting. Color palette: deep wine red, golden cheese, dark background. Luxury gastronomy photography. Shot with fast shutter speed capturing the pour, shallow depth of field. Premium pairing concept visual.",
+      "fichiers_concernes": [
+        "app/evenements/[slug]/page.tsx (cheese & wine galerie)"
+      ],
+      "contexte": "Galerie événement Cheese & Wine"
+    },
+    {
+      "id": 21,
+      "unsplash_id": "photo-1586370434639-0fe43b2d32d6",
+      "occurrences": 1,
+      "usage_principal": "Cheese & Wine galerie 4",
+      "nouveau_nom": "cheese-wine-galerie-4.jpg",
+      "dimensions": "800x600",
+      "prompt_ai": "Professional overhead flat-lay photography of wine and cheese pairing. Multiple wine glasses (red and white), several cheese varieties arranged artistically, grapes, walnuts, bread slices. Hands reaching for food suggesting convivial tasting. Natural top lighting. Color palette: wine reds and whites, various cheese colors, natural food tones. Social dining experience from above. Lifestyle food photography celebrating pairing expertise.",
+      "fichiers_concernes": [
+        "app/evenements/[slug]/page.tsx (cheese & wine galerie)"
+      ],
+      "contexte": "Galerie événement Cheese & Wine"
+    },
+    {
+      "id": 22,
+      "unsplash_id": "photo-1464349095431-e9a21285b2a3",
+      "occurrences": 1,
+      "usage_principal": "Projet mariage BEFORE",
+      "nouveau_nom": "projet-mariage-before.jpg",
+      "dimensions": "600x400",
+      "prompt_ai": "Professional photography of wedding or event venue BEFORE setup. Empty elegant room with tables and chairs not yet arranged. Natural daylight. Neutral color palette. Clean professional space waiting to be transformed. Documentary before/after project photography. Shot showing the venue potential, waiting for decoration and catering setup.",
+      "fichiers_concernes": [
+        "lib/constants.ts (projet before mariage)"
+      ],
+      "contexte": "Portfolio projets - mariage avant"
+    },
+    {
+      "id": 23,
+      "unsplash_id": "photo-1515003197210-e0cd71810b5f",
+      "occurrences": 1,
+      "usage_principal": "Projet mariage AFTER",
+      "nouveau_nom": "projet-mariage-after.jpg",
+      "dimensions": "600x400",
+      "prompt_ai": "Professional photography of wedding or event beautifully set up with cheese and charcuterie catering. Elegant buffet table with multiple cheese displays, wine stations, floral decorations. Warm ambient lighting, candles, festive atmosphere. Color palette: elegant whites, golden lighting, colorful food displays. Premium event catering photography. Shot showing the complete transformed venue with guests enjoying the cheese buffet. Successful event documentation.",
+      "fichiers_concernes": [
+        "lib/constants.ts (projet after mariage)"
+      ],
+      "contexte": "Portfolio projets - mariage après"
+    },
+    {
+      "id": 24,
+      "unsplash_id": "photo-1511795409834-ef04bbd61622",
+      "occurrences": 1,
+      "usage_principal": "Projet team building BEFORE",
+      "nouveau_nom": "projet-teambuilding-before.jpg",
+      "dimensions": "600x400",
+      "prompt_ai": "Professional photography of corporate meeting room or event space BEFORE team building setup. Conference room with tables in standard arrangement. Professional neutral environment. Daylight from windows. Color palette: corporate neutrals, grays, whites. Clean professional space documentation. Shot showing the standard corporate environment before transformation into interactive cheese tasting workshop.",
+      "fichiers_concernes": [
+        "lib/constants.ts (projet before team building)"
+      ],
+      "contexte": "Portfolio projets - team building avant"
+    },
+    {
+      "id": 25,
+      "unsplash_id": "photo-1528605248644-14dd04022da1",
+      "occurrences": 1,
+      "usage_principal": "Projet team building AFTER",
+      "nouveau_nom": "projet-teambuilding-after.jpg",
+      "dimensions": "600x400",
+      "prompt_ai": "Professional photography of corporate team building cheese tasting workshop in action. Business professionals engaged in interactive cheese tasting activity, laughing and learning together. Multiple cheese tasting stations, wine glasses, educational materials. Warm collaborative atmosphere. Color palette: professional yet warm, natural lighting, engaged people. Event photography capturing team bonding through gastronomy. Shot showing active participation and positive team dynamics.",
+      "fichiers_concernes": [
+        "lib/constants.ts (projet after team building)"
+      ],
+      "contexte": "Portfolio projets - team building après"
+    }
+  ],
+  "guide_remplacement": {
+    "etape_1": "Générer toutes les images avec Nano Banana ou autre AI image generator en utilisant les prompts fournis",
+    "etape_2": "Sauvegarder chaque image générée avec le nom de fichier exact indiqué dans 'nouveau_nom'",
+    "etape_3": "Placer toutes les images dans le dossier /public/images-ai/",
+    "etape_4": "Exécuter le script de remplacement automatique replace-unsplash-images.js",
+    "etape_5": "Vérifier le build et tester le site",
+    "etape_6": "Optimiser les images si nécessaire (compression, WebP conversion)"
+  },
+  "notes_techniques": {
+    "style_general": "Maintenir cohérence visuelle: photographie professionnelle lifestyle, lumière naturelle chaude, palette ambre/crème/bois, ambiance artisanale premium",
+    "qualite": "Toujours générer en haute résolution puis redimensionner selon usage",
+    "format": "JPEG pour photos réalistes, qualité 85-90%",
+    "alternatives": "Considérer WebP pour meilleure compression (Next.js le gère automatiquement)",
+    "batch_generation": "Générer par thématique: d'abord tous les fromages, puis événements, puis boutique, etc."
+  }
+}
