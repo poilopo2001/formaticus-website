@@ -43,7 +43,7 @@ const heroSlides = [
     href: '/evenements'
   },
   {
-    image: '/Séance Photo Nicolas 20220423/plateau-fromages-01.jpg',
+    image: '/Séance Photo Nicolas 20220423/hero-fromages-cave.jpg',
     tagline: 'LA CAVE FORMATICUS',
     title: ['Plus de 150 Fromages', 'AOP et Fermiers'],
     description: 'Un voyage gustatif à travers les terroirs. Fromages français, suisses et luxembourgeois soigneusement sélectionnés.',
