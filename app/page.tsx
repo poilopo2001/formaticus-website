@@ -27,36 +27,36 @@ import { FadeInSection } from '@/components/ui/FadeInSection'
 // Données des slides pour le carousel hero
 const heroSlides = [
   {
-    image: 'https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?q=80&w=2940',
-    tagline: 'EXPÉRIENCE FROMAGÈRE',
-    title: ['Saveurs Inspirées par', 'les Saisons'],
-    description: 'Venez en famille et ressentez la joie d\'une expérience fromagère inoubliable',
-    cta: 'VOIR NOTRE SÉLECTION',
-    href: '/fromages'
+    image: '/Séance Photo Nicolas 20220423/hero-box-fromage-vin.jpg',
+    tagline: 'COFFRETS CADEAUX',
+    title: ['Coffrets Fromage & Vin', 'Prêts à Offrir'],
+    description: 'Des sélections authentiques composées par nos maîtres fromagers. Le cadeau parfait pour tous les amateurs de fromage.',
+    cta: 'DÉCOUVRIR LES COFFRETS',
+    href: '/box-fromage-vin'
   },
   {
     image: '/soiree amis.png',
-    tagline: 'SOIRÉES CONVIVIALES',
-    title: ['L\'Art de la Raclette', 'et du Partage'],
-    description: 'Découvrez nos soirées raclette, fondue et tartiflette dans une ambiance chaleureuse',
-    cta: 'RÉSERVER UNE SOIRÉE',
-    href: '/reserver'
+    tagline: 'ÉVÉNEMENTS CONVIVIAUX',
+    title: ['Soirées Raclette', 'Fondue & Tartiflette'],
+    description: 'Vivez une expérience fromagère inoubliable avec vos proches. Raclette, fondue et tartiflette dans une ambiance authentique.',
+    cta: 'VOIR NOS ÉVÉNEMENTS',
+    href: '/evenements'
   },
   {
-    image: 'https://images.unsplash.com/photo-1530648672449-81f6c723e2f1?q=80&w=2940',
-    tagline: 'SÉLECTION ARTISANALE',
+    image: '/Séance Photo Nicolas 20220423/plateau-fromages-01.jpg',
+    tagline: 'LA CAVE FORMATICUS',
     title: ['Plus de 150 Fromages', 'AOP et Fermiers'],
-    description: 'Des trésors fromagers sélectionnés avec passion auprès des meilleurs artisans',
-    cta: 'DÉCOUVRIR LA CAVE',
+    description: 'Un voyage gustatif à travers les terroirs. Fromages français, suisses et luxembourgeois soigneusement sélectionnés.',
+    cta: 'EXPLORER LA CAVE',
     href: '/fromages'
   },
   {
-    image: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=2940',
-    tagline: 'OFFRE DU MOIS',
-    title: ['Coffrets Découverte', 'et Sélections Exclusives'],
-    description: 'Découvrez notre produit vedette et nos coffrets fromagers mis à jour chaque mois',
-    cta: 'VOIR LES OFFRES',
-    href: '/box-fromage-vin'
+    image: '/Séance Photo Nicolas 20220423/plateau-fromages-03.jpg',
+    tagline: 'PLATEAUX SUR MESURE',
+    title: ['Service Traiteur', 'pour Vos Événements'],
+    description: 'Mariages, anniversaires, réceptions d\'entreprise... Créez avec nous le plateau fromager parfait pour votre événement.',
+    cta: 'COMMANDER UN PLATEAU',
+    href: '/traiteur'
   }
 ]
 
