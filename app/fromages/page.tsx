@@ -5,209 +5,17 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { MapPin, Milk, ChevronDown } from 'lucide-react'
 import { Ornament } from '@/components/ui/Ornament'
-
-// Types de fromages
-type TypeFromage = 'pate-fraiche' | 'pate-molle-croute-fleurie' | 'pate-molle-croute-lavee' | 'pate-pressee-non-cuite' | 'pate-pressee-cuite' | 'pate-persillee' | 'pate-fondue'
-type TypeLait = 'vache' | 'chevre' | 'brebis'
-type Origine = 'france' | 'suisse' | 'belgique' | 'italie'
-
-interface Fromage {
-  id: number
-  slug: string
-  nom: string
-  origine: string
-  region: string
-  type: TypeFromage
-  lait: TypeLait
-  image: string
-  aop: boolean
-  description: string
-  intensite: number
-  prixKg: number
-}
-
-// Catalogue de fromages
-const fromages: Fromage[] = [
-  {
-    id: 1,
-    slug: 'comte-24-mois',
-    nom: 'Comté 24 mois',
-    origine: 'france',
-    region: 'Jura, France',
-    type: 'pate-pressee-cuite',
-    lait: 'vache',
-    image: 'https://images.unsplash.com/photo-1618164435735-413d3b066c9a?q=80&w=2940',
-    aop: true,
-    description: 'Affinage exceptionnel de 24 mois. Notes de noisette, caramel et fruits secs.',
-    intensite: 4,
-    prixKg: 32
-  },
-  {
-    id: 2,
-    slug: 'epoisses',
-    nom: 'Époisses AOP',
-    origine: 'france',
-    region: 'Bourgogne, France',
-    type: 'pate-molle-croute-lavee',
-    lait: 'vache',
-    image: 'https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=2940',
-    aop: true,
-    description: 'Lavé au marc de Bourgogne. Texture onctueuse, saveur puissante et raffinée.',
-    intensite: 5,
-    prixKg: 38
-  },
-  {
-    id: 3,
-    slug: 'raclette-valais',
-    nom: 'Raclette du Valais AOP',
-    origine: 'suisse',
-    region: 'Valais, Suisse',
-    type: 'pate-pressee-non-cuite',
-    lait: 'vache',
-    image: 'https://images.unsplash.com/photo-1570197788417-0e82375c9371?q=80&w=2940',
-    aop: true,
-    description: 'La vraie raclette suisse. Fondant parfait, goût authentique de terroir alpin.',
-    intensite: 3,
-    prixKg: 28
-  },
-  {
-    id: 4,
-    slug: 'roquefort-papillon',
-    nom: 'Roquefort Papillon',
-    origine: 'france',
-    region: 'Aveyron, France',
-    type: 'pate-persillee',
-    lait: 'brebis',
-    image: 'https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?q=80&w=2940',
-    aop: true,
-    description: 'Roi des bleus. Persillé équilibré, onctueux, saveur intense et persistante.',
-    intensite: 5,
-    prixKg: 42
-  },
-  {
-    id: 5,
-    slug: 'reblochon-fermier',
-    nom: 'Reblochon Fermier AOP',
-    origine: 'france',
-    region: 'Savoie, France',
-    type: 'pate-molle-croute-lavee',
-    lait: 'vache',
-    image: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=2940',
-    aop: true,
-    description: 'Produit en alpage. Croûte orangée, pâte crémeuse, douceur savoyarde.',
-    intensite: 2,
-    prixKg: 26
-  },
-  {
-    id: 6,
-    slug: 'crottin-chavignol',
-    nom: 'Crottin de Chavignol AOP',
-    origine: 'france',
-    region: 'Sancerre, France',
-    type: 'pate-molle-croute-fleurie',
-    lait: 'chevre',
-    image: 'https://images.unsplash.com/photo-1530648672449-81f6c723e2f1?q=80&w=2940',
-    aop: true,
-    description: 'Chèvre sec du Berry. Texture dense, saveur caprine marquée, noisette.',
-    intensite: 4,
-    prixKg: 34
-  },
-  {
-    id: 7,
-    slug: 'beaufort-ete',
-    nom: "Beaufort d'Été",
-    origine: 'france',
-    region: 'Savoie, France',
-    type: 'pate-pressee-cuite',
-    lait: 'vache',
-    image: 'https://images.unsplash.com/photo-1577219491135-ce391730fb2c?q=80&w=2940',
-    aop: true,
-    description: "Prince des Gruyères. Fabriqué en alpage l'été, arômes floraux délicats.",
-    intensite: 3,
-    prixKg: 36
-  },
-  {
-    id: 8,
-    slug: 'camembert-normandie',
-    nom: 'Camembert de Normandie AOP',
-    origine: 'france',
-    region: 'Normandie, France',
-    type: 'pate-molle-croute-fleurie',
-    lait: 'vache',
-    image: 'https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=2940',
-    aop: true,
-    description: 'Au lait cru, moulé à la louche. Crémeux, champignon frais, beurre.',
-    intensite: 3,
-    prixKg: 24
-  },
-  {
-    id: 9,
-    slug: 'pecorino-romano',
-    nom: 'Pecorino Romano DOP',
-    origine: 'italie',
-    region: 'Lazio, Italie',
-    type: 'pate-pressee-cuite',
-    lait: 'brebis',
-    image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=2940',
-    aop: true,
-    description: 'Fromage ancestral romain. Texture friable, goût salé et piquant.',
-    intensite: 5,
-    prixKg: 30
-  },
-  {
-    id: 10,
-    slug: 'sainte-maure-touraine',
-    nom: 'Sainte-Maure de Touraine AOP',
-    origine: 'france',
-    region: 'Val de Loire, France',
-    type: 'pate-molle-croute-fleurie',
-    lait: 'chevre',
-    image: 'https://images.unsplash.com/photo-1530648672449-81f6c723e2f1?q=80&w=2940',
-    aop: true,
-    description: "Bûche cendrée traversée d'une paille. Fondant, notes caprines subtiles.",
-    intensite: 3,
-    prixKg: 32
-  },
-  {
-    id: 11,
-    slug: 'munster-gerome',
-    nom: 'Munster-Géromé AOP',
-    origine: 'france',
-    region: 'Alsace/Vosges, France',
-    type: 'pate-molle-croute-lavee',
-    lait: 'vache',
-    image: 'https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?q=80&w=2940',
-    aop: true,
-    description: 'Fromage de caractère vosgien. Croûte lavée, cœur fondant, arôme puissant.',
-    intensite: 5,
-    prixKg: 22
-  },
-  {
-    id: 12,
-    slug: 'fromage-orval',
-    nom: "Fromage d'Orval",
-    origine: 'belgique',
-    region: 'Gaume, Belgique',
-    type: 'pate-pressee-cuite',
-    lait: 'vache',
-    image: 'https://images.unsplash.com/photo-1618164435735-413d3b066c9a?q=80&w=2940',
-    aop: false,
-    description: "Affiné à la bière trappiste d'Orval. Texture souple, notes maltées uniques.",
-    intensite: 3,
-    prixKg: 26
-  }
-]
+import { fromagesReels } from '@/data/fromages-reels'
 
 // Options de filtres
 const filtresType = [
   { value: '', label: 'Tous les types' },
-  { value: 'pate-fraiche', label: 'Pâtes fraîches' },
   { value: 'pate-molle-croute-fleurie', label: 'Pâtes molles à croûte fleurie' },
   { value: 'pate-molle-croute-lavee', label: 'Pâtes molles à croûte lavée' },
   { value: 'pate-pressee-non-cuite', label: 'Pâtes pressées non cuites' },
   { value: 'pate-pressee-cuite', label: 'Pâtes pressées cuites' },
   { value: 'pate-persillee', label: 'Pâtes persillées' },
-  { value: 'pate-fondue', label: 'Pâtes fondues' },
+  { value: 'chevre', label: 'Fromages de chèvre' },
 ]
 
 const filtresLait = [
@@ -215,14 +23,17 @@ const filtresLait = [
   { value: 'vache', label: 'Vache' },
   { value: 'chevre', label: 'Chèvre' },
   { value: 'brebis', label: 'Brebis' },
+  { value: 'mixte', label: 'Mixte' },
 ]
 
 const filtresOrigine = [
   { value: '', label: 'Toutes origines' },
-  { value: 'france', label: 'France' },
-  { value: 'suisse', label: 'Suisse' },
-  { value: 'belgique', label: 'Belgique' },
-  { value: 'italie', label: 'Italie' },
+  { value: 'France', label: 'France' },
+  { value: 'Suisse', label: 'Suisse' },
+  { value: 'Italie', label: 'Italie' },
+  { value: 'Espagne', label: 'Espagne' },
+  { value: 'Pays-Bas', label: 'Pays-Bas' },
+  { value: 'Angleterre', label: 'Angleterre' },
 ]
 
 export default function FromagesPage() {
@@ -232,7 +43,7 @@ export default function FromagesPage() {
   const [filtreAOP, setFiltreAOP] = useState<boolean>(false)
 
   // Fromages filtrés
-  const fromagesFiltres = fromages.filter((fromage) => {
+  const fromagesFiltres = fromagesReels.filter((fromage) => {
     if (filtreType && fromage.type !== filtreType) return false
     if (filtreLait && fromage.lait !== filtreLait) return false
     if (filtreOrigine && fromage.origine !== filtreOrigine) return false
@@ -273,7 +84,7 @@ export default function FromagesPage() {
             </h1>
 
             <p className="text-base md:text-lg text-white font-light mb-12 max-w-2xl mx-auto">
-              Plus de 150 fromages AOP et fermiers sélectionnés avec passion auprès des meilleurs artisans.
+              42 fromages AOP et fermiers sélectionnés avec passion auprès des meilleurs artisans.
             </p>
           </div>
         </div>
