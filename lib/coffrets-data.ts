@@ -19,23 +19,23 @@ export const coffrets: Coffret[] = [
     id: 1,
     nom: 'Coffret Découverte',
     slug: 'coffret-decouverte',
-    image: 'https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=2940',
-    prix: 45,
-    description: 'Un voyage gustatif à travers 6 fromages AOP soigneusement sélectionnés pour découvrir la diversité fromagère française et européenne.',
+    image: '/Séance Photo Nicolas 20220423/plateau-fromages-01.jpg',
+    prix: 48,
+    description: 'Un voyage gustatif à travers 5 fromages artisanaux soigneusement sélectionnés, alliant douceur et caractère. Plateau composé de spécialités françaises et suisses.',
     contenu: [
-      'Camembert de Normandie AOP',
-      'Comté 18 mois AOP',
-      'Roquefort AOP',
-      'Crottin de Chavignol AOP',
-      'Reblochon fermier AOP',
-      'Morbier AOP'
+      'Tomme aux fleurs',
+      'Morbier Truffe',
+      'Tomme artisanale',
+      'Comté Vieux',
+      'St Félicien',
+      'Raisins frais'
     ],
-    ideal: 'Parfait pour découvrir les grands classiques',
+    ideal: 'Parfait pour découvrir des fromages de caractère',
     badge: 'Best-Seller',
     caracteristiques: [
-      '6 fromages AOP sélectionnés',
-      'Poids total : environ 1.2 kg',
-      'Livret de dégustation inclus',
+      '5 fromages artisanaux sélectionnés',
+      'Poids total : environ 1 kg',
+      'Raisins frais inclus',
       'Emballage cadeau premium',
       'Conservation optimale garantie',
       'Découpe artisanale'
@@ -49,34 +49,31 @@ export const coffrets: Coffret[] = [
   },
   {
     id: 2,
-    nom: 'Coffret Prestige',
-    slug: 'coffret-prestige',
-    image: 'https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?q=80&w=2940',
-    prix: 85,
-    description: 'Une sélection premium de 8 fromages d\'exception pour les palais les plus exigeants. Fromages rares et affinages d\'excellence.',
+    nom: 'Coffret Dégustation',
+    slug: 'coffret-degustation',
+    image: '/Séance Photo Nicolas 20220423/plateau-fromages-02.jpg',
+    prix: 42,
+    description: 'Une sélection harmonieuse de 3 fromages d\'exception alliant tradition et finesse. Un plateau équilibré pour une dégustation raffinée.',
     contenu: [
-      'Comté 24 mois AOP Extra',
-      'Époisses AOP lavé au marc',
-      'Beaufort d\'alpage AOP',
-      'Roquefort Papillon AOP',
-      'Brie de Meaux AOP',
-      'Saint-Nectaire fermier AOP',
-      'Ossau-Iraty AOP',
-      'Munster-Géromé AOP'
+      'Bandon',
+      'Comté Vieux',
+      'Bouqueteau (chèvre)',
+      'Raisins frais',
+      'Décoration végétale'
     ],
-    ideal: 'Le cadeau parfait pour les connaisseurs',
+    ideal: 'Le cadeau parfait pour une soirée dégustation',
     badge: 'Premium',
     caracteristiques: [
-      '8 fromages d\'exception',
-      'Poids total : environ 2 kg',
-      'Affinages 18-24 mois minimum',
-      'Sélection artisanale exclusive',
-      'Livret expert dégustation',
-      'Emballage luxe avec conservation'
+      '3 fromages d\'exception',
+      'Poids total : environ 700g',
+      'Affinages sélectionnés',
+      'Présentation soignée',
+      'Raisins frais inclus',
+      'Emballage élégant'
     ],
     accords: [
       'Grands vins de Bourgogne',
-      'Champagne millésimé',
+      'Champagne',
       'Pain de seigle',
       'Miel de châtaignier',
       'Fruits secs premium'
@@ -84,66 +81,33 @@ export const coffrets: Coffret[] = [
   },
   {
     id: 3,
-    nom: 'Coffret Raclette Party',
-    slug: 'coffret-raclette-party',
-    image: 'https://images.unsplash.com/photo-1570197788417-0e82375c9371?q=80&w=2940',
+    nom: 'Coffret Prestige',
+    slug: 'coffret-prestige',
+    image: '/Séance Photo Nicolas 20220423/plateau-fromages-03.jpg',
     prix: 52,
-    description: 'Tout le nécessaire pour une soirée raclette réussie avec 4 variétés de raclette artisanale et accompagnements traditionnels.',
+    description: 'Une composition prestigieuse de 4 fromages de terroirs variés, du caractère du Nord à la finesse de la pâte molle. Un plateau pour les véritables amateurs.',
     contenu: [
-      'Raclette du Valais AOP (500g)',
-      'Raclette fumée artisanale (500g)',
-      'Raclette aux herbes (500g)',
-      'Raclette au poivre (500g)',
-      'Charcuterie fine sélection',
-      'Cornichons et oignons grelots'
+      'T\'chiot Biloute',
+      'Abondance',
+      'Bleu D\'Auvergne',
+      'Brie de Nangis',
+      'Raisins frais'
     ],
-    ideal: 'Pour 4 à 6 personnes',
-    badge: 'Soirée',
-    caracteristiques: [
-      '2kg de fromages à raclette',
-      'Charcuterie fine incluse',
-      'Accompagnements traditionnels',
-      'Recettes et conseils de préparation',
-      'Conservation sous vide',
-      'Prêt à déguster'
-    ],
-    accords: [
-      'Vin blanc de Savoie Apremont',
-      'Fendant du Valais',
-      'Pommes de terre grenaille',
-      'Bière blanche artisanale'
-    ]
-  },
-  {
-    id: 4,
-    nom: 'Coffret Fromages de Chèvre',
-    slug: 'coffret-chevre',
-    image: 'https://images.unsplash.com/photo-1530648672449-81f6c723e2f1?q=80&w=2940',
-    prix: 42,
-    description: 'Une exploration complète des fromages de chèvre, des plus doux aux plus affinés. Découvrez toute la finesse des fromages caprins.',
-    contenu: [
-      'Crottin de Chavignol AOP frais',
-      'Crottin de Chavignol AOP sec',
-      'Sainte-Maure de Touraine AOP',
-      'Valençay AOP',
-      'Pouligny-Saint-Pierre AOP',
-      'Cabécou du Périgord'
-    ],
-    ideal: 'Pour les amateurs de fromages caprins',
+    ideal: 'Pour les connaisseurs et occasions spéciales',
     badge: 'Spécialité',
     caracteristiques: [
-      '6 fromages de chèvre AOP',
-      'Poids total : environ 900g',
-      'Du frais au sec affiné',
-      'Terroirs variés de France',
-      'Livret dégustation chèvres',
-      'Emballage préservant fraîcheur'
+      '4 fromages de terroirs variés',
+      'Poids total : environ 1.2 kg',
+      'Du Nord aux Alpes en passant par l\'Auvergne',
+      'Palette de saveurs complète',
+      'Raisins frais inclus',
+      'Emballage cadeau luxe'
     ],
     accords: [
-      'Vin blanc sec Sancerre',
-      'Vin rosé de Provence',
+      'Vin rouge Côtes du Rhône',
+      'Vin blanc sec Alsace',
       'Pain aux céréales',
-      'Miel d\'acacia',
+      'Confiture d\'oignons',
       'Noix fraîches'
     ]
   }
