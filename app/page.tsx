@@ -65,7 +65,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-primary-900">
       {/* 1. Hero Section - Carousel Style Delici */}
-      <section className="relative h-screen pt-20">
+      <section className="relative h-screen">
         <Carousel
           opts={{
             align: 'start',
@@ -78,10 +78,10 @@ export default function HomePage() {
           ]}
           className="h-full"
         >
-          <CarouselContent className="h-full -ml-0">
+          <CarouselContent className="h-screen -ml-0">
             {heroSlides.map((slide, index) => (
               <CarouselItem key={index} className="pl-0">
-                <div className="relative h-full flex items-center justify-center overflow-hidden">
+                <div className="relative h-screen flex items-center justify-center overflow-hidden">
                   {/* Background Image avec overlay */}
                   <div className="absolute inset-0 z-0">
                     <Image
@@ -1259,21 +1259,21 @@ export default function HomePage() {
       </section>
 
       {/* 16. Instagram Feed / Social Gallery */}
-      <section className="py-40 bg-primary-900">
-        <div className="container mx-auto px-6 lg:px-12">
+      <section className="py-40 bg-primary-900 overflow-hidden">
+        <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="text-center mb-20">
-            <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+            <p className="text-accent-600 tracking-[0.2em] md:tracking-[0.3em] text-xs font-light uppercase mb-6">
               Suivez-Nous
             </p>
-            <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-6">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-light text-white mb-6 break-words px-2">
               @formaticus_luxembourg
             </h2>
-            <p className="text-primary-200 text-lg font-light">
+            <p className="text-primary-200 text-base md:text-lg font-light px-4">
               Découvrez nos sélections de fromages et événements quotidiens
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 md:gap-4">
             {/* Instagram Image 1 */}
             <a href="#" className="relative aspect-square group overflow-hidden">
               <Image
@@ -1365,12 +1365,12 @@ export default function HomePage() {
             </a>
           </div>
 
-          <div className="text-center mt-12">
+          <div className="text-center mt-12 px-4">
             <a
               href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-12 py-4 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500"
+              className="inline-block px-8 md:px-12 py-4 border border-accent-600 text-accent-600 text-xs tracking-[0.15em] md:tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500"
             >
               Suivez-Nous sur Instagram
             </a>
