@@ -1,15 +1,12 @@
-import { Metadata } from 'next'
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
 import { Ornament } from '@/components/ui/Ornament'
 import { SITE_DATA } from '@/lib/constants'
 import { coffrets } from '@/lib/coffrets-data'
 import { Gift, Star, Award, CheckCircle, Package } from 'lucide-react'
-
-export const metadata: Metadata = {
-  title: 'Box Fromage & Vin - Coffrets Premium | Formaticus Luxembourg',
-  description: 'Découvrez nos box fromage-vin et coffrets découverte. Sélections premium de fromages artisanaux AOP avec accords vins recommandés. Livraison Luxembourg.',
-}
+import { useEffect, useState } from 'react'
 
 // Offre du mois actuelle
 const offreDuMois = {
@@ -33,18 +30,37 @@ const offreDuMois = {
 }
 
 export default function BoxFromageVinPage() {
+  const [scrollY, setScrollY] = useState(0)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY)
+    }
+
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   return (
     <main className="min-h-screen bg-black">
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Image
-            src="/Séance Photo Nicolas 20220423/hero-box-fromage-vin.jpg"
-            alt="Offre du Mois & Coffrets - Formaticus"
-            fill
-            className="object-cover"
-            priority
-          />
+          <div
+            className="absolute inset-0"
+            style={{
+              transform: `translateY(${scrollY * 0.5}px)`,
+              transition: 'transform 0.1s ease-out'
+            }}
+          >
+            <Image
+              src="/Séance Photo Nicolas 20220423/hero-box-fromage-vin.jpg"
+              alt="Offre du Mois & Coffrets - Formaticus"
+              fill
+              className="object-cover scale-110"
+              priority
+            />
+          </div>
           <div className="absolute inset-0 bg-black/60" />
         </div>
 

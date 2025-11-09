@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { MapPin, Milk, ChevronDown } from 'lucide-react'
 import { Ornament } from '@/components/ui/Ornament'
 import { fromagesReels } from '@/data/fromages-reels'
@@ -42,6 +42,16 @@ export default function FromagesPage() {
   const [filtreLait, setFiltreLait] = useState<string>('')
   const [filtreOrigine, setFiltreOrigine] = useState<string>('')
   const [filtreAOP, setFiltreAOP] = useState<boolean>(false)
+  const [scrollY, setScrollY] = useState(0)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY)
+    }
+
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   // Fromages filtrés
   const fromagesFiltres = fromagesReels.filter((fromage) => {
@@ -57,13 +67,21 @@ export default function FromagesPage() {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Image
-            src="/Séance Photo Nicolas 20220423/hero-fromages-cave.jpg"
-            alt="Notre Sélection de Fromages - Formaticus"
-            fill
-            className="object-cover"
-            priority
-          />
+          <div
+            className="absolute inset-0"
+            style={{
+              transform: `translateY(${scrollY * 0.5}px)`,
+              transition: 'transform 0.1s ease-out'
+            }}
+          >
+            <Image
+              src="/Séance Photo Nicolas 20220423/hero-fromages-cave.jpg"
+              alt="Notre Sélection de Fromages - Formaticus"
+              fill
+              className="object-cover scale-110"
+              priority
+            />
+          </div>
           <div className="absolute inset-0 bg-black/50" />
         </div>
 
