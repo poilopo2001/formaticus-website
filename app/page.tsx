@@ -1037,15 +1037,15 @@ export default function HomePage() {
                 ))}
               </div>
               <p className="text-primary-200 text-lg mb-8 font-light leading-relaxed italic">
-                "Formaticus propose une sélection exceptionnelle de fromages artisanaux. La soirée raclette était absolument divine !"
+                "Endroit découvert pour l'organisation d'un évènement au printemps, l'espace a permis de recevoir les convives dans la bonne humeur et de réaliser deux belles rencontres. Très bel accueil, professionnel et de très beaux produits. Je ne manquerai pas de revenir."
               </p>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-accent-600/20 flex items-center justify-center">
-                  <span className="text-accent-600 font-serif text-xl">M</span>
+                  <span className="text-accent-600 font-serif text-xl">T</span>
                 </div>
                 <div>
-                  <div className="text-white font-serif">Marie Laurent</div>
-                  <div className="text-primary-400 text-sm font-light">Critique Gastronomique</div>
+                  <div className="text-white font-serif">Tonio Bassani</div>
+                  <div className="text-primary-400 text-sm font-light">Local Guide · 7 avis · 437 photos</div>
                 </div>
               </div>
             </div>
@@ -1058,15 +1058,15 @@ export default function HomePage() {
                 ))}
               </div>
               <p className="text-primary-200 text-lg mb-8 font-light leading-relaxed italic">
-                "L'atelier fromage était incroyable. Nous avons tellement appris sur la production artisanale et la dégustation."
+                "Visiting the shop since it opened. The folks managing are so lovely, helpful and eager to provide you with a great experience. My favourite cheese shop in the whole BeneLux."
               </p>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-accent-600/20 flex items-center justify-center">
-                  <span className="text-accent-600 font-serif text-xl">J</span>
+                  <span className="text-accent-600 font-serif text-xl">C</span>
                 </div>
                 <div>
-                  <div className="text-white font-serif">Jean Dubois</div>
-                  <div className="text-primary-400 text-sm font-light">Chef Cuisinier</div>
+                  <div className="text-white font-serif">Chris Tintinger</div>
+                  <div className="text-primary-400 text-sm font-light">4 avis</div>
                 </div>
               </div>
             </div>
@@ -1079,15 +1079,15 @@ export default function HomePage() {
                 ))}
               </div>
               <p className="text-primary-200 text-lg mb-8 font-light leading-relaxed italic">
-                "Un véritable joyau à Luxembourg ! La sélection de fromages AOP est incomparable. Vivement recommandé !"
+                "Un choix varié avec toujours des conseils judicieux. Les plateaux de fromages représentent LE facteur différenciant cette boutique des autres. Considérant le prix raisonnable et le service apporté, Formaticus est notre choix de fromagerie numéro 1."
               </p>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-accent-600/20 flex items-center justify-center">
-                  <span className="text-accent-600 font-serif text-xl">S</span>
+                  <span className="text-accent-600 font-serif text-xl">B</span>
                 </div>
                 <div>
-                  <div className="text-white font-serif">Sophie Martin</div>
-                  <div className="text-primary-400 text-sm font-light">Cliente Fidèle</div>
+                  <div className="text-white font-serif">Bob S.</div>
+                  <div className="text-primary-400 text-sm font-light">3 avis · 1 photo</div>
                 </div>
               </div>
             </div>
