@@ -44,6 +44,7 @@ interface BookingData {
   email: string
   phone: string
   message: string
+  emailReminders: boolean
   acceptTerms: boolean
 }
 
@@ -744,7 +745,20 @@ export default function ReserverPage() {
                         />
                       </div>
 
-                      <div className="pt-6">
+                      <div className="pt-6 space-y-4">
+                        <label className="flex items-start gap-4 cursor-pointer group">
+                          <input
+                            type="checkbox"
+                            checked={bookingData.emailReminders !== false}
+                            onChange={(e) => updateBookingData({ emailReminders: e.target.checked })}
+                            className="w-6 h-6 mt-0.5 accent-accent-600 border-accent-600/30"
+                          />
+                          <span className="text-sm text-primary-200 font-light leading-relaxed">
+                            Recevoir un rappel automatique par email avant l'événement{' '}
+                            <span className="text-accent-600">(recommandé)</span>
+                          </span>
+                        </label>
+
                         <label className="flex items-start gap-4 cursor-pointer group">
                           <input
                             type="checkbox"
