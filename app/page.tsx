@@ -1549,7 +1549,7 @@ export default function HomePage() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1559339352-11d035aa65de"
+            src="/Séance Photo Nicolas 20220423/Generated Image November 10, 2025 - 11_03PM (1).png"
             alt="Cave à fromages Formaticus"
             fill
             className="object-cover"
