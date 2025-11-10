@@ -191,7 +191,7 @@ export default function ReserverPage() {
         <section className="relative min-h-screen flex items-center justify-center py-40">
           <div className="absolute inset-0 z-0">
             <Image
-              src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?q=80&w=2940"
+              src="/Séance Photo Nicolas 20220423/soiree-raclette-conviviale.jpg"
               alt="Réservation confirmée"
               fill
               className="object-cover"
@@ -346,7 +346,7 @@ export default function ReserverPage() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1530554764233-e79e16c91d08?q=80&w=2940"
+            src="/Séance Photo Nicolas 20220423/soiree-raclette-conviviale.jpg"
             alt="Réserver une soirée - Formaticus"
             fill
             className="object-cover"
