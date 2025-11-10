@@ -504,7 +504,7 @@ export default function HomePage() {
             <div className="flex gap-6 group">
               <div className="relative w-24 h-24 flex-shrink-0 overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d"
+                  src="/Séance Photo Nicolas 20220423/comte-vieux.jpg"
                   alt="Comté 24 mois"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -526,7 +526,7 @@ export default function HomePage() {
             <div className="flex gap-6 group">
               <div className="relative w-24 h-24 flex-shrink-0 overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1530648672449-81f6c723e2f1"
+                  src="/Séance Photo Nicolas 20220423/tomme-de-savoie.jpg"
                   alt="Reblochon Fermier"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -548,7 +548,7 @@ export default function HomePage() {
             <div className="flex gap-6 group">
               <div className="relative w-24 h-24 flex-shrink-0 overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1559339352-11d035aa65de"
+                  src="/Séance Photo Nicolas 20220423/roquefort.jpg"
                   alt="Roquefort Papillon"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -570,7 +570,7 @@ export default function HomePage() {
             <div className="flex gap-6 group">
               <div className="relative w-24 h-24 flex-shrink-0 overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1452195100486-9cc805987862"
+                  src="/Séance Photo Nicolas 20220423/brie-de-nangis.jpg"
                   alt="Brie de Meaux"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -592,7 +592,7 @@ export default function HomePage() {
             <div className="flex gap-6 group">
               <div className="relative w-24 h-24 flex-shrink-0 overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d"
+                  src="/Séance Photo Nicolas 20220423/crottin-fermier.jpg"
                   alt="Crottin de Chavignol"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -614,7 +614,7 @@ export default function HomePage() {
             <div className="flex gap-6 group">
               <div className="relative w-24 h-24 flex-shrink-0 overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1530648672449-81f6c723e2f1"
+                  src="/Séance Photo Nicolas 20220423/beaufort-dete.jpg"
                   alt="Beaufort d'Alpage"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
