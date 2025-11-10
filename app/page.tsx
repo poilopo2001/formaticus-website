@@ -349,8 +349,8 @@ export default function HomePage() {
           {/* Image gauche */}
           <div className="relative h-[600px] lg:h-auto">
             <Image
-              src="https://images.unsplash.com/photo-1452195100486-9cc805987862"
-              alt="Plat spécial fromage"
+              src="/Séance Photo Nicolas 20220423/soiree-raclette-conviviale.jpg"
+              alt="Soirée Raclette Conviviale - Formaticus"
               fill
               className="object-cover"
             />
