@@ -1,12 +1,11 @@
-import { Metadata } from 'next'
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
-import { generateEvenementsMetadata } from '@/lib/metadata'
 import { SITE_DATA } from '@/lib/constants'
 import { Ornament } from '@/components/ui/Ornament'
 import { Clock, Users, CheckCircle, Calendar } from 'lucide-react'
-
-export const metadata: Metadata = generateEvenementsMetadata()
+import { useState, useEffect } from 'react'
 
 // Prochaines dates disponibles (dates réelles à mettre à jour)
 const prochainesDates = [
@@ -194,19 +193,37 @@ const evenements = [
 
 export default function EvenementsPage() {
   const events = evenements
+  const [scrollY, setScrollY] = useState(0)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY)
+    }
+
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   return (
     <main className="min-h-screen bg-black">
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Image
-            src="https://images.unsplash.com/photo-1530648672449-81f6c723e2f1?q=80&w=2940"
-            alt="Soirées conviviales Formaticus"
-            fill
-            className="object-cover"
-            priority
-          />
+          <div
+            className="absolute inset-0"
+            style={{
+              transform: `translateY(${scrollY * 0.5}px)`,
+              transition: 'transform 0.1s ease-out'
+            }}
+          >
+            <Image
+              src="/Séance Photo Nicolas 20220423/hero-evenements-traiteur.jpg"
+              alt="Soirées conviviales Formaticus"
+              fill
+              className="object-cover scale-110"
+              priority
+            />
+          </div>
           <div className="absolute inset-0 bg-black/60" />
         </div>
 

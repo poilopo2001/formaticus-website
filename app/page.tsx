@@ -51,7 +51,7 @@ const heroSlides = [
     href: '/fromages'
   },
   {
-    image: '/Séance Photo Nicolas 20220423/plateau-fromages-03.jpg',
+    image: '/Séance Photo Nicolas 20220423/hero-evenements-traiteur.jpg',
     tagline: 'PLATEAUX SUR MESURE',
     title: ['Service Traiteur', 'pour Vos Événements'],
     description: 'Mariages, anniversaires, réceptions d\'entreprise... Créez avec nous le plateau fromager parfait pour votre événement.',
