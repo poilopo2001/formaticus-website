@@ -1058,7 +1058,7 @@ export default function HomePage() {
                 ))}
               </div>
               <p className="text-primary-200 text-lg mb-8 font-light leading-relaxed italic">
-                "Visiting the shop since it opened. The folks managing are so lovely, helpful and eager to provide you with a great experience. My favourite cheese shop in the whole BeneLux."
+                "Je visite la boutique depuis son ouverture. Les personnes qui la gèrent sont si adorables, serviables et désireuses de vous offrir une excellente expérience. Ma fromagerie préférée dans tout le BeneLux."
               </p>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-accent-600/20 flex items-center justify-center">
