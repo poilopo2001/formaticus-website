@@ -17,7 +17,7 @@ export default function AProposPage() {
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=2940"
-            alt="À Propos de Formaticus"
+            alt="Fromagerie Artisanale Luxembourg - À Propos Formaticus"
             fill
             className="object-cover"
             priority
@@ -39,7 +39,7 @@ export default function AProposPage() {
             </div>
 
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-serif font-light text-white leading-[1.15] mb-8">
-              Notre Passion<br />du Fromage
+              Fromagerie Artisanale<br />à Luxembourg
             </h1>
 
             <p className="text-base md:text-lg text-white font-light mb-12 max-w-2xl mx-auto">

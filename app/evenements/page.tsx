@@ -218,7 +218,7 @@ export default function EvenementsPage() {
           >
             <Image
               src="/Séance Photo Nicolas 20220423/hero-evenements-traiteur.jpg"
-              alt="Soirées conviviales Formaticus"
+              alt="Soirées Raclette Fondue Luxembourg - Formaticus"
               fill
               className="object-cover scale-110"
               priority
@@ -241,7 +241,7 @@ export default function EvenementsPage() {
             </div>
 
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-serif font-light text-white leading-[1.15] mb-8">
-              Soirées & Ateliers<br />Fromagers
+              Soirées Fromage<br />à Luxembourg
             </h1>
 
             <p className="text-base md:text-lg text-white font-light mb-12 max-w-2xl mx-auto">

@@ -76,7 +76,7 @@ export default function FromagesPage() {
           >
             <Image
               src="/Séance Photo Nicolas 20220423/hero-fromages-cave.jpg"
-              alt="Notre Sélection de Fromages - Formaticus"
+              alt="Fromages Artisanaux Luxembourg - Fromagerie Formaticus"
               fill
               className="object-cover scale-110"
               priority
@@ -99,7 +99,7 @@ export default function FromagesPage() {
             </div>
 
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-serif font-light text-white leading-[1.15] mb-8">
-              Notre Cave<br />Affinée
+              Fromages Artisanaux<br />Luxembourg
             </h1>
 
             <p className="text-base md:text-lg text-white font-light mb-12 max-w-2xl mx-auto">
@@ -351,10 +351,10 @@ export default function FromagesPage() {
               </Link>
 
               <Link
-                href="/reserver"
+                href="/contact"
                 className="px-12 py-4 bg-accent-600 border border-accent-600 text-black text-xs tracking-[0.2em] uppercase hover:bg-transparent hover:text-accent-600 transition-all duration-500"
               >
-                Réserver une Soirée
+                Nous Contacter
               </Link>
             </div>
           </div>

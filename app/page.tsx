@@ -29,7 +29,7 @@ const heroSlides = [
   {
     image: '/Séance Photo Nicolas 20220423/hero-box-fromage-vin.jpg',
     tagline: 'COFFRETS CADEAUX',
-    title: ['Coffrets Fromage & Vin', 'Prêts à Offrir'],
+    title: ['Coffrets Fromage & Vin', 'Luxembourg'],
     description: 'Des sélections authentiques composées par nos maîtres fromagers. Le cadeau parfait pour tous les amateurs de fromage.',
     cta: 'DÉCOUVRIR LES COFFRETS',
     href: '/box-fromage-vin'
@@ -37,7 +37,7 @@ const heroSlides = [
   {
     image: '/soiree amis.png',
     tagline: 'ÉVÉNEMENTS CONVIVIAUX',
-    title: ['Soirées Raclette', 'Fondue & Tartiflette'],
+    title: ['Soirées Raclette', 'à Luxembourg'],
     description: 'Vivez une expérience fromagère inoubliable avec vos proches. Raclette, fondue et tartiflette dans une ambiance authentique.',
     cta: 'VOIR NOS ÉVÉNEMENTS',
     href: '/evenements'
@@ -45,7 +45,7 @@ const heroSlides = [
   {
     image: '/Séance Photo Nicolas 20220423/hero-fromages-cave.jpg',
     tagline: 'LA CAVE FORMATICUS',
-    title: ['Plus de 150 Fromages', 'AOP et Fermiers'],
+    title: ['150+ Fromages Artisanaux', 'à Luxembourg'],
     description: 'Un voyage gustatif à travers les terroirs. Fromages français, suisses et luxembourgeois soigneusement sélectionnés.',
     cta: 'EXPLORER LA CAVE',
     href: '/fromages'
@@ -53,7 +53,7 @@ const heroSlides = [
   {
     image: '/Séance Photo Nicolas 20220423/hero-evenements-traiteur.jpg',
     tagline: 'PLATEAUX SUR MESURE',
-    title: ['Service Traiteur', 'pour Vos Événements'],
+    title: ['Service Traiteur', 'Luxembourg'],
     description: 'Mariages, anniversaires, réceptions d\'entreprise... Créez avec nous le plateau fromager parfait pour votre événement.',
     cta: 'COMMANDER UN PLATEAU',
     href: '/traiteur'
@@ -189,16 +189,16 @@ export default function HomePage() {
                 Notre Univers Fromager
               </p>
               <h2 className="text-5xl md:text-6xl font-serif font-light text-white mb-6">
-                Trois Piliers d'Excellence
+                Deux Piliers d'Excellence
               </h2>
               <p className="text-white/80 text-lg max-w-2xl mx-auto font-light leading-relaxed">
-                Chez Formaticus, nous célébrons la culture fromagère à travers trois expériences uniques : notre sélection exceptionnelle de fromages artisanaux, nos soirées conviviales inoubliables, et nos ateliers de découverte passionnants.
+                Chez Formaticus, nous célébrons la culture fromagère à travers deux expériences uniques : notre sélection exceptionnelle de fromages artisanaux et nos soirées conviviales inoubliables.
               </p>
             </div>
           </FadeInSection>
 
-          {/* 3 Column Grid avec ornements étoile */}
-          <div className="grid md:grid-cols-3 gap-12">
+          {/* 2 Column Grid avec ornements étoile */}
+          <div className="grid md:grid-cols-2 gap-12">
             {/* Colonne 1 - Sélection Fromages */}
             <FadeInSection delay={0.4} direction="up">
               <div className="group text-center">
@@ -213,7 +213,7 @@ export default function HomePage() {
               {/* Image avec glow et lift effect */}
               <div className="relative h-96 mb-8 overflow-hidden shadow-2xl transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(212,175,55,0.3)]">
                 <Image
-                  src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d"
+                  src="/Séance Photo Nicolas 20220423/plateau-fromages-01.jpg"
                   alt="Sélection fromages"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -291,51 +291,6 @@ export default function HomePage() {
 
               <Link href="/evenements" className="inline-block px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
                 Nos Événements
-              </Link>
-              </div>
-            </FadeInSection>
-
-            {/* Colonne 3 - Ateliers & Cours */}
-            <FadeInSection delay={0.8} direction="up">
-              <div className="group text-center">
-              <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
-                <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.6)]" viewBox="0 0 32 32" fill="none">
-                  <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
-                  <circle cx="16" cy="16" r="2" fill="black"/>
-                </svg>
-              </div>
-
-              <div className="relative h-96 mb-8 overflow-hidden shadow-2xl transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(212,175,55,0.3)]">
-                <Image
-                  src="https://images.unsplash.com/photo-1559339352-11d035aa65de"
-                  alt="Cave à fromages"
-                  fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-110"
-                />
-                {/* Overlay avec texte au hover */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center p-8">
-                  <p className="text-white/90 text-sm font-light leading-relaxed text-center">
-                    Initiez-vous à l'art de la dégustation fromagère ou apprenez à créer vos propres plateaux. Ateliers mensuels pour tous les niveaux, de débutant à expert.
-                  </p>
-                </div>
-                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
-                  <div className="absolute inset-0 border-2 border-accent-600/40 shadow-[inset_0_0_20px_rgba(212,175,55,0.2)]" />
-                </div>
-              </div>
-
-              <div className="mb-8 flex justify-center">
-                <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
-                  <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
-                  <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
-                </svg>
-              </div>
-
-              <h3 className="text-3xl font-serif font-light text-white mb-8">
-                Ateliers & Cours
-              </h3>
-
-              <Link href="/evenements" className="inline-block px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
-                Participer
               </Link>
               </div>
             </FadeInSection>

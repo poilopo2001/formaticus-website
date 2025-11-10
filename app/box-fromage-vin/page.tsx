@@ -55,7 +55,7 @@ export default function BoxFromageVinPage() {
           >
             <Image
               src="/Séance Photo Nicolas 20220423/hero-box-fromage-vin.jpg"
-              alt="Offre du Mois & Coffrets - Formaticus"
+              alt="Coffrets Fromages Luxembourg - Box Cadeau Formaticus"
               fill
               className="object-cover scale-110"
               priority
@@ -78,7 +78,7 @@ export default function BoxFromageVinPage() {
             </div>
 
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-serif font-light text-white leading-[1.15] mb-8">
-              Box Fromage & Vin
+              Coffrets Fromages<br />Luxembourg
             </h1>
 
             <p className="text-base md:text-lg text-white font-light mb-12 max-w-2xl mx-auto">
