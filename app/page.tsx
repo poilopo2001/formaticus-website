@@ -347,14 +347,14 @@ export default function HomePage() {
       <section className="relative overflow-hidden">
         <div className="grid lg:grid-cols-2">
           {/* Image gauche */}
-          <div className="relative h-[600px] lg:h-auto">
+          <div className="relative h-[600px] lg:h-auto bg-black">
             <Image
               src="/Séance Photo Nicolas 20220423/soiree-raclette-conviviale.jpg"
               alt="Soirée Raclette Conviviale - Formaticus"
               fill
-              className="object-cover"
+              className="object-contain lg:object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/30" />
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/30 pointer-events-none" />
           </div>
 
           {/* Contenu droite */}
