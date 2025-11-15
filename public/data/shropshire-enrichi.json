@@ -1,0 +1,41 @@
+{
+  "id": 68,
+  "slug": "shropshire",
+  "nom": "SHROPSHIRE",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 52.0,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Shropshire, joyau orangé des fromages anglais, offre une symphonie de saveurs où le piquant subtil rencontre une douceur beurrée irrésistible. Sa pâte persillée onctueuse fond en bouche, révélant un caractère affirmé et un long final savoureux.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Shropshire Hills, au cœur de l'Angleterre, offre un paysage vallonné de prairies verdoyantes et de douces collines. Ce terroir, façonné par des siècles d'agriculture, est l'écrin de ce fromage unique, où les vaches paissent paisiblement.",
+    "climat": "Le climat tempéré du Shropshire, avec ses précipitations régulières et ses étés doux, favorise une herbe riche et luxuriante. Cette alimentation de qualité contribue à la richesse et à la complexité du lait utilisé pour la fabrication du Shropshire.",
+    "elevage": "Les vaches laitières, majoritairement de race Holstein ou Friesian, profitent de longues périodes de pâturage en plein air, se nourrissant d'une herbe variée et riche en nutriments. L'attention portée au bien-être animal est primordiale, garantissant un lait de qualité supérieure.",
+    "savoir_faire": "Le Shropshire est le fruit d'un savoir-faire fromager traditionnel anglais, transmis de génération en génération. Si la recette est relativement récente (années 1970), elle s'inspire des techniques ancestrales de fabrication des fromages persillés, combinant innovation et respect des traditions."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Shropshire se distingue par sa couleur orange vive, due à l'ajout de rocou, un colorant naturel. Sa pâte est persillée de veines bleues-vertes, plus ou moins prononcées selon l'affinage. Sa croûte est fine et orangée, parfois légèrement collante.",
+    "texture": "Sa texture est à la fois ferme et fondante, offrant une sensation crémeuse en bouche. La présence de cristaux de tyrosine peut apparaître avec l'âge, apportant une légère sensation croquante. La pâte est souple et agréable au toucher.",
+    "aromes_primaires": "Les arômes primaires dominants sont lactiques, avec des notes de beurre frais et de crème. On perçoit également une légère odeur de cave et un parfum subtil de champignons frais.",
+    "aromes_secondaires": "Des arômes secondaires de noisette grillée, de foin coupé et de notes légèrement épicées viennent complexifier le profil aromatique. Une pointe d'amertume en fin de bouche ajoute de la profondeur.",
+    "evolution": "L'attaque est douce et crémeuse, laissant rapidement place à des saveurs plus prononcées de bleu et d'épices. Le milieu de bouche est ample et équilibré, avec une légère acidité. La finale est longue et persistante, laissant une agréable sensation beurrée et légèrement piquante. Sa longueur en bouche est remarquable.",
+    "temperature_service": "Il est idéal de servir le Shropshire à température ambiante (environ 20°C) afin de libérer pleinement ses arômes et d'apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Shropshire se conserve idéalement au réfrigérateur, entre 4°C et 8°C, dans son emballage d'origine ou enveloppé dans du papier sulfurisé.",
+    "avant_service": "Sortez-le du réfrigérateur au moins une heure avant de le déguster afin qu'il retrouve sa texture optimale et que ses arômes se développent pleinement. Cette étape est cruciale pour apprécier toutes ses nuances.",
+    "coupe": "Pour une présentation élégante, coupez le Shropshire en quartiers ou en tranches triangulaires, en veillant à ce que chaque portion contienne une part de croûte et de pâte persillée. Utilisez un couteau à fromage à lame fine pour une coupe nette.",
+    "presentation": "Présentez le Shropshire sur un plateau en bois ou en ardoise, accompagné de fruits frais (poires, figues), de noix (noix, amandes) et de pain de campagne. Une touche de miel peut également sublimer ses saveurs.",
+    "duree": "Une fois entamé, le Shropshire se conserve environ 5 à 7 jours au réfrigérateur, en veillant à bien le protéger de l'air."
+  },
+  "degustation": "Ce fromage offre une texture crémeuse et fondante, enrichie de saveurs piquantes et beurrées. Son intensité aromatique moyenne en fait un fromage accessible et apprécié par tous.",
+  "accords": "Le Shropshire s'accorde merveilleusement avec un vin de dessert liquoreux tel qu'un Sauternes Château d'Yquem, dont les notes miellées et fruitées équilibrent parfaitement le caractère piquant du fromage. Il se marie également très bien avec un Porto Tawny, dont les arômes de fruits secs et d'épices complètent sa complexité. Osez également un Gewürztraminer Vendanges Tardives.",
+  "histoire": "Créé dans les années 1970, le Shropshire est un fromage relativement récent, mais qui a rapidement conquis les amateurs de fromages persillés. Son nom rend hommage à la région anglaise du même nom, bien que sa production ait initialement lieu dans le Nottinghamshire, puis ailleurs. Il est aujourd'hui un fromage emblématique du Royaume-Uni."
+}

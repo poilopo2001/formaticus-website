@@ -1,0 +1,41 @@
+{
+  "id": 8,
+  "slug": "appenzeller",
+  "nom": "APPENZELLER",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 46.4,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "L'Appenzeller, un fromage suisse au lait cru, dévoile une pâte onctueuse qui fond délicatement en bouche, libérant un bouquet de saveurs allant de la noisette grillée à une finale subtilement épicée. Son caractère unique est le fruit d'un affinage soigné, empreint du savoir-faire ancestral des fromagers alpins.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "L'Appenzell, région vallonnée nichée au cœur des Alpes suisses, est un écrin de verdure où les pâturages s'étendent à perte de vue. Les pentes abruptes et les prairies d'altitude façonnent un paysage unique, propice à l'épanouissement d'une flore riche et variée. Cette géographie particulière contribue à la typicité du lait et, par conséquent, du fromage.",
+    "climat": "Le climat alpin, caractérisé par des étés frais et des hivers rigoureux, influence la croissance de l'herbe et la qualité du lait. L'alternance des saisons apporte des nuances subtiles aux saveurs du fromage, reflétant le cycle naturel de la montagne.",
+    "elevage": "Les vaches de race Brune, traditionnellement élevées dans la région, paissent librement sur les alpages durant la saison estivale. Elles se nourrissent d'une herbe riche et parfumée, composée de nombreuses variétés de plantes alpines. Cette alimentation naturelle confère au lait une saveur incomparable.",
+    "savoir_faire": "Le savoir-faire fromager de l'Appenzell se transmet de génération en génération, perpétuant des gestes ancestraux et des recettes secrètes. Chaque fromager possède sa propre méthode d'affinage, utilisant un mélange d'herbes et d'épices dont la composition est jalousement gardée."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "L'Appenzeller arbore une pâte ivoire à jaune pâle, parsemée de quelques ouvertures irrégulières. Sa croûte, frottée et brossée pendant l'affinage, présente une couleur brun-orangé caractéristique.",
+    "texture": "Sa texture est à la fois ferme et fondante, offrant une sensation tactile agréable en bouche. Le fromage se révèle souple et élastique, témoignant d'un affinage maîtrisé.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait cru, la noisette fraîche et le beurre fondu. Ces notes gourmandes invitent à la dégustation.",
+    "aromes_secondaires": "Des arômes secondaires plus subtils se révèlent ensuite, tels que des notes épicées, herbacées et légèrement fruitées. On perçoit parfois des nuances de foin coupé et de fruits secs.",
+    "evolution": "L'attaque en bouche est douce et crémeuse, suivie d'un milieu de bouche plus intense où les saveurs épicées se développent. La finale est longue et persistante, laissant une agréable sensation de chaleur et de complexité. La longueur en bouche est notable.",
+    "temperature_service": "Il est recommandé de servir l'Appenzeller à température ambiante (environ 18-20°C) afin de libérer pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver l'Appenzeller au réfrigérateur, dans une boîte hermétique ou enveloppé dans du papier sulfurisé, à une température entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation. Cela permettra à la pâte de s'assouplir et de développer pleinement ses arômes.",
+    "coupe": "Couper l'Appenzeller en tranches fines, en partant du centre vers l'extérieur, afin de préserver l'équilibre des saveurs.",
+    "presentation": "Présenter l'Appenzeller sur un plateau avec d'autres fromages de caractère, accompagnés de fruits frais, de noix et de pain de campagne.",
+    "duree": "Après ouverture, l'Appenzeller se conserve idéalement une semaine au réfrigérateur, en veillant à bien l'emballer."
+  },
+  "degustation": "La texture fondante et les arômes complexes d'épices et de noisettes grillées font de l'Appenzeller un fromage d'une intensité gustative remarquable. Sa longueur en bouche en fait un fromage inoubliable.",
+  "accords": "L'Appenzeller se marie à merveille avec un vin blanc sec et minéral, tel qu'un Chablis Premier Cru, dont la vivacité contraste avec la richesse du fromage. Un Pinot Gris d'Alsace, avec ses notes fruitées et épicées, constitue également un excellent accord. Pensez aussi à un vin jaune du Jura pour un accord régional.",
+  "histoire": "Originaire des Alpes suisses, l'Appenzeller est fabriqué selon des méthodes traditionnelles depuis plusieurs siècles. Son nom provient de la région d'Appenzell, où il est affiné avec un mélange secret d'herbes et d'épices."
+}

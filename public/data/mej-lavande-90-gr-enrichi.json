@@ -1,0 +1,41 @@
+{
+  "id": 135,
+  "slug": "mej-lavande-90-gr",
+  "nom": "MEJ'LAVANDE 90 GR",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 5.25,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Mej'Lavande, une ode à l'Occitanie, marie la douceur lactique du chèvre cru au parfum enivrant de la lavande. Un mariage harmonieux qui éveille les sens et invite à un voyage gustatif inoubliable.",
+  "terroir": {
+    "titre": "Le Terroir Occitan",
+    "geographie": "L'Occitanie, berceau de ce fromage d'exception, déploie ses paysages contrastés, des contreforts du Massif Central aux plaines ensoleillées bordant la Méditerranée. Les chèvres paissent dans ce territoire vallonné, profitant d'une flore variée et généreuse. Les parfums de garrigue et les brises marines influencent subtilement le lait, imprégnant le fromage de son identité unique.",
+    "climat": "Le climat méditerranéen, caractérisé par des étés chauds et secs et des hivers doux et humides, favorise une végétation riche et diversifiée. Le soleil généreux contribue à la concentration des arômes dans le lait, tandis que les pluies occasionnelles maintiennent la fraîcheur des pâturages.",
+    "elevage": "Les chèvres, élevées avec soin et respect, profitent d'un parcours libre dans les prairies verdoyantes. Leur alimentation naturelle, composée d'herbes sauvages et de fleurs locales, confère au lait une richesse aromatique incomparable. L'attention portée au bien-être animal se reflète dans la qualité exceptionnelle du fromage.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des techniques ancestrales. Le lait cru, travaillé avec passion et délicatesse, préserve toute sa richesse et sa complexité. L'affinage, lent et méticuleux, permet au fromage de développer ses saveurs uniques."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Mej'Lavande présente une pâte blanche à ivoire, légèrement crémeuse. La croûte, naturelle, est parsemée de fleurs de lavande séchées, ajoutant une touche visuelle élégante et raffinée.",
+    "texture": "La texture est souple et fondante en bouche, offrant une sensation à la fois douce et onctueuse. Une légère humidité sous la croûte peut se révéler, signe d'un affinage optimal.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait de chèvre frais, avec des notes subtiles de crème et de noisette fraîche.",
+    "aromes_secondaires": "Les arômes secondaires dévoilent des notes florales délicates de lavande, rehaussées par une pointe légèrement acidulée et un soupçon de garrigue.",
+    "evolution": "L'attaque est douce et crémeuse, évoluant vers un milieu de bouche plus intense où les arômes de lavande s'épanouissent pleinement. La finale est longue et persistante, laissant une agréable sensation de fraîcheur et de gourmandise. La longueur en bouche est remarquable.",
+    "temperature_service": "Il est conseillé de le servir à température ambiante (environ 18-20°C) afin de libérer pleinement ses arômes subtils et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4°C et 8°C, dans son emballage d'origine ou dans une boîte à fromage.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation pour qu'il retrouve sa texture optimale et que ses arômes se développent pleinement.",
+    "coupe": "Pour une présentation élégante, couper le Mej'Lavande en parts égales, en partant du centre vers l'extérieur.",
+    "presentation": "Présenter sur un plateau de fromages accompagné de fruits frais (raisins, figues), de pain de campagne et de quelques noix pour un accord parfait.",
+    "duree": "Une fois entamé, le Mej'Lavande se conserve idéalement 3 à 4 jours au réfrigérateur."
+  },
+  "degustation": "Sa texture fondante et ses arômes délicats de lavande en font un fromage d'exception. L'intensité est modérée, offrant un équilibre parfait entre douceur et caractère.",
+  "accords": "Le Mej'Lavande s'accorde à merveille avec un vin blanc sec et fruité, tel qu'un Pouilly-Fumé ou un Sancerre. La vivacité de ces vins souligne la fraîcheur du fromage et met en valeur ses notes florales. Il peut aussi être dégusté avec un vin rosé sec de Provence, pour un accord régional harmonieux.",
+  "histoire": "Né au cœur de l'Occitanie, le Mej'Lavande est le fruit d'un savoir-faire ancestral et d'une passion pour les produits authentiques. Ce fromage unique, sublimé par le parfum envoûtant de la lavande, incarne l'essence même du terroir."
+}

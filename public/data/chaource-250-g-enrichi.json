@@ -1,0 +1,41 @@
+{
+  "id": 105,
+  "slug": "chaource-250-g",
+  "nom": "CHAOURCE 250 G",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 12.7,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Chaource AOP, écrin de douceur du Grand Est, dévoile une pâte fondante aux arômes délicats de crème fraîche et de champignon frais. Sa saveur légèrement acidulée, typique des fromages au lait cru, évoque le terroir riche et préservé dont il est issu.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Chaource est né au cœur de la Champagne crayeuse et de la Bourgogne, une région vallonnée où alternent prairies verdoyantes et forêts denses. Son altitude modérée favorise un climat propice à l'épanouissement d'une flore diversifiée, essentielle à l'alimentation des vaches.",
+    "climat": "Le climat champenois, à la fois tempéré et humide, offre des conditions idéales pour le développement d'une herbe riche et abondante. Les étés doux et les hivers frais contribuent à la qualité du lait, conférant au Chaource son caractère unique.",
+    "elevage": "Les vaches laitières, principalement de race Montbéliarde et Brune, paissent librement dans les prairies verdoyantes dès que le temps le permet. Leur alimentation, riche en herbes fraîches et en foin de qualité, influe directement sur la saveur et la texture du fromage.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des gestes ancestraux et un respect rigoureux du cahier des charges de l'AOP. De l'emprésurage à l'affinage, chaque étape est réalisée avec soin pour garantir la qualité et l'authenticité du Chaource."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Chaource présente une pâte d'un blanc ivoire, lisse et uniforme, souvent légèrement bombée. Sa croûte, fine et duveteuse, se pare d'une légère fleur blanche, témoin de son affinage soigné.",
+    "texture": "En bouche, sa texture est fondante et onctueuse, presque beurrée, offrant une sensation de douceur et de légèreté. Sa pâte, sans être coulante, se révèle tendre et agréable au palais.",
+    "aromes_primaires": "Les arômes primaires évoquent la fraîcheur du lait cru, la crème fraîche, et une subtile note de champignon frais. Une légère odeur de cave humide, typique des fromages affinés, peut également se révéler.",
+    "aromes_secondaires": "Des arômes secondaires de noisette fraîche, de beurre fondu et une pointe d'acidité viennent compléter le profil aromatique complexe du Chaource. Ces nuances subtiles lui confèrent une longueur en bouche remarquable.",
+    "evolution": "L'attaque est douce et crémeuse, laissant rapidement place à des notes plus prononcées de champignon et de noisette. La finale, légèrement acidulée, persiste en bouche, invitant à une nouvelle dégustation. Sa longueur en bouche est moyenne.",
+    "temperature_service": "Il est idéal de le servir à température ambiante (environ 18-20°C) afin de libérer pleinement ses arômes et d'apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur, dans son emballage d'origine, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortir le Chaource du réfrigérateur environ 30 minutes avant de le déguster afin de lui permettre de développer pleinement ses saveurs et sa texture.",
+    "coupe": "Couper le Chaource en parts égales, en partant du centre vers l'extérieur, afin de garantir une dégustation homogène des différentes parties du fromage.",
+    "presentation": "Présenter le Chaource sur un plateau de fromages accompagné de fruits frais (raisins, figues), de noix et de pain de campagne.",
+    "duree": "Une fois entamé, le Chaource se conserve idéalement 2 à 3 jours au réfrigérateur, bien emballé."
+  },
+  "degustation": "Sa texture fondante et sa saveur douce et légèrement acidulée en font un fromage particulièrement agréable à déguster. Ses arômes subtils de crème fraîche et de champignon frais révèlent l'authenticité de son terroir.",
+  "accords": "Le Chaource s'accorde à merveille avec un Champagne Blanc de Blancs, dont les bulles fines et l'acidité vive équilibrent sa richesse crémeuse. Un Chablis Premier Cru, avec ses notes minérales et sa fraîcheur, est également un excellent choix. Pour les amateurs de vins rouges, un Bourgogne léger et fruité, tel qu'un Pinot Noir de la Côte de Beaune, sublimera ses arômes délicats.",
+  "histoire": "Le Chaource tire son nom du village éponyme situé dans l'Aube. Fromage ancestral, il est mentionné dès le XIVe siècle et bénéficie d'une Appellation d'Origine Protégée (AOP) depuis 1970, garantissant son authenticité et son savoir-faire artisanal."
+}

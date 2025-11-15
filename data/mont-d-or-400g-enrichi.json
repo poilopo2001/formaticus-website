@@ -1,0 +1,41 @@
+{
+  "id": 56,
+  "slug": "mont-d-or-400g",
+  "nom": "MONT D'OR 400G",
+  "image": "/images/mont-d-or-400g.jpg",
+  "prixKg": 20.05,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Mont d'Or AOP, un trésor de Bourgogne-Franche-Comté, se révèle comme une évasion gourmande. Sa texture onctueuse, presque liquide à maturité, renferme des saveurs délicates et boisées, sublimées par sa sangle d'épicéa.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Niché au cœur des montagnes du Jura, le Mont d'Or tire son caractère des pâturages d'altitude verdoyants. Les vallées profondes et les forêts denses façonnent un paysage unique, propice à l'élevage laitier.",
+    "climat": "Le climat montagnard, avec ses étés frais et ses hivers rigoureux, influence directement la qualité du lait. Les variations de température favorisent le développement d'une flore spécifique, essentielle à l'alimentation des vaches.",
+    "elevage": "Les vaches Montbéliardes, race emblématique de la région, paissent librement dans les prairies jurassiennes. Leur alimentation, riche en herbes et en fleurs sauvages, confère au lait des arômes subtils et une typicité incomparable. L'été, elles profitent de l'herbe fraiche des hauteurs. L'hiver, le foin des prairies est leur principal apport.",
+    "savoir_faire": "Le savoir-faire ancestral des fromagers jurassiens se transmet de génération en génération. L'utilisation de la sangle d'épicéa, coupée dans les forêts environnantes, est un geste précis et indispensable, garantissant la forme et le goût unique du Mont d'Or."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte, d'une couleur ivoire à crème, présente une texture lisse et brillante, souvent légèrement plissée. La croûte, fine et délicate, est marquée par l'empreinte de la sangle d'épicéa.",
+    "texture": "En bouche, le Mont d'Or offre une texture fondante et onctueuse, presque liquéfiée à pleine maturité. Sa douceur est enveloppante, laissant une sensation de crémeux persistant.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait cru, le beurre frais et la crème légèrement acidulée. Une pointe de levure lactique est également perceptible.",
+    "aromes_secondaires": "Des notes subtiles de résine de pin, de champignons frais et de foin coupés viennent complexifier le profil aromatique. Une touche végétale apporte de la fraîcheur.",
+    "evolution": "L'attaque est douce et crémeuse, suivie d'un milieu de bouche plus intense, où les arômes boisés se développent. La finale est longue et persistante, laissant une agréable sensation de chaleur et de confort. La longueur en bouche est appréciable.",
+    "temperature_service": "Le Mont d'Or se déguste idéalement à température ambiante (environ 20°C) afin de libérer pleinement ses arômes subtils et d'apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur, dans sa boîte d'origine, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortir le Mont d'Or du réfrigérateur au moins une heure avant la dégustation pour permettre à la pâte de s'assouplir et aux arômes de s'exprimer pleinement.",
+    "coupe": "Le Mont d'Or se déguste traditionnellement à la cuillère, directement dans sa boîte. On peut également inciser délicatement la croûte pour faciliter le service.",
+    "presentation": "Présenter le Mont d'Or sur un plateau en bois, accompagné de pain de campagne frais et de quelques noix. Une branche de sapin peut compléter la mise en scène.",
+    "duree": "Une fois ouvert, le Mont d'Or se conserve idéalement 24 à 48 heures au réfrigérateur."
+  },
+  "degustation": "Ce fromage AOP offre une texture fondante et riche. Ses arômes délicats et boisés se marient harmonieusement pour une expérience gustative inoubliable. L'intensité est moyenne, ce qui le rend accessible à tous.",
+  "accords": "Un vin blanc sec et fruité, tel qu'un Côtes du Jura Chardonnay, mettra en valeur la finesse du Mont d'Or. Pour les amateurs de vin rouge, un Pinot Noir de Bourgogne, léger et élégant, apportera un bel équilibre. Un vin jaune du Jura s'accorde aussi à merveille.",
+  "histoire": "Le Mont d'Or, fromage saisonnier par excellence, est fabriqué uniquement de septembre à mai. Son nom évoque le Mont d'Or, sommet emblématique du Jura, témoignant de son attachement à son terroir et de ses origines montagnardes. Son caractère unique en fait un ambassadeur de la gastronomie française."
+}

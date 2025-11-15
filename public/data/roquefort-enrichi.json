@@ -1,0 +1,41 @@
+{
+  "id": 64,
+  "slug": "roquefort",
+  "nom": "ROQUEFORT",
+  "image": "/Séance Photo Nicolas 20220423/roquefort-composite.jpg",
+  "prixKg": 52.0,
+  "type": "pate-pressee-cuite",
+  "lait": "brebis",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Roquefort, joyau persillé des Causses, offre une symphonie de saveurs où la puissance du lait de brebis cru rencontre la complexité des moisissures nobles. Sa texture fondante révèle un équilibre parfait entre force et délicatesse, évoquant le terroir unique dont il est issu.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Roquefort est né au cœur des Causses, un plateau calcaire aride et accidenté du sud de la France. Les reliefs karstiques, sculptés par l'érosion, abritent des grottes naturelles essentielles à son affinage. L'altitude modérée, entrecoupée de vallées verdoyantes, contribue à la typicité de ce terroir.",
+    "climat": "Le climat des Causses est contrasté, marqué par des étés chauds et secs et des hivers froids et humides. Ces variations climatiques favorisent le développement d'une flore spécifique, riche en herbes aromatiques, qui nourrit les brebis et influence la qualité du lait.",
+    "elevage": "Les brebis de race Lacaune, adaptées aux conditions rudes des Causses, pâturent librement sur les vastes étendues herbeuses. Leur alimentation, constituée d'herbes sauvages, de fleurs et de légumineuses, confère au lait des arômes complexes et une richesse nutritionnelle incomparable.",
+    "savoir_faire": "Le savoir-faire ancestral des producteurs de Roquefort se transmet de génération en génération. De la traite manuelle des brebis à l'affinage délicat dans les grottes naturelles de Roquefort-sur-Soulzon, chaque étape est réalisée avec un soin méticuleux et un respect profond des traditions."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Roquefort se présente avec une pâte d'un blanc ivoire, marbrée de veines bleu-vert intenses et irrégulières. Sa texture est légèrement humide, voire brillante, témoignant de son affinage en milieu humide.",
+    "texture": "En bouche, sa texture est à la fois fondante et légèrement friable. L'attaque est onctueuse, évoluant vers une sensation crémeuse et persistante. On peut percevoir une légère granularité due aux cristaux de sel formés pendant l'affinage.",
+    "aromes_primaires": "Les arômes primaires dominants sont lactiques et végétaux, évoquant le lait de brebis frais, la crème fraîche et une légère note de champignon frais.",
+    "aromes_secondaires": "Des arômes secondaires plus complexes se révèlent ensuite, tels que des notes de noix, de cave, de poivre blanc et une subtile pointe d'amertume.",
+    "evolution": "L'évolution en bouche est progressive et complexe. L'attaque est douce et crémeuse, le milieu de bouche révèle la puissance des moisissures et du sel, tandis que la finale est longue et persistante, laissant une sensation rafraîchissante et minérale. La longueur en bouche est remarquable.",
+    "temperature_service": "Il est préférable de servir le Roquefort à température ambiante (environ 16-18°C) afin de libérer pleinement ses arômes et d'apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez le Roquefort au réfrigérateur, dans son emballage d'origine ou enveloppé dans du papier aluminium, à une température comprise entre 4 et 8°C.",
+    "avant_service": "Sortez le Roquefort du réfrigérateur environ une heure avant la dégustation pour qu'il atteigne sa température idéale et que ses arômes se développent pleinement.",
+    "coupe": "Coupez le Roquefort en portions triangulaires, en partant du centre vers l'extérieur, afin de répartir uniformément les différentes saveurs et textures.",
+    "presentation": "Présentez le Roquefort sur un plateau de fromages en ardoise ou en bois, accompagné de fruits secs, de noix, de pain de campagne et de quelques feuilles de salade pour apporter une touche de fraîcheur.",
+    "duree": "Après ouverture, le Roquefort se conserve environ une semaine au réfrigérateur, en veillant à bien le protéger de l'air."
+  },
+  "degustation": "Le Roquefort offre une texture fondante et une palette aromatique complexe, dominée par les saveurs de lait de brebis et de moisissures nobles. Son intensité est soutenue, offrant une expérience gustative riche et persistante.",
+  "accords": "Pour un accord mets et vins harmonieux, privilégiez un vin rouge puissant et fruité, tel qu'un Châteauneuf-du-Pape aux notes de fruits rouges et d'épices, qui saura équilibrer la force du fromage. Un vin blanc liquoreux comme un Sauternes, avec ses arômes de miel et de fruits confits, peut également créer un contraste intéressant et sublimer les saveurs du Roquefort.",
+  "histoire": "Le Roquefort, fromage millénaire, est né d'une légende romantique et d'un terroir unique. Son affinage dans les grottes naturelles de Roquefort-sur-Soulzon lui confère son caractère exceptionnel et perpétue une tradition fromagère séculaire."
+}

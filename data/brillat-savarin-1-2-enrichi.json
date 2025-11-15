@@ -1,0 +1,41 @@
+{
+  "id": 94,
+  "slug": "brillat-savarin-1-2",
+  "nom": "BRILLAT SAVARIN 1\\2",
+  "image": "/images/brillat-savarin-1-2.jpg",
+  "prixKg": 12.3,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Brillat Savarin 1/2, une indulgence crémeuse originaire du Grand Est, offre une expérience gustative riche et complexe. Sa pâte onctueuse révèle des arômes subtils de terroir, promettant un voyage sensoriel inoubliable.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Grand Est, berceau de ce fromage d'exception, est une région aux paysages variés, sculptée par des vallées verdoyantes et des plateaux calcaires. L'altitude modérée et la richesse des sols contribuent à la qualité du lait.",
+    "climat": "Le climat continental de la région, caractérisé par des hivers froids et des étés chauds, influence la flore et l'alimentation des vaches. Les variations saisonnières marquent le caractère du lait, conférant au fromage sa typicité.",
+    "elevage": "Les vaches, nourries d'herbes fraîches et de foin de qualité, pâturent librement dans les prairies du Grand Est. Ce régime alimentaire naturel et équilibré se reflète dans la richesse et la complexité aromatique du lait.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des méthodes artisanales ancestrales. Chaque étape de la fabrication, du caillage à l'affinage, est réalisée avec soin et passion, garantissant la qualité exceptionnelle du Brillat Savarin."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Brillat Savarin 1/2 présente une pâte d'un blanc ivoire, légèrement brillante, témoignant de sa richesse en matière grasse. Sa croûte fine et duveteuse peut être parsemée de quelques moisissures nobles.",
+    "texture": "Sa texture est incroyablement fondante et onctueuse, presque beurrée, offrant une sensation voluptueuse en bouche. L'absence de granulosité assure un plaisir gustatif optimal.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent la crème fraîche, le beurre doux et le lait chaud, promesse d'une dégustation gourmande et réconfortante.",
+    "aromes_secondaires": "Des notes plus subtiles de champignons de sous-bois et de noisette apparaissent au fil de l'affinage, complexifiant le profil aromatique du fromage.",
+    "evolution": "L'attaque est douce et crémeuse, laissant rapidement place à des saveurs plus prononcées de champignon et de noisette. La finale est persistante, avec une légère pointe saline qui éveille les papilles. La longueur en bouche est remarquable.",
+    "temperature_service": "Servir à température ambiante (idéalement entre 18 et 20°C) pour permettre aux arômes de se libérer pleinement et à la texture de s'exprimer."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur, dans son emballage d'origine ou dans une boîte à fromage, à une température comprise entre 4 et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation pour qu'il retrouve sa texture optimale et que ses arômes se développent pleinement.",
+    "coupe": "Couper le Brillat Savarin 1/2 en parts égales, de la pointe vers le centre, pour une présentation esthétique et une dégustation harmonieuse.",
+    "presentation": "Présenter le Brillat Savarin sur un plateau avec des fruits frais (raisins, figues), des noix et du pain de campagne. Quelques crackers neutres peuvent également compléter la présentation.",
+    "duree": "À consommer de préférence dans les 5 à 7 jours après ouverture, pour profiter pleinement de sa fraîcheur et de ses arômes."
+  },
+  "degustation": "Ce Brillat Savarin 1/2 offre une texture crémeuse et fondante, avec des arômes délicats de crème et de champignon. Son intensité gustative est modérée, ce qui le rend accessible et agréable à déguster.",
+  "accords": "Un Coulommiers se marie idéalement avec un Bordeaux Supérieur rouge, de préférence à base de Merlot. Pour une alternative, un Saint-Pourçain rouge (Loire) est excellent. Les amateurs de vins blancs peuvent l'associer à un Côte de Beaune Blanc.",
+  "histoire": "Créé au début du XXe siècle, le Brillat Savarin est un hommage au célèbre gastronome français du même nom. Sa richesse et sa texture onctueuse en font un fromage d'exception, apprécié des connaisseurs."
+}

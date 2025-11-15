@@ -1,0 +1,41 @@
+{
+  "id": 208,
+  "slug": "cremeux-des-alpes",
+  "nom": "CREMEUX DES ALPES",
+  "image": "/images/cremeux-des-alpes.jpg",
+  "prixKg": 59.35,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Crémeux des Alpes, une invitation à la douceur et à la gourmandise. Sa pâte onctueuse fond délicatement en bouche, libérant des arômes lactiques subtils, témoins d'un savoir-faire fromager ancestral.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Ce fromage naît au cœur des Alpes suisses, où les paysages sont sculptés par des vallées verdoyantes et des sommets majestueux. L'altitude, souvent supérieure à 1000 mètres, confère à l'air une pureté exceptionnelle, bénéfique aux pâturages et aux vaches laitières. Ces vastes étendues d'herbe fraîche constituent le berceau de ce fromage d'exception.",
+    "climat": "Le climat alpin, caractérisé par des étés frais et des hivers rigoureux, joue un rôle essentiel dans le développement des arômes du lait. Les variations de température favorisent une flore diversifiée, transmise aux vaches et, par conséquent, au fromage.",
+    "elevage": "Les vaches de race suisse, fières ambassadrices de ce terroir, paissent librement dans les alpages durant la saison estivale. Leur alimentation, riche en herbes sauvages et en fleurs de montagne, influence directement la qualité du lait, lui conférant une saveur unique et complexe. Le respect du bien-être animal est au cœur de cette tradition d'élevage.",
+    "savoir_faire": "La fabrication du Crémeux des Alpes est un héritage précieux, transmis de génération en génération. Les fromagers locaux perpétuent des méthodes artisanales, privilégiant le travail manuel et le respect des traditions. Ce savoir-faire ancestral garantit la qualité et l'authenticité de ce fromage d'exception."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Crémeux des Alpes se présente sous une forme ronde et généreuse. Sa pâte, d'un blanc ivoire, est lisse et brillante. La croûte, fine et duveteuse, est légèrement fleurie.",
+    "texture": "Sa texture est incroyablement fondante et onctueuse, presque beurrée. En bouche, elle se révèle douce et enveloppante, caressant le palais d'une agréable sensation de confort.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait frais, la crème onctueuse et le beurre doux, témoignant de la qualité exceptionnelle du lait utilisé.",
+    "aromes_secondaires": "Des notes subtiles de noisette fraîche et de foin coupé viennent compléter ce profil aromatique délicat, apportant une complexité raffinée.",
+    "evolution": "L'attaque est douce et crémeuse, laissant rapidement place à des saveurs lactiques persistantes. Le milieu de bouche révèle des nuances de fruits secs, tandis que la finale est longue et savoureuse, invitant à la dégustation.",
+    "temperature_service": "Pour une dégustation optimale, il est recommandé de servir le Crémeux des Alpes à température ambiante (environ 18°C) afin de libérer pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Crémeux des Alpes se conserve idéalement au réfrigérateur, entre 4°C et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ 30 minutes avant de le déguster. Cela permettra à la pâte de s'assouplir et aux arômes de s'exprimer pleinement.",
+    "coupe": "Coupez le Crémeux des Alpes en parts égales, en partant du centre vers l'extérieur, afin de préserver l'harmonie des saveurs.",
+    "presentation": "Présentez-le sur un plateau en bois ou en ardoise, accompagné de fruits frais, de pain de campagne et de noix.",
+    "duree": "Une fois entamé, le Crémeux des Alpes se conserve environ 5 à 7 jours au réfrigérateur, bien emballé dans du papier sulfurisé."
+  },
+  "degustation": "Sa texture fondante et ses arômes lactiques délicats font de ce fromage un véritable plaisir gustatif. Son intensité est douce et accessible, parfaite pour une dégustation en toute simplicité.",
+  "accords": "Accompagnez le Crémeux des Alpes d'un vin blanc sec et fruité, tel qu'un Pinot Blanc d'Alsace ou un Chasselas suisse, pour un accord harmonieux. Un Crémant de Bourgogne brut apportera également une touche festive à la dégustation.",
+  "histoire": "Le Crémeux des Alpes est l'expression d'un terroir riche et d'un savoir-faire ancestral. Fabriqué à partir de lait thermisé de vaches suisses, ce fromage incarne la tradition fromagère alpine."
+}

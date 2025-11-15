@@ -1,0 +1,41 @@
+{
+  "id": 59,
+  "slug": "saveur-du-maquis",
+  "nom": "SAVEUR DU MAQUIS",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 49.5,
+  "type": "pate-pressee-cuite",
+  "lait": "brebis",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Saveur du Maquis, un fromage de brebis corse, est une ode à l'île de Beauté. Il offre une fraîcheur herbacée délicate, évoquant les senteurs ensoleillées du maquis corse.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "La Corse, une île montagneuse baignée par la Méditerranée, offre un paysage contrasté de pics escarpés et de vallées verdoyantes. L'altitude, souvent élevée, et la proximité de la mer confèrent à ce terroir un caractère unique. Les brebis paissent dans des zones où la nature sauvage prédomine.",
+    "climat": "Le climat méditerranéen, avec ses étés chauds et secs et ses hivers doux et humides, façonne le profil aromatique du lait. L'ensoleillement abondant favorise le développement d'une flore riche et variée, essentielle à l'alimentation des brebis.",
+    "elevage": "Les brebis corses évoluent en semi-liberté, parcourant les pentes du maquis à la recherche de nourriture. Leur alimentation, composée d'herbes aromatiques, de fleurs sauvages et de feuilles d'arbres, confère au lait un goût unique et complexe. L'élevage extensif respecte le bien-être animal et préserve l'environnement.",
+    "savoir_faire": "Le savoir-faire fromager corse se transmet de génération en génération, perpétuant des méthodes ancestrales. La transformation du lait cru en fromage est un art délicat qui exige patience et expertise. Chaque étape, du caillage à l'affinage, est réalisée avec soin et passion."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Saveur du Maquis présente une pâte ivoire à jaune pâle, parsemée d'herbes aromatiques séchées. Sa croûte est naturelle, fine et légèrement duveteuse. L'ensemble est appétissant et témoigne d'un affinage soigné.",
+    "texture": "En bouche, la texture est souple et fondante, avec une légère humidité. Le fromage libère une onctuosité agréable et une sensation de fraîcheur. L'intégration des herbes aromatiques apporte une légère mâche.",
+    "aromes_primaires": "Les arômes primaires dominants sont lactiques, évoquant le lait frais et le beurre doux. On perçoit également des notes végétales et herbacées, reflet du terroir corse.",
+    "aromes_secondaires": "Des arômes secondaires de garrigue, de thym, de romarin et de fleurs sauvages viennent complexifier le profil aromatique. Une subtile pointe d'acidité apporte de la vivacité.",
+    "evolution": "L'attaque est douce et fraîche, laissant rapidement place à des saveurs plus intenses de lait et d'herbes. La finale est persistante, avec une longueur en bouche agréable et une légère note poivrée. L'évolution est harmonieuse et équilibrée.",
+    "temperature_service": "Servir à température ambiante (environ 18-20°C) afin de permettre aux arômes de s'exprimer pleinement et d'apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4°C et 8°C, idéalement dans une boîte hermétique pour éviter le dessèchement et la propagation des odeurs.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation pour qu'il retrouve sa texture optimale et libère ses arômes.",
+    "coupe": "Couper en portions triangulaires pour mettre en valeur la texture et la répartition des herbes aromatiques.",
+    "presentation": "Présenter sur un plateau en bois avec des fruits secs (figues, amandes), des noix et du pain de campagne.",
+    "duree": "Conserver au maximum 5 jours après ouverture, en veillant à bien l'emballer."
+  },
+  "degustation": "Ce fromage de brebis offre une texture fondante et des arômes herbacés intenses. Son intensité est modérée, ce qui le rend accessible à tous les palais.",
+  "accords": "Accompagnez ce Saveur du Maquis d'un vin rouge fruité et léger, comme un Vacqueyras, pour faire écho aux notes herbacées. Un Chignin Bergeron, vin blanc savoyard aux arômes floraux et minéraux, apportera également un bel équilibre. Évitez les vins trop tanniques.",
+  "histoire": "Le Saveur du Maquis est un fromage corse authentique, fabriqué à partir de lait de brebis pasteurisé selon des méthodes traditionnelles. Il incarne le terroir de l'île de Beauté et le savoir-faire des fromagers locaux."
+}

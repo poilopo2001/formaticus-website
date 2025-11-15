@@ -1,0 +1,41 @@
+{
+  "id": 324,
+  "slug": "sapic-80-gr",
+  "nom": "SAPIC 80 GR",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 4.85,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Sapic est un fromage de chèvre fermier, subtil témoignage du savoir-faire pyrénéen. Sa pâte tendre révèle un goût caprin frais et légèrement acidulé, enveloppé d'une fine croûte naturelle.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Né au cœur des Midi-Pyrénées, ce fromage est l'expression d'un terroir marqué par les reliefs accidentés et les vallées verdoyantes. Les pâturages s'étagent entre les contreforts montagneux et les plaines fertiles, offrant une diversité de flore idéale pour l'alimentation des chèvres. L'altitude, variable selon les exploitations, contribue à la typicité des laits.",
+    "climat": "Le climat de la région, de type montagnard tempéré, se caractérise par des étés chauds et des hivers froids et humides. Les précipitations régulières favorisent la pousse d'une herbe riche et variée, conférant au lait des arômes complexes et subtils.",
+    "elevage": "Les chèvres qui fournissent le lait pour le Sapic pâturent librement dès que le temps le permet, se nourrissant d'une flore variée composée d'herbes sauvages, de fleurs et de jeunes pousses. Cet élevage extensif, respectueux du bien-être animal, se traduit par un lait de qualité supérieure, riche en saveurs et en nutriments.",
+    "savoir_faire": "La fabrication du Sapic est le fruit d'un savoir-faire ancestral transmis de génération en génération. Les producteurs utilisent des méthodes traditionnelles, privilégiant le travail à la main et le respect des rythmes naturels de la maturation. Le moulage à la louche et l'affinage soigné confèrent au fromage sa texture unique et ses arômes caractéristiques."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Sapic présente une pâte blanche à ivoire, d'une texture lisse et uniforme. Sa croûte, fine et naturelle, peut être légèrement plissée et parsemée de fines moisissures blanches ou bleutées, témoignant de son affinage en cave.",
+    "texture": "En bouche, le Sapic offre une texture fondante et onctueuse, légèrement friable en son centre. Sa pâte se révèle délicatement crémeuse, sans être excessivement coulante, laissant une sensation de fraîcheur et de légèreté.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait frais, la crème et le beurre, avec une note caprine délicate et subtile. On perçoit également des nuances végétales, rappelant l'herbe fraîche et les fleurs des champs.",
+    "aromes_secondaires": "Au fil de la dégustation, des arômes secondaires plus complexes se révèlent, tels que la noisette fraîche, les agrumes légers et une pointe de miel. Ces notes subtiles apportent une richesse aromatique et une longueur en bouche remarquables.",
+    "evolution": "L'attaque en bouche est douce et fraîche, suivie d'un développement des arômes caprins et végétaux. La finale est légèrement acidulée et persistante, laissant une agréable sensation de fraîcheur et de complexité aromatique. Sa longueur en bouche est moyenne à longue.",
+    "temperature_service": "Il est conseillé de servir le Sapic à température ambiante (environ 18°C) afin de permettre à ses arômes de s'exprimer pleinement et d'apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Sapic se conserve idéalement au réfrigérateur, dans son emballage d'origine ou dans une boîte hermétique, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ 30 minutes avant de le déguster afin de lui permettre de retrouver sa texture optimale et de libérer pleinement ses arômes.",
+    "coupe": "Le Sapic, de par sa forme, se prête à une coupe en quartiers ou en tranches fines, selon votre préférence. Utilisez un couteau à fromage à lame fine pour une coupe nette et précise.",
+    "presentation": "Présentez le Sapic sur un plateau de fromages avec d'autres spécialités fromagères, accompagné de fruits frais (raisins, figues), de pain de campagne et de confiture de fruits.",
+    "duree": "Une fois entamé, le Sapic se conserve au réfrigérateur pendant environ 3 à 5 jours, en veillant à bien le protéger de l'air pour éviter qu'il ne se dessèche."
+  },
+  "degustation": "Sa texture fondante et ses arômes caprins délicats en font un fromage d'exception. L'intensité aromatique est équilibrée, offrant une expérience gustative raffinée.",
+  "accords": "Un Sancerre blanc, avec ses notes d'agrumes et sa minéralité, sublimera la fraîcheur du Sapic. Pour un accord plus audacieux, un Pouilly-Fumé apportera une complexité aromatique complémentaire. Évitez les vins trop puissants qui risqueraient de masquer la subtilité du fromage.",
+  "histoire": "Le Sapic est le reflet d'une tradition fromagère ancrée dans le terroir des Midi-Pyrénées. Sa fabrication artisanale, respectueuse des méthodes ancestrales, garantit un fromage authentique et savoureux."
+}

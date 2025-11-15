@@ -1,0 +1,32 @@
+{
+  "id": 1,
+  "code": "1",
+  "slug": "comte-jeune",
+  "nom": "Comté Jeune",
+  "image": "/Séance Photo Nicolas 20220423/comte-jeune-03-composite.jpg",
+  "prix": 37.9,
+  "prixKg": 37.9,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "Franche-Comté, France",
+  "aop": true,
+  "intensite": 3,
+  "description": "Le Comté Jeune, fruit d'un terroir riche et préservé entre Bourgogne et Franche-Comté, révèle la fraîcheur du lait cru de vache. Sa pâte, d'une souplesse tendre, promet une dégustation douce et onctueuse.",
+  "degustation": "Sa texture fondante s'épanouit en bouche sur des arômes délicats de beurre frais et de noisette tendre. L'intensité est subtile, idéale pour initier les palais les plus fins aux plaisirs du Comté.",
+  "accords": "Sublimez sa douceur avec un Jurançon sec, dont la vivacité minérale équilibrera son onctuosité. Une bière d'abbaye blonde aux notes fruitées et épicées accompagnera également à merveille ce fromage d'exception.",
+  "histoire": "Fabriqué selon un savoir-faire ancestral, ce Comté AOP est le reflet d'une tradition fromagère transmise de génération en génération. Le lait cru, issu de vaches paissant librement, est le secret de son goût unique.",
+  "producteur": "Artisans Comtois",
+  "affinage": "6 à 8 mois minimum",
+  "pate": "Pressée cuite, couleur ivoire à paille, texture souple et fondante",
+  "croute": "Naturelle brossée, couleur brun doré",
+  "saveur": "Arômes légers, beurrés et noisetés. Notes de fruits secs et de crème fraîche.",
+  "accord": [
+    "Jurançon sec",
+    "Vin blanc du Jura",
+    "Bière d'abbaye blonde",
+    "Pain de campagne"
+  ],
+  "composition_complete": "Vache/Bourgogne/Franche comté/Cru/AOP/lait, sel, présure",
+  "stock": -70.816
+}

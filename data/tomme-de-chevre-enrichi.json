@@ -1,0 +1,41 @@
+{
+  "id": 42,
+  "slug": "tomme-de-chevre",
+  "nom": "TOMME DE CHEVRE",
+  "image": "/images/tomme-de-chevre.jpg",
+  "prixKg": 46.45,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Tomme de Chèvre, un joyau lacté de l'Occitanie, révèle une fraîcheur vive et des arômes caprins authentiques. Sa pâte, délicate et fruitée, incarne la richesse d'un terroir ensoleillé.",
+  "terroir": {
+    "titre": "Le Terroir Occitan",
+    "geographie": "L'Occitanie, berceau de cette tomme, est une région contrastée où les paysages vallonnés côtoient les contreforts montagneux. Les chèvres profitent de vastes pâturages verdoyants, parsemés de garrigues et de forêts, qui confèrent au lait une typicité unique. L'altitude modérée contribue à la fraîcheur et à la diversité de la flore.",
+    "climat": "Le climat méditerranéen, avec ses étés chauds et secs et ses hivers doux et humides, favorise une herbe riche et variée. Les brises marines et les vents de montagne tempèrent les températures et contribuent à la complexité aromatique du lait de chèvre.",
+    "elevage": "Les chèvres, élevées avec soin et respect, paissent librement dans les prairies naturelles. Leur alimentation, riche en herbes sauvages, en fleurs et en arbustes, influence positivement la qualité et la saveur du lait. Le bien-être animal est une priorité, assurant une production laitière de grande qualité.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des techniques ancestrales. Chaque étape de la fabrication, du caillage à l'affinage, est réalisée avec minutie et passion, garantissant l'authenticité et la typicité de la Tomme de Chèvre."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La Tomme de Chèvre présente une pâte ivoire à blanc, parfois légèrement crémeuse. Sa croûte, fine et naturelle, peut être recouverte d'une légère flore duveteuse blanche ou grise. Son aspect général témoigne d'une fabrication artisanale et soignée.",
+    "texture": "En bouche, la texture est fondante et souple, avec une légère humidité agréable. Elle offre une sensation de fraîcheur et de légèreté, sans aucune astringence. La pâte est homogène et sans défaut.",
+    "aromes_primaires": "Les arômes primaires dominants sont lactiques et frais, évoquant le lait de chèvre frais, la crème et le beurre. On perçoit également des notes végétales subtiles, rappelant l'herbe fraîche et les fleurs sauvages.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes fruitées délicates, telles que l'agrume (citron) et la noisette fraîche. Une pointe d'acidité équilibre la richesse du lait et apporte une complexité supplémentaire.",
+    "evolution": "L'attaque est douce et fraîche, évoluant vers un milieu de bouche plus affirmé avec des notes caprines subtiles. La finale est longue et persistante, laissant une agréable sensation de fraîcheur et de fruité. La longueur en bouche est remarquable.",
+    "temperature_service": "Servir à température ambiante (environ 18-20°C) pour apprécier pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4°C et 8°C, dans son emballage d'origine ou dans une boîte à fromage hermétique.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation pour permettre aux arômes de se développer pleinement et à la texture de s'assouplir.",
+    "coupe": "Couper la Tomme de Chèvre en quartiers ou en fines tranches, en partant du centre vers l'extérieur pour une répartition équitable des saveurs.",
+    "presentation": "Présenter sur un plateau de fromages avec d'autres spécialités laitières, des fruits frais (raisins, figues) et des noix. Accompagner de pain de campagne frais ou de pain aux noix.",
+    "duree": "Conserver environ 5 à 7 jours après ouverture, en veillant à bien l'emballer pour éviter qu'il ne sèche."
+  },
+  "degustation": "Sa texture fondante et ses arômes caprins délicats font de cette tomme un fromage d'exception. L'intensité aromatique est modérée, permettant une dégustation accessible et agréable.",
+  "accords": "Accompagner d'un vin blanc sec et vif de Savoie, tel qu'un Apremont, un Abymes ou une Roussette. Leurs notes minérales et leur fraîcheur équilibreront parfaitement la richesse du fromage. Également excellent avec un Sancerre ou un Pouilly-Fumé.",
+  "histoire": "La Tomme de Chèvre, héritage d'un savoir-faire ancestral, est le fruit d'une tradition fromagère occitane séculaire. Sa fabrication artisanale perpétue des gestes transmis de génération en génération, assurant la préservation d'un patrimoine gustatif unique."
+}

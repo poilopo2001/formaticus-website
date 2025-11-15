@@ -1,0 +1,41 @@
+{
+  "id": 210,
+  "slug": "gouda-miel-thym",
+  "nom": "GOUDA MIEL THYM",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 43.6,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Gouda Miel Thym offre une symphonie gustative où la douceur du miel de fleurs sauvages rencontre la fraîcheur aromatique du thym, sublimant la richesse du lait cru de vache. Sa texture onctueuse fond délicatement en bouche, révélant un équilibre parfait entre saveurs sucrées et herbacées.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Les Pays-Bas, berceau de ce Gouda d'exception, sont caractérisés par leurs vastes plaines verdoyantes traversées de canaux et de rivières. Ces terres basses, sculptées par les eaux et le vent, offrent un paysage unique où l'agriculture laitière prospère depuis des siècles. L'altitude modeste et la proximité de la mer contribuent à la spécificité de ce terroir.",
+    "climat": "Le climat tempéré maritime des Pays-Bas, avec ses étés doux et ses hivers modérés, favorise une herbe riche et abondante. Les précipitations régulières assurent une humidité constante, essentielle à la qualité du lait et au développement des arômes du fromage.",
+    "elevage": "Les vaches de race locale, élevées en plein air pendant la majeure partie de l'année, bénéficient d'une alimentation naturelle à base d'herbe fraîche et de foin de prairie. Cette alimentation riche et variée confère au lait une saveur unique, reflet de la biodiversité du terroir. Le bien-être animal est une priorité, assurant un lait de la plus haute qualité.",
+    "savoir_faire": "Le savoir-faire fromager néerlandais se transmet de génération en génération, perpétuant des techniques ancestrales et un profond respect du produit. La fabrication du Gouda, réalisée de manière artisanale, exige une attention particulière à chaque étape, de la collecte du lait à l'affinage en cave."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte du Gouda Miel Thym présente une couleur ivoire crémeuse, parsemée de petits points de thym séché. Sa texture est lisse et homogène, avec une croûte naturelle de couleur caramel clair.",
+    "texture": "En bouche, ce Gouda offre une texture fondante et onctueuse, presque beurrée. Sa pâte est souple et agréable, sans être collante. La présence du miel apporte une légère sensation de douceur et de velouté.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait frais, de la crème et du beurre doux. On perçoit également des notes subtiles de noisette et de foin frais, caractéristiques du lait cru de vache.",
+    "aromes_secondaires": "Les arômes secondaires révèlent la douceur florale du miel et la fraîcheur herbacée du thym. Des notes subtiles de caramel et d'épices douces viennent compléter la palette aromatique.",
+    "evolution": "L'attaque en bouche est douce et crémeuse, suivie d'une explosion de saveurs où le miel et le thym se marient harmonieusement. La finale est longue et persistante, laissant une agréable sensation de chaleur et de réconfort. L'équilibre entre le sucré, le salé et l'herbacé est remarquable.",
+    "temperature_service": "Ce Gouda Miel Thym se déguste idéalement à température ambiante (18-20°C) pour libérer pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur, dans un endroit frais et sec, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation pour permettre aux arômes de se développer pleinement et à la texture de s'assouplir.",
+    "coupe": "Couper le Gouda en fines tranches ou en petits cubes, en veillant à inclure un peu de croûte pour apprécier toutes les nuances de saveurs.",
+    "presentation": "Présenter sur un plateau avec des fruits frais (pommes, poires, raisins), des noix, du pain de campagne et un pot de miel de fleurs.",
+    "duree": "Conserver au maximum 5 à 7 jours après ouverture, en prenant soin de bien l'emballer dans du papier sulfurisé ou une boîte hermétique."
+  },
+  "degustation": "Sa pâte est onctueuse et riche, avec des arômes complexes de miel et de thym, ce qui lui confère une intensité douce et persistante.",
+  "accords": "Accompagnez ce Gouda Miel Thym d'un vin blanc moelleux comme un Gewürztraminer vendanges tardives d'Alsace ou un Sauternes. L'accord sucré-salé sublimera les arômes du fromage et du vin. Une bière blonde artisanale aux notes de miel et d'agrumes est également un excellent choix.",
+  "histoire": "Inspiré des traditions néerlandaises, ce Gouda est enrichi de miel local et de thym sauvage, reflétant la richesse de son terroir. Fabriqué à partir de lait cru de vaches élevées en plein air, il offre une expérience gustative authentique et raffinée."
+}

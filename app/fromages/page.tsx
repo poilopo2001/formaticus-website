@@ -5,7 +5,22 @@ import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { MapPin, Milk, ChevronDown } from 'lucide-react'
 import { Ornament } from '@/components/ui/Ornament'
-import { fromagesReels } from '@/data/fromages-reels'
+
+// Interface pour les fromages enrichis
+interface FromageEnrichi {
+  id: number
+  slug: string
+  nom: string
+  image: string
+  prixKg: number
+  type: string
+  lait: string
+  origine: string
+  region: string
+  aop: boolean
+  intensite: number
+  description: string
+}
 
 // Options de filtres
 const filtresType = [
@@ -38,11 +53,51 @@ const filtresOrigine = [
 ]
 
 export default function FromagesPage() {
+  const [fromages, setFromages] = useState<FromageEnrichi[]>([])
+  const [loading, setLoading] = useState(true)
   const [filtreType, setFiltreType] = useState<string>('')
   const [filtreLait, setFiltreLait] = useState<string>('')
   const [filtreOrigine, setFiltreOrigine] = useState<string>('')
-  const [filtreAOP, setFiltreAOP] = useState<boolean>(false)
   const [scrollY, setScrollY] = useState(0)
+
+  // Charger tous les fromages enrichis
+  useEffect(() => {
+    async function loadFromages() {
+      try {
+        // Liste des slugs à charger (on devrait avoir un index, mais pour l'instant on liste les fichiers)
+        const response = await fetch('/api/fromages-list')
+        if (response.ok) {
+          const slugs = await response.json()
+
+          // Charger tous les fromages
+          const fromagesData = await Promise.all(
+            slugs.map(async (slug: string) => {
+              try {
+                const res = await fetch(`/data/${slug}-enrichi.json`)
+                if (res.ok) {
+                  return await res.json()
+                }
+                return null
+              } catch {
+                return null
+              }
+            })
+          )
+
+          // Filtrer les null et trier par nom
+          const validFromages = fromagesData.filter((f): f is FromageEnrichi => f !== null)
+          validFromages.sort((a, b) => a.nom.localeCompare(b.nom))
+          setFromages(validFromages)
+        }
+      } catch (error) {
+        console.error('Erreur chargement fromages:', error)
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    loadFromages()
+  }, [])
 
   useEffect(() => {
     const handleScroll = () => {
@@ -54,13 +109,23 @@ export default function FromagesPage() {
   }, [])
 
   // Fromages filtrés
-  const fromagesFiltres = fromagesReels.filter((fromage) => {
+  const fromagesFiltres = fromages.filter((fromage) => {
     if (filtreType && fromage.type !== filtreType) return false
     if (filtreLait && fromage.lait !== filtreLait) return false
     if (filtreOrigine && fromage.origine !== filtreOrigine) return false
-    if (filtreAOP && !fromage.aop) return false
     return true
   })
+
+  if (loading) {
+    return (
+      <main className="min-h-screen bg-black flex items-center justify-center">
+        <div className="text-center">
+          <Ornament className="text-accent-600 mx-auto mb-6 animate-pulse" />
+          <p className="text-primary-200 text-lg font-light">Chargement des fromages...</p>
+        </div>
+      </main>
+    )
+  }
 
   return (
     <main className="min-h-screen bg-black">
@@ -103,7 +168,7 @@ export default function FromagesPage() {
             </h1>
 
             <p className="text-base md:text-lg text-white font-light mb-12 max-w-2xl mx-auto">
-              42 fromages AOP et fermiers sélectionnés avec passion auprès des meilleurs artisans.
+              {fromages.length} fromages AOP et fermiers sélectionnés avec passion auprès des meilleurs artisans.
             </p>
           </div>
         </div>
@@ -118,7 +183,7 @@ export default function FromagesPage() {
               Affiner votre recherche
             </p>
 
-            <div className="grid md:grid-cols-4 gap-6">
+            <div className="grid md:grid-cols-3 gap-6">
               <div className="relative">
                 <label className="block text-primary-300 text-xs tracking-[0.15em] uppercase mb-3 font-light">
                   Type de fromage
@@ -178,22 +243,6 @@ export default function FromagesPage() {
                   <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-accent-600 pointer-events-none" />
                 </div>
               </div>
-
-              <div>
-                <label className="block text-primary-300 text-xs tracking-[0.15em] uppercase mb-3 font-light">
-                  Appellation
-                </label>
-                <button
-                  onClick={() => setFiltreAOP(!filtreAOP)}
-                  className={`w-full border px-4 py-4 text-left transition-all duration-500 font-light tracking-wide ${
-                    filtreAOP
-                      ? 'bg-accent-600 border-accent-600 text-black'
-                      : 'bg-black border-accent-600/30 text-white hover:border-accent-600'
-                  }`}
-                >
-                  AOP / IGP uniquement
-                </button>
-              </div>
             </div>
 
             <div className="mt-12 flex justify-center">
@@ -228,15 +277,6 @@ export default function FromagesPage() {
                   </svg>
                 </div>
 
-                {/* Badge AOP */}
-                {fromage.aop && (
-                  <div className="relative z-20 mb-4">
-                    <span className="inline-block bg-accent-600 text-black px-4 py-1 text-[10px] tracking-[0.2em] uppercase font-medium">
-                      AOP
-                    </span>
-                  </div>
-                )}
-
                 {/* Image avec glow et lift effect */}
                 <div className="relative h-96 mb-8 overflow-hidden shadow-2xl transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(228,197,144,0.3)]">
                   <Image
@@ -256,7 +296,7 @@ export default function FromagesPage() {
                         <Milk className="w-4 h-4 text-accent-600" />
                         <span className="capitalize">Lait de {fromage.lait}</span>
                       </div>
-                      <p className="mb-3">{fromage.description}</p>
+                      <p className="mb-3 line-clamp-3">{fromage.description}</p>
                       <div className="flex items-center justify-center gap-2 mb-2">
                         <span className="text-xs tracking-wider uppercase text-primary-300">Intensité</span>
                         <div className="flex gap-1">
@@ -293,7 +333,7 @@ export default function FromagesPage() {
 
                 {/* Prix */}
                 <div className="flex items-baseline justify-center gap-2 mb-6">
-                  <span className="text-3xl font-serif text-accent-600">{fromage.prixKg}€</span>
+                  <span className="text-3xl font-serif text-accent-600">{fromage.prixKg.toFixed(2)}€</span>
                   <span className="text-primary-300 text-lg font-light">/kg</span>
                 </div>
 
@@ -316,7 +356,6 @@ export default function FromagesPage() {
                   setFiltreType('')
                   setFiltreLait('')
                   setFiltreOrigine('')
-                  setFiltreAOP(false)
                 }}
                 className="px-12 py-4 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500"
               >

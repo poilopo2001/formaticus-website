@@ -1,0 +1,41 @@
+{
+  "id": 96,
+  "slug": "brillat-savarin-truffes-550g",
+  "nom": "BRILLÂT SAVARIN TRUFFES 550G",
+  "image": "/images/brillat-savarin-truffes-550g.jpg",
+  "prixKg": 43.75,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Brillat-Savarin Truffes, un triple crème onctueux, dévoile une pâte riche et beurrée imprégnée des arômes envoûtants de la truffe noire. Ce fromage d'exception, originaire du Grand Est, offre une expérience gustative intense et raffinée, où le terroir se révèle à chaque bouchée.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Grand Est, région d'origine de ce Brillat-Savarin, est un territoire façonné par des plateaux calcaires et des vallées verdoyantes. L'altitude modérée et la richesse des sols contribuent à la qualité du lait utilisé pour sa fabrication. Cette diversité géographique offre un paysage propice à un élevage laitier de qualité.",
+    "climat": "Le climat de la région est de type semi-continental, caractérisé par des hivers froids et des étés tempérés. Ces variations saisonnières influencent la composition florale des pâturages, conférant au lait des arômes subtils et complexes.",
+    "elevage": "Les vaches laitières, majoritairement de race Montbéliarde ou Holstein, paissent librement dans les prairies verdoyantes de la région. Leur alimentation, composée d'herbe fraîche et de foin de qualité, contribue à la richesse et à la complexité aromatique du lait.",
+    "savoir_faire": "Le savoir-faire fromager local se transmet de génération en génération, perpétuant des techniques ancestrales. Chaque étape de la fabrication, du caillage à l'affinage, est réalisée avec soin et précision, garantissant la qualité et l'authenticité du Brillat-Savarin Truffes."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Sa pâte ivoire, enrichie de fines brisures de truffes noires, présente une texture lisse et brillante. La croûte, délicate et duveteuse, témoigne d'un affinage soigné.",
+    "texture": "En bouche, sa texture est d'une onctuosité incomparable, fondant délicatement sur la langue. La présence de matière grasse lui confère une richesse et une volupté exceptionnelles.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait frais, de la crème fraîche et du beurre doux, typiques des fromages triple crème.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes subtiles de sous-bois humides, de noisettes fraîches et de truffes noires, apportant une complexité aromatique unique.",
+    "evolution": "L'attaque est douce et crémeuse, suivie d'un milieu de bouche riche et parfumé. La finale, persistante et élégante, laisse une agréable sensation de truffe et de beurre fondu. Sa longueur en bouche est notable.",
+    "temperature_service": "Il est conseillé de le déguster à température ambiante (environ 18-20°C) afin de libérer pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation afin de lui permettre de développer pleinement ses arômes.",
+    "coupe": "Pour apprécier pleinement sa texture, il est préférable de le couper en parts radiales, comme une part de gâteau.",
+    "presentation": "Présenter sur un plateau de fromages accompagné de pain de campagne frais, de fruits secs ou d'une confiture de figues.",
+    "duree": "À consommer de préférence dans les 5 jours après ouverture pour une expérience gustative optimale."
+  },
+  "degustation": "Sa texture est exceptionnellement crémeuse et fondante, les arômes de truffe et de crème fraîche se mêlent harmonieusement pour une intensité gustative raffinée. Un équilibre parfait entre richesse et subtilité.",
+  "accords": "Ce fromage s'accorde merveilleusement avec des vins blancs secs de Bourgogne, tels qu'un Chablis Premier Cru ou un Meursault, dont la minéralité et la vivacité équilibreront sa richesse. Un Bourgogne Epineuil rouge léger aux tanins fins peut également être envisagé pour une association audacieuse et réussie.",
+  "histoire": "Créé dans les années 1930 par Henri Androuët, le Brillat-Savarin est un hommage au célèbre gastronome Jean Anthelme Brillat-Savarin. L'ajout de truffes noires en fait une variante luxueuse et festive de ce fromage emblématique."
+}

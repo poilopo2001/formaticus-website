@@ -1,0 +1,41 @@
+{
+  "id": 246,
+  "slug": "plateau-raclette",
+  "nom": "PLATEAU RACLETTE",
+  "image": "/images/plateau-raclette.jpg",
+  "prixKg": 55.0,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Ce plateau raclette, invitation au partage et à la convivialité, rassemble une sélection de fromages d'exception. Entre la douceur fruitée du Morbier, l'élégance suisse et la profondeur fumée, il offre une palette de saveurs et de textures qui raviront les palais les plus exigeants.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Les fromages de ce plateau raclette sont issus de régions montagneuses, où les alpages verdoyants sculptent le paysage. Les vallées profondes offrent un abri naturel aux troupeaux, tandis que les sommets enneigés contribuent à un climat unique. L'altitude, variable selon les fromages, influence directement la richesse de la flore et donc la qualité du lait.",
+    "climat": "Un climat montagnard, caractérisé par des étés frais et des hivers rigoureux, façonne le caractère de ces fromages. Les variations de température favorisent une maturation lente et une concentration des arômes dans le lait.",
+    "elevage": "Les vaches, élevées avec soin, paissent librement dans les prairies d'altitude. Leur alimentation, riche en herbes sauvages et en fleurs de montagne, confère au lait des arômes subtils et une typicité unique. Un élevage respectueux de l'environnement et du bien-être animal est au cœur de la production de ces fromages.",
+    "savoir_faire": "Un savoir-faire ancestral, transmis de génération en génération, est la clé de la fabrication de ces fromages. Les techniques traditionnelles, associées à une connaissance approfondie du lait et de son évolution, garantissent une qualité et une authenticité inégalées. Chaque fromage est le fruit d'un travail minutieux et passionné."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le plateau présente une mosaïque de couleurs allant du jaune paille au brun fumé. La pâte, selon les fromages, offre une texture lisse et homogène ou, au contraire, est persillée d'une fine ligne cendrée. La croûte peut être naturelle ou légèrement lavée.",
+    "texture": "La texture varie du fondant et crémeux au ferme et élastique. En bouche, la pâte procure une sensation de douceur enveloppante, parfois relevée d'une légère granulosité ou d'une onctuosité persistante.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait frais, le beurre fondu et une légère note acidulée caractéristique des fromages de montagne. On perçoit également des nuances de noisette et de crème fraîche.",
+    "aromes_secondaires": "Des arômes secondaires plus subtils se révèlent ensuite, tels que des notes de fruits secs, d'herbes alpines et de sous-bois. Le Morbier apporte une touche légèrement amère et végétale.",
+    "evolution": "L'attaque est douce et onctueuse, laissant place à un milieu de bouche riche et complexe. La finale est longue et persistante, avec une agréable sensation de chaleur et une légère amertume qui équilibre l'ensemble. La longueur en bouche est remarquable, témoignant de la qualité des ingrédients.",
+    "temperature_service": "Il est idéal de servir ce plateau raclette à température ambiante (environ 18-20°C) afin de permettre aux arômes de se développer pleinement."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez le plateau raclette au réfrigérateur, dans un endroit frais (entre 4°C et 8°C), de préférence dans son emballage d'origine ou dans un papier fromager.",
+    "avant_service": "Sortez le plateau du réfrigérateur environ une heure avant la dégustation. Cela permettra aux fromages de retrouver leur texture optimale et de libérer tous leurs arômes.",
+    "coupe": "Pour le Morbier, coupez des tranches fines perpendiculairement à la ligne cendrée pour apprécier toutes les saveurs. Pour les fromages suisses et fumés, une coupe en dés ou en lamelles est idéale.",
+    "presentation": "Présentez les fromages sur un plateau en bois ou en ardoise, en les espaçant légèrement. Accompagnez-les de charcuterie artisanale, de pommes de terre nouvelles et de cornichons pour une raclette traditionnelle.",
+    "duree": "Après ouverture, consommez le plateau dans les 3 à 5 jours pour une dégustation optimale."
+  },
+  "degustation": "Un équilibre parfait entre douceur et caractère, ce plateau raclette offre une expérience gustative riche et variée. La texture fondante et les arômes complexes raviront les amateurs de fromages authentiques.",
+  "accords": "Pour accompagner ce plateau raclette, optez pour un vin blanc sec et fruité, tel qu'un Riesling d'Alsace ou un Chasselas suisse. Leurs notes minérales et leur vivacité équilibreront la richesse des fromages. Un vin rouge léger et fruité, comme un Gamay du Beaujolais, peut également être envisagé.",
+  "histoire": "La raclette, tradition ancestrale des Alpes, est un plat convivial et chaleureux, symbole de partage et de bonne humeur. Ce plateau, sélectionné avec soin, met en valeur le savoir-faire des producteurs et la richesse des terroirs."
+}

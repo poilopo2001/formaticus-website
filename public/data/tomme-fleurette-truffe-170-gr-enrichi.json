@@ -1,0 +1,41 @@
+{
+  "id": 275,
+  "slug": "tomme-fleurette-truffe-170-gr",
+  "nom": "TOMME FLEURETTE TRUFFE 170 GR",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 18.0,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Tomme Fleurette Truffe, un joyau fromager d'environ 170 grammes, dévoile une pâte tendre et parfumée, subtilement veinée de truffe noire. Son arôme délicat et sa texture fondante invitent à un voyage gustatif inoubliable au cœur des traditions fromagères.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Cette tomme trouve son origine dans les régions montagneuses où les reliefs escarpés et les vallées verdoyantes sculptent un paysage unique. Les pâturages d'altitude, baignés de soleil, offrent une flore diversifiée et nourrissante pour les troupeaux. L'air pur et la richesse minérale du sol contribuent à la typicité du lait.",
+    "climat": "Le climat montagnard, caractérisé par des étés frais et des hivers rigoureux, influence directement la qualité du lait. Les variations de température favorisent le développement d'une flore microbienne complexe, essentielle à l'affinage du fromage.",
+    "elevage": "Les vaches, fières représentantes des races locales, paissent librement dans les prairies d'altitude, se nourrissant d'une herbe riche et parfumée. Cet élevage extensif, respectueux du bien-être animal, garantit un lait de qualité supérieure, source de saveurs authentiques.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des gestes ancestraux et un amour profond du terroir. Chaque étape de la fabrication, du caillage à l'affinage, est réalisée avec soin et expertise, garantissant un produit d'exception."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La Tomme Fleurette Truffe se présente sous une robe ivoire pâle, parsemée de délicates brisures de truffe noire, témoignant de sa richesse aromatique. Sa croûte fine et fleurie révèle une texture souple et onctueuse.",
+    "texture": "Sa texture est d'une douceur remarquable, offrant une sensation fondante en bouche, presque crémeuse. Une légère élasticité vient compléter cette expérience sensorielle, invitant à la dégustation.",
+    "aromes_primaires": "Les arômes primaires évoquent la fraîcheur du lait cru, avec des notes beurrées et légèrement acidulées, typiques des tommes de montagne.",
+    "aromes_secondaires": "Les arômes secondaires révèlent la noblesse de la truffe noire, avec des notes terreuses, musquées et légèrement poivrées. Des nuances subtiles de noisette grillée complètent ce bouquet aromatique complexe.",
+    "evolution": "L'attaque en bouche est douce et crémeuse, laissant rapidement place à la puissance aromatique de la truffe. La finale est longue et persistante, marquée par des notes terreuses et une agréable sensation de chaleur. Sa longueur en bouche est remarquable.",
+    "temperature_service": "Pour apprécier pleinement ses saveurs, il est conseillé de servir la Tomme Fleurette Truffe à température ambiante (environ 18-20°C), afin de libérer tous ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "La Tomme Fleurette Truffe se conserve idéalement au réfrigérateur, dans son emballage d'origine, à une température comprise entre 4 et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ une heure avant la dégustation, afin qu'il retrouve sa souplesse et que ses arômes se développent pleinement. Laissez-le s'exprimer.",
+    "coupe": "Pour une dégustation optimale, coupez la tomme en fines tranches triangulaires, en partant du centre vers l'extérieur. Cette coupe permet de révéler toutes les nuances de texture et de saveur.",
+    "presentation": "Présentez la Tomme Fleurette Truffe sur un plateau en bois ou en ardoise, accompagnée de pain de campagne grillé, de fruits secs (noix, noisettes) et d'un confit de figues.",
+    "duree": "Une fois entamée, la Tomme Fleurette Truffe se conserve idéalement 3 à 5 jours au réfrigérateur, en veillant à bien la protéger de l'air."
+  },
+  "degustation": "Sa texture fondante et ses arômes subtils de truffe noire en font un fromage d'exception. L'intensité de ses saveurs est équilibrée, offrant une expérience gustative raffinée.",
+  "accords": "Ce fromage se marie à merveille avec un vin blanc sec et minéral, tel qu'un Chablis Premier Cru, dont la vivacité mettra en valeur la complexité aromatique de la truffe. Un vin rouge léger et fruité, comme un Pinot Noir d'Alsace, peut également être envisagé. Un Champagne Blanc de Blancs apportera une touche festive et élégante.",
+  "histoire": "Issue d'un savoir-faire ancestral, la Tomme Fleurette Truffe est le fruit d'une alliance subtile entre la tradition fromagère et la noblesse de la truffe noire. Elle incarne l'excellence et l'authenticité d'un terroir d'exception."
+}

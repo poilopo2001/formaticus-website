@@ -1,0 +1,41 @@
+{
+  "id": 231,
+  "slug": "brebis-d-argental",
+  "nom": "BREBIS D ARGENTAL",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 43.75,
+  "type": "pate-pressee-cuite",
+  "lait": "brebis",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Brebis d'Argental, un fromage au lait de brebis pasteurisé, révèle une texture onctueuse et un goût délicat qui évoque les prairies verdoyantes. Sa pâte fondante en bouche est un véritable délice pour les amateurs de fromages fins.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Brebis d'Argental est né au cœur des montagnes et vallées de la région Rhône-Alpes. Cette région se caractérise par des reliefs doux et des plateaux verdoyants. L'altitude modérée contribue à la richesse de la flore et à la qualité du lait.",
+    "climat": "Le climat tempéré, avec des étés doux et des hivers relativement froids, favorise la pousse d'une herbe riche et variée. Cette herbe nourrit les brebis et influence directement le goût du lait, lui conférant ses arômes subtils.",
+    "elevage": "Les brebis paissent en liberté dans les prairies, se nourrissant d'une flore locale diversifiée. L'élevage extensif, respectueux de l'animal et de l'environnement, permet d'obtenir un lait de qualité supérieure, riche en nutriments et en arômes.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant les méthodes traditionnelles. L'utilisation de présure et de sel de qualité, associée à un affinage soigné, garantit un fromage d'exception."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Brebis d'Argental présente une pâte ivoire à jaune pâle, lisse et homogène. Sa croûte est fine, légèrement humide et de couleur crème. L'ensemble dégage une impression de douceur et de fraîcheur.",
+    "texture": "En bouche, la texture est fondante et onctueuse, presque beurrée. La pâte est souple et agréable, sans aucune sensation de sécheresse ou de granulosité.",
+    "aromes_primaires": "Les arômes primaires dominants sont le lait frais, la crème et le beurre doux. On perçoit également une légère note animale, typique des fromages de brebis.",
+    "aromes_secondaires": "Des arômes secondaires de noisette fraîche et d'herbes printanières viennent compléter le profil aromatique. Une subtile note de foin coupé apporte une complexité supplémentaire.",
+    "evolution": "L'attaque est douce et crémeuse, suivie d'un milieu de bouche plus intense où les arômes de brebis se développent pleinement. La finale est longue et persistante, laissant une agréable sensation de fraîcheur. La longueur en bouche est notable.",
+    "temperature_service": "Il est recommandé de servir le Brebis d'Argental à température ambiante (environ 18-20°C) afin de libérer pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver le Brebis d'Argental au réfrigérateur, dans sa boîte d'origine ou enveloppé dans du papier sulfurisé, à une température entre 4°C et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ 30 minutes avant de le déguster. Cela permettra à la pâte de s'assouplir et aux arômes de se développer.",
+    "coupe": "Pour une dégustation optimale, coupez le fromage en portions triangulaires, en partant du centre vers l'extérieur. Cela permet de préserver l'équilibre des saveurs.",
+    "presentation": "Présentez le Brebis d'Argental sur un plateau de fromages avec des fruits frais (raisins, figues), des noix et du pain de campagne. Un peu de confiture de cerises noires peut également sublimer son goût.",
+    "duree": "Après ouverture, le Brebis d'Argental se conserve idéalement 3 à 5 jours au réfrigérateur."
+  },
+  "degustation": "Le Brebis d'Argental offre une texture soyeuse et un goût délicat de lait de brebis. Son intensité aromatique est modérée, ce qui en fait un fromage accessible et très agréable à déguster.",
+  "accords": "Un vin blanc sec et fruité, comme un Sauvignon Blanc de Loire ou un Côtes de Gascogne, accompagnera parfaitement le Brebis d'Argental. Pour un accord plus audacieux, optez pour un vin rouge léger et fruité, tel qu'un Beaujolais Villages.",
+  "histoire": "Le Brebis d'Argental est un fromage relativement récent, créé pour valoriser le lait de brebis de la région Rhône-Alpes. Il est rapidement devenu un incontournable des plateaux de fromages grâce à sa saveur douce et sa texture onctueuse."
+}

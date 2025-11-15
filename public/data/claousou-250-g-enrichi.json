@@ -1,0 +1,41 @@
+{
+  "id": 54,
+  "slug": "claousou-250-g",
+  "nom": "CLAOUSOU 250 G",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 16.35,
+  "type": "pate-pressee-cuite",
+  "lait": "brebis",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Claousou, un joyau fromager d'Occitanie, est un fromage de brebis au lait cru, affiné avec soin et délicatesse. Ses saveurs fines de lait cru se marient harmonieusement aux notes boisées subtiles, témoignant d'un savoir-faire ancestral.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "L'Occitanie, terre de caractère, offre des paysages variés où les reliefs montagneux des Pyrénées côtoient des vallées verdoyantes et des plateaux calcaires. C'est dans cet environnement préservé, où l'altitude joue un rôle essentiel, que les brebis paissent en toute liberté. Cette géographie unique confère au lait une richesse aromatique incomparable.",
+    "climat": "Le climat de l'Occitanie est un mariage subtil entre influences méditerranéennes et montagnardes. Les étés chauds et secs favorisent la concentration des arômes dans le lait, tandis que les hivers doux permettent aux brebis de profiter des pâturages plus longtemps, contribuant ainsi à la typicité du Claousou.",
+    "elevage": "Les brebis, de race locale, sont élevées dans le respect des traditions pastorales. Elles bénéficient d'un parcours en plein air, se nourrissant d'une flore variée composée d'herbes sauvages, de fleurs et de légumineuses. Cette alimentation naturelle et équilibrée confère au lait une qualité exceptionnelle et des saveurs uniques.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des gestes ancestraux et un amour du travail bien fait. Chaque étape de la fabrication, du moulage à l'affinage, est réalisée avec minutie et passion, afin de préserver l'authenticité et la typicité du Claousou."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Claousou se présente sous une forme cylindrique caractéristique, enveloppé d'une sangle d'épicéa qui lui confère une identité visuelle unique. Sa pâte, d'une couleur ivoire à jaune pâle, dévoile une texture souple et onctueuse.",
+    "texture": "En bouche, sa texture est à la fois fondante et légèrement ferme, offrant une sensation soyeuse et agréable. La pâte se révèle onctueuse, enveloppant le palais de ses saveurs délicates.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait cru de brebis, frais et légèrement acidulé. On perçoit également des notes beurrées et une pointe de noisette fraîche.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes boisées subtiles, apportées par la sangle d'épicéa, ainsi que des nuances de foin coupé et d'herbes aromatiques.",
+    "evolution": "L'attaque en bouche est douce et lactique, évoluant vers un milieu de bouche plus complexe, où les arômes boisés et végétaux se développent. La finale est longue et persistante, laissant une agréable sensation de fraîcheur et de gourmandise. Sa longueur en bouche est remarquable.",
+    "temperature_service": "Il est conseillé de le déguster à une température comprise entre 16 et 18°C, afin de libérer pleinement ses arômes et d'apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Claousou se conserve idéalement au réfrigérateur, dans un endroit frais et sec, à une température comprise entre 4 et 8°C.",
+    "avant_service": "Pour une dégustation optimale, il est recommandé de sortir le fromage du réfrigérateur environ une heure avant de le servir, afin qu'il puisse développer pleinement ses arômes.",
+    "coupe": "La coupe idéale consiste à découper le fromage en parts triangulaires, en partant du centre vers l'extérieur, afin de répartir équitablement le croûtage et la pâte.",
+    "presentation": "Présentez le Claousou sur un plateau de fromages accompagné de fruits secs, de pain de campagne et de confitures artisanales pour une dégustation raffinée.",
+    "duree": "Une fois entamé, le Claousou se conserve pendant environ une semaine, en veillant à bien l'emballer dans du papier sulfurisé ou un film alimentaire."
+  },
+  "degustation": "Sa texture onctueuse et ses arômes lactiques, alliés aux notes boisées, en font un fromage d'une grande finesse. L'intensité des saveurs est modérée, ce qui le rend accessible et agréable à déguster.",
+  "accords": "Ce fromage de brebis se marie à merveille avec des vins blancs secs et fruités, tels qu'un Sancerre blanc, avec ses notes d'agrumes, ou un Cour-Cheverny, pour sa minéralité. L'accord avec un Saint-Pourçain blanc, plus rond et floral, est également une option intéressante. Il se marie également très bien avec une confiture de cerises noires.",
+  "histoire": "Le Claousou est le fruit d'une tradition fromagère ancestrale en Occitanie. Fabriqué à partir de lait cru de brebis et affiné avec soin, il incarne le savoir-faire et la passion des producteurs locaux, soucieux de préserver l'authenticité de leur terroir."
+}

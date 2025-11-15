@@ -1,0 +1,41 @@
+{
+  "id": 7,
+  "slug": "beaufort-ete",
+  "nom": "BEAUFORT ETE",
+  "image": "/images/beaufort-ete.jpg",
+  "prixKg": 59.75,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "Savoie, France",
+  "aop": true,
+  "intensite": 4,
+  "description": "Le Beaufort d'été, joyau des alpages, révèle une pâte onctueuse et un parfum fruité, promesse d'une dégustation ensoleillée. Ses arômes de noisette persistent en bouche, témoignant d'un savoir-faire ancestral et d'un terroir d'exception.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Beaufort d'été prend naissance au cœur des montagnes savoyardes, dans les vallées verdoyantes où l'altitude confère une typicité unique au lait. Les pâturages d'altitude, parsemés de fleurs sauvages, offrent un terrain de jeu idéal pour les vaches Tarines et Abondances, races autochtones de la région. Ces paysages grandioses façonnent l'identité même de ce fromage d'exception.",
+    "climat": "Le climat montagnard, caractérisé par des étés courts et frais et des hivers rigoureux, influence directement la flore alpine et la qualité du lait. L'ensoleillement estival intense favorise la richesse aromatique des herbes, qui se retrouve ensuite dans le fromage.",
+    "elevage": "Les vaches laitières, nourries exclusivement d'herbe fraîche en été et de foin en hiver, profitent d'un élevage traditionnel et respectueux de l'environnement. Leur parcours quotidien dans les alpages leur permet de se nourrir d'une grande diversité de plantes, contribuant à la complexité aromatique du lait et du fromage. Le bien-être animal est une priorité, garantissant un lait de qualité supérieure.",
+    "savoir_faire": "Le savoir-faire fromager du Beaufort se transmet de génération en génération, perpétuant des gestes précis et un respect scrupuleux des traditions. Les affineurs, véritables gardiens du goût, veillent avec passion au développement des arômes subtils et complexes de chaque meule."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte du Beaufort d'été présente une couleur jaune ivoire uniforme, légèrement plus soutenue en bordure. Sa texture est ferme et lisse, avec parfois de petites ouvertures régulières, signe d'une bonne maturation. La croûte, de couleur jaune ocre à brun clair, est marquée par la toile de lin utilisée lors du moulage.",
+    "texture": "En bouche, le Beaufort d'été offre une texture à la fois ferme et fondante, qui évolue progressivement au fil de la dégustation. Sa pâte est onctueuse et agréable, sans être excessivement grasse. On peut parfois percevoir une légère granulosité liée à la cristallisation des protéines.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait cru, de la noisette fraîche et du beurre fondu. On perçoit également des notes végétales évoquant l'herbe coupée et les fleurs des alpages.",
+    "aromes_secondaires": "Des arômes secondaires de fruits secs (amande, abricot sec) et d'épices douces (cumin, girofle) viennent complexifier le profil aromatique. On peut également déceler de subtiles notes animales et une légère pointe d'amertume en fin de bouche.",
+    "evolution": "L'attaque est douce et onctueuse, laissant rapidement place à des saveurs plus intenses de noisette et de fruits. Le milieu de bouche est riche et complexe, avec une belle longueur en bouche et une finale persistante sur des notes végétales et épicées. L'évolution en bouche est progressive et harmonieuse.",
+    "temperature_service": "Le Beaufort d'été se déguste idéalement à température ambiante (18-20°C) afin de libérer pleinement ses arômes subtils et complexes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver le Beaufort d'été au réfrigérateur, dans un endroit frais et sec, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortir le Beaufort d'été du réfrigérateur environ une heure avant la dégustation afin de permettre aux arômes de se développer pleinement.",
+    "coupe": "Pour une dégustation optimale, couper le Beaufort d'été en fines tranches, en suivant la forme du fromage, de manière à apprécier toutes les nuances de sa pâte.",
+    "presentation": "Présenter le Beaufort d'été sur un plateau de fromages accompagné de fruits secs, de pain de campagne et de confitures artisanales.",
+    "duree": "Après ouverture, le Beaufort d'été se conserve environ une semaine au réfrigérateur, emballé dans du papier sulfurisé ou une boîte hermétique."
+  },
+  "degustation": "Ce Beaufort d'été offre une texture soyeuse et un éventail aromatique complexe, allant de la noisette grillée aux notes florales des alpages. Son intensité gustative est équilibrée, faisant de lui un fromage d'exception.",
+  "accords": "Le Beaufort d'été s'accorde à merveille avec des vins blancs secs et minéraux tels qu'un L'Etoile vin jaune, dont les notes oxydatives répondent aux arômes de noisette du fromage. Un Château-Chalon, avec sa complexité aromatique, ou un Pacherenc du Vic-Bilh sec, pour sa fraîcheur, sublimeront également ce fromage savoyard.",
+  "histoire": "Le Beaufort, dont l'origine remonte au XIIe siècle, est le fruit d'un savoir-faire ancestral transmis de génération en génération dans les alpages savoyards. Sa fabrication artisanale, respectueuse des traditions, en fait un fromage d'exception, symbole du terroir et de la passion des hommes."
+}

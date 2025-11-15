@@ -1,0 +1,41 @@
+{
+  "id": 98,
+  "slug": "brillat-savarin-truffes-1-4",
+  "nom": "BRILLAT SAVARIN TRUFFES 1\\4",
+  "image": "/images/brillat-savarin-truffes-1-4.jpg",
+  "prixKg": 10.9,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Brillat Savarin Truffes 1/4 est une ode à la gourmandise. Sa pâte riche et crémeuse, infusée de brisures de truffe, évoque les profondeurs forestières et les plaisirs d'une dégustation raffinée. Un fromage d'exception, né de la rencontre entre le savoir-faire fromager et le parfum enivrant de la truffe.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Originaire du Grand Est, ce fromage bénéficie d'un terroir riche et varié. Les paysages vallonnés et les plateaux calcaires offrent un environnement propice à l'élevage laitier. La région est traversée de rivières et de forêts, contribuant à la biodiversité et à la richesse des pâturages.",
+    "climat": "Le climat de la région est de type continental, avec des hivers froids et des étés chauds. Cette amplitude thermique favorise le développement d'une flore diversifiée, essentielle à l'alimentation des vaches et à la typicité du lait.",
+    "elevage": "Les vaches, principalement de races locales, pâturent librement dans les prairies verdoyantes. Leur alimentation, riche en herbes fraîches et en fleurs sauvages, confère au lait des arômes subtils et une qualité exceptionnelle. L'attention portée au bien-être animal est primordiale pour garantir un lait d'une qualité irréprochable.",
+    "savoir_faire": "Le Brillat Savarin Truffes 1/4 est le fruit d'un savoir-faire fromager ancestral, transmis de génération en génération. Les techniques de fabrication traditionnelles, associées à l'innovation, permettent d'obtenir un fromage d'une qualité constante et d'une saveur incomparable."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Brillat Savarin Truffes 1/4 présente une pâte ivoire, parsemée de brisures de truffe noire. Sa texture est lisse et brillante, signe de sa richesse en matière grasse. La croûte est fine et légèrement duveteuse, de couleur blanche à crème.",
+    "texture": "En bouche, sa texture est onctueuse et fondante, presque beurrée. Sa richesse en matière grasse lui confère une sensation de douceur et de volupté. La présence des brisures de truffe apporte une légère mâche et une complexité supplémentaire.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait frais, de la crème et du beurre. On perçoit également des notes subtiles de champignon et de sous-bois, caractéristiques de la truffe.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes plus complexes de noisette, de miel et d'humus. La truffe apporte des nuances terreuses et animales qui se marient harmonieusement aux saveurs lactiques.",
+    "evolution": "L'attaque est douce et crémeuse, laissant rapidement place aux saveurs intenses de la truffe. Le milieu de bouche est ample et persistant, avec une longueur en bouche remarquable. La finale est légèrement acidulée, apportant de la fraîcheur et de l'équilibre.",
+    "temperature_service": "Il est conseillé de le servir à température ambiante (environ 18-20°C) afin d'exhaler pleinement ses arômes et de profiter de sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Brillat Savarin Truffes 1/4 se conserve idéalement au réfrigérateur, entre 4°C et 8°C.",
+    "avant_service": "Sortez-le du réfrigérateur environ 30 minutes avant la dégustation. Cela permettra aux arômes de se libérer et à la texture de s'assouplir.",
+    "coupe": "Pour une présentation élégante, coupez-le en parts égales, en suivant le rayon du cercle. Vous pouvez également réaliser de fines tranches à l'aide d'une lyre à fromage.",
+    "presentation": "Disposez les portions sur un plateau en ardoise ou en bois, accompagnées de pain de campagne grillé, de fruits secs et de quelques brisures de truffe fraîche pour sublimer la dégustation.",
+    "duree": "Après ouverture, il est préférable de le consommer dans les 3 à 4 jours pour préserver sa fraîcheur et ses saveurs."
+  },
+  "degustation": "Sa texture fondante et sa richesse aromatique en font un fromage d'exception. L'intensité de la truffe se marie harmonieusement à la douceur lactique, offrant une expérience gustative inoubliable.",
+  "accords": "Ce fromage s'accorde à merveille avec un Champagne Blanc de Blancs millésimé, dont la vivacité et les arômes de brioche complètent la richesse du fromage. Un Châteauneuf-du-Pape blanc, avec ses notes de fruits secs et d'épices douces, peut également être un excellent choix.",
+  "histoire": "Créé au début du XXe siècle par Henri Androuët, le Brillat Savarin est un fromage triple crème, enrichi en crème fraîche. L'ajout de truffes noires est une variation luxueuse, sublimant ce fromage déjà exceptionnel et ancré dans le terroir du Grand Est."
+}

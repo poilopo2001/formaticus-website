@@ -1,0 +1,41 @@
+{
+  "id": 283,
+  "slug": "fondue-formaticus-kg",
+  "nom": "FONDUE FORMATICUS KG",
+  "image": "/images/fondue-formaticus-kg.jpg",
+  "prixKg": 61.0,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Formaticus KG Fondue est une invitation à la gourmandise, une symphonie de saveurs lactiques et boisées sublimées par une texture onctueuse. Imaginez-vous, au cœur de l'hiver, partageant cette fondue d'exception, promesse d'un moment chaleureux et inoubliable.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Bien que le Formaticus KG Fondue ne soit pas directement lié à un terroir géographique spécifique, son excellence prend racine dans la sélection méticuleuse de fromages affinés provenant des meilleures régions laitières européennes. Ces régions, souvent nichées au cœur de massifs montagneux ou de vallées verdoyantes, offrent des conditions idéales pour l'élevage laitier. Les alpages d'altitude, avec leurs prairies riches en biodiversité, contribuent à la qualité du lait.",
+    "climat": "Le climat tempéré, caractérisé par des étés doux et des hivers froids, joue un rôle crucial dans la maturation des fromages utilisés dans la fondue. L'humidité ambiante, contrôlée avec précision dans les caves d'affinage, favorise le développement de saveurs complexes et une texture fondante.",
+    "elevage": "La qualité du lait est au cœur de l'excellence du Formaticus KG Fondue. Les vaches, principalement de races locales adaptées aux conditions climatiques et géographiques, bénéficient d'une alimentation naturelle et équilibrée. Leur lait, riche en matières grasses et en protéines, confère à la fondue son onctuosité incomparable.",
+    "savoir_faire": "Le secret du Formaticus KG Fondue réside dans un savoir-faire fromager ancestral, transmis de génération en génération. Chaque étape de la préparation, de la sélection des fromages à l'assemblage final, est réalisée avec un soin méticuleux. Cette expertise garantit une fondue d'une qualité et d'une saveur constantes."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La fondue Formaticus KG se présente avec une couleur ivoire crémeuse, une texture lisse et brillante, signe d'une fonte parfaite des fromages. De légères bulles se forment à la surface lors du réchauffement, témoignant de la richesse du mélange.",
+    "texture": "En bouche, la fondue offre une texture veloutée et onctueuse, enveloppant le palais d'une douceur réconfortante. Elle fond littéralement sur la langue, libérant une explosion de saveurs fromagères.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait chaud, du beurre fondu et de la crème fraîche. On y décèle également des notes subtiles de noisette grillée et de champignons de Paris.",
+    "aromes_secondaires": "Des arômes secondaires de fruits secs (noix, amandes) et d'herbes de montagne viennent complexifier le profil aromatique. Une légère pointe d'acidité apporte de la fraîcheur et de l'équilibre.",
+    "evolution": "L'attaque en bouche est douce et crémeuse, évoluant vers un milieu de bouche plus intense et aromatique. La finale est longue et persistante, laissant une agréable sensation de chaleur et de gourmandise. La longueur en bouche est remarquable.",
+    "temperature_service": "Servir la fondue chaude, mais non bouillante, à environ 60-65°C, afin de préserver ses arômes délicats et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver la fondue Formaticus KG au réfrigérateur, entre 2 et 6°C.",
+    "avant_service": "Sortir la fondue du réfrigérateur environ 30 minutes avant de la préparer, afin qu'elle revienne à température ambiante et que les saveurs se développent pleinement.",
+    "coupe": "La fondue étant déjà préparée, il n'y a pas de coupe à proprement parler. Il suffit de la réchauffer doucement dans un caquelon.",
+    "presentation": "Présenter la fondue dans un caquelon en fonte ou en céramique, accompagné de pain de campagne croustillant coupé en dés, de légumes croquants (chou-fleur, brocoli, carottes) et de charcuteries fines.",
+    "duree": "Une fois réchauffée, la fondue doit être consommée immédiatement. Ne pas la conserver pour une utilisation ultérieure."
+  },
+  "degustation": "Une texture soyeuse et une palette aromatique complexe où le lait frais rencontre des notes subtiles de noix et d'herbes alpines. L'intensité gustative est riche et persistante.",
+  "accords": "Un vin blanc sec et vif, tel qu'un Riesling de la Moselle luxembourgeoise, avec ses notes minérales et sa fraîcheur acidulée, équilibrera parfaitement la richesse de la fondue. Un Pinot Gris d'Alsace, plus rond et fruité, peut également être un excellent choix. Évitez les vins trop tanniques ou boisés.",
+  "histoire": "Le Formaticus KG Fondue est le fruit d'une longue tradition fromagère européenne, réinterprétée avec un souci constant de qualité et d'innovation. Un hommage au partage et à la convivialité, sublimé par des fromages d'exception."
+}

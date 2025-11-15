@@ -1,0 +1,41 @@
+{
+  "id": 189,
+  "slug": "gruyere-alpage-rape",
+  "nom": "GRUYERE ALPAGE RAPE",
+  "image": "/Séance Photo Nicolas 20220423/gruyere-alpage-rape.jpg",
+  "prixKg": 46.2,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Gruyère d'Alpage Râpé révèle l'âme des pâturages d'altitude suisses. Sa saveur fruitée et légèrement salée, associée à une texture fondante une fois chauffée, en fait un ingrédient d'exception pour sublimer vos plats.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Ce Gruyère d'Alpage est né au cœur des Préalpes suisses, où les paysages sont sculptés par des vallées verdoyantes et des sommets majestueux. L'altitude, souvent supérieure à 1000 mètres, confère à ce fromage un caractère unique, imprégné de la pureté de l'air et de la richesse des sols. Les pentes escarpées et les pâturages luxuriants façonnent un environnement propice à l'épanouissement d'une flore variée.",
+    "climat": "Le climat montagnard, caractérisé par des étés frais et des hivers rigoureux, joue un rôle essentiel dans le développement des saveurs du Gruyère d'Alpage. Les variations de température favorisent une maturation lente et homogène, permettant aux arômes de se concentrer et de s'affiner. L'humidité ambiante contribue également à la formation d'une croûte naturelle et protectrice.",
+    "elevage": "Les vaches, de race Brune ou Frisonne, paissent librement sur les alpages durant la période estivale. Elles se nourrissent d'une herbe fraîche et parfumée, enrichie de fleurs sauvages et d'herbes aromatiques. Cette alimentation naturelle et variée se traduit par un lait d'une qualité exceptionnelle, riche en matières grasses et en protéines. Le bien-être animal est primordial, assurant une production laitière optimale.",
+    "savoir_faire": "Le Gruyère d'Alpage est fabriqué selon des méthodes ancestrales, transmises de génération en génération. Les fromagers respectent un cahier des charges strict, garantissant la qualité et l'authenticité du produit. La fabrication artisanale, réalisée à la main et avec passion, est le gage d'un fromage d'exception, porteur d'une histoire et d'un terroir."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Gruyère d'Alpage Râpé présente une couleur jaune ivoire uniforme. Les copeaux fins et réguliers révèlent une texture dense et compacte. L'absence de croûte apparente est caractéristique du format râpé.",
+    "texture": "Sa texture est ferme et légèrement élastique à température ambiante. Une fois chauffé, il fond généreusement, offrant une texture onctueuse et filante. L'absence de granulosité assure un plaisir gustatif optimal.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait frais, le beurre fondu et la noisette grillée. Une note légèrement herbacée témoigne de la richesse de l'alimentation des vaches.",
+    "aromes_secondaires": "Des arômes secondaires subtils de fruits secs, d'épices douces et de foin coupé viennent complexifier le profil aromatique. Une légère note animale peut également se révéler, témoignant du terroir d'origine.",
+    "evolution": "L'attaque en bouche est franche et savoureuse, avec une belle intensité aromatique. Le milieu de bouche est ample et onctueux, laissant s'exprimer les différentes nuances gustatives. La finale est longue et persistante, avec une légère note salée qui invite à la dégustation.",
+    "temperature_service": "Ce Gruyère d'Alpage Râpé est idéalement utilisé cuit, incorporé à des gratins, soupes, tartes ou quiches. Sa température optimale est celle de la préparation chaude."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver le Gruyère d'Alpage Râpé au réfrigérateur, dans un emballage hermétique, entre 4°C et 8°C.",
+    "avant_service": "Il n'est pas nécessaire de sortir le Gruyère d'Alpage Râpé avant utilisation, car il est destiné à être cuit.",
+    "coupe": "Le fromage étant déjà râpé, aucun conseil de coupe n'est nécessaire.",
+    "presentation": "Le Gruyère d'Alpage Râpé peut être présenté dans un récipient élégant, prêt à être utilisé pour sublimer vos plats.",
+    "duree": "Consommer de préférence dans les 5 jours après ouverture du sachet."
+  },
+  "degustation": "Sa texture fondante et ses arômes riches et complexes en font un fromage d'exception. Son intensité aromatique modérée permet de l'utiliser dans de nombreuses préparations culinaires.",
+  "accords": "Ce Gruyère d'Alpage Râpé sublime les plats gratinés, les soupes à l'oignon et les quiches lorraines. Il s'accorde parfaitement avec un vin blanc sec et fruité, comme un Chasselas suisse ou un Riesling d'Alsace. Un vin rouge léger et fruité, tel qu'un Beaujolais, peut également accompagner les plats à base de Gruyère.",
+  "histoire": "Le Gruyère d'Alpage est un fromage ancestral, fabriqué dans les alpages suisses depuis des siècles. Son savoir-faire traditionnel se transmet de génération en génération, perpétuant un héritage culinaire unique."
+}

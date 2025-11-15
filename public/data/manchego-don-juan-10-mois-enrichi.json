@@ -1,0 +1,41 @@
+{
+  "id": 46,
+  "slug": "manchego-don-juan-10-mois",
+  "nom": "MANCHEGO DON JUAN 10 MOIS",
+  "image": "/Séance Photo Nicolas 20220423/manchego-composite.jpg",
+  "prixKg": 55.7,
+  "type": "pate-pressee-cuite",
+  "lait": "brebis",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Manchego Don Juan 10 mois, fruit d'un long affinage, dévoile l'âme ensoleillée de la Manche. Sa pâte ferme et ivoirine recèle des arômes profonds et légèrement piquants, témoignage d'un savoir-faire ancestral et d'un terroir exceptionnel. Un voyage sensoriel au cœur de l'Espagne fromagère.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "La Mancha, vaste plateau central espagnol, s'étend à perte de vue, sculpté par les vents et le soleil implacable. Ce paysage aride, ponctué de quelques collines douces, offre un cadre unique à l'élevage des brebis Manchega. L'altitude, variant entre 600 et 800 mètres, confère une spécificité particulière aux pâturages et à la flore locale. La terre, riche en minéraux, nourrit une végétation rare et robuste.",
+    "climat": "Le climat continental de la Mancha se caractérise par des étés torrides et des hivers rigoureux, avec de faibles précipitations. Ces conditions extrêmes contribuent à la concentration des arômes dans le lait des brebis Manchega, donnant au fromage son caractère unique et intense. Les variations saisonnières influent directement sur la qualité du lait et, par conséquent, sur le profil gustatif du Manchego.",
+    "elevage": "Les brebis Manchega, race autochtone parfaitement adaptée à l'aridité du climat, pâturent librement dans les vastes étendues de la Mancha. Leur alimentation, composée d'herbes sèches, de céréales et de légumineuses, confère au lait une richesse aromatique incomparable. Le respect du bien-être animal et des méthodes d'élevage traditionnelles sont au cœur de la production du Manchego Don Juan.",
+    "savoir_faire": "Le savoir-faire fromager de la Mancha se transmet de génération en génération, perpétuant des techniques ancestrales et un profond respect du produit. De la traite à la maturation, chaque étape est réalisée avec soin et attention, garantissant la qualité et l'authenticité du Manchego Don Juan. L'utilisation de présure naturelle et l'affinage lent en caves traditionnelles contribuent à développer sa complexité aromatique."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Manchego Don Juan 10 mois présente une pâte ferme, d'une couleur ivoire soutenue, parsemée de petites ouvertures irrégulières. Sa croûte, naturelle et striée, porte les marques distinctives des moules traditionnels en sparte. L'ensemble évoque la rusticité et l'authenticité du terroir.",
+    "texture": "En bouche, la texture est ferme et légèrement granuleuse, fondante sans être crémeuse. La pâte libère progressivement ses arômes, offrant une expérience gustative riche et persistante. L'affinage prolongé lui confère une agréable sécheresse en finale.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait de brebis frais, la noisette grillée et le beurre clarifié, témoignage de la qualité du lait et du savoir-faire fromager.",
+    "aromes_secondaires": "Des notes secondaires plus subtiles de fruits secs, d'herbes sauvages et d'épices douces viennent complexifier le profil aromatique. Une légère pointe d'acidité apporte de la fraîcheur et de l'équilibre.",
+    "evolution": "L'attaque est franche et légèrement piquante, évoluant vers un milieu de bouche riche et complexe, où les arômes se déploient pleinement. La finale est longue et persistante, laissant une agréable sensation de chaleur et de saveurs umami. Sa longueur en bouche est remarquable.",
+    "temperature_service": "Servir idéalement à température ambiante (environ 18-20°C) pour exhaler pleinement ses arômes et révéler sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur, dans un endroit frais et sec, entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur au moins une heure avant la dégustation pour permettre aux arômes de se libérer et à la pâte de s'assouplir.",
+    "coupe": "Couper le Manchego en triangles réguliers, en partant du centre vers l'extérieur, afin de préserver l'équilibre des saveurs.",
+    "presentation": "Présenter le Manchego sur un plateau en bois ou en ardoise, accompagné de fruits secs, de pâte de coing et de quelques noix.",
+    "duree": "Une fois entamé, le Manchego Don Juan se conserve environ 2 à 3 semaines au réfrigérateur, enveloppé dans du papier sulfurisé ou un film alimentaire."
+  },
+  "degustation": "Ce Manchego offre une texture ferme et une palette aromatique riche et intense, allant des notes lactiques aux saveurs épicées. Il est le reflet d'un terroir unique et d'un savoir-faire ancestral.",
+  "accords": "Ce fromage se marie à merveille avec un Rioja Gran Reserva, dont les tanins soyeux et les arômes de fruits rouges confits s'accordent parfaitement avec sa complexité aromatique. Un Xérès Amontillado, avec ses notes de noisette et de fruits secs, offre également un accord subtil et élégant. Un Rancio sec du Roussillon, avec ses arômes oxydatifs, amplifiera sa saveur épicée.",
+  "histoire": "Le Manchego, fromage emblématique de la Mancha, est produit depuis des siècles, témoignant d'un savoir-faire ancestral. Son affinage lent et soigné révèle les secrets d'un terroir unique et d'une tradition fromagère riche en histoire."
+}

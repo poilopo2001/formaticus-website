@@ -1,0 +1,41 @@
+{
+  "id": 107,
+  "slug": "mauzacais-marbre-180-gr",
+  "nom": "MAUZACAIS MARBRE 180 GR",
+  "image": "/images/mauzacais-marbre-180-gr.jpg",
+  "prixKg": 8.9,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Mauzacais Marbré révèle une alliance subtile entre la fraîcheur du lait de chèvre cru et un affinage délicat. Ses veinures grises, témoins de son processus de maturation, dévoilent une palette aromatique complexe et un fondant incomparable, hommage au savoir-faire fromager ancestral.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Ce fromage est né au cœur des régions Auvergne-Rhône-Alpes, une mosaïque de paysages où les reliefs montagneux alternent avec de douces vallées verdoyantes. Ces terres, façonnées par des siècles d'histoire agricole, offrent un écrin de verdure propice à l'élevage caprin. L'altitude modérée contribue à la typicité des pâturages.",
+    "climat": "Le climat de la région, tempéré avec des influences continentales, est marqué par des étés chauds et des hivers froids. Cette amplitude thermique favorise une flore diversifiée, essentielle à la qualité du lait. Les précipitations régulières nourrissent les prairies et garantissent une herbe riche et savoureuse.",
+    "elevage": "Les chèvres, de races locales adaptées au terroir, paissent librement dans les prairies environnantes, se nourrissant d'une herbe variée et de fleurs sauvages. Leur alimentation est complétée par du foin de qualité, garantissant un lait riche et parfumé. Le bien-être animal est au cœur des préoccupations des éleveurs, qui pratiquent un élevage extensif respectueux de l'environnement.",
+    "savoir_faire": "Le savoir-faire fromager est transmis de génération en génération, perpétuant des gestes ancestraux et des techniques affinées au fil du temps. Le lait cru est travaillé avec respect, préservant ainsi toute sa richesse aromatique. L'affinage, lent et méticuleux, est une étape cruciale qui révèle le caractère unique du Mauzacais Marbré."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Mauzacais Marbré se présente avec une pâte ivoire délicatement veinée de gris, témoignant d'une maturation maîtrisée. Sa croûte naturelle, fine et légèrement duveteuse, peut présenter des nuances allant du blanc crème au beige clair. Le marbrage est unique à chaque fromage.",
+    "texture": "Sa texture est à la fois ferme et fondante en bouche, offrant un équilibre subtil entre résistance et onctuosité. Le grain est fin et homogène, procurant une sensation agréable et persistante. La pâte évolue au fur et à mesure de l'affinage.",
+    "aromes_primaires": "Les arômes primaires évoquent la fraîcheur du lait de chèvre cru, avec des notes lactiques douces et légèrement acidulées. On perçoit également des nuances de beurre frais et une pointe végétale délicate.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes subtiles de noisette, de sous-bois et de champignons frais, apportant complexité et profondeur à la dégustation. On peut également déceler une touche minérale discrète.",
+    "evolution": "L'attaque en bouche est douce et fraîche, laissant place à un milieu de bouche plus intense où les arômes de chèvre s'affirment. La finale est longue et persistante, avec une légère amertume élégante et une agréable sensation de fraîcheur. La longueur en bouche est notable.",
+    "temperature_service": "Il est conseillé de le servir à température ambiante (environ 18-20°C) afin de libérer pleinement ses arômes et d'apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver le Mauzacais Marbré au réfrigérateur, dans son emballage d'origine ou dans une boîte à fromage, à une température idéale de 4 à 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation afin qu'il retrouve sa texture optimale et que ses arômes se développent pleinement. L'affinage continue hors du froid.",
+    "coupe": "Pour apprécier pleinement le marbrage, il est préférable de le couper en tranches fines, en partant du centre vers l'extérieur. On peut également le couper en quartiers.",
+    "presentation": "Présentez-le sur un plateau de fromages avec des fruits secs (noix, amandes), des figues fraîches ou de la confiture de cerises noires pour un contraste de saveurs intéressant. Un pain de campagne aux céréales complétera parfaitement la dégustation.",
+    "duree": "Une fois entamé, le Mauzacais Marbré se conserve environ 5 à 7 jours au réfrigérateur, en veillant à bien le protéger de l'air."
+  },
+  "degustation": "Sa texture fondante et sa palette aromatique complexe, oscillant entre notes lactiques et nuances de noisette, en font un fromage d'exception. Son intensité gustative est modérée, permettant une dégustation tout en finesse.",
+  "accords": "Ce fromage s'accorde à merveille avec un Sancerre blanc, dont la vivacité et les arômes d'agrumes soulignent sa fraîcheur. Un Pouilly-Fumé, avec ses notes minérales et fumées, apportera également un bel équilibre. Pour une alternative sans alcool, un jus de raisin blanc pétillant sera parfait.",
+  "histoire": "Le Mauzacais Marbré est le fruit d'un terroir riche et d'un savoir-faire ancestral transmis de génération en génération. Sa fabrication artisanale, à partir de lait cru de chèvre, lui confère un caractère unique et authentique."
+}

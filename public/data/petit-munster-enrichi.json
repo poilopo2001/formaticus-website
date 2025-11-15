@@ -1,0 +1,41 @@
+{
+  "id": 521,
+  "slug": "petit-munster",
+  "nom": "PETIT MUNSTER",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 11.6,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Petit Munster, un joyau de la tradition fromagère, révèle une pâte onctueuse et un caractère affirmé. Son terroir d'origine lui confère des arômes subtils et une texture fondante qui éveillent les sens.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Niché au cœur des Vosges, le Petit Munster s'épanouit dans un paysage vallonné et verdoyant. Les pâturages d'altitude, baignés par une lumière douce, offrent un écrin idéal à l'élevage laitier. Les sols granitiques et schisteux contribuent à la typicité du lait et du fromage.",
+    "climat": "Le climat semi-continental des Vosges, caractérisé par des étés frais et des hivers rigoureux, influence positivement l'affinage du Petit Munster. L'humidité ambiante favorise le développement d'une flore de surface spécifique, essentielle à sa saveur unique.",
+    "elevage": "Les vaches laitières, principalement de race Vosgienne, paissent librement dans les prairies luxuriantes pendant la belle saison. Leur alimentation naturelle, riche en herbes aromatiques et en fleurs sauvages, se reflète dans la qualité du lait et la complexité aromatique du fromage.",
+    "savoir_faire": "Le savoir-faire ancestral des fromagers se transmet de génération en génération, garantissant la qualité et l'authenticité du Petit Munster. Chaque étape de la fabrication, du caillage à l'affinage, est réalisée avec soin et passion, dans le respect des traditions."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Petit Munster arbore une croûte lavée, d'une couleur orangée à rouge brique. Sa pâte, d'un jaune ivoire, présente une texture souple et légèrement brillante.",
+    "texture": "En bouche, sa texture est onctueuse et fondante, offrant une sensation de douceur et de gourmandise. Elle évolue au fil de l'affinage, devenant plus crémeuse et délicate.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait chaud, le beurre frais et une légère note de noisette grillée.",
+    "aromes_secondaires": "Des arômes secondaires de foin coupé, d'écurie et de sous-bois viennent complexifier le bouquet, apportant une touche rustique et authentique.",
+    "evolution": "L'attaque est douce et crémeuse, suivie d'un milieu de bouche plus intense et persistant. La finale est légèrement épicée, avec une longueur en bouche remarquable qui invite à la dégustation.",
+    "temperature_service": "Servir à température ambiante (environ 18-20°C) pour libérer pleinement ses arômes et apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4°C et 8°C.",
+    "avant_service": "Sortir le Petit Munster du réfrigérateur environ 30 minutes avant la dégustation, afin de permettre à la pâte de s'assouplir et aux arômes de s'exprimer pleinement.",
+    "coupe": "Couper le Petit Munster en quartiers ou en tranches fines, en partant du centre vers l'extérieur.",
+    "presentation": "Présenter le Petit Munster sur un plateau de fromages accompagné de pain de campagne, de fruits frais (raisins, figues) et de noix.",
+    "duree": "Consommer dans les 5 jours après ouverture, en veillant à bien l'emballer pour préserver sa fraîcheur."
+  },
+  "degustation": "Sa texture fondante et ses arômes puissants de lait et d'épices en font un fromage de caractère. Son intensité est progressive, offrant une expérience gustative riche et complexe.",
+  "accords": "Accompagner d'un vin blanc d'Alsace, tel qu'un Gewürztraminer, dont les notes florales et épicées s'harmonisent parfaitement avec le Petit Munster. Un Pinot Gris d'Alsace, plus sec, peut également être un excellent choix. Pour les amateurs de vin rouge, opter pour un Pinot Noir léger et fruité de Bourgogne.",
+  "histoire": "Le Petit Munster, cousin du Munster plus imposant, perpétue une tradition fromagère séculaire dans les Vosges. Sa fabrication artisanale et son affinage soigné en font un fromage d'exception, apprécié des connaisseurs."
+}

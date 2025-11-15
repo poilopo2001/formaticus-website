@@ -1,0 +1,41 @@
+{
+  "id": 322,
+  "slug": "gruyere-selection-aop-26-mois",
+  "nom": "GRUYERE  SELECTION AOP 26 MOIS",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 76.63,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Ce Gruyère Sélection AOP 26 mois, affiné avec patience et dévouement, révèle une palette aromatique complexe et une texture ferme, témoignage du savoir-faire suisse et de la richesse de son terroir. Chaque bouchée est une invitation à un voyage gustatif au cœur des alpages helvétiques.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "La Suisse, berceau de ce Gruyère d'exception, offre un paysage de montagnes majestueuses, de vallées verdoyantes et de plateaux élevés. Les pâturages d'altitude, baignés de soleil et d'air pur, contribuent à la qualité du lait cru utilisé. Les fromageries sont souvent nichées dans ces vallées, au plus proche de leurs sources de lait.",
+    "climat": "Le climat continental montagnard, caractérisé par des étés frais et des hivers rigoureux, influence directement la flore alpine et la qualité des fourrages. Ces variations saisonnières se reflètent dans les saveurs nuancées du lait et du fromage.",
+    "elevage": "Les vaches, de race locale, paissent librement sur les alpages fleuris durant la belle saison. Elles se nourrissent d'herbes fraîches, de fleurs sauvages et de foin de qualité, enrichissant ainsi le lait de saveurs authentiques et complexes. Le respect du bien-être animal est une priorité pour les producteurs.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des méthodes ancestrales de fabrication et d'affinage. Chaque étape, du caillage à la maturation, est réalisée avec une attention méticuleuse, garantissant la qualité et l'authenticité du Gruyère AOP."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte, d'une couleur ivoire à jaune paille, présente une texture lisse et homogène, parsemée de petites ouvertures régulières, dites « yeux ». La croûte, naturelle et brossée, arbore une teinte allant du brun clair au brun foncé.",
+    "texture": "La texture est ferme, dense et légèrement élastique, offrant une sensation agréable en bouche. Au fur et à mesure de la dégustation, elle révèle un fondant subtil et une légère granulosité due aux cristaux de tyrosine, signe d'un affinage long et soigné.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait cru, le beurre frais et la noisette grillée, témoignage de la qualité des matières premières et du savoir-faire fromager.",
+    "aromes_secondaires": "Des arômes secondaires plus subtils se révèlent, tels que des notes de fruits secs (amande, noix), d'herbes alpines et une pointe de caramel, apportant complexité et profondeur au profil aromatique.",
+    "evolution": "L'attaque est franche et savoureuse, laissant place à un milieu de bouche ample et persistant, où les arômes se déploient pleinement. La finale est longue et harmonieuse, avec une légère salinité et une pointe d'amertume élégante. Sa longueur en bouche est remarquable.",
+    "temperature_service": "Il est idéal de le servir à température ambiante (environ 18-20°C) pour permettre aux arômes de s'exprimer pleinement et à la texture de s'assouplir."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur, dans un endroit frais et sec, idéalement entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation pour qu'il retrouve sa texture optimale et que ses arômes se libèrent.",
+    "coupe": "Pour une dégustation optimale, découper le Gruyère en cubes ou en fines tranches, en respectant la forme de la meule.",
+    "presentation": "Présenter le Gruyère sur un plateau en bois ou en ardoise, accompagné de fruits secs, de noix et de pain de campagne.",
+    "duree": "Une fois entamé, le Gruyère se conserve environ 1 à 2 semaines au réfrigérateur, emballé dans du papier sulfurisé ou un film alimentaire."
+  },
+  "degustation": "Ce Gruyère Sélection 26 mois offre une texture ferme et fondante, avec des arômes intenses de noisette, de lait cru et de caramel. Son intensité aromatique est persistante et complexe.",
+  "accords": "Ce Gruyère d'exception s'accorde à merveille avec un vin blanc sec et fruité, tel qu'un Chardonnay de Bourgogne (ex: Meursault) ou un vin rouge léger et élégant, comme un Pinot Noir d'Alsace. Il sublime également un vin jaune du Jura.",
+  "histoire": "Le Gruyère est un fromage emblématique de la Suisse, dont l'origine remonte au XIIe siècle. Sa fabrication artisanale, perpétuée par des générations de fromagers, témoigne d'un savoir-faire ancestral et d'un attachement profond au terroir."
+}

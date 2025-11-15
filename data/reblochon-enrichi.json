@@ -1,0 +1,41 @@
+{
+  "id": 20,
+  "slug": "reblochon",
+  "nom": "REBLOCHON",
+  "image": "/images/reblochon.jpg",
+  "prixKg": 45.15,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Reblochon, fromage emblématique des Alpes, offre une pâte onctueuse et fondante, révélant les saveurs délicates du lait cru de montagne. Sa croûte lavée, subtilement parfumée, témoigne d'un affinage soigné, promesse d'une expérience gustative inoubliable.",
+  "terroir": {
+    "titre": "Le Terroir Alpin",
+    "geographie": "Le Reblochon prend naissance au cœur des majestueuses Alpes, dans les vallées verdoyantes de la Haute-Savoie et du Val d'Aoste. Les pentes escarpées et les alpages d'altitude façonnent un paysage unique, propice à l'élevage des vaches laitières. Cette géographie particulière confère au lait des caractéristiques exceptionnelles, reflet de la richesse de son environnement.",
+    "climat": "Le climat montagnard, marqué par des étés frais et des hivers rigoureux, influe sur la qualité des pâturages et, par conséquent, sur le goût du lait. L'amplitude thermique importante favorise le développement d'une flore variée, riche en essences aromatiques, qui se retrouve dans les saveurs du fromage.",
+    "elevage": "Les vaches de race Abondance, Tarine et Montbéliarde, parfaitement adaptées à la vie en montagne, paissent librement dans les alpages durant la saison estivale. Leur alimentation naturelle, composée d'herbes fraîches et de fleurs sauvages, confère au lait une typicité incomparable, garante de la qualité du Reblochon.",
+    "savoir_faire": "Le savoir-faire ancestral des producteurs de Reblochon se transmet de génération en génération, perpétuant des gestes précis et des techniques d'affinage rigoureuses. Cette tradition, associée à une passion pour le produit, est la clé de l'excellence de ce fromage d'exception."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Reblochon se présente sous une forme cylindrique régulière, avec une croûte lavée de couleur orangée, recouverte d'une fine mousse blanche. Sa pâte, de couleur ivoire à jaune pâle, est lisse et brillante, témoignant d'une texture fondante à souhait.",
+    "texture": "En bouche, le Reblochon offre une texture à la fois moelleuse et fondante, avec une légère élasticité. La matière grasse, délicatement présente, enrobe le palais d'une sensation onctueuse et persistante.",
+    "aromes_primaires": "Les arômes primaires du Reblochon évoquent le lait frais, la crème et le beurre, avec des notes subtiles de noisette fraîchement concassée.",
+    "aromes_secondaires": "On perçoit également des arômes secondaires plus complexes, tels que des notes de cave, d'humus et de foin coupé, témoignant de son affinage en cave fraîche et humide.",
+    "evolution": "L'attaque est douce et onctueuse, évoluant vers un milieu de bouche plus affirmé, où se révèlent les arômes de noisette et de crème. La finale est longue et persistante, laissant une agréable sensation de gras et de saveurs lactiques.",
+    "temperature_service": "Le Reblochon se déguste idéalement à température ambiante (18-20°C) afin de révéler pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Reblochon se conserve au réfrigérateur, dans son emballage d'origine, à une température idéale de 4 à 8°C.",
+    "avant_service": "Sortez le Reblochon du réfrigérateur environ une heure avant la dégustation, afin qu'il puisse développer pleinement ses arômes et sa texture fondante.",
+    "coupe": "Pour une présentation élégante, coupez le Reblochon en quartiers, en partant du centre vers l'extérieur, afin de répartir équitablement le cœur et la croûte.",
+    "presentation": "Présentez le Reblochon sur un plateau de fromages en bois, accompagné de fruits secs (noix, noisettes), de pain de campagne et de confiture de figues.",
+    "duree": "Après ouverture, le Reblochon se conserve au réfrigérateur pendant 3 à 5 jours, en veillant à bien l'emballer pour éviter qu'il ne se dessèche."
+  },
+  "degustation": "Ce fromage se caractérise par sa texture souple et fondante, ses arômes délicats de crème et de noisette, et son intensité gustative équilibrée. Une expérience sensorielle unique, témoin du savoir-faire fromager alpin.",
+  "accords": "Pour un accord mets et vins parfait, optez pour un vin blanc sec de Savoie, tel qu'un Chignin-Bergeron ou un Apremont, dont la fraîcheur et la minéralité s'harmoniseront à merveille avec la richesse du Reblochon. Un cidre brut de Normandie, avec ses notes fruitées et acidulées, apportera également un contraste intéressant.",
+  "histoire": "Le Reblochon, dont le nom signifie littéralement « re-pincer le pis », tire son origine d'une fraude paysanne au XIIIe siècle. Un fromage au goût unique, façonné par l'histoire et le terroir alpin."
+}

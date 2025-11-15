@@ -1,0 +1,41 @@
+{
+  "id": 250,
+  "slug": "truffalo",
+  "nom": "TRUFFALO",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 67.55,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Truffalo, une symphonie laitière où la douceur de la vache se marie à l'opulence de la truffe. Un fromage d'exception sublimé par une délicate parure de coquelicots, une ode à la gourmandise et à l'art fromager suisse.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Truffalo puise son essence au cœur des paysages vallonnés de Suisse. Les prairies verdoyantes, parsemées de chalets traditionnels, offrent un cadre idyllique pour l'épanouissement des vaches. L'altitude modérée et la richesse des sols contribuent à la qualité du lait.",
+    "climat": "Le climat continental tempéré, caractérisé par des étés doux et des hivers froids, favorise une herbe riche et variée. Ces conditions climatiques influencent directement la composition du lait et, par conséquent, le caractère unique du Truffalo.",
+    "elevage": "Les vaches de race locale, sélectionnées pour la qualité de leur lait, paissent librement dans les alpages durant la belle saison. Leur alimentation, constituée d'herbes fraîches et de fleurs sauvages, confère au lait des arômes subtils et complexes. Un soin particulier est apporté au bien-être animal, garant d'un lait d'exception.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des techniques ancestrales. Chaque étape de la fabrication, du moulage à l'affinage, est réalisée avec une précision et une passion infinies. Le respect des traditions est au cœur de la philosophie du producteur."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Truffalo arbore une pâte ivoire, parsemée de fines inclusions de truffe noire. Sa croûte naturelle, ornée de délicats coquelicots comestibles, offre un contraste visuel saisissant. L'ensemble est d'une élégance rare.",
+    "texture": "En bouche, le Truffalo révèle une texture à la fois ferme et fondante. Sa pâte onctueuse libère progressivement ses arômes. Une légère humidité en surface témoigne de son affinage optimal.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait cru, la crème fraîche et le beurre doux. Ces notes lactiques sont la signature d'un fromage de qualité supérieure.",
+    "aromes_secondaires": "Des arômes secondaires de truffe noire, à la fois terreux et envoûtants, se mêlent à des notes subtiles de noisette et de champignon. La présence discrète des coquelicots apporte une touche florale délicate.",
+    "evolution": "L'attaque est douce et crémeuse, laissant place à un milieu de bouche riche et complexe où les saveurs de truffe s'épanouissent pleinement. La finale est longue et persistante, marquée par une agréable sensation umami. La longueur en bouche est remarquable.",
+    "temperature_service": "Il est recommandé de servir le Truffalo à température ambiante (18-20°C) afin de libérer pleinement ses arômes et de profiter de sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Truffalo se conserve idéalement au réfrigérateur, dans son emballage d'origine, à une température comprise entre 4 et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ une heure avant la dégustation. Ce temps de chambrage permettra aux arômes de s'épanouir et à la texture de s'attendrir.",
+    "coupe": "Pour une dégustation optimale, coupez le Truffalo en fines tranches, de manière à révéler la beauté de sa pâte truffée. Adaptez la coupe à la forme du fromage, en privilégiant des portions régulières.",
+    "presentation": "Présentez le Truffalo sur un plateau de fromages en bois ou en ardoise, accompagné de quelques fruits frais (raisins, figues) et de pain de campagne. Une touche de verdure (salade, herbes fraîches) apportera une note de fraîcheur.",
+    "duree": "Une fois entamé, le Truffalo se conserve au réfrigérateur pendant 3 à 5 jours, en veillant à bien l'emballer pour éviter qu'il ne se dessèche."
+  },
+  "degustation": "Ce fromage offre une texture soyeuse et des arômes intenses de truffe et de crème, une expérience gustative inoubliable. Son intensité aromatique en fait un fromage d'exception.",
+  "accords": "Le Truffalo s'accorde à merveille avec un Champagne millésimé Blanc de Blancs, dont la vivacité et les arômes de brioche complètent à merveille la richesse du fromage. Un vin blanc sec et minéral de Bourgogne, tel qu'un Chablis Premier Cru, peut également sublimer ses saveurs. Il est parfait avec un pain aux noix et un filet d'huile d'olive vierge.",
+  "histoire": "Né de la rencontre entre le savoir-faire fromager suisse et la passion pour la truffe, le Truffalo est un fromage d'exception. Sa fabrication artisanale et son affinage soigné en font un produit unique, symbole de gourmandise et de raffinement."
+}

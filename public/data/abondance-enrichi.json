@@ -1,0 +1,41 @@
+{
+  "id": 4,
+  "slug": "abondance",
+  "nom": "ABONDANCE",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 39.9,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "L'Abondance, un trésor des Alpes, dévoile une pâte onctueuse aux saveurs franches de noisette fraîche. Son terroir d'altitude lui confère une amertume délicate, signature d'un fromage d'exception.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "L'Abondance puise son caractère unique au cœur du massif du Chablais, en Haute-Savoie. Les pentes escarpées et les vallées verdoyantes sculptent un paysage où l'altitude oscille entre 800 et 1500 mètres. Cette géographie particulière façonne des pâturages riches et diversifiés, essentiels à la qualité du lait.",
+    "climat": "Le climat montagnard, caractérisé par des hivers rigoureux et des étés frais, influence directement la flore alpine. L'alternance des saisons favorise le développement d'une végétation riche en essences aromatiques, qui se retrouvent subtilement dans le lait des vaches Abondance.",
+    "elevage": "Les vaches de race Abondance, à la robe couleur noisette, paissent librement dans les alpages durant la période estivale. Leur alimentation, composée d'herbes fraîches et de fleurs sauvages, contribue à la richesse aromatique du lait. Le respect du bien-être animal et des traditions pastorales est au cœur de l'élevage.",
+    "savoir_faire": "Le savoir-faire fromager, transmis de génération en génération, est un véritable art. Les producteurs locaux perpétuent des méthodes ancestrales, garantissant ainsi l'authenticité et la qualité de l'Abondance. Chaque étape de la fabrication, du caillage à l'affinage, est réalisée avec une attention minutieuse."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "L'Abondance présente une pâte ivoire à jaune pâle, parsemée de quelques ouvertures discrètes. Sa croûte, de couleur brun orangé, est marquée par les motifs du moulage. L'aspect général est rustique et authentique.",
+    "texture": "La texture est souple et fondante en bouche, offrant une légère résistance à la coupe. On perçoit une subtile onctuosité qui enrobe le palais. Avec l'affinage, elle peut devenir plus ferme.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent la noisette fraîche, le beurre cru et une légère note lactique. Ces saveurs franches témoignent de la qualité du lait et du terroir.",
+    "aromes_secondaires": "Des arômes secondaires de fruits secs, d'herbes de montagne et de fleurs alpines viennent complexifier le profil aromatique. Une pointe d'amertume noble apporte une élégante longueur en bouche.",
+    "evolution": "L'attaque est douce et onctueuse, laissant place à une explosion de saveurs de noisette en milieu de bouche. La finale est persistante, avec une amertume délicate qui souligne le caractère unique de l'Abondance. La longueur en bouche est notable.",
+    "temperature_service": "L'Abondance se déguste idéalement à température ambiante (18-20°C) afin de libérer pleinement ses arômes subtils."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver l'Abondance au réfrigérateur, dans sa boîte d'origine ou enveloppé dans du papier sulfurisé, à une température comprise entre 4 et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation pour qu'il puisse exprimer toute sa palette aromatique.",
+    "coupe": "Pour apprécier pleinement l'Abondance, couper des portions en éventail depuis le centre vers la croûte.",
+    "presentation": "Présenter l'Abondance sur un plateau de fromages accompagné de fruits secs, de pain de campagne et d'un chutney de figues.",
+    "duree": "L'Abondance se conserve idéalement 5 à 7 jours après ouverture, en veillant à bien le protéger de l'air."
+  },
+  "degustation": "L'Abondance offre une texture fondante et des arômes intenses de noisette, avec une amertume élégante. Son intensité aromatique est modérée à forte, idéale pour une dégustation attentive.",
+  "accords": "L'Abondance s'accorde merveilleusement avec un Chasselas de Savoie, tel qu'un Crépy, dont la fraîcheur et la légèreté mettent en valeur ses saveurs délicates. Un vin blanc sec et minéral comme un Apremont ou un Riesling d'Alsace complètent aussi bien ce fromage. Pour les amateurs de vin rouge, un Bourgogne Côte Chalonnaise rouge, plus précisément un Givry, sera parfait.",
+  "histoire": "L'Abondance tire son nom du village éponyme en Haute-Savoie, où sa fabrication remonte au XIVe siècle. Initialement produit par les moines de l'abbaye d'Abondance, il est aujourd'hui le fruit d'un savoir-faire artisanal perpétué par les producteurs locaux."
+}

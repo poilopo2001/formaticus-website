@@ -1,0 +1,41 @@
+{
+  "id": 97,
+  "slug": "brillat-savarin-truffes-225g",
+  "nom": "BRILLAT SAVARIN TRUFFES 225G",
+  "image": "/Séance Photo Nicolas 20220423/brillat-savarin-truffe-composite.jpg",
+  "prixKg": 21.9,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Brillat-Savarin Truffes, une onctueuse ode au Grand Est, est un fromage triple crème sublimé par l'arôme envoûtant de la truffe noire. Sa pâte riche et beurrée fond délicatement en bouche, révélant un mariage exquis de saveurs lactiques et terriennes.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Grand Est, région de collines verdoyantes et de plateaux calcaires, offre un paysage propice à l'élevage. Les vallées abritées et les forêts denses façonnent un environnement idéal pour des pâturages riches et diversifiés. La diversité des sols, allant du calcaire au limon, contribue à la complexité aromatique des fromages de la région.",
+    "climat": "Le climat de la région est de type continental, caractérisé par des hivers froids et des étés chauds. Les précipitations régulières favorisent la croissance d'une végétation luxuriante, essentielle à l'alimentation des vaches. L'alternance des saisons contribue à la richesse et à la complexité des saveurs du lait.",
+    "elevage": "Les vaches laitières, principalement de race Montbéliarde, paissent librement dans les prairies du Grand Est pendant la belle saison. Leur alimentation, composée d'herbe fraîche, de foin et de céréales, influence directement la qualité du lait. Les éleveurs accordent une attention particulière au bien-être animal, garantissant un lait d'exception.",
+    "savoir_faire": "Le savoir-faire fromager du Grand Est se transmet de génération en génération. Les techniques de fabrication artisanales, respectueuses du lait cru, permettent de préserver l'authenticité des saveurs. L'affinage, étape cruciale, est réalisé avec patience et expertise, afin de révéler le potentiel aromatique du Brillat-Savarin."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Brillat-Savarin Truffes présente une pâte d'un blanc ivoire, parsemée de fines brisures de truffes noires. Sa croûte, fine et duveteuse, peut présenter une légère moisissure blanche. L'ensemble offre un aspect élégant et appétissant.",
+    "texture": "Sa texture est d'une onctuosité extrême, fondante en bouche avec une sensation de crème veloutée. Le gras du triple crème enrobe délicatement le palais. La présence des truffes apporte une subtile mâche.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux de la crème fraîche, du beurre doux et du lait chaud. On perçoit également des notes subtiles de champignon frais.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes terreuses et boisées, caractéristiques de la truffe noire. Des nuances de noisette et de sous-bois complètent le profil aromatique.",
+    "evolution": "L'attaque est douce et crémeuse, évoluant vers un milieu de bouche riche et intense, dominé par la truffe. La finale est longue et persistante, laissant une agréable sensation de gourmandise. La longueur en bouche est remarquable.",
+    "temperature_service": "Il est conseillé de le servir à température ambiante (environ 18-20°C) afin de libérer pleinement ses arômes délicats."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez-le au réfrigérateur, dans son emballage d'origine, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortez-le du réfrigérateur environ une heure avant de le déguster, afin qu'il retrouve sa texture onctueuse et que ses arômes se développent.",
+    "coupe": "Coupez-le en parts égales, en partant du centre vers l'extérieur, pour une dégustation optimale.",
+    "presentation": "Présentez-le sur un plateau de fromages élégant, accompagné de fruits secs, de noix et de pain de campagne.",
+    "duree": "Après ouverture, il est préférable de le consommer dans les 3 à 5 jours pour profiter pleinement de sa fraîcheur."
+  },
+  "degustation": "Sa texture fondante et sa saveur délicate de crème fraîche, rehaussée par la truffe, en font un fromage d'exception. L'intensité de la truffe est présente mais harmonieuse, ne masquant pas les saveurs laitières.",
+  "accords": "Il s'accorde merveilleusement avec un Chablis Premier Cru, dont la minéralité et la vivacité équilibrent la richesse du fromage. Un Meursault, avec ses notes beurrées et toastées, sublime également ce Brillat-Savarin. Pour les amateurs de vin rouge, un Bourgogne Epineuil offrira un bel accord grâce à ses tanins souples et ses arômes de fruits rouges.",
+  "histoire": "Créé dans les années 1930 par Henri Androuët, le Brillat-Savarin est un hommage au célèbre gastronome Jean Anthelme Brillat-Savarin. L'ajout de truffes est une variante luxueuse qui sublime ce fromage déjà exceptionnel, symbole de l'art de vivre à la française."
+}

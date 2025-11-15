@@ -1,0 +1,41 @@
+{
+  "id": 220,
+  "slug": "tomme-fleurette-170-gr",
+  "nom": "TOMME FLEURETTE 170 GR",
+  "image": "/images/tomme-fleurette-170-gr.jpg",
+  "prixKg": 12.35,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Tomme Fleurette, un trésor laitier de Suisse, est une ode à la simplicité et à la fraîcheur. Sa pâte tendre et son goût lactique délicat en font un fromage de tous les instants, idéal pour apprécier la richesse du lait cru.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "La Tomme Fleurette est issue des pâturages verdoyants de Suisse, où les reliefs vallonnés et les montagnes majestueuses offrent un écrin naturel d'exception. Les alpages, parsemés de chalets traditionnels, sont le théâtre d'une agriculture laitière ancestrale. L'altitude modérée contribue à la qualité du lait, riche en arômes subtils.",
+    "climat": "Le climat continental tempéré de la région, avec ses étés doux et ses hivers froids, favorise une flore diversifiée dans les prairies. Cette flore, riche en herbes aromatiques, confère au lait des vaches une complexité aromatique unique.",
+    "elevage": "Les vaches laitières paissent librement dans les alpages durant la saison estivale, se nourrissant d'une herbe fraîche et variée. Cette alimentation naturelle et équilibrée se reflète dans la qualité du lait, garantissant un fromage au goût authentique et savoureux. Le respect du bien-être animal est au cœur des pratiques d'élevage.",
+    "savoir_faire": "La fabrication de la Tomme Fleurette est un art transmis de génération en génération. Les fromagers locaux perpétuent des méthodes artisanales, utilisant des techniques ancestrales pour transformer le lait cru en un fromage d'exception. Chaque étape de la production est réalisée avec soin et passion."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La Tomme Fleurette présente une pâte de couleur ivoire, légèrement humide, et une croûte fine et fleurie, parsemée de nuances blanches et grises. Son aspect révèle une texture souple et appétissante.",
+    "texture": "Sa texture est fondante en bouche, offrant une sensation de douceur et de fraîcheur. La pâte est homogène et légèrement élastique, sans être trop ferme. Une légère onctuosité se dégage lors de la dégustation.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait frais, de la crème et du beurre doux. Une légère note acidulée vient équilibrer la richesse du fromage.",
+    "aromes_secondaires": "Des arômes secondaires subtils de noisette fraîche et d'herbes des champs se révèlent progressivement. On peut également percevoir une légère note florale délicate.",
+    "evolution": "L'attaque est douce et crémeuse, suivie d'un milieu de bouche onctueux et savoureux. La finale est fraîche et persistante, avec une longueur en bouche agréable. L'évolution en bouche est harmonieuse et équilibrée.",
+    "temperature_service": "Il est recommandé de servir la Tomme Fleurette à température ambiante (environ 18-20°C) pour apprécier pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "La Tomme Fleurette se conserve idéalement au réfrigérateur, dans une boîte à fromage ou enveloppée de papier sulfurisé, à une température de 4 à 8°C.",
+    "avant_service": "Sortez la Tomme Fleurette du réfrigérateur environ 30 minutes avant la dégustation pour permettre aux arômes de se libérer et à la texture de s'assouplir.",
+    "coupe": "Pour une présentation élégante, coupez la Tomme Fleurette en quartiers ou en tranches fines, en veillant à inclure une portion de croûte dans chaque morceau.",
+    "presentation": "Présentez la Tomme Fleurette sur un plateau de fromages accompagnée de fruits frais, de pain de campagne et de noix. Elle peut également être dégustée en apéritif ou en fin de repas.",
+    "duree": "Une fois entamée, la Tomme Fleurette se conserve environ 5 à 7 jours au réfrigérateur, en veillant à bien la protéger de l'air."
+  },
+  "degustation": "Ce fromage à pâte pressée non cuite offre une texture souple et fondante en bouche, libérant des arômes frais et lactiques. Son intensité gustative est modérée, ce qui en fait un fromage accessible et agréable.",
+  "accords": "La Tomme Fleurette s'accorde à merveille avec un vin blanc sec et fruité, tel qu'un Chasselas suisse ou un Sancerre. L'association avec une bière blonde légère et rafraîchissante est également très appréciable. Un accompagnement de confiture de figues ou de miel d'acacia sublimera ses saveurs.",
+  "histoire": "La Tomme Fleurette est un fromage traditionnel suisse, dont l'origine remonte à plusieurs siècles. Sa fabrication artisanale et son goût authentique témoignent du riche patrimoine fromager de la région."
+}

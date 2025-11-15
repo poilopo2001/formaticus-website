@@ -1,0 +1,41 @@
+{
+  "id": 431,
+  "slug": "timberly",
+  "nom": "TIMBERLY",
+  "image": "/images/timberly.jpg",
+  "prixKg": 60.45,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Timberly, un fromage à pâte molle d'une richesse subtile, évoque les prairies verdoyantes et le savoir-faire ancestral. Sa texture crémeuse fond délicatement en bouche, libérant des arômes délicats qui persistent avec élégance.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Les prairies luxuriantes où paissent les vaches laitières s'étendent au cœur des vallées verdoyantes, bercées par les doux reliefs collinaires. L'altitude modérée, alliée à une exposition favorable, confère à ce terroir une richesse unique. Des ruisseaux cristallins irriguent les sols, contribuant à la qualité exceptionnelle du lait.",
+    "climat": "Le climat tempéré, caractérisé par des étés doux et des hivers modérés, offre des conditions idéales pour l'épanouissement d'une flore variée. Les précipitations régulières assurent une herbe abondante et nourrissante pour le bétail, influençant positivement la qualité du lait.",
+    "elevage": "Les vaches de race sélectionnée, élevées avec soin, profitent d'un régime alimentaire naturel, composé d'herbes fraîches et de foin de qualité. Leur bien-être est primordial, favorisant ainsi la production d'un lait riche et parfumé. L'élevage extensif permet aux animaux de se déplacer librement, renforçant leur résistance et leur santé.",
+    "savoir_faire": "Le savoir-faire fromager, transmis de génération en génération, se perpétue avec passion et dévouement. Les techniques ancestrales, alliées à des méthodes modernes, garantissent la qualité et l'authenticité de ce fromage d'exception. L'affinage, lent et minutieux, révèle toute la complexité aromatique du Timberly."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Timberly présente une pâte d'un blanc ivoire, légèrement brillante, avec une texture souple et homogène. Sa croûte fine, duveteuse et naturelle, peut présenter des nuances allant du blanc crème au beige clair, témoignant d'un affinage soigné.",
+    "texture": "Sa texture est fondante et onctueuse, offrant une sensation de douceur en bouche. La pâte, délicatement crémeuse, se révèle souple et sans aucune aridité. Une légère élasticité peut être perçue au toucher, témoignant d'une fabrication maîtrisée.",
+    "aromes_primaires": "Les arômes primaires évoquent la crème fraîche, le beurre doux et le lait cru, avec une pointe de noisette fraîche. Ces notes lactiques dominent l'ensemble, offrant une sensation de gourmandise et de fraîcheur.",
+    "aromes_secondaires": "Des arômes secondaires plus subtils se révèlent ensuite, tels que des notes de foin coupé, de champignon frais et une touche légèrement acidulée. Une pointe florale peut également être perçue, apportant une complexité aromatique supplémentaire.",
+    "evolution": "L'attaque est douce et crémeuse, laissant rapidement place à des saveurs plus prononcées de lait et de beurre. Le milieu de bouche est ample et persistant, avec une finale délicatement acidulée qui rafraîchit le palais. La longueur en bouche est agréable et prolongée.",
+    "temperature_service": "Il est conseillé de servir le Timberly à une température de 18-20°C pour apprécier pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver le Timberly au réfrigérateur, dans son emballage d'origine, à une température idéale de 4 à 8°C.",
+    "avant_service": "Sortez le Timberly du réfrigérateur environ une heure avant la dégustation afin de lui permettre de développer pleinement ses arômes et sa texture.",
+    "coupe": "Pour une présentation élégante, coupez le Timberly en parts triangulaires, en partant du centre vers l'extérieur.",
+    "presentation": "Disposez les parts de Timberly sur un plateau de fromages, accompagnées de fruits frais, de pain de campagne et de noix.",
+    "duree": "Après ouverture, le Timberly se conserve idéalement 3 à 5 jours au réfrigérateur."
+  },
+  "degustation": "Ce fromage offre une texture incroyablement fondante et une palette aromatique riche, dominée par des notes lactiques fraîches et une subtile complexité. Son intensité modérée en fait un fromage accessible et raffiné.",
+  "accords": "Le Timberly s'accorde merveilleusement avec un vin blanc sec et fruité, tel qu'un Sancerre ou un Pouilly-Fumé, dont la vivacité équilibrera sa richesse. Un Crémant de Bourgogne brut apportera également une belle harmonie, grâce à ses bulles fines et ses arômes délicats.",
+  "histoire": "Le Timberly est un fromage issu d'une longue tradition fromagère, perpétuée par des artisans passionnés. Son nom évoque les forêts et les prairies luxuriantes de son terroir d'origine, où le temps semble suspendu."
+}

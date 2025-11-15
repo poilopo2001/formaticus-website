@@ -1,0 +1,41 @@
+{
+  "id": 69,
+  "slug": "bleu-d-auvergne",
+  "nom": "BLEU D AUVERGNE",
+  "image": "/images/bleu-d-auvergne.jpg",
+  "prixKg": 30.95,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Bleu d'Auvergne, fromage noble et racé, exhale les parfums puissants des prairies d'altitude. Sa pâte persillée onctueuse fond en bouche, révélant un goût intense et légèrement salé, sublimé par des notes de champignon et de sous-bois.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Né au cœur des volcans d'Auvergne, ce fromage AOP puise son caractère unique dans un terroir d'exception. Les montagnes escarpées et les vastes plateaux verdoyants façonnent un paysage grandiose où l'altitude confère une richesse particulière aux pâturages. Les vaches laitières profitent de ces terres volcaniques fertiles, contribuant à la typicité du lait.",
+    "climat": "Le climat rude et contrasté d'Auvergne, avec ses étés frais et ses hivers rigoureux, influence directement la flore et donc la qualité du lait. L'alternance des saisons favorise une herbe riche en nutriments essentiels, procurant au lait des saveurs complexes et subtiles.",
+    "elevage": "Les vaches laitières, principalement de race Montbéliarde et Aubrac, sont élevées avec soin dans le respect des traditions. Elles passent une grande partie de l'année en pâturage, se nourrissant d'une herbe fraîche et variée, enrichie par la diversité de la flore locale. Cette alimentation naturelle confère au lait une qualité exceptionnelle, base indispensable d'un grand fromage.",
+    "savoir_faire": "Le savoir-faire fromager s'est transmis de génération en génération, perpétuant des gestes précis et un respect absolu des traditions. L'affinage en caves fraîches et humides, typiques de la région, est une étape cruciale qui permet au Bleu d'Auvergne de développer pleinement ses arômes caractéristiques et sa texture fondante."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Bleu d'Auvergne se distingue par sa pâte ivoire parsemée de veinures bleu-vert régulières, témoignant d'un persillage harmonieux. Sa croûte naturelle, légèrement humide et irrégulière, présente des nuances allant du blanc crème au gris bleuté.",
+    "texture": "Sa texture est à la fois onctueuse et fondante, offrant une sensation de douceur en bouche. La pâte, légèrement friable, se révèle souple et agréable, libérant progressivement ses arômes.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait frais, de la crème et du beurre, évoquant la richesse et la qualité du lait de vache.",
+    "aromes_secondaires": "Des notes secondaires de champignon frais, de sous-bois et d'épices douces viennent complexifier le profil aromatique, apportant une touche de terroir et d'élégance.",
+    "evolution": "L'attaque en bouche est douce et crémeuse, laissant rapidement place à une intensité aromatique progressive. Le milieu de bouche révèle des saveurs puissantes et persistantes, tandis que la finale est longue et légèrement piquante, laissant une agréable sensation de fraîcheur. Sa longueur en bouche est remarquable.",
+    "temperature_service": "Il est conseillé de le déguster à température ambiante (environ 18-20°C) afin d'exhaler pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4°C et 8°C, de préférence dans son emballage d'origine ou dans un papier fromager.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation, afin de permettre aux arômes de se libérer et à la texture de s'attendrir.",
+    "coupe": "Pour une dégustation optimale, couper le fromage en portions triangulaires en partant du centre, afin de répartir équitablement la pâte et le persillage.",
+    "presentation": "Présenter le Bleu d'Auvergne sur un plateau de fromages accompagné de fruits secs (noix, figues), de pain de campagne et de confitures.",
+    "duree": "Une fois entamé, le Bleu d'Auvergne se conserve environ 5 à 7 jours au réfrigérateur."
+  },
+  "degustation": "Ce fromage persillé offre une texture crémeuse et des arômes puissants de champignon et de lait frais, avec une intensité gustative affirmée.",
+  "accords": "Un vin blanc sec et fruité de Savoie, tel qu'une Roussette de Savoie, accompagnera parfaitement le Bleu d'Auvergne, équilibrant sa force et sa richesse. On peut également l'associer à un vin rouge léger et fruité, comme un Gamay du Beaujolais, pour un contraste intéressant.",
+  "histoire": "Le Bleu d'Auvergne est né au milieu du XIXe siècle, grâce à l'intuition d'un agriculteur auvergnat qui eut l'idée d'ensemencer la pâte avec des moisissures. Depuis, sa fabrication artisanale et son goût unique en font un fleuron de la gastronomie française."
+}

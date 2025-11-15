@@ -1,0 +1,41 @@
+{
+  "id": 205,
+  "slug": "rondin-aux-fleurs-100-gr",
+  "nom": "RONDIN AUX FLEURS 100 GR",
+  "image": "/images/rondin-aux-fleurs-100-gr.jpg",
+  "prixKg": 4.7,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Rondin aux Fleurs est un fromage de chèvre du Val de Loire, un hommage à la douceur de ses prairies. Sa pâte tendre et crémeuse est parsemée de fleurs délicates, offrant un bouquet de saveurs subtiles et un plaisir visuel incomparable.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Val de Loire, berceau de ce fromage, est une région de douces collines et de vallées verdoyantes, traversée par le fleuve royal. Les sols calcaires et argilo-calcaires, associés à une altitude modérée, confèrent aux pâturages une richesse minérale unique. Cette géographie variée favorise une biodiversité florale exceptionnelle, influençant directement le goût du lait de chèvre.",
+    "climat": "Le climat tempéré océanique, avec des étés chauds et des hivers doux, offre des conditions idéales pour l'élevage caprin. L'humidité ambiante contribue également à l'épanouissement des fleurs qui agrémentent ce fromage, apportant des notes aromatiques spécifiques.",
+    "elevage": "Les chèvres laitières paissent librement dans les prairies du Val de Loire, se nourrissant d'une herbe fraîche et variée, enrichie par les fleurs sauvages. Cet élevage extensif, respectueux du bien-être animal, garantit un lait de qualité supérieure, riche en nutriments et en saveurs.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des techniques ancestrales. La fabrication artisanale respecte les rythmes naturels de la fermentation et de l'affinage, permettant au fromage de développer pleinement ses arômes caractéristiques."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Rondin aux Fleurs présente une pâte ivoire, lisse et brillante, constellée de fleurs séchées multicolores. Sa croûte fine et naturelle peut présenter quelques moisissures blanches, signe d'un affinage soigné.",
+    "texture": "La texture est fondante et crémeuse, offrant une sensation de douceur en bouche. Une légère humidité en surface révèle la fraîcheur du fromage.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait frais de chèvre, la crème fraîche et une légère note acidulée.",
+    "aromes_secondaires": "Les arômes secondaires sont dominés par des notes florales délicates, avec des nuances de foin coupé et d'herbes aromatiques.",
+    "evolution": "L'attaque est douce et onctueuse, évoluant vers une saveur caprine subtile et persistante. La finale est longue et agréable, laissant une empreinte florale délicate en bouche. La longueur en bouche est moyenne.",
+    "temperature_service": "Il est recommandé de servir le Rondin aux Fleurs à température ambiante (environ 18°C) afin d'exhaler pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez le Rondin aux Fleurs dans son emballage d'origine, au réfrigérateur, entre 4°C et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ 30 minutes avant la dégustation, afin de permettre à ses arômes de se développer.",
+    "coupe": "Coupez le Rondin aux Fleurs en quartiers ou en tranches fines pour une dégustation optimale.",
+    "presentation": "Présentez le fromage sur un plateau avec des fruits frais, des noix et du pain de campagne.",
+    "duree": "Consommez le fromage dans les 3 à 5 jours après ouverture."
+  },
+  "degustation": "Sa texture fondante et ses arômes floraux délicats en font un fromage d'exception. L'intensité est légère à moyenne.",
+  "accords": "Accompagnez ce fromage d'un Sancerre blanc, dont la vivacité et les notes florales souligneront la fraîcheur du Rondin aux Fleurs. Un Pouilly-Fumé, avec ses arômes de buis et d'agrumes, est également un excellent choix. En alternative, un vin blanc sec et fruité du Val de Loire conviendra parfaitement.",
+  "histoire": "Le Rondin aux Fleurs est un hommage à la tradition fromagère du Val de Loire. Sa fabrication artisanale perpétue un savoir-faire ancestral, valorisant le lait de chèvre et les richesses de son terroir."
+}

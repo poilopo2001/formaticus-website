@@ -1,0 +1,41 @@
+{
+  "id": 182,
+  "slug": "emmental-suisse-rape",
+  "nom": "EMMENTAL SUISSE RAPE",
+  "image": "/Séance Photo Nicolas 20220423/emmental-suisse-rape.jpg",
+  "prixKg": 41.9,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "L'Emmental Suisse Râpé AOP, un classique revisité. Issues d'un terroir alpin d'exception, les saveurs franches et la texture fondante de ce fromage au lait cru révèlent l'authenticité d'un savoir-faire ancestral. Une invitation à redécouvrir un incontournable de la gastronomie suisse.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "L'Emmental, berceau de ce fromage d'exception, se niche au cœur des Préalpes suisses. Ses vallées verdoyantes, ponctuées de collines douces et de sommets majestueux, offrent un paysage propice à l'élevage. L'altitude, variant entre 700 et 1000 mètres, joue un rôle crucial dans la qualité du lait.",
+    "climat": "Le climat de l'Emmental, de type continental montagnard, est caractérisé par des étés frais et des hivers rigoureux. Les précipitations abondantes favorisent la croissance d'une flore riche et variée, élément essentiel de l'alimentation des vaches.",
+    "elevage": "Les vaches, principalement de race Simmental, paissent librement dans les alpages durant la saison estivale. Leur alimentation, constituée d'herbes fraîches et de fleurs sauvages, confère au lait des arômes uniques et une richesse nutritionnelle exceptionnelle. L'hiver, elles sont nourries de foin de qualité.",
+    "savoir_faire": "La fabrication de l'Emmental Suisse AOP est un art transmis de génération en génération. Les fromagers, gardiens d'un savoir-faire ancestral, respectent scrupuleusement les étapes de la production, depuis la traite du lait cru jusqu'à l'affinage en cave."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "L'Emmental Suisse Râpé AOP présente une couleur jaune ivoire uniforme. Les fins filaments de fromage râpé révèlent une texture souple et une surface légèrement brillante. Son aspect homogène témoigne d'une fabrication soignée.",
+    "texture": "En bouche, la texture est fondante et onctueuse. Les filaments de fromage se délitent délicatement, libérant une sensation de douceur et de légèreté. La légère élasticité témoigne de la qualité du lait cru utilisé.",
+    "aromes_primaires": "Les arômes primaires dominants sont le lait frais, le beurre et la noisette grillée. Ces notes gourmandes évoquent la richesse du lait et le savoir-faire fromager.",
+    "aromes_secondaires": "Des arômes secondaires de foin coupé, de fleurs des champs et une subtile note végétale apportent une complexité aromatique intéressante. Une pointe légèrement acidulée vient équilibrer l'ensemble.",
+    "evolution": "L'attaque est douce et crémeuse, suivie d'un milieu de bouche plus affirmé où les arômes de noisette se développent pleinement. La finale est longue et persistante, laissant une agréable sensation de chaleur et de gourmandise. Sa longueur en bouche est notable.",
+    "temperature_service": "Il est conseillé de le servir à température ambiante afin de révéler pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver l'Emmental Suisse Râpé AOP au réfrigérateur, dans un emballage hermétique, à une température idéale de 4 à 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 15 à 20 minutes avant de le déguster pour qu'il retrouve sa souplesse et que ses arômes se libèrent.",
+    "coupe": "L'Emmental Suisse Râpé AOP est prêt à l'emploi, idéal pour gratiner ou agrémenter vos plats.",
+    "presentation": "Présentez-le dans un ramequin en porcelaine sur un plateau de fromages, accompagné de fruits secs et de pain de campagne.",
+    "duree": "Une fois ouvert, il est préférable de le consommer dans les 3 à 5 jours pour préserver sa fraîcheur et ses qualités gustatives."
+  },
+  "degustation": "Un fromage râpé d'une finesse remarquable, dévoilant une texture fondante et des arômes délicats de lait frais et de noisette. Son intensité modérée en fait un ingrédient polyvalent et apprécié.",
+  "accords": "Accompagnez-le d'un vin blanc sec et fruité, tel qu'un Chasselas suisse ou un Riesling d'Alsace, pour un accord harmonieux. Pour une dégustation plus audacieuse, osez un vin jaune du Jura, dont les notes oxydatives se marieront à merveille avec le fromage.",
+  "histoire": "L'Emmental, originaire du canton de Berne, est l'un des plus anciens fromages suisses. Sa production, régie par une AOP, garantit le respect d'un savoir-faire traditionnel et d'un cahier des charges strict."
+}

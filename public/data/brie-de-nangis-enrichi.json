@@ -1,0 +1,41 @@
+{
+  "id": 104,
+  "slug": "brie-de-nangis",
+  "nom": "BRIE DE NANGIS",
+  "image": "/Séance Photo Nicolas 20220423/brie-de-nangis-composite.jpg",
+  "prixKg": 29.75,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Brie de Nangis, un joyau fromager de l'Île-de-France, offre une texture fondante et un cœur crémeux. Ses arômes délicats de sous-bois et sa saveur équilibrée en font un fromage d'exception, sublimé par un affinage soigné.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Brie de Nangis puise son caractère unique dans le terroir fertile de l'Île-de-France, une région vallonnée traversée par la Seine et ses affluents. Les prairies verdoyantes, parsemées de forêts de chênes et de hêtres, offrent un paysage doux et propice à l'élevage. L'altitude modérée de la région contribue à un climat tempéré, idéal pour l'affinage des fromages.",
+    "climat": "Le climat de l'Île-de-France, de type océanique dégradé, se caractérise par des étés tempérés et des hivers doux. Cette humidité ambiante favorise le développement d'une flore bactérienne diversifiée, essentielle à l'affinage du Brie de Nangis et à l'expression de ses arômes subtils.",
+    "elevage": "Les vaches laitières, principalement de race Prim'Holstein et Montbéliarde, sont élevées avec soin dans des exploitations familiales. Elles pâturent dans les prairies verdoyantes dès que le temps le permet, se nourrissant d'une herbe riche et variée. Un complément de foin et de céréales est apporté en hiver, assurant une alimentation équilibrée et de qualité.",
+    "savoir_faire": "Le Brie de Nangis est fabriqué selon des méthodes traditionnelles, transmises de génération en génération. Le lait cru est emprésuré et moulé à la louche, une technique délicate qui permet de préserver la texture et les arômes du fromage. L'affinage, d'une durée variable, est réalisé en caves fraîches et humides, où le fromage développe sa croûte fleurie caractéristique."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Brie de Nangis se présente sous la forme d'un disque plat, à la croûte fine et duveteuse, de couleur blanche à ivoire. La pâte, d'un jaune pâle, est souple et onctueuse, avec une légère coulance au centre à pleine maturité.",
+    "texture": "Sa texture est fondante et crémeuse, offrant une sensation de douceur en bouche. Une légère fermeté peut être perçue sous la croûte, contrastant avec le cœur plus onctueux. L'absence de granulosité témoigne d'un affinage maîtrisé.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait frais, la crème et le beurre, avec une pointe de noisette fraîchement concassée.",
+    "aromes_secondaires": "Des notes subtiles de sous-bois humide, de champignon de Paris et de foin coupé viennent complexifier le profil aromatique.",
+    "evolution": "L'attaque est douce et onctueuse, évoluant vers un milieu de bouche plus aromatique et persistant. La finale est légèrement acidulée, laissant une agréable sensation de fraîcheur. Sa longueur en bouche est moyenne.",
+    "temperature_service": "Il est idéal de le servir à température ambiante (environ 20°C) afin de libérer pleinement ses arômes et d'apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez le Brie de Nangis au réfrigérateur, dans son emballage d'origine ou dans une boîte à fromage, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortez-le du réfrigérateur environ une heure avant de le déguster pour qu'il retrouve toute sa souplesse et révèle ses arômes.",
+    "coupe": "Coupez-le en parts triangulaires, de la croûte vers le centre, afin de répartir les différentes textures et saveurs.",
+    "presentation": "Présentez-le sur un plateau avec des fruits frais (raisins, figues), des noix et du pain de campagne.",
+    "duree": "Après ouverture, il est préférable de le consommer dans les 3 à 5 jours pour profiter pleinement de sa fraîcheur."
+  },
+  "degustation": "Sa texture est fondante et soyeuse, avec des arômes subtils de lait frais et de sous-bois. Son intensité est douce à moyenne, idéale pour une dégustation raffinée.",
+  "accords": "Le Brie de Nangis s'accorde à merveille avec un vin rouge léger et fruité, comme un Bourgogne Pinot Noir (par exemple, un Givry). Son côté crémeux se marie également bien avec un vin blanc sec et minéral, tel qu'un Sancerre ou un Pouilly-Fumé. Évitez les vins trop tanniques ou trop puissants qui pourraient masquer ses arômes délicats.",
+  "histoire": "Le Brie de Nangis, cousin du Brie de Meaux, est fabriqué depuis des siècles dans la région de Nangis, en Île-de-France. Son authenticité et son savoir-faire artisanal en font un fromage emblématique du patrimoine gastronomique français."
+}

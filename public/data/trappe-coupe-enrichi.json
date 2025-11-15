@@ -1,0 +1,41 @@
+{
+  "id": 262,
+  "slug": "trappe-coupe",
+  "nom": "TRAPPE COUPE",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 58.0,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Trappe Coupé, un fromage où la simplicité monastique révèle un cœur crémeux. Son affinage patient lui confère une complexité aromatique surprenante, un écho du savoir-faire ancestral.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Bien que le terme 'Trappe' évoque un monastère, ce fromage est produit selon des méthodes traditionnelles dans une région vallonnée d'Europe. Les prairies verdoyantes, parsemées de petits bosquets, offrent un paysage propice à un élevage de qualité. L'altitude modérée contribue à une hygrométrie idéale pour l'affinage des fromages.",
+    "climat": "Le climat tempéré, avec des étés doux et des hivers froids mais non excessifs, favorise une herbe riche et variée. Cette herbe est essentielle à la qualité du lait, qui se traduit ensuite dans le goût du fromage.",
+    "elevage": "Les vaches laitières sont élevées en plein air dès que le temps le permet, bénéficiant d'un régime alimentaire riche en herbes fraîches et en foin de qualité pendant les mois d'hiver. Cette alimentation naturelle confère au lait une richesse aromatique et une complexité gustative.",
+    "savoir_faire": "Le savoir-faire fromager est transmis de génération en génération, perpétuant les gestes ancestraux et les secrets d'affinage. Chaque étape, du caillage à l'affinage en cave, est réalisée avec soin et passion pour garantir un fromage d'exception."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La Trappe Coupé présente une pâte ivoire à jaune pâle, uniforme et lisse, parfois parsemée de quelques ouvertures irrégulières. Sa croûte est fine, de couleur orangée à brunâtre, légèrement humide.",
+    "texture": "La texture est souple et fondante en bouche, offrant une légère résistance initiale suivie d'une agréable onctuosité. L'absence de granulation témoigne d'un affinage maîtrisé.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le beurre frais, la crème douce et le lait chaud, signe d'un lait de qualité et d'une transformation soignée.",
+    "aromes_secondaires": "Des notes subtiles de noisette grillée, de foin coupé et une légère pointe animale viennent complexifier le profil aromatique. On peut également déceler une touche discrète de champignon frais.",
+    "evolution": "L'attaque est douce et crémeuse, évoluant vers un milieu de bouche plus affirmé avec des notes de noisette et de foin. La finale est longue et persistante, laissant une agréable sensation de gras et une légère amertume équilibrée. La longueur en bouche est notable.",
+    "temperature_service": "Servir à température ambiante (environ 18-20°C) pour exhaler pleinement ses arômes et apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4 et 8°C.",
+    "avant_service": "Sortir du réfrigérateur environ 30 minutes avant la dégustation pour permettre au fromage de développer pleinement ses arômes et sa texture.",
+    "coupe": "Couper en portions triangulaires pour apprécier toutes les facettes du fromage et répartir la croûte de manière équitable.",
+    "presentation": "Présenter sur un plateau en bois avec des fruits secs, des noix et du pain de campagne pour accompagner la dégustation.",
+    "duree": "Consommer dans les 5 jours après ouverture pour préserver sa fraîcheur et ses saveurs."
+  },
+  "degustation": "La Trappe Coupé offre une texture fondante et un bouquet aromatique équilibré entre notes lactiques et nuances de fruits secs. Son intensité est modérée, ce qui en fait un fromage accessible et agréable.",
+  "accords": "Accompagner d'un vin blanc sec et fruité, tel qu'un Chardonnay de Bourgogne ou un Pinot Blanc d'Alsace, dont la fraîcheur et les arômes fruités viendront équilibrer la richesse du fromage. Une bière blonde d'abbaye, aux notes maltées et légèrement amères, peut également être un excellent choix.",
+  "histoire": "Inspiré des traditions monastiques, La Trappe Coupé perpétue un savoir-faire ancestral dans la production de fromages à pâte pressée non cuite. Son affinage méticuleux en cave lui confère son caractère unique."
+}

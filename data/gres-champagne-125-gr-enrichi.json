@@ -1,0 +1,41 @@
+{
+  "id": 218,
+  "slug": "gres-champagne-125-gr",
+  "nom": "GRES CHAMPAGNE 125 GR",
+  "image": "/images/gres-champagne-125-gr.jpg",
+  "prixKg": 9.35,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Gres Champagne, un fromage d'exception affiné au cœur de la région Grand-Est, révèle une alliance subtile entre la douceur du lait de vache et la vivacité des bulles champenoises. Sa pâte fondante, délicatement parfumée, offre une expérience gustative inoubliable, empreinte de terroir et de tradition.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "La région Grand-Est, berceau de ce fromage raffiné, est caractérisée par une mosaïque de paysages : des plateaux calcaires aux vallées verdoyantes, sculptés par les rivières et les forêts. L'altitude modérée et la richesse des sols confèrent au lait des vaches des qualités uniques. Cette diversité géographique se reflète dans les saveurs subtiles du Gres Champagne.",
+    "climat": "Le climat de la région Grand-Est, de type continental, avec des hivers froids et des étés chauds, influence directement la qualité du lait. Les variations de température favorisent le développement d'une flore spécifique dans les prairies, enrichissant ainsi l'alimentation des vaches et complexifiant les arômes du fromage.",
+    "elevage": "Les vaches, principalement de races laitières réputées, pâturent librement dans les prairies verdoyantes de la région. Leur alimentation, riche en herbes fraîches et en fleurs sauvages, confère au lait une saveur unique et un caractère authentique. L'attention portée au bien-être animal est une priorité pour les producteurs locaux.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des méthodes ancestrales et un respect profond du produit. L'affinage au champagne, étape cruciale, est réalisé avec une grande précision, conférant au Gres Champagne sa signature gustative distinctive et sa texture soyeuse."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Gres Champagne présente une pâte ivoire, lisse et brillante, parfois légèrement persillée de fines ouvertures. Sa croûte, fine et délicate, arbore une teinte crème, témoignant de son affinage soigné. L'aspect général est invitant et raffiné.",
+    "texture": "En bouche, la texture est d'une douceur exceptionnelle : fondante, crémeuse et légèrement élastique. Une légère humidité en surface accentue la sensation de fraîcheur. L'absence de granulosité assure une dégustation des plus agréables.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait frais, la crème douce et le beurre fondu. Des notes subtiles de foin coupé et de fleurs blanches complètent ce bouquet olfactif délicat.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes plus complexes de levure, de fruits secs (noisette, amande) et une pointe d'acidité vive provenant du champagne. Un léger parfum d'agrumes apporte une touche de fraîcheur.",
+    "evolution": "L'attaque en bouche est douce et onctueuse, laissant place à un milieu de bouche plus expressif, où les arômes de champagne se dévoilent pleinement. La finale est persistante, avec une longueur en bouche agréable et une légère note acidulée qui invite à la dégustation.",
+    "temperature_service": "La température de service idéale se situe entre 16 et 18°C, afin de permettre aux arômes de s'exprimer pleinement et de révéler toute la complexité du fromage."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4 et 8°C, dans son emballage d'origine ou dans une boîte hermétique pour préserver son humidité.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation, afin qu'il puisse développer pleinement ses arômes et sa texture fondante.",
+    "coupe": "Pour une présentation optimale, couper le fromage en parts égales, en partant du centre vers l'extérieur. Utiliser un couteau à fromage à lame fine pour ne pas altérer la texture.",
+    "presentation": "Présenter le Gres Champagne sur un plateau de fromages accompagné de fruits frais de saison (raisins, figues), de noix et de pain de campagne.",
+    "duree": "Une fois entamé, le fromage se conserve idéalement 3 à 5 jours au réfrigérateur, en veillant à bien le protéger de l'air."
+  },
+  "degustation": "Sa texture fondante et ses arômes délicats de lait et de champagne en font un fromage d'exception. Son intensité aromatique est modérée, ce qui le rend accessible et agréable à déguster.",
+  "accords": "Un Champagne Blanc de Blancs, tel qu'un Ruinart ou un Salon, s'accordera à merveille avec le Gres Champagne, sublimant ses arômes et sa texture. Un vin blanc sec et fruité, comme un Sancerre ou un Pouilly-Fumé, apportera également une belle harmonie.",
+  "histoire": "Le Gres Champagne, fruit du terroir du Grand-Est, est le résultat d'un savoir-faire ancestral transmis de génération en génération. L'affinage au champagne, technique unique, lui confère son caractère distinctif et sa renommée."
+}

@@ -1,0 +1,41 @@
+{
+  "id": 71,
+  "slug": "langres-180-gr",
+  "nom": "LANGRES 180 GR",
+  "image": "/images/langres-180-gr.jpg",
+  "prixKg": 6.9,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Langres AOP, un fromage au lait de vache thermisé, est une ode au terroir du Grand Est. Sa pâte onctueuse et son cœur légèrement crayeux dévoilent des saveurs franches et délicates, sublimées par son affinage singulier.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Langres est ancré dans le paysage vallonné et boisé du plateau de Langres, dans le Grand Est. Cette région, à la croisée des chemins, bénéficie d'une altitude modérée, favorisant un climat propice à la pousse d'une flore riche et variée. Les prairies verdoyantes, parsemées de forêts, offrent un cadre idéal à l'élevage laitier.",
+    "climat": "Le climat continental du plateau de Langres, caractérisé par des hivers froids et des étés tempérés, influe considérablement sur la qualité du lait. Les variations de température favorisent le développement d'une flore microbienne spécifique, essentielle à l'affinage du Langres.",
+    "elevage": "Les vaches laitières, principalement de race Montbéliarde, pâturent librement dans les prairies du plateau dès que le temps le permet. Leur alimentation, composée d'herbe fraîche et de foin de qualité, confère au lait des arômes subtils et une richesse nutritionnelle exceptionnelle.",
+    "savoir_faire": "Le savoir-faire ancestral de fabrication du Langres AOP se transmet de génération en génération. Chaque étape, du moulage à la main à l'affinage en cave, est réalisée avec une attention méticuleuse, garantissant la qualité et l'authenticité de ce fromage d'exception."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Langres se présente avec une croûte de couleur orangée, légèrement humide et plissée, caractéristique de son affinage. Sa pâte, d'un jaune ivoire, révèle une texture à la fois souple et ferme.",
+    "texture": "En bouche, le Langres offre une texture fondante et onctueuse, avec un cœur parfois légèrement crayeux, signe d'un affinage optimal. Il procure une sensation de douceur et de confort.",
+    "aromes_primaires": "Les arômes primaires dominants rappellent le lait frais, la crème et le beurre, avec une légère note acidulée.",
+    "aromes_secondaires": "Des arômes secondaires plus subtils de cave, de foin et de noisette viennent complexifier le profil aromatique.",
+    "evolution": "L'attaque est douce et crémeuse, évoluant vers un milieu de bouche plus puissant et persistant. La finale est légèrement salée et aromatique, laissant une agréable longueur en bouche.",
+    "temperature_service": "Il est conseillé de déguster le Langres à température ambiante (environ 20°C) pour apprécier pleinement ses arômes et sa texture."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver le Langres au réfrigérateur, dans son emballage d'origine, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation afin de permettre aux arômes de se libérer.",
+    "coupe": "Le Langres se coupe idéalement en parts égales, en partant du centre vers l'extérieur.",
+    "presentation": "Présenter le Langres sur un plateau de fromages accompagné de pain de campagne, de fruits secs et de quelques noix.",
+    "duree": "Après ouverture, consommer le Langres dans les 3 à 5 jours pour une dégustation optimale."
+  },
+  "degustation": "Ce Langres révèle une texture crémeuse et un bouquet aromatique complexe, allant des notes lactiques aux saveurs subtiles de cave. Son intensité modérée en fait un fromage accessible et raffiné.",
+  "accords": "Il s'accorde merveilleusement avec un vin rouge charpenté tel qu'un Madiran ou un Cahors, dont les tanins puissants équilibreront sa richesse. Pour une association plus audacieuse, optez pour un Jurançon moelleux ou un Sauternes, dont la sucrosité fera ressortir ses arômes subtils.",
+  "histoire": "Le Langres AOP est un fromage emblématique du plateau de Langres, dont l'origine remonte au Moyen Âge. Fabriqué selon des méthodes traditionnelles, il est le fruit d'un savoir-faire unique transmis de génération en génération."
+}

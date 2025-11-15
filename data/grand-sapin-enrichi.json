@@ -1,0 +1,41 @@
+{
+  "id": 430,
+  "slug": "grand-sapin",
+  "nom": "GRAND SAPIN",
+  "image": "/images/grand-sapin.jpg",
+  "prixKg": 49.6,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Grand Sapin, un joyau de nos montagnes, révèle une pâte onctueuse imprégnée des arômes résineux de son écrin de bois. Affiné avec soin, il offre une expérience gustative unique, un voyage sensoriel au cœur de la forêt.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Grand Sapin est né dans les vallées verdoyantes des montagnes du Jura, où les pâturages d'altitude s'étendent à perte de vue. Ces reliefs accidentés, façonnés par des millénaires d'histoire géologique, confèrent au lait des vaches une richesse aromatique incomparable. Les forêts denses de sapins apportent une fraîcheur et une biodiversité essentielles à l'équilibre de cet écosystème.",
+    "climat": "Le climat montagnard, caractérisé par des étés courts et frais et des hivers longs et rigoureux, influence directement la flore et donc l'alimentation des vaches. L'humidité ambiante joue également un rôle crucial dans l'affinage du fromage, favorisant le développement d'une flore de surface spécifique.",
+    "elevage": "Les vaches, de race Montbéliarde, paissent librement sur les prairies d'altitude pendant la saison estivale, se nourrissant d'une herbe riche et variée. En hiver, elles sont nourries au foin sec, garantissant ainsi une alimentation naturelle et équilibrée tout au long de l'année. Ce mode d'élevage extensif favorise le bien-être animal et préserve la biodiversité des pâturages.",
+    "savoir_faire": "La fabrication du Grand Sapin est le fruit d'un savoir-faire ancestral transmis de génération en génération. Les fromagers perpétuent les gestes traditionnels, utilisant des méthodes artisanales pour transformer le lait cru en un fromage d'exception. L'affinage en cave, véritable art, est réalisé avec patience et attention, permettant au fromage de développer pleinement ses arômes."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Grand Sapin se présente sous une forme cylindrique, cerclé d'une écorce d'épicéa. Sa pâte, de couleur ivoire à jaune pâle, est lisse et homogène. On observe parfois de petites ouvertures, témoins d'une fermentation naturelle.",
+    "texture": "La texture est onctueuse et fondante en bouche, avec une légère fermeté au centre. Elle évolue au fur et à mesure de l'affinage, devenant plus crémeuse avec le temps. La croûte, fine et souple, contribue à la richesse aromatique du fromage.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait cru, la crème fraîche et le beurre doux. Une légère note de noisette est également perceptible.",
+    "aromes_secondaires": "Des arômes secondaires de résine de pin, de champignons sauvages et de sous-bois se développent avec l'affinage, apportant une complexité aromatique subtile. Une touche légèrement lactique et végétale complète le tableau.",
+    "evolution": "L'attaque est douce et crémeuse, suivie d'un milieu de bouche riche et complexe. La finale est longue et persistante, laissant une agréable sensation de fraîcheur en bouche. Sa longueur en bouche est remarquable.",
+    "temperature_service": "Il est conseillé de servir le Grand Sapin à température ambiante (18-20°C) afin de permettre aux arômes de se libérer pleinement."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver le Grand Sapin au réfrigérateur, dans son emballage d'origine, à une température de 4 à 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation pour qu'il atteigne sa température idéale et que ses arômes se développent pleinement.",
+    "coupe": "Pour apprécier pleinement le Grand Sapin, il est préférable de le couper en parts radiales, en partant du centre vers l'extérieur.",
+    "presentation": "Présenter le Grand Sapin sur un plateau en bois, accompagné de fruits secs, de noix, et de pain de campagne.",
+    "duree": "Après ouverture, le Grand Sapin se conserve environ une semaine au réfrigérateur, dans son emballage d'origine."
+  },
+  "degustation": "Le Grand Sapin offre une texture onctueuse et des arômes boisés et lactiques qui se marient harmonieusement. Son intensité est moyenne, ce qui en fait un fromage accessible et agréable à déguster.",
+  "accords": "Ce fromage s'accorde parfaitement avec un vin blanc sec et fruité, comme un Chardonnay du Jura, dont les notes minérales et beurrées complètent à merveille les arômes du fromage. Un vin rouge léger et fruité, tel qu'un Pinot Noir d'Alsace, peut également être envisagé. En accord mets, essayez-le avec une confiture de figues ou de cerises noires.",
+  "histoire": "Le Grand Sapin est un fromage traditionnel du Jura, dont la fabrication remonte à plusieurs siècles. Son affinage sur une écorce d'épicéa lui confère son caractère unique et son identité régionale, témoignant d'un savoir-faire ancestral."
+}

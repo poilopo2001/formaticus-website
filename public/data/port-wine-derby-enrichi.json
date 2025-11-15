@@ -1,0 +1,41 @@
+{
+  "id": 73,
+  "slug": "port-wine-derby",
+  "nom": "PORT WINE DERBY",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 46.8,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Port Wine Derby, originaire du Royaume-Uni, est une curiosité fromagère qui marie la douceur lactique du Derby à la richesse fruitée du vin de Porto. Sa pâte marbrée offre un voyage gustatif unique, oscillant entre des saveurs crémeuses et des notes vineuses.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Derby, traditionnellement produit dans le comté du Derbyshire en Angleterre, profite d'un paysage vallonné et verdoyant, traversé par des rivières sinueuses. Cette région, au relief doux, favorise le développement d'une flore riche et variée, essentielle à l'alimentation des vaches laitières.",
+    "climat": "Le climat tempéré océanique du Derbyshire, avec ses étés doux et ses hivers frais et humides, contribue à la qualité du lait. L'humidité ambiante favorise également le développement d'une flore microbienne bénéfique dans les prairies.",
+    "elevage": "Les vaches laitières sont élevées dans le respect des traditions, privilégiant un pâturage extensif dès que la saison le permet. L'herbe fraîche et diversifiée confère au lait des arômes subtils et une richesse en nutriments.",
+    "savoir_faire": "Le savoir-faire fromager local se transmet de génération en génération, garantissant la préservation des méthodes traditionnelles de fabrication du Derby. L'infusion au vin de Porto est une innovation plus récente, témoignant de la capacité des artisans à s'adapter et à surprendre."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Port Wine Derby se distingue par sa pâte ivoire, veinée de motifs rubis profonds, résultat de l'infusion au vin de Porto. La texture est dense et homogène, avec une surface lisse et parfois légèrement humide.",
+    "texture": "En bouche, la texture est à la fois ferme et fondante, offrant une sensation crémeuse qui enveloppe le palais. La pâte peut présenter une légère friabilité due au processus de maturation.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait frais, le beurre doux et une légère acidité lactique, typique des fromages Derby de bonne facture.",
+    "aromes_secondaires": "Les arômes secondaires se révèlent avec des notes de fruits rouges confits, de prune, de chocolat noir et d'épices douces, apportées par le vin de Porto.",
+    "evolution": "L'attaque en bouche est douce et crémeuse, évoluant vers des saveurs plus complexes de fruits mûrs et d'épices. La finale est longue et persistante, avec une légère note vineuse et une pointe d'acidité rafraîchissante. La longueur en bouche est notable, laissant un souvenir gourmand.",
+    "temperature_service": "Il est idéal de servir le Port Wine Derby à température ambiante (environ 18-20°C) pour permettre aux arômes de s'exprimer pleinement."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez le Port Wine Derby au réfrigérateur, dans une boîte hermétique ou enveloppé de papier sulfurisé, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ 30 minutes avant de le déguster afin qu'il retrouve sa texture optimale et que ses arômes se libèrent.",
+    "coupe": "Pour une présentation élégante, coupez le fromage en portions triangulaires en partant du centre, en veillant à ce que chaque portion contienne une part équilibrée de pâte et de veinures de vin de Porto.",
+    "presentation": "Présentez le Port Wine Derby sur un plateau en bois ou en ardoise, accompagné de fruits secs, de noix et de crackers neutres pour mettre en valeur ses saveurs.",
+    "duree": "Une fois entamé, le Port Wine Derby peut se conserver au réfrigérateur pendant environ 5 à 7 jours, en veillant à bien le protéger de l'air."
+  },
+  "degustation": "Ce fromage offre une texture crémeuse et fondante, agrémentée d'arômes fruités et vineux. Son intensité est modérée, ce qui le rend accessible et agréable pour tous les palais.",
+  "accords": "Le Port Wine Derby s'accorde à merveille avec un verre de Tawny Port vieilli, dont les notes de noix et de caramel font écho à la richesse du fromage. Pour une alternative, un vin rouge fruité et légèrement épicé de la Vallée du Rhône, tel qu'un Crozes-Hermitage, complétera parfaitement son profil gustatif.",
+  "histoire": "Le Derby est un fromage anglais traditionnel, dont l'origine remonte au 16ème siècle. L'infusion au vin de Porto est une adaptation moderne qui apporte une touche d'originalité et de gourmandise à ce classique fromager."
+}

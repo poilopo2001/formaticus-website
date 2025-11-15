@@ -1,0 +1,41 @@
+{
+  "id": 181,
+  "slug": "comte-rape",
+  "nom": "COMTE RAPE",
+  "image": "/images/comte-rape.jpg",
+  "prixKg": 38.9,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Ce Comté râpé, provenant du cœur de la Bourgogne-Franche-Comté, offre une saveur intense et fruitée, capturant l'essence de son terroir. Sa texture fine et fondante en fait un ingrédient d'exception, sublimant vos plats avec une élégance rustique.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "La Bourgogne-Franche-Comté se caractérise par un paysage vallonné, parsemé de prairies verdoyantes et de forêts denses. L'altitude, variant de 200 à plus de 1500 mètres, influence la diversité de la flore et la qualité du lait. Les plateaux calcaires jurassiques offrent un sol riche et drainant, idéal pour l'herbe dont se nourrissent les vaches.",
+    "climat": "Le climat de la région est de type semi-continental, avec des hivers froids et neigeux et des étés chauds. Les variations de température contribuent au développement d'une flore riche et diversifiée, qui se reflète dans le goût unique du lait.",
+    "elevage": "Les vaches de race Montbéliarde, réputées pour leur lait riche et parfumé, paissent librement dans les prairies durant la belle saison. Leur alimentation est complétée par du foin de qualité en hiver, assurant un lait d'une qualité constante tout au long de l'année. Le bien-être animal est une priorité pour les producteurs de Comté.",
+    "savoir_faire": "La fabrication du Comté est un art ancestral, transmis de génération en génération. Chaque étape, du caillage du lait à l'affinage, est réalisée avec un soin méticuleux. Les fromagers maîtrisent parfaitement les techniques traditionnelles, garantissant un produit d'une qualité exceptionnelle."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Comté râpé présente une couleur jaune ivoire, témoignant de la richesse du lait utilisé. Sa texture, finement hachée, révèle la qualité d'un fromage affiné avec soin. L'absence de croûte est une caractéristique propre à ce format.",
+    "texture": "En bouche, le Comté râpé fond délicatement, libérant une texture à la fois souple et légèrement granuleuse. Il offre une sensation de confort et de gourmandise, invitant à la dégustation.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le beurre frais, la noisette grillée et la crème onctueuse. Ces notes gourmandes témoignent de la qualité du lait et du savoir-faire fromager.",
+    "aromes_secondaires": "Des arômes secondaires subtils de fruits secs, d'herbes de montagne et de foin coupé viennent complexifier le profil aromatique. Une légère note toastée peut également se faire sentir, signe d'un affinage maîtrisé.",
+    "evolution": "L'attaque est douce et crémeuse, suivie d'un milieu de bouche riche et parfumé. La finale est persistante, laissant une agréable sensation de longueur en bouche. L'évolution des saveurs est progressive et harmonieuse.",
+    "temperature_service": "Il est préférable de l'utiliser à température ambiante afin de libérer pleinement ses arômes. L'incorporer directement à la sortie du réfrigérateur peut atténuer sa richesse gustative."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur, dans un contenant hermétique, entre 4°C et 8°C.",
+    "avant_service": "Sortir le Comté râpé du réfrigérateur environ 15 minutes avant utilisation afin de permettre aux arômes de s'exprimer pleinement.",
+    "coupe": "Le Comté étant déjà râpé, il n'y a pas de technique de coupe spécifique.",
+    "presentation": "Pour une présentation élégante, saupoudrez-le généreusement sur vos plats chauds ou froids, en veillant à répartir uniformément le fromage.",
+    "duree": "Conserver au maximum 5 jours après ouverture, pour une fraîcheur optimale."
+  },
+  "degustation": "Ce Comté râpé révèle une texture fondante et des arômes intenses de noisette et de beurre. Son intensité est équilibrée, offrant une dégustation à la fois riche et raffinée.",
+  "accords": "Pour un accord mets et vins parfait, associez ce Comté râpé à un vin blanc sec et fruité tel qu'un Chardonnay de Bourgogne, qui soulignera ses arômes de noisette. Un vin rouge léger et fruité, comme un Pinot Noir de Bourgogne, peut également être envisagé pour une alliance plus audacieuse.",
+  "histoire": "Le Comté est un fromage ancestral, dont l'histoire remonte au Moyen Âge. Fabriqué selon des méthodes traditionnelles, il est le fruit d'un savoir-faire unique et d'un terroir d'exception."
+}

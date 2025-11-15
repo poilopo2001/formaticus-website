@@ -1,0 +1,41 @@
+{
+  "id": 52,
+  "slug": "laguiole",
+  "nom": "LAGUIOLE",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 40.9,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Laguiole, un fromage de caractère façonné par les vastes prairies de l'Aubrac, offre une expérience gustative riche et complexe. Sa pâte, parsemée d'ail des ours, de tomates, de basilic et de noix, révèle des saveurs herbacées et fruitées, soutenues par une texture à la fois ferme et fondante.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Laguiole est ancré dans les paysages volcaniques et granitiques de l'Aubrac, un haut plateau aux confins de l'Aveyron, du Cantal et de la Lozère. Ces vastes étendues, sculptées par des millénaires d'activité volcanique et d'érosion glaciaire, culminent à plus de 1000 mètres d'altitude. Les prairies d'estive, parsemées de burons traditionnels, offrent un environnement unique pour le développement de la flore locale.",
+    "climat": "Le climat de l'Aubrac est rude, marqué par des hivers longs et froids et des étés courts et frais. Les précipitations abondantes favorisent une herbe riche et variée, essentielle à la qualité du lait et au développement des arômes du fromage.",
+    "elevage": "Les vaches de race Aubrac, rustiques et parfaitement adaptées à leur environnement, pâturent librement dans les prairies d'altitude pendant la saison estivale. Leur alimentation, constituée d'herbes sauvages et de fleurs des montagnes, confère au lait des arômes complexes et une typicité unique. L'hiver, elles sont nourries au foin sec, garantissant la continuité de la production laitière.",
+    "savoir_faire": "Le savoir-faire fromager du Laguiole se transmet de génération en génération au sein des burons, ces fermes d'altitude où le fromage est traditionnellement fabriqué. Les techniques de fabrication, inchangées depuis des siècles, garantissent la qualité et l'authenticité du produit."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte du Laguiole présente une couleur ivoire à jaune pâle, parsemée de fragments colorés d'ail des ours, de tomates séchées, de basilic et de noix. Sa texture est dense et homogène, avec parfois quelques petites ouvertures irrégulières.",
+    "texture": "En bouche, le Laguiole offre une texture à la fois ferme et fondante, évoluant vers un crémeux agréable. La présence des inclusions apporte une légère mâche et une sensation de croquant subtil.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait frais, la crème et le beurre légèrement noisetté. Une douce odeur de foin coupé se révèle également.",
+    "aromes_secondaires": "Des notes herbacées fraîches, apportées par l'ail des ours et le basilic, se mêlent à la douceur fruitée des tomates séchées et aux notes légèrement amères des noix. On peut également déceler de subtiles nuances florales.",
+    "evolution": "L'attaque est douce et lactique, évoluant vers un milieu de bouche plus complexe et aromatique. La finale est longue et persistante, laissant une agréable sensation de chaleur et de gourmandise. La longueur en bouche est notable.",
+    "temperature_service": "Il est conseillé de servir le Laguiole à température ambiante (environ 18-20°C) pour permettre aux arômes de s'exprimer pleinement."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Laguiole se conserve idéalement au réfrigérateur, dans un endroit frais et sec, à une température comprise entre 4 et 8°C.",
+    "avant_service": "Sortez le Laguiole du réfrigérateur au moins une heure avant la dégustation pour qu'il puisse développer pleinement ses arômes et sa texture.",
+    "coupe": "Le Laguiole, de forme cylindrique, se coupe en tranches régulières, de manière à préserver l'équilibre des saveurs entre la croûte et le cœur.",
+    "presentation": "Présentez le Laguiole sur un plateau de fromages en bois, accompagné de fruits secs, de noix fraîches et d'une baguette de pain de campagne.",
+    "duree": "Après ouverture, le Laguiole se conserve environ une semaine au réfrigérateur, bien emballé dans du papier sulfurisé ou un film alimentaire."
+  },
+  "degustation": "La texture est à la fois ferme et fondante, les arômes complexes et herbacés d'ail des ours, de basilic et de la douceur des tomates séchées confèrent une intensité aromatique délicate mais persistante. Un fromage qui évoque le terroir et la tradition.",
+  "accords": "Ce Laguiole aux herbes et aux noix s'accorde merveilleusement bien avec un vin rouge fruité et léger, comme un Côtes d'Auvergne ou un Gamay du Val de Loire. Pour une expérience plus audacieuse, essayez-le avec un vin blanc sec et minéral, tel qu'un Sancerre ou un Pouilly-Fumé, qui soulignera les notes herbacées du fromage.",
+  "histoire": "Le Laguiole tire son nom du village éponyme situé au cœur de l'Aubrac. Fabriqué depuis le XIIe siècle par les moines de l'abbaye de Bonneval, il témoigne d'une longue tradition fromagère et d'un savoir-faire ancestral."
+}

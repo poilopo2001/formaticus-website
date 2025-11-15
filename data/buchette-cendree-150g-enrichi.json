@@ -1,0 +1,41 @@
+{
+  "id": 141,
+  "slug": "buchette-cendree-150g",
+  "nom": "BUCHETTE CENDREE 150G",
+  "image": "/images/buchette-cendree-150g.jpg",
+  "prixKg": 8.05,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Buchette Cendrée, un joyau de la Nouvelle Aquitaine, se révèle sous une fine robe cendrée, promesse d'un cœur fondant et lactique. Son authenticité s'exprime à travers un goût pur et une texture délicate, fruit d'un savoir-faire ancestral et d'un lait cru d'exception.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "La Nouvelle Aquitaine, terre de contrastes, offre des paysages vallonnés propices à l'élevage caprin. Ses prairies verdoyantes et ses coteaux ensoleillés dessinent un cadre idyllique pour les chèvres qui paissent librement. L'altitude modérée contribue à la richesse de la flore et à la qualité du lait.",
+    "climat": "Le climat tempéré océanique, avec des étés chauds et des hivers doux, favorise une végétation luxuriante et diversifiée. Les précipitations régulières assurent une herbe tendre et nutritive, essentielle à la production d'un lait de qualité supérieure.",
+    "elevage": "Les chèvres, élevées avec passion et respect, profitent d'un parcours quotidien dans les pâturages. Leur alimentation naturelle, composée d'herbes fraîches et de fleurs sauvages, confère au lait des arômes subtils et une typicité unique. Le bien-être animal est au cœur de l'approche des producteurs.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des techniques ancestrales. Le moulage à la louche, réalisé avec délicatesse, préserve la texture fragile du caillé. L'affinage, lent et soigné, révèle toute la complexité aromatique du fromage."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La Buchette Cendrée présente une pâte blanche immaculée, contrastant avec sa fine croûte cendrée. Sa texture est lisse et homogène, révélant une fraîcheur appétissante. L'aspect général est invitant et témoigne d'un affinage maîtrisé.",
+    "texture": "En bouche, la texture est fondante et légèrement crémeuse, offrant une sensation de douceur et de délicatesse. Une légère granulosité peut apparaître avec l'âge, ajoutant une touche de complexité. La pâte se dissout agréablement, laissant une agréable sensation de fraîcheur.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait frais, le beurre doux et une légère acidité lactique. Ces notes dominantes sont complétées par des nuances subtiles de crème fraîche et de chèvre frais.",
+    "aromes_secondaires": "Des arômes secondaires de noisette fraîche, d'herbes coupées et de fleurs sauvages se dévoilent progressivement. Une légère note minérale, évoquant le terroir, apporte une touche de complexité et de profondeur.",
+    "evolution": "L'attaque est douce et fraîche, laissant rapidement place à des saveurs lactiques et acidulées. Le milieu de bouche est onctueux et équilibré, révélant toute la complexité aromatique du fromage. La finale est longue et persistante, laissant une agréable sensation de fraîcheur et de gourmandise. ",
+    "temperature_service": "Servez-la idéalement à température ambiante (18-20°C) pour exhaler pleinement ses arômes délicats."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez la Buchette Cendrée dans son emballage d'origine, au réfrigérateur, entre 4°C et 8°C.",
+    "avant_service": "Sortez-la du réfrigérateur environ 30 minutes avant de la déguster pour permettre à ses arômes de se développer pleinement et à sa texture de s'assouplir légèrement.",
+    "coupe": "Pour une dégustation optimale, coupez la Buchette Cendrée en rondelles, perpendiculairement à son axe, afin de révéler toutes les nuances de sa texture et de ses saveurs.",
+    "presentation": "Présentez-la sur un plateau de fromages accompagnée de pain de campagne frais, de fruits secs (noix, amandes) et de confiture de figues. Une touche de verdure (quelques feuilles de salade) apportera une note de fraîcheur et de couleur.",
+    "duree": "Consommez-la de préférence dans les 3 à 5 jours après ouverture pour profiter pleinement de sa fraîcheur et de ses arômes."
+  },
+  "degustation": "Sa texture fondante et sa saveur délicatement acidulée en font un fromage d'exception. L'équilibre parfait entre douceur et caractère révèle une complexité aromatique subtile et persistante.",
+  "accords": "Accompagnez cette Buchette Cendrée d'un Sancerre blanc, avec ses notes d'agrumes et sa minéralité, pour un accord parfait. Un Pouilly-Fumé, avec ses arômes de buis et de fruits exotiques, sublimera également ses saveurs. Pour une expérience plus audacieuse, osez un Gewürztraminer Vendanges Tardives, dont la sucrosité et les arômes de rose se marieront à merveille avec le côté lactique du fromage.",
+  "histoire": "Issue d'une longue tradition fromagère, la Buchette Cendrée est le fruit d'un savoir-faire artisanal transmis de génération en génération. Son lait cru de chèvre, issu d'un terroir préservé, lui confère son caractère unique et authentique."
+}

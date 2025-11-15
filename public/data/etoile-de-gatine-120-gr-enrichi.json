@@ -1,0 +1,41 @@
+{
+  "id": 323,
+  "slug": "etoile-de-gatine-120-gr",
+  "nom": "ETOILE DE GATINE 120 GR",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 6.4,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "L'Étoile de Gatine, un fromage de chèvre au lait cru entier, révèle la richesse du terroir de la Gâtine poitevine. Sa texture fondante et ses arômes subtils invitent à un voyage gustatif authentique et délicat.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "La Gâtine poitevine, berceau de ce fromage d'exception, est une région vallonnée aux paysages bocagers préservés. Ses terres argilo-calcaires, doucement ondulées, offrent un écrin fertile aux pâturages et aux cultures. Les haies vives et les forêts de chênes typiques de ce territoire contribuent à un environnement propice à l'élevage caprin.",
+    "climat": "Le climat océanique tempéré de la Gâtine, caractérisé par des étés doux et des hivers modérés, favorise une pousse herbagère abondante et de qualité. L'hygrométrie élevée, grâce à la proximité de l'océan Atlantique, influence positivement l'affinage des fromages, leur conférant une texture unique.",
+    "elevage": "Les chèvres de race Poitevine, nourries d'herbe fraîche au printemps et en été, et de foin de qualité en hiver, paissent librement dans les prairies vallonnées. Leur alimentation naturelle et équilibrée, riche en essences locales, se traduit par un lait d'une qualité exceptionnelle, source d'arômes complexes.",
+    "savoir_faire": "Le savoir-faire fromager, transmis de génération en génération, se perpétue dans le respect des traditions. Le moulage à la louche, étape cruciale, permet de préserver la délicatesse du lait cru. L'affinage, lent et méticuleux, confère à l'Étoile de Gatine sa texture unique et ses arômes subtils."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "L'Étoile de Gatine présente une pâte blanche ivoire, légèrement brillante, avec une texture fine et homogène. Sa croûte, naturelle et fine, est discrètement plissée et peut présenter des nuances de couleurs crème à ivoire.",
+    "texture": "En bouche, sa texture est fondante et onctueuse, avec une légère humidité qui rafraîchit le palais. Sa pâte offre une sensation soyeuse, presque beurrée, qui se dissout délicatement.",
+    "aromes_primaires": "Les arômes primaires évoquent la fraîcheur du lait de chèvre, avec des notes de crème fraîche et de beurre doux. On perçoit également de subtiles nuances végétales, rappelant l'herbe fraîche et le foin.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes plus complexes de noisette fraîche, de fleurs blanches et une légère touche caprine. Au fil de l'affinage, des notes plus prononcées de fruits secs peuvent se développer.",
+    "evolution": "L'attaque est douce et fraîche, évoluant vers un milieu de bouche plus riche et crémeux. La finale est persistante, avec une légère acidité qui équilibre l'ensemble et laisse une agréable sensation de fraîcheur. Sa longueur en bouche est moyenne.",
+    "temperature_service": "Il est conseillé de servir l'Étoile de Gatine à température ambiante (environ 18-20°C) afin de libérer pleinement ses arômes et d'apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver l'Étoile de Gatine au réfrigérateur, dans son emballage d'origine, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation pour permettre aux arômes de se développer pleinement et à la texture de s'assouplir.",
+    "coupe": "Couper l'Étoile de Gatine en parts égales, en partant du centre vers l'extérieur, pour une présentation esthétique et une dégustation uniforme.",
+    "presentation": "Présenter l'Étoile de Gatine sur un plateau de fromages accompagné de pain de campagne, de fruits frais (raisins, figues) et de quelques noix.",
+    "duree": "Après ouverture, consommer l'Étoile de Gatine dans les 3 à 5 jours pour une qualité optimale."
+  },
+  "degustation": "Sa texture fondante et ses arômes subtils de chèvre frais et de noisette font de l'Étoile de Gatine un fromage d'exception. Son intensité modérée en fait un fromage apprécié de tous.",
+  "accords": "Ce fromage s'accorde à merveille avec un Sancerre blanc, dont les arômes d'agrumes et de fleurs blanches soulignent la fraîcheur du fromage. Un Pouilly-Fumé, avec ses notes minérales et sa vivacité, est également un excellent choix. Pour une association plus audacieuse, un Chablis premier cru peut également sublimer l'Étoile de Gatine.",
+  "histoire": "L'Étoile de Gatine est le fruit d'un savoir-faire ancestral transmis de génération en génération au cœur de la Gâtine poitevine. Ce fromage témoigne de la richesse d'un terroir unique et de la passion des producteurs locaux pour l'excellence."
+}

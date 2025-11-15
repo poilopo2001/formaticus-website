@@ -1,0 +1,41 @@
+{
+  "id": 24,
+  "slug": "raclette-aux-truffes",
+  "nom": "RACLETTE AUX TRUFFES",
+  "image": "/images/raclette-aux-truffes.jpg",
+  "prixKg": 46.7,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Une raclette opulente où la richesse du lait de vache rencontre l'élégance terreuse de la truffe d'été. Son onctuosité fondante libère des arômes envoûtants, un hommage aux traditions fromagères de Bourgogne-Franche-Comté.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Née au cœur de la Bourgogne-Franche-Comté, cette raclette puise sa singularité dans les paysages vallonnés et verdoyants de la région. Les plateaux calcaires, propices à une flore riche et variée, offrent un terrain idéal pour l'élevage laitier. Les pâturages d'altitude contribuent à la qualité exceptionnelle du lait.",
+    "climat": "Le climat de la région, à la fois continental et montagnard, est marqué par des hivers rigoureux et des étés tempérés. Cette alternance saisonnière influence la composition du lait, lui conférant des arômes subtils et une texture particulière.",
+    "elevage": "Les vaches, principalement de races Montbéliarde et Simmental, sont élevées dans le respect des traditions. Elles paissent librement dans les prairies, se nourrissant d'une herbe fraîche et diversifiée, enrichie par la flore locale. Cette alimentation naturelle confère au lait une richesse aromatique incomparable.",
+    "savoir_faire": "Le savoir-faire fromager de la région se transmet de génération en génération, perpétuant des techniques ancestrales. Le lait cru est travaillé avec passion et rigueur, selon des méthodes artisanales qui préservent l'authenticité du terroir. L'ajout de truffes d'été sublime ce fromage traditionnel, lui offrant une dimension gustative unique."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte, d'une couleur jaune ivoire, présente une texture lisse et onctueuse. De fines inclusions de truffe d'été parsèment délicatement la masse, témoignant de sa richesse. La croûte, naturelle et lavée, arbore des nuances allant du beige à l'orangé.",
+    "texture": "En bouche, la Raclette aux Truffes offre une texture fondante et crémeuse. Sa pâte souple et élastique se révèle d'une grande finesse, libérant progressivement ses arômes subtils. Une légère humidité contribue à sa persistance gustative.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait cru, la crème fraîche et le beurre doux. Des notes lactiques et animales se mêlent harmonieusement, témoignant de la qualité du lait et du savoir-faire fromager.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes terreuses et boisées caractéristiques de la truffe d'été, sublimées par de subtiles nuances de noisette et de champignon. Une légère pointe d'humus apporte une complexité aromatique supplémentaire.",
+    "evolution": "L'attaque est douce et onctueuse, laissant rapidement place à la puissance aromatique de la truffe. Le milieu de bouche est riche et équilibré, avec une belle longueur en bouche soutenue par une agréable persistance aromatique. La finale est légèrement poivrée et boisée.",
+    "temperature_service": "La température de service idéale se situe entre 12 et 15°C, afin de permettre aux arômes de s'exprimer pleinement et d'apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4 et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation, afin qu'il retrouve sa texture optimale et libère tous ses arômes.",
+    "coupe": "Pour une présentation élégante, découper la Raclette aux Truffes en tranches fines et régulières, en partant du centre vers l'extérieur.",
+    "presentation": "Présenter les tranches sur un plateau en ardoise ou en bois, accompagnées de pommes de terre, de charcuterie fine et de cornichons.",
+    "duree": "Se conserve idéalement 3 à 5 jours après ouverture, en veillant à bien l'emballer pour éviter le dessèchement."
+  },
+  "degustation": "La Raclette aux Truffes offre une expérience gustative intense et raffinée, sublimée par la noblesse de la truffe d'été. Sa texture fondante et ses arômes complexes en font un fromage d'exception.",
+  "accords": "Ce fromage s'accorde merveilleusement avec un vin blanc sec et minéral, tel qu'un Chardonnay de Bourgogne (Puligny-Montrachet) ou un Riesling d'Alsace Grand Cru. La fraîcheur du vin équilibrera la richesse du fromage, tandis que ses notes fruitées et florales sublimeront les arômes de la truffe.",
+  "histoire": "Issue d'une longue tradition fromagère en Bourgogne-Franche-Comté, la Raclette aux Truffes est le fruit d'un savoir-faire ancestral. L'ajout de truffes d'été, récoltées localement, confère à ce fromage traditionnel une dimension gustative unique et luxueuse."
+}

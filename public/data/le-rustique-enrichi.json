@@ -1,0 +1,41 @@
+{
+  "id": 60,
+  "slug": "le-rustique",
+  "nom": "LE RUSTIQUE",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 35.95,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Rustique, un fromage suisse AOP au lait thermisé, révèle une personnalité fruitée et une texture onctueuse qui persistent en bouche. Sa richesse aromatique invite à un voyage gustatif authentique, ancré dans son terroir d'origine.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Niché au cœur des Préalpes suisses, ce fromage tire son caractère des paysages vallonnés et des alpages verdoyants. Les altitudes modérées offrent des conditions idéales pour le développement d'une flore riche et diversifiée, essentielle à l'alimentation des vaches. La région est parsemée de pâturages luxuriants et de sources d'eau pure, contribuant à la qualité du lait.",
+    "climat": "Le climat alpin tempéré, avec ses étés frais et ses hivers rigoureux, influence directement la composition du lait. Les variations saisonnières favorisent une concentration des arômes et des nutriments, conférant au fromage une saveur unique et complexe.",
+    "elevage": "Les vaches, majoritairement de race Brune, paissent librement dans les alpages pendant la saison estivale. Elles se nourrissent d'une herbe fraîche et parfumée, enrichie par une flore montagnarde variée. L'alimentation naturelle et l'accès à l'eau de source contribuent à la qualité et à la typicité du lait.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des méthodes artisanales ancestrales. L'affinage, réalisé avec soin, permet au fromage de développer pleinement ses arômes et sa texture caractéristiques. Chaque étape de la fabrication est contrôlée avec rigueur pour garantir une qualité irréprochable."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Rustique présente une pâte ivoire à jaune pâle, lisse et homogène, pouvant présenter de rares ouvertures. Sa croûte est fine, de couleur jaune orangé à brun clair, légèrement fleurie par une flore de surface naturelle.",
+    "texture": "Sa texture est souple et fondante en bouche, offrant une agréable sensation d'onctuosité. Le gras est bien intégré, contribuant à la richesse de la dégustation. Il peut présenter une légère élasticité.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait frais, la crème et le beurre doux. On perçoit également des notes végétales rappelant l'herbe fraîche et les fleurs des champs.",
+    "aromes_secondaires": "Des arômes secondaires plus subtils se révèlent, tels que la noisette fraîche, une légère pointe d'amande et des notes fruitées évoquant la pomme et la poire. Une discrète nuance de miel sauvage peut également être perçue.",
+    "evolution": "L'attaque en bouche est douce et crémeuse, évoluant vers un milieu de bouche plus riche et complexe. La finale est persistante, laissant une agréable sensation de gras et une longueur aromatique notable. La saveur fruitée s'intensifie légèrement en fin de bouche.",
+    "temperature_service": "Il est préférable de le servir à température ambiante (environ 18-20°C) pour exhaler pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez Le Rustique dans la partie la moins froide de votre réfrigérateur, entre 4 et 8°C.",
+    "avant_service": "Sortez-le du réfrigérateur environ 30 minutes avant de le déguster pour qu'il retrouve sa texture optimale et libère tous ses arômes.",
+    "coupe": "Coupez-le en parts triangulaires depuis le centre vers la croûte pour une dégustation homogène des saveurs.",
+    "presentation": "Présentez-le sur un plateau en bois ou en ardoise, accompagné de fruits frais, de noix et de pain de campagne.",
+    "duree": "Après ouverture, il se conserve environ une semaine au réfrigérateur, emballé dans du papier sulfurisé ou un film alimentaire."
+  },
+  "degustation": "Le Rustique offre une texture fondante et des arômes équilibrés de lait et de fruits secs. Son intensité modérée en fait un fromage accessible et apprécié de tous.",
+  "accords": "Ce fromage s'accorde à merveille avec un vin rouge sec, léger et fruité, comme un Beaujolais ou un Pinot Noir d'Alsace. Leurs tanins souples et leurs arômes de fruits rouges sublimeront la richesse aromatique du fromage. Une bière blonde artisanale légère peut également constituer un accord intéressant.",
+  "histoire": "Le Rustique est un fromage emblématique de la tradition fromagère suisse, perpétuant un savoir-faire ancestral. Son nom évoque la simplicité et l'authenticité de son terroir d'origine, où les vaches paissent librement dans les alpages."
+}

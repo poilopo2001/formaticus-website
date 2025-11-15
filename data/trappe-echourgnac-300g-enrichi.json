@@ -1,0 +1,41 @@
+{
+  "id": 261,
+  "slug": "trappe-echourgnac-300g",
+  "nom": "TRAPPE ECHOURGNAC 300G",
+  "image": "/images/trappe-echourgnac-300g.jpg",
+  "prixKg": 17.05,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Trappe d'Échourgnac, affinée au vin de noix, offre une pâte souple et un goût subtilement parfumé. Son affinage délicat lui confère une onctuosité et une palette aromatique complexe, un véritable voyage gustatif au cœur du Périgord.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "La Trappe d'Échourgnac est issue du Périgord Vert, une région vallonnée où prairies verdoyantes et forêts de chênes se succèdent. L'altitude modérée favorise un climat tempéré, idéal pour le pâturage des vaches laitières.",
+    "climat": "Le climat océanique aquitain, caractérisé par des hivers doux et des étés tempérés, apporte une humidité constante propice à la pousse d'une herbe riche et savoureuse. Ces conditions climatiques influencent directement la qualité du lait.",
+    "elevage": "Les vaches laitières paissent paisiblement dans les prairies du Périgord, se nourrissant d'une herbe riche et variée. Un complément de céréales sélectionnées assure une alimentation équilibrée et contribue à la typicité du lait.",
+    "savoir_faire": "Le savoir-faire ancestral des moines de l'Abbaye d'Échourgnac se transmet de génération en génération. L'affinage au vin de noix, réalisé avec minutie, est le secret de ce fromage unique."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte, d'une couleur ivoire à jaune pâle, présente une texture lisse et homogène. Sa croûte, fine et légèrement orangée, témoigne de son affinage au vin de noix.",
+    "texture": "La texture est souple et fondante en bouche, offrant une agréable sensation d'onctuosité. Une légère élasticité peut se percevoir, signe d'un fromage affiné avec soin.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait frais, la crème et une légère note beurrée, témoignage de la qualité du lait de vache.",
+    "aromes_secondaires": "Des arômes secondaires de noix fraîche, de caramel et de fruits secs se développent, apportant une complexité aromatique subtile et gourmande.",
+    "evolution": "L'attaque est douce et lactique, suivie d'un milieu de bouche où les arômes de noix s'affirment. La finale est longue et persistante, avec une agréable note vineuse.",
+    "temperature_service": "Il est conseillé de servir la Trappe d'Échourgnac à température ambiante (18-20°C) pour libérer pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver la Trappe d'Échourgnac au réfrigérateur, idéalement entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation pour qu'il retrouve sa texture optimale et exprime tous ses arômes.",
+    "coupe": "Couper la Trappe d'Échourgnac en parts égales, en partant du centre vers l'extérieur, pour une dégustation équilibrée.",
+    "presentation": "Présenter la Trappe d'Échourgnac sur un plateau de fromages avec des fruits secs, des noix et du pain de campagne.",
+    "duree": "Après ouverture, consommer la Trappe d'Échourgnac dans les 5 à 7 jours pour profiter pleinement de ses qualités gustatives."
+  },
+  "degustation": "Sa texture fondante et ses arômes délicats de noix et de vin en font un fromage d'une grande élégance. Son intensité aromatique est modérée, ce qui le rend accessible à tous les palais.",
+  "accords": "Accompagnez la Trappe d'Échourgnac d'un vin blanc moelleux de la région, tel qu'un Bergerac Moelleux, dont les notes fruitées et miellées s'harmoniseront parfaitement avec les arômes de noix du fromage. Un vin rouge léger et fruité, comme un Saint-Émilion, peut également convenir.",
+  "histoire": "Fabriquée par les moines de l'Abbaye d'Échourgnac, ce fromage témoigne d'un savoir-faire monastique ancestral. Son affinage au vin de noix lui confère une identité unique et un lien fort avec son terroir d'origine."
+}

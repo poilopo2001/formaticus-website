@@ -1,0 +1,41 @@
+{
+  "id": 452,
+  "slug": "horloger",
+  "nom": "HORLOGER",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 50.5,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "L'Horloger, un fromage d'exception, dévoile un mariage subtil de saveurs lactiques et végétales. Sa texture fondante et sa croûte délicatement fleurie invitent à un voyage gustatif au cœur des traditions fromagères.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Les alpages où paissent les troupeaux pour l'Horloger se situent dans une région vallonnée, sculptée par des siècles d'érosion glaciaire. Ces prairies d'altitude, parsemées de roches calcaires, offrent un terrain idéal pour une flore riche et variée. Les pentes douces favorisent un drainage optimal, essentiel à la qualité du lait.",
+    "climat": "Le climat montagnard, caractérisé par des étés frais et des hivers rigoureux, joue un rôle primordial dans le développement aromatique du lait. Les amplitudes thermiques importantes contribuent à concentrer les saveurs et à affiner la texture du fromage.",
+    "elevage": "Les vaches bénéficient d'une alimentation naturelle, composée d'herbes fraîches et de fleurs sauvages en été, et de foin de qualité en hiver. Cette alimentation spécifique confère au lait des arômes subtils et une richesse nutritionnelle incomparable. Le respect du bien-être animal est au cœur de la démarche des producteurs.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des gestes précis et des techniques ancestrales. Chaque étape de la fabrication, du moulage à l'affinage, est réalisée avec passion et minutie, garantissant la qualité et l'authenticité de l'Horloger."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "L'Horloger présente une pâte ivoire, parsemée de quelques ouvertures discrètes. Sa croûte, fine et duveteuse, est recouverte d'une flore blanche à beige clair. L'ensemble offre un aspect rustique et appétissant.",
+    "texture": "En bouche, sa texture est à la fois fondante et onctueuse, évoluant vers une légère fermeté au centre. Sa pâte, délicatement beurrée, libère progressivement ses arômes. Une légère humidité peut être perçue, gage de sa fraîcheur.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait frais, la crème, et une légère note de beurre frais. Une agréable sensation lactique domine l'ensemble, soulignant la qualité du lait utilisé.",
+    "aromes_secondaires": "Des arômes secondaires de noisette fraîche, de foin coupé et de champignon de Paris viennent complexifier le profil aromatique. On perçoit également une subtile note florale, rappelant les prairies d'altitude.",
+    "evolution": "L'attaque est douce et crémeuse, suivie d'un milieu de bouche plus prononcé, où les arômes de noisette et de foin se révèlent pleinement. La finale est longue et persistante, laissant une agréable sensation de fraîcheur. La longueur en bouche est notable.",
+    "temperature_service": "Il est recommandé de servir l'Horloger à une température comprise entre 16 et 18°C afin de permettre aux arômes de se libérer pleinement."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver l'Horloger au réfrigérateur, dans sa boîte d'origine ou enveloppé dans du papier sulfurisé, à une température idéale entre 4 et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation afin qu'il retrouve sa texture optimale et que ses arômes se développent pleinement. Cela permet une meilleure appréciation des saveurs.",
+    "coupe": "Pour une présentation élégante, couper l'Horloger en parts triangulaires, en veillant à ce que chaque portion contienne une part de croûte et de pâte. Cela permet d'apprécier l'ensemble des textures et des saveurs.",
+    "presentation": "Présenter l'Horloger sur un plateau de fromages en bois, accompagné de fruits secs, de noix, et de pain de campagne. Quelques feuilles de salade peuvent également agrémenter la présentation.",
+    "duree": "L'Horloger se conserve idéalement 3 à 5 jours après ouverture, en veillant à bien le protéger de l'air."
+  },
+  "degustation": "Sa texture fondante et ses arômes lactiques, accompagnés de subtiles notes végétales, font de l'Horloger un fromage raffiné et équilibré. Son intensité modérée le rend accessible à tous les palais.",
+  "accords": "L'Horloger s'accorde parfaitement avec un vin blanc sec et fruité, tel qu'un Riesling Grand Cru d'Alsace, dont la minéralité et la vivacité équilibreront la richesse du fromage. Un Bourgogne Chardonnay, avec ses notes beurrées et toastées, peut également sublimer ses saveurs. On peut aussi l'accompagner d'une bière blonde artisanale, légère et rafraîchissante.",
+  "histoire": "L'Horloger tire son nom des traditions horlogères de sa région d'origine, où le temps et le savoir-faire sont des valeurs essentielles. Fabriqué artisanalement à partir de lait cru de vache, il incarne l'excellence fromagère et le respect du terroir."
+}

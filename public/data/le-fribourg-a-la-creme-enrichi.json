@@ -1,0 +1,41 @@
+{
+  "id": 9,
+  "slug": "le-fribourg-a-la-creme",
+  "nom": "LE FRIBOURG A LA CREME",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 38.5,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Fribourg à la Crème est une ode à la gourmandise, un fromage à pâte pressée non cuite qui fond délicatement en bouche, laissant un sillage crémeux et subtilement lactique. Enriched de crème fraîche, il offre une expérience sensorielle d'une douceur incomparable, reflet du riche terroir dont il est issu.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le canton de Fribourg, en Suisse, est caractérisé par ses collines verdoyantes et ses vallées fertiles, un paysage harmonieux façonné par les Préalpes. L'altitude, variant entre 400 et 2400 mètres, joue un rôle essentiel dans la richesse de la flore et la qualité des pâturages. Cette région, au cœur de la Suisse, bénéficie d'une nature préservée, idéale pour l'élevage laitier.",
+    "climat": "Le climat fribourgeois est un climat de montagne tempéré, avec des étés doux et des hivers froids et enneigés. Les précipitations régulières favorisent la croissance d'une herbe abondante, essentielle à la qualité du lait. L'alternance des saisons contribue à la complexité aromatique du fromage.",
+    "elevage": "Les vaches, principalement de race Brune et Montbéliarde, paissent librement dans les alpages durant la saison estivale, se nourrissant d'une herbe fraîche et variée. L'alimentation naturelle des animaux, riche en fleurs et herbes aromatiques, confère au lait des saveurs uniques. Le bien-être animal est une priorité pour les producteurs locaux, garants d'un lait d'exception.",
+    "savoir_faire": "Le savoir-faire fromager du canton de Fribourg se transmet de génération en génération. Les techniques de fabrication, affinées au fil des siècles, respectent les traditions ancestrales. La maîtrise du caillage, du moulage et de l'affinage sont les clés de la qualité exceptionnelle du Fribourg à la Crème."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Sa pâte ivoire, lisse et brillante, témoigne de sa richesse en crème. La croûte, fine et légèrement duveteuse, présente une couleur jaune paille uniforme. L'ensemble dégage une impression de douceur et de générosité.",
+    "texture": "La texture est fondante et onctueuse, presque beurrée en bouche. Sa douceur est immédiatement perceptible, enveloppant le palais d'une sensation de confort. Il n'y a pas de granulosité, uniquement une parfaite homogénéité.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait frais, de la crème fraîche et du beurre doux. Une légère note lactique apporte de la fraîcheur à l'ensemble.",
+    "aromes_secondaires": "On perçoit des notes subtiles de noisette fraîche et de foin coupé, témoignant de la richesse des pâturages. Une pointe de miel de fleurs sauvages peut également se dévoiler.",
+    "evolution": "L'attaque est douce et crémeuse, se prolongeant sur un milieu de bouche riche et onctueux. La finale est délicate et persistante, laissant un agréable souvenir de lait et de crème. Sa longueur en bouche est notable.",
+    "temperature_service": "Servir à température ambiante (environ 18-20°C) pour exalter pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur au moins 30 minutes avant la dégustation, voire une heure, pour permettre aux arômes de se libérer et à la texture de s'assouplir.",
+    "coupe": "Couper le Fribourg à la Crème en portions triangulaires, en partant du centre vers l'extérieur, pour une répartition homogène de la texture et des saveurs.",
+    "presentation": "Présenter sur un plateau de fromages avec des fruits secs, des noix, du pain de campagne et des confitures artisanales pour un contraste de textures et de saveurs.",
+    "duree": "À consommer de préférence dans les 5 jours après ouverture, pour préserver sa fraîcheur et ses qualités gustatives."
+  },
+  "degustation": "Ce fromage offre une texture fondante et une palette aromatique délicate, dominée par des notes lactiques et légèrement beurrées. Son intensité est modérée, ce qui le rend accessible et apprécié de tous.",
+  "accords": "Un vin blanc sec et fruité, tel qu'un Chasselas suisse ou un Pinot Blanc d'Alsace, accompagnera à merveille la douceur du Fribourg à la Crème. Pour les amateurs de rouge, un Pinot Noir léger et peu tannique soulignera sa finesse sans l'écraser.",
+  "histoire": "Le Fribourg à la Crème est une variation gourmande du célèbre Fribourgeois, enrichie de crème fraîche pour une texture encore plus onctueuse. Son héritage remonte à des siècles de tradition fromagère dans le canton de Fribourg."
+}

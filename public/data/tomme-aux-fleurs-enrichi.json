@@ -1,0 +1,41 @@
+{
+  "id": 23,
+  "slug": "tomme-aux-fleurs",
+  "nom": "TOMME AUX FLEURS",
+  "image": "/Séance Photo Nicolas 20220423/tomme-aux-fleurs-composite.jpg",
+  "prixKg": 42.0,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Tomme aux Fleurs, une ode à la nature autrichienne, offre une pâte crémeuse caressée par le parfum subtil des fleurs des alpages. Son goût doux et lactique se fond en une texture onctueuse, véritable invitation à la dégustation.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Les alpages autrichiens, berceau de cette tomme, se dressent fièrement entre montagnes majestueuses et vallées verdoyantes. L'altitude confère à l'air une pureté exceptionnelle, tandis que les sols riches nourrissent une flore variée et parfumée. Les pentes douces permettent aux vaches de paître librement, contribuant ainsi à la qualité du lait.",
+    "climat": "Le climat alpin, caractérisé par des étés frais et des hivers rigoureux, influence directement la qualité du lait. Les variations thermiques favorisent le développement d'une flore spécifique, riche en arômes et en nutriments essentiels pour le bétail.",
+    "elevage": "Les vaches laitières, nourries d'herbes fraîches et de foin de montagne, évoluent en liberté dans les alpages. Cet élevage extensif respectueux de l'environnement garantit un lait d'une qualité exceptionnelle, riche en saveurs et en nutriments.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des méthodes artisanales ancestrales. Chaque étape de la fabrication, du caillage à l'affinage, est réalisée avec soin et précision, garantissant un fromage d'une qualité irréprochable."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte, d'un ivoire tendre, est parsemée de fleurs séchées aux couleurs vives, créant un contraste visuel saisissant. La croûte naturelle, fine et légèrement duveteuse, témoigne d'un affinage soigné.",
+    "texture": "La texture est à la fois ferme et fondante, offrant une sensation soyeuse en bouche. La pâte, onctueuse et crémeuse, fond délicatement sur la langue, libérant ses arômes subtils.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait frais, la crème fraîche et le beurre doux, reflet direct de la qualité du lait de foin.",
+    "aromes_secondaires": "Des notes subtiles de fleurs sauvages, de miel et d'herbes aromatiques viennent enrichir le profil aromatique, apportant complexité et fraîcheur.",
+    "evolution": "L'attaque est douce et lactique, évoluant vers un milieu de bouche plus complexe et floral. La finale, longue et persistante, laisse une agréable sensation de fraîcheur et de gourmandise. La longueur en bouche est notable.",
+    "temperature_service": "La température de service idéale se situe entre 16 et 18°C afin de libérer pleinement tous les arômes du fromage."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "La Tomme aux Fleurs se conserve idéalement au réfrigérateur, dans un endroit frais et sec, entre 4 et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ une heure avant la dégustation afin qu'il puisse exprimer pleinement ses arômes et sa texture.",
+    "coupe": "Coupez la tomme en parts triangulaires pour révéler sa pâte et sa croûte florale.",
+    "presentation": "Présentez la Tomme aux Fleurs sur un plateau de fromages accompagné de fruits frais, de noix et de pain de campagne.",
+    "duree": "Après entame, la Tomme aux Fleurs se conserve environ 5 à 7 jours au réfrigérateur."
+  },
+  "degustation": "Sa texture fondante et ses arômes floraux délicats en font un fromage d'exception. L'intensité aromatique est modérée, privilégiant la finesse et l'équilibre.",
+  "accords": "Un vin blanc sec et fruité de Savoie, tel qu'un Apremont ou un Chignin, accompagnera à merveille la Tomme aux Fleurs. Si vous optez pour un vin autrichien, un Grüner Veltliner aux notes minérales et épicées sera un excellent choix, complétant le profil aromatique du fromage.",
+  "histoire": "La Tomme aux Fleurs est le fruit d'un savoir-faire ancestral et d'une passion pour les produits de terroir. Fabriquée à partir de lait de vache de montagne, elle est affinée avec soin et parée de fleurs sauvages, témoignant de la richesse de la nature autrichienne."
+}

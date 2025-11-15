@@ -1,0 +1,41 @@
+{
+  "id": 204,
+  "slug": "queso-de-oveja-curado",
+  "nom": "QUESO DE OVEJA CURADO",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 50.15,
+  "type": "pate-pressee-cuite",
+  "lait": "brebis",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Queso de Oveja Curado, un joyau fromager espagnol, dévoile une pâte ferme et onctueuse, riche des arômes subtils du lait de brebis. Agrémenté d'olives noires, il offre une expérience gustative unique, où la tradition pastorale rencontre la modernité.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Ce fromage est originaire des vastes plateaux de la Meseta centrale espagnole, une région caractérisée par ses paysages arides et ses vastes étendues. Les brebis paissent librement sur ces terres, bénéficiant d'une végétation variée qui contribue à la richesse du lait. L'altitude modérée et les variations de température accentuent les particularités du terroir.",
+    "climat": "Le climat continental de la Meseta, avec ses étés chauds et secs et ses hivers froids, influence directement la composition du lait. Les périodes de sécheresse concentrent les arômes dans les plantes, se traduisant par un lait plus riche et savoureux.",
+    "elevage": "Les brebis de race espagnole, réputées pour leur rusticité et leur adaptation au climat aride, sont élevées selon des méthodes traditionnelles. Elles pâturent librement pendant la majeure partie de l'année, se nourrissant d'herbes sauvages et de céréales cultivées localement, ce qui confère au lait des qualités gustatives exceptionnelles.",
+    "savoir_faire": "Le savoir-faire fromager de la région se transmet de génération en génération, respectant les techniques ancestrales de fabrication. L'affinage, réalisé avec soin et patience, permet au fromage de développer pleinement ses arômes et sa texture unique."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Queso de Oveja Curado présente une pâte ivoire à jaune paille, parsemée de petits trous irréguliers. Sa croûte, de couleur naturelle, peut présenter des marques de frottage et parfois quelques traces de moisissures nobles. Les olives noires, incrustées dans la pâte, ajoutent une touche visuelle contrastée.",
+    "texture": "En bouche, la texture est ferme et légèrement friable, avec une onctuosité qui fond délicatement sur la langue. L'affinage prolongé lui confère une structure agréable et persistante.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait de brebis, avec des notes de beurre frais, de crème et une subtile odeur de laine propre.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes de fruits secs (noisette, amande), d'herbes de garrigue et une pointe saline. L'ajout d'olives noires apporte des notes fruitées et légèrement amères.",
+    "evolution": "L'attaque est douce et lactique, évoluant vers un milieu de bouche plus intense et persistant. La finale est longue et savoureuse, avec une agréable sensation de noisette et une subtile amertume apportée par les olives. Sa longueur en bouche est remarquable.",
+    "temperature_service": "Il est conseillé de servir ce fromage à température ambiante (environ 20°C) afin de libérer pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez le Queso de Oveja Curado dans la partie la moins froide de votre réfrigérateur (entre 4°C et 8°C).",
+    "avant_service": "Sortez le fromage du réfrigérateur au moins une heure avant de le déguster pour qu'il retrouve sa texture optimale et que ses arômes se développent pleinement.",
+    "coupe": "Pour apprécier pleinement sa texture, coupez le fromage en fines tranches ou en petits dés, en veillant à inclure une partie de l'olive dans chaque portion.",
+    "presentation": "Présentez le Queso de Oveja Curado sur un plateau de fromages accompagné de fruits secs, de pain de campagne et d'une huile d'olive de qualité.",
+    "duree": "Après ouverture, consommez le fromage dans les 10 jours pour une dégustation optimale."
+  },
+  "degustation": "Ce fromage offre une texture ferme et fondante, avec des arômes riches et complexes de lait de brebis et d'olives noires. Son intensité est prononcée, avec une belle longueur en bouche.",
+  "accords": "Accompagnez ce fromage d'un vin rouge espagnol puissant, comme un Rioja Gran Reserva, dont les tanins souples et les arômes de fruits rouges se marieront à merveille avec la richesse du fromage. Un Jerez Oloroso, avec ses notes oxydatives et de fruits secs, est également un excellent choix.",
+  "histoire": "Le Queso de Oveja Curado est un témoignage du savoir-faire fromager ancestral espagnol. Sa fabrication artisanale, transmise de génération en génération, perpétue une tradition pastorale profondément ancrée dans le terroir de la Meseta."
+}

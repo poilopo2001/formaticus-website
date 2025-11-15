@@ -1,0 +1,41 @@
+{
+  "id": 66,
+  "slug": "fourme-d’ambert",
+  "nom": "FOURME D’AMBERT",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 30.97,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Fourme d'Ambert, douce invitation au voyage gustatif au cœur des volcans d'Auvergne. Sa pâte persillée, délicatement bleutée, révèle un équilibre subtil entre saveurs fruitées et nuances de sous-bois, une ode à la nature préservée.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Née dans les monts du Forez, au cœur de l'Auvergne et de la région Rhône-Alpes, la Fourme d'Ambert tire son caractère unique de cette géographie accidentée. Les prairies d'altitude, parsemées de volcans endormis et de vallées verdoyantes, offrent un paysage d'une richesse exceptionnelle. L'altitude, souvent supérieure à 600 mètres, confère aux pâturages une biodiversité florale unique, essentielle à la qualité du lait.",
+    "climat": "Le climat est de type montagnard, caractérisé par des étés courts et frais et des hivers longs et rigoureux. Ces conditions climatiques particulières, avec des précipitations abondantes, favorisent le développement d'une flore riche et diversifiée qui se retrouve dans le lait des vaches.",
+    "elevage": "Les vaches laitières, principalement de race Montbéliarde et parfois Aubrac, paissent librement dans les herbages riches et fleuris dès que le temps le permet. Leur alimentation naturelle, complétée en hiver par du foin de qualité, contribue à la typicité et à la richesse aromatique du lait. Le bien-être animal est au cœur des préoccupations des producteurs, garantissant un lait de qualité supérieure.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des gestes ancestraux. De l'emprésurage à l'affinage lent en caves fraîches et humides, chaque étape est réalisée avec minutie et passion. La maîtrise de l'ensemencement en Penicillium Roqueforti, champignon noble à l'origine du persillage, est un art délicat qui confère à la Fourme d'Ambert son identité unique."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La Fourme d'Ambert présente une pâte ivoire, parsemée de marbrures bleues-vertes homogènes et délicates. Sa croûte, fine et naturelle, est de couleur gris-bleuté, parfois légèrement duveteuse. Son aspect est invitant, promesse d'une dégustation raffinée.",
+    "texture": "Sa texture est onctueuse et fondante, avec une légère élasticité. En bouche, elle offre une sensation de douceur et de crémeux, sans aucune agressivité. La pâte se laisse fondre délicatement sur la langue, libérant ses arômes subtils.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait frais, la crème et une légère touche de champignon frais. On perçoit également des notes subtiles de beurre et de noisette fraîchement concassée.",
+    "aromes_secondaires": "Des arômes secondaires délicats de sous-bois, de foin coupé et de fruits secs viennent complexifier le profil aromatique. Une discrète note florale peut également se révéler, témoignant de la richesse de la flore locale.",
+    "evolution": "L'attaque est douce et onctueuse, laissant place à un milieu de bouche équilibré et harmonieux. La finale est longue et persistante, avec une légère pointe saline qui rehausse les saveurs. Sa longueur en bouche est notable, signe d'un fromage d'exception.",
+    "temperature_service": "Afin d'apprécier pleinement ses arômes, la Fourme d'Ambert se déguste idéalement à température ambiante, entre 18 et 20°C."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver la Fourme d'Ambert au réfrigérateur, dans son emballage d'origine ou dans une boîte hermétique, à une température comprise entre 4 et 8°C.",
+    "avant_service": "Sortir la Fourme d'Ambert du réfrigérateur environ 30 minutes avant la dégustation. Cela permettra à ses arômes de se libérer pleinement et à sa texture de s'assouplir.",
+    "coupe": "Pour une présentation élégante, couper la Fourme d'Ambert en parts triangulaires ou en bâtonnets. Éviter de couper la croûte pour préserver l'intégrité de la pâte.",
+    "presentation": "Présenter la Fourme d'Ambert sur un plateau de fromages aux côtés d'autres spécialités laitières, accompagnées de fruits frais, de noix et de pain de campagne.",
+    "duree": "Après ouverture, la Fourme d'Ambert se conserve environ 5 à 7 jours au réfrigérateur, en veillant à bien la protéger de l'air."
+  },
+  "degustation": "La Fourme d'Ambert offre une texture fondante et un persillage subtil, avec des arômes délicats de crème fraîche et de sous-bois. Son intensité modérée en fait un fromage accessible et raffiné.",
+  "accords": "Pour un accord mets et vins harmonieux, privilégiez un vin blanc moelleux de la Loire, tel qu'un Coteaux du Layon ou un Vouvray moelleux. Les notes fruitées et la douceur de ces vins sublimeront la saveur délicate de la Fourme d'Ambert. Un vin rouge léger et fruité, comme un Gamay du Beaujolais, peut également accompagner ce fromage avec élégance.",
+  "histoire": "La Fourme d'Ambert, l'un des plus anciens fromages de France, trouve son origine dans les traditions pastorales des monts du Forez. Sa fabrication artisanale, transmise de génération en génération, perpétue un savoir-faire unique et un lien profond avec son terroir."
+}

@@ -1,0 +1,41 @@
+{
+  "id": 364,
+  "slug": "salame-torciglione",
+  "nom": "SALAME TORCIGLIONE",
+  "image": "/images/salame-torciglione.jpg",
+  "prixKg": 25.35,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Salame Torciglione, une curiosité fromagère façonnée avec soin, offre une expérience gustative riche et complexe. Sa forme torsadée, unique en son genre, cache une pâte onctueuse et un bouquet aromatique surprenant, témoignant d'un savoir-faire ancestral.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "L'origine précise de ce fromage reste un mystère, mais il évoque les paysages vallonnés d'Italie. Imaginez des collines douces, parsemées de petites fermes familiales, où l'air est pur et la terre fertile. Les prairies verdoyantes offrent un cadre idéal pour l'élevage des animaux laitiers.",
+    "climat": "Le climat tempéré de cette région, avec des étés chauds et des hivers doux, favorise une herbe riche et variée. Cette alimentation naturelle se reflète directement dans la qualité du lait et, par conséquent, dans le goût unique du Salame Torciglione.",
+    "elevage": "Les animaux, élevés dans le respect des traditions, passent une grande partie de l'année en pâturage libre. Leur alimentation, composée d'herbes fraîches et de fleurs sauvages, confère au lait des arômes subtils et complexes. Un élevage extensif garantit un lait de qualité supérieure, riche en saveurs et en nutriments.",
+    "savoir_faire": "Le Salame Torciglione est le fruit d'un savoir-faire ancestral, transmis de génération en génération. Les fromagers locaux perpétuent des techniques traditionnelles, utilisant des moules et des méthodes de fabrication spécifiques pour obtenir cette forme torsadée caractéristique. Un travail minutieux et passionné qui se ressent à chaque bouchée."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Salame Torciglione se distingue par sa forme torsadée et sa croûte naturelle, allant du blanc crème à l'ivoire. La pâte, de couleur jaune pâle, présente une texture lisse et homogène, parfois parsemée de petites ouvertures irrégulières.",
+    "texture": "En bouche, la texture est à la fois souple et fondante, offrant une sensation agréable et enveloppante. Sa consistance onctueuse laisse une impression de douceur et de richesse. Une légère humidité peut se percevoir, signe d'un affinage maîtrisé.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait frais, le beurre doux et la crème fraîche. Une note lactique prononcée apporte une fraîcheur et une gourmandise immédiates.",
+    "aromes_secondaires": "Des arômes secondaires de noisette grillée, de foin coupé et de levure se révèlent progressivement. Une subtile touche herbacée vient complexifier le profil aromatique, témoignant de la qualité du lait et du terroir.",
+    "evolution": "L'attaque est douce et crémeuse, évoluant vers un milieu de bouche plus intense et persistant. La finale est longue et savoureuse, laissant une agréable sensation de noisette et de beurre fondu. Une légère acidité en fin de bouche apporte un équilibre parfait.",
+    "temperature_service": "Il est conseillé de sortir le Salame Torciglione du réfrigérateur environ 30 minutes avant la dégustation, afin de révéler pleinement ses arômes et sa texture."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez le Salame Torciglione au réfrigérateur, idéalement entre 4 et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ 30 minutes avant de le déguster. Cela permettra à la pâte de s'assouplir et aux arômes de se développer.",
+    "coupe": "Coupez le Salame Torciglione en tranches fines, perpendiculairement à sa forme torsadée, afin de préserver son esthétique et de faciliter sa dégustation.",
+    "presentation": "Présentez le Salame Torciglione sur un plateau de fromages accompagné de fruits frais, de noix et de pain de campagne. Son aspect original en fera un élément de décoration remarquable.",
+    "duree": "Une fois entamé, le Salame Torciglione se conserve environ 5 à 7 jours au réfrigérateur, enveloppé dans du papier sulfurisé ou un film alimentaire."
+  },
+  "degustation": "Ce fromage offre une texture souple et fondante, aux arômes lactiques et subtilement fruités. Son intensité modérée en fait un fromage accessible et agréable à déguster.",
+  "accords": "Accordez le Salame Torciglione avec un vin blanc sec et fruité, tel qu'un Chardonnay de Bourgogne ou un Pinot Grigio d'Italie. Pour une expérience plus audacieuse, essayez un vin rouge léger et frais, comme un Beaujolais Villages. Il s'accorde également à merveille avec une bière blonde artisanale aux notes florales.",
+  "histoire": "Le Salame Torciglione est un fromage dont l'origine exacte reste nimbée de mystère, mais son nom évoque la forme d'une saucisse (salame) et sa torsion (torciglione). On le suppose d'origine italienne, fabriqué selon un savoir-faire artisanal préservé dans quelques fermes familiales."
+}

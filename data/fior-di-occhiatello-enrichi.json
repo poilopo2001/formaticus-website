@@ -1,0 +1,41 @@
+{
+  "id": 3,
+  "slug": "fior-di-occhiatello",
+  "nom": "FIOR DI OCCHIATELLO",
+  "image": "/images/fior-di-occhiatello.jpg",
+  "prixKg": 37.5,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Fior di Occhiatello, une douce caresse laitière italienne, révèle une pâte tendre et un cœur fondant. Son goût délicat, sublimé par la richesse du lait de vache, invite à un voyage gustatif ensoleillé.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Né au cœur de l'Italie, ce fromage est façonné dans des régions où les douces collines rencontrent les premiers contreforts des Apennins. Ces paysages vallonnés, sculptés par le temps, offrent des pâturages riches et variés aux vaches laitières. L'altitude modérée et l'exposition au soleil contribuent à la qualité exceptionnelle du lait.",
+    "climat": "Le climat méditerranéen, caractérisé par des étés chauds et secs et des hivers doux et humides, influence directement la flore locale. Cette richesse végétale se retrouve dans le lait, conférant au fromage des arômes subtils et complexes.",
+    "elevage": "Les vaches laitières, race sélectionnée pour sa production laitière de qualité, paissent librement dans ces prairies verdoyantes, se nourrissant d'une herbe riche et parfumée. L'alimentation naturelle et équilibrée des animaux est un facteur clé de la qualité et de la saveur du lait.",
+    "savoir_faire": "Le Fior di Occhiatello est le fruit d'un savoir-faire ancestral, transmis de génération en génération par des artisans fromagers passionnés. Le respect des traditions et l'attention portée à chaque étape de la fabrication garantissent un fromage d'exception."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Ce fromage présente une pâte ivoire, lisse et uniforme, parsemée de quelques petites ouvertures irrégulières. Sa croûte, fine et délicate, est de couleur crème et peut présenter de légères traces de moisissures naturelles.",
+    "texture": "La texture est souple et fondante en bouche, offrant une sensation de douceur et de crémeux. Sa légère élasticité lui confère une agréable mâche. L'absence de granulosité assure une dégustation veloutée.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait frais, le beurre doux et la crème fraîche. Ces notes laitières sont à la fois pures et réconfortantes.",
+    "aromes_secondaires": "Des notes subtiles de foin coupé, de noisette fraîche et de fleurs sauvages viennent compléter la palette aromatique. On perçoit également une légère pointe d'acidité qui apporte de la fraîcheur et de l'équilibre.",
+    "evolution": "L'attaque est douce et onctueuse, évoluant vers un milieu de bouche plus riche et complexe. La finale est persistante, laissant une agréable sensation de douceur et de fraîcheur. La longueur en bouche est modérée.",
+    "temperature_service": "Il est recommandé de servir le Fior di Occhiatello à température ambiante (environ 18-20°C) afin de libérer pleinement ses arômes et de profiter de sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4 et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation. Cela permet à la pâte de s'attendrir et aux arômes de se développer pleinement.",
+    "coupe": "Couper le fromage en parts triangulaires, en partant du centre vers l'extérieur, afin de répartir les différentes textures et saveurs de manière homogène.",
+    "presentation": "Présenter le Fior di Occhiatello sur un plateau de fromages accompagné de fruits frais, de noix et de pain de campagne.",
+    "duree": "A consommer dans les 3 à 5 jours après ouverture, en veillant à bien l'emballer dans du papier sulfurisé ou une boîte hermétique."
+  },
+  "degustation": "Ce fromage à pâte molle révèle une texture fondante et des arômes délicats de lait frais. Son intensité est légère, en faisant un fromage parfait pour une dégustation en douceur.",
+  "accords": "Le Fior di Occhiatello s'accorde à merveille avec un vin blanc sec et fruité, tel qu'un Pinot Grigio du Frioul ou un Verdicchio des Marches. Ses notes minérales et sa fraîcheur équilibrent la douceur du fromage. Il se marie également très bien avec une bière blonde légère et désaltérante, comme une Lager artisanale.",
+  "histoire": "Le Fior di Occhiatello, littéralement \"fleur d'œil\", tire son nom de sa forme délicate et de sa pâte claire. Fruit d'une tradition fromagère italienne séculaire, il incarne le savoir-faire et la passion des artisans laitiers."
+}

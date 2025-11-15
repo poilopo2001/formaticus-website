@@ -1,0 +1,41 @@
+{
+  "id": 263,
+  "slug": "taleggio-di-grotta",
+  "nom": "TALEGGIO DI GROTTA",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 42.05,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Taleggio di Grotta, affiné dans les grottes fraîches et humides, offre une pâte onctueuse et fondante. Ses saveurs, à la fois douces et complexes, évoquent le terroir lombard et ses traditions fromagères ancestrales.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Taleggio di Grotta est originaire de Lombardie, une région d'Italie du Nord traversée par les Alpes et la plaine du Pô. Les vallées verdoyantes, sculptées par les glaciers, offrent un paysage idéal pour l'élevage laitier. L'altitude varie considérablement, influençant la flore et la qualité du lait.",
+    "climat": "Le climat de la Lombardie est continental, avec des étés chauds et humides et des hivers froids et neigeux. L'humidité ambiante, particulièrement dans les grottes d'affinage, favorise le développement d'une flore de surface spécifique qui contribue au caractère unique du fromage.",
+    "elevage": "Les vaches, principalement de race Bruna Alpina, paissent dans les prairies alpines durant l'été, se nourrissant d'une herbe riche et variée. L'hiver, elles sont nourries avec du foin de qualité, assurant ainsi une production laitière constante et un lait riche en nutriments essentiels.",
+    "savoir_faire": "Le Taleggio est fabriqué selon des méthodes traditionnelles transmises de génération en génération. L'affinage en grottes naturelles, une pratique ancestrale, confère au fromage ses arômes distinctifs et sa texture particulière. Ce savoir-faire est un héritage précieux, garant d'une qualité exceptionnelle."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Taleggio di Grotta présente une croûte fine, lavée, de couleur rose orangé à beige. La pâte est ivoire à jaune paille, marbrée de quelques moisissures nobles naturelles. Sa texture est souple et fondante.",
+    "texture": "En bouche, la texture est crémeuse et onctueuse, avec une légère élasticité. Sa pâte fond délicatement, laissant une sensation de douceur et de richesse. L'affinage en grotte lui confère une texture particulièrement agréable.",
+    "aromes_primaires": "Les arômes primaires dominants sont lactiques, évoquant le beurre frais, la crème et le lait chaud. Une légère note animale se fait également sentir, témoignant de son origine fermière.",
+    "aromes_secondaires": "Des arômes secondaires de fruits secs (noisette, amande) et de sous-bois se développent au fil de l'affinage. Une subtile note de champignon et d'herbes fraîches complexifie le profil aromatique.",
+    "evolution": "L'attaque est douce et légèrement acidulée, évoluant vers un milieu de bouche plus riche et crémeux. La finale est longue et persistante, laissant une agréable sensation de chaleur et de gourmandise. Sa longueur en bouche est remarquable.",
+    "temperature_service": "Il est idéal de le servir à température ambiante (environ 20°C) afin de libérer pleinement ses arômes et d'apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Taleggio di Grotta se conserve idéalement au réfrigérateur, entre 4°C et 8°C.",
+    "avant_service": "Sortez-le du réfrigérateur au moins une heure avant de le déguster pour qu'il développe pleinement ses saveurs et sa texture.",
+    "coupe": "Coupez-le en tranches régulières, en partant du centre vers l'extérieur, afin de répartir équitablement la croûte et la pâte.",
+    "presentation": "Présentez-le sur un plateau de fromages avec des fruits frais (poires, figues), des noix et du pain de campagne.",
+    "duree": "Il se conserve 2-3 jours après ouverture, bien emballé dans du papier sulfurisé ou une boîte hermétique."
+  },
+  "degustation": "Sa texture est onctueuse et fondante, ses arômes riches et complexes, avec une intensité modérée qui en fait un fromage accessible et savoureux. Il est une véritable invitation au voyage gustatif.",
+  "accords": "Accompagnez-le d'un vin rouge léger et fruité, comme un Pinot Noir de Bourgogne ou un Dolcetto d'Alba. Ses notes terreuses s'accordent également avec une bière ambrée artisanale ou un vin blanc sec et minéral comme un Riesling.",
+  "histoire": "Le Taleggio, dont l'origine remonte au Moyen Âge, était autrefois affiné dans les grottes naturelles de la vallée du même nom. Sa fabrication artisanale perpétue un savoir-faire ancestral, garant d'une qualité exceptionnelle."
+}

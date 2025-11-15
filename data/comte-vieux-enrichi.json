@@ -1,0 +1,41 @@
+{
+  "id": 2,
+  "slug": "comte-vieux",
+  "nom": "COMTE VIEUX",
+  "image": "/images/comte-vieux.jpg",
+  "prixKg": 46.75,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Comté Vieux, joyau de Franche-Comté, est une ode au terroir et au temps. Sa pâte pressée cuite, affinée avec patience, révèle une palette aromatique complexe et une texture riche, témoignage d'un savoir-faire ancestral.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Comté Vieux est intimement lié aux paysages vallonnés et verdoyants du massif du Jura, une région où alternent prairies d'altitude et forêts denses. Ces montagnes, aux sols calcaires riches, offrent un environnement idéal pour le développement d'une flore variée, source d'alimentation pour les vaches. L'altitude, variant entre 400 et 1500 mètres, contribue à la fraîcheur et à la pureté de l'air.",
+    "climat": "Le climat du Jura est de type montagnard, caractérisé par des hivers froids et neigeux et des étés frais et humides. Cette alternance saisonnière influence directement la composition du lait, en particulier sa richesse en matière grasse, et contribue au développement des arômes complexes du Comté.",
+    "elevage": "Les vaches de race Montbéliarde, véritables reines de la région, paissent en liberté pendant au moins 150 jours par an. Leur alimentation, exclusivement constituée d'herbe fraîche en été et de foin en hiver, est rigoureusement contrôlée afin de garantir la qualité du lait. Le respect du bien-être animal est une priorité, assurant ainsi un lait de qualité supérieure.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, chaque affineur apportant sa touche personnelle au processus. La fabrication du Comté est un art délicat, depuis la collecte du lait cru jusqu'à l'affinage en cave, qui dure au minimum 18 mois, voire beaucoup plus pour les Comtés Vieux. Chaque étape est réalisée avec soin et passion."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte du Comté Vieux arbore une couleur jaune paille soutenue, parfois parsemée de cristaux de tyrosine, témoins d'un long affinage. Sa texture est dense et ferme, et sa croûte naturelle, de couleur brun doré, peut présenter des marques de frottage.",
+    "texture": "En bouche, le Comté Vieux offre une texture à la fois ferme et fondante, avec une légère granulosité due aux cristaux de tyrosine. Il procure une sensation de plénitude et de richesse, qui persiste longuement.",
+    "aromes_primaires": "Les arômes primaires du Comté Vieux sont dominés par des notes de beurre fondu, de noisette grillée et de caramel. On perçoit également des nuances de lait chaud et de crème fraîche.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes plus complexes de fruits secs (amande, noix), d'épices douces (cumin, muscade) et d'herbes de montagne. Une légère pointe animale peut également se manifester, témoignant de son affinage prolongé.",
+    "evolution": "L'attaque est franche et intense, avec une belle amplitude aromatique. Le milieu de bouche est riche et persistant, avec une texture soyeuse. La finale est longue et complexe, laissant une empreinte gustative inoubliable. La longueur en bouche est exceptionnelle.",
+    "temperature_service": "Le Comté Vieux se déguste idéalement à température ambiante (18-20°C) afin d'exprimer pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Comté Vieux se conserve idéalement au réfrigérateur, dans un endroit frais et sec, à une température comprise entre 4 et 8°C.",
+    "avant_service": "Sortez le Comté Vieux du réfrigérateur au moins une heure avant la dégustation afin qu'il puisse développer pleinement ses arômes.",
+    "coupe": "Le Comté Vieux se coupe traditionnellement en pointes, en suivant le sens des aiguilles d'une montre, afin de révéler toutes les facettes de sa pâte.",
+    "presentation": "Présentez le Comté Vieux sur un plateau de fromages en bois, accompagné de fruits secs, de pain de campagne et de confiture de cerises noires.",
+    "duree": "Après ouverture, le Comté Vieux se conserve environ une semaine au réfrigérateur, enveloppé dans un papier sulfurisé ou un film alimentaire."
+  },
+  "degustation": "Ce Comté Vieux offre une texture riche et légèrement granuleuse, des arômes complexes de fruits secs, de noisettes grillées et une intensité persistante en bouche. Un fromage d'exception pour les connaisseurs.",
+  "accords": "Le Comté Vieux s'accorde à merveille avec un vin blanc sec et minéral, tel qu'un Côtes du Jura ou un Arbois, qui soulignera sa complexité aromatique. Pour un accord plus audacieux, osez un vin rouge fruité du Beaujolais, comme un Morgon, ou encore un vin jaune du Jura, qui magnifiera ses notes de noix et d'épices.",
+  "histoire": "Le Comté, dont les origines remontent au Moyen Âge, est le fruit d'une longue tradition fromagère en Franche-Comté. Fabriqué artisanalement à partir de lait cru de vaches Montbéliardes, il est affiné avec patience et passion pendant de longs mois, voire des années, pour révéler son caractère unique."
+}

@@ -1,0 +1,41 @@
+{
+  "id": 276,
+  "slug": "camembert-calvados-150-g",
+  "nom": "CAMEMBERT CALVADOS 150 G",
+  "image": "/images/camembert-calvados-150-g.jpg",
+  "prixKg": 9.75,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Ce Camembert Calvados, affiné avec soin, offre une rencontre unique entre la douceur lactique et les notes fruitées de la pomme. Sa pâte onctueuse révèle une richesse aromatique qui persiste délicatement en bouche, témoignant d'un savoir-faire ancestral.",
+  "terroir": {
+    "titre": "Le Terroir Normand",
+    "geographie": "Le Pays d'Auge, berceau de ce camembert, est une région vallonnée où les herbages verdoyants s'étendent à perte de vue. Les douces collines, sculptées par le temps, favorisent un drainage naturel des sols, essentiel à la qualité du lait. La proximité de la mer apporte une brise marine qui imprègne les pâturages d'une subtile salinité.",
+    "climat": "Le climat normand, de type océanique, se caractérise par des étés doux et des hivers relativement tempérés. L'humidité ambiante, constante tout au long de l'année, favorise le développement d'une flore riche et diversifiée, source d'alimentation privilégiée pour les vaches.",
+    "elevage": "Les vaches normandes, réputées pour la richesse de leur lait, paissent librement dans les prairies du Pays d'Auge. Leur alimentation, composée d'herbes fraîches et de foin de qualité, contribue au développement d'arômes complexes et subtils dans le lait, reflet de la biodiversité locale. Le bien-être animal est au cœur des préoccupations des producteurs, garantissant un lait d'exception.",
+    "savoir_faire": "La fabrication du Camembert Calvados est un art transmis de génération en génération. Les techniques traditionnelles, respectueuses du produit, sont perpétuées avec passion. L'affinage délicat, réalisé avec le Calvados, confère à ce fromage son caractère unique et inimitable."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Sa croûte, finement fleurie, arbore une couleur crème à légèrement jaune paille, parfois ponctuée de légères taches orangées. La pâte, de couleur ivoire, présente une texture lisse et onctueuse, promesse d'une dégustation fondante.",
+    "texture": "En bouche, la texture est à la fois souple et fondante. La pâte se liquéfie délicatement, enrobant le palais d'une douceur crémeuse. Une légère élasticité peut se percevoir, témoignant d'un affinage optimal.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait frais, la crème, et le beurre légèrement noisetté. Ces notes lactiques sont complétées par une subtile odeur de champignon frais, caractéristique des camemberts de qualité.",
+    "aromes_secondaires": "Des notes fruitées, provenant de l'affinage au Calvados, se révèlent en second plan : pomme cuite, cidre doux, et une pointe d'amande. Une légère touche animale, signe de typicité, peut également se percevoir.",
+    "evolution": "L'attaque est douce et crémeuse, laissant place à un milieu de bouche plus intense où les arômes de pomme se déploient pleinement. La finale est longue et persistante, marquée par une légère acidité et une agréable sensation de chaleur provenant du Calvados. La longueur en bouche est notable.",
+    "temperature_service": "Il est idéal de le servir à température ambiante (environ 20°C) afin de libérer pleinement ses arômes subtils et d'apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur, dans son emballage d'origine, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation afin qu'il puisse développer pleinement ses arômes.",
+    "coupe": "Pour apprécier toutes ses saveurs, découper le camembert en parts égales, de la croûte vers le centre.",
+    "presentation": "Présenter le Camembert Calvados sur un plateau en bois accompagné de pain de campagne frais et de quelques noix.",
+    "duree": "Une fois entamé, il est préférable de le consommer dans les 2 à 3 jours afin de préserver sa fraîcheur et ses qualités gustatives."
+  },
+  "degustation": "Ce Camembert Calvados offre une texture fondante et crémeuse, révélant des arômes lactiques délicats et des notes fruitées subtiles. Son intensité aromatique est modérée, le rendant accessible à tous les palais.",
+  "accords": "Il s'accorde à merveille avec un cidre fermier brut du Pays d'Auge, dont les notes de pomme fraîche font écho à celles du Calvados. Un vin blanc sec et fruité, tel qu'un Chardonnay de Bourgogne, peut également être envisagé pour un accord plus contrasté. Évitez les vins trop tanniques qui pourraient masquer les saveurs délicates du fromage.",
+  "histoire": "Héritier de la tradition normande, ce camembert est affiné avec du Calvados, eau-de-vie de cidre emblématique de la région. Cette technique artisanale lui confère un caractère unique et une saveur incomparable."
+}

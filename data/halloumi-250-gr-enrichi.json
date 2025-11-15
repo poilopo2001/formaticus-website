@@ -1,0 +1,41 @@
+{
+  "id": 207,
+  "slug": "halloumi-250-gr",
+  "nom": "HALLOUMI 250 GR",
+  "image": "/images/halloumi-250-gr.jpg",
+  "prixKg": 6.0,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "L'Halloumi, trésor de Chypre, révèle une texture unique et une saveur légèrement salée, rehaussée par la fraîcheur de la menthe. Sa particularité réside dans sa capacité à griller sans fondre, offrant une expérience gustative inoubliable.",
+  "terroir": {
+    "titre": "Le Terroir Chypriote",
+    "geographie": "L'île de Chypre, baignée par les eaux cristallines de la Méditerranée, présente un paysage contrasté, alternant montagnes escarpées et plaines fertiles. La chaîne de Troodos, culminant à près de 2000 mètres, influence significativement les microclimats locaux. Ces variations altitudinales favorisent une diversité de la flore et de l'élevage.",
+    "climat": "Le climat méditerranéen de Chypre, caractérisé par des étés chauds et secs et des hivers doux et humides, joue un rôle crucial dans le développement des arômes du lait. L'ensoleillement généreux contribue à la richesse de la végétation, base de l'alimentation des troupeaux.",
+    "elevage": "Les vaches, chèvres et brebis qui produisent le lait de l'Halloumi paissent librement dans les pâturages chypriotes, se nourrissant d'une flore diversifiée composée d'herbes sauvages et d'arbustes aromatiques. Ce régime alimentaire naturel confère au lait une saveur unique et complexe, reflet du terroir.",
+    "savoir_faire": "La fabrication de l'Halloumi est un art ancestral transmis de génération en génération. Les fromagers chypriotes perpétuent des techniques traditionnelles, utilisant des moules en osier et des méthodes de chauffage spécifiques pour obtenir la texture et le goût caractéristiques de ce fromage."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "L'Halloumi présente une pâte de couleur blanche à ivoire, légèrement élastique. Sa surface est lisse et peut porter des marques subtiles dues au moulage. Après cuisson, il arbore une belle couleur dorée.",
+    "texture": "La texture de l'Halloumi est à la fois ferme et légèrement élastique. En bouche, il offre une résistance agréable, devenant plus souple et fondant sous l'effet de la chaleur. Il ne fond pas complètement, conservant une certaine mâche.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait frais, légèrement acidulé, avec des notes de crème et une pointe saline.",
+    "aromes_secondaires": "Des arômes secondaires de menthe fraîche et d'herbes sauvages se dégagent, apportant une touche de fraîcheur et de complexité. On peut également percevoir de subtiles notes animales.",
+    "evolution": "L'attaque est franche, avec une salinité équilibrée. Le milieu de bouche révèle des saveurs lactiques et herbacées. La finale est persistante, laissant une agréable sensation de fraîcheur et une légère amertume. La longueur en bouche est moyenne.",
+    "temperature_service": "L'Halloumi se déguste idéalement chaud, grillé ou poêlé, pour apprécier pleinement sa texture unique et ses arômes développés."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez l'Halloumi au réfrigérateur entre 2°C et 6°C.",
+    "avant_service": "Sortez l'Halloumi du réfrigérateur environ 15 minutes avant de le cuire pour qu'il atteigne une température ambiante légère.",
+    "coupe": "Coupez l'Halloumi en tranches d'environ 1 cm d'épaisseur pour une cuisson uniforme.",
+    "presentation": "Présentez l'Halloumi grillé sur un lit de roquette fraîche, accompagné de quelques gouttes d'huile d'olive extra vierge et d'une pincée de poivre noir concassé.",
+    "duree": "Consommez l'Halloumi dans les 3 à 5 jours après ouverture de l'emballage."
+  },
+  "degustation": "L'Halloumi offre une texture incomparable, à la fois ferme et élastique, alliée à des arômes lactiques délicats et une touche rafraîchissante de menthe. Son intensité gustative modérée en fait un fromage polyvalent et apprécié.",
+  "accords": "L'Halloumi grillé se marie à merveille avec un vin blanc sec et fruité, tel qu'un Assyrtiko de Santorin, dont la minéralité et l'acidité équilibrent parfaitement la richesse du fromage. Une bière blonde légère et houblonnée constitue également un excellent accord. On peut aussi l'associer à un vin rosé sec de Provence.",
+  "histoire": "L'Halloumi est un fromage traditionnel chypriote dont l'origine remonte à plusieurs siècles. Sa fabrication artisanale est un héritage précieux, symbole du terroir et du savoir-faire de l'île."
+}

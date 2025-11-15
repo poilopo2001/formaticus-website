@@ -1,0 +1,41 @@
+{
+  "id": 325,
+  "slug": "cheddar-porto",
+  "nom": "CHEDDAR PORTO",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 34.9,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Cheddar Porto offre une alliance audacieuse et raffinée, où la force du cheddar anglais rencontre la douceur fruitée du Porto. Sa pâte onctueuse, infusée des arômes chaleureux du vin, révèle une expérience gustative riche et mémorable.",
+  "terroir": {
+    "titre": "L'Élégance d'une Alliance Transatlantique",
+    "geographie": "Le cheddar, originaire des vallées verdoyantes du Somerset en Angleterre, bénéficie d'un terroir riche et fertile. Douces collines et pâturages luxuriants offrent un environnement idéal pour l'élevage laitier.",
+    "climat": "Le climat tempéré et humide du Somerset, avec ses étés doux et ses hivers cléments, favorise la croissance d'une herbe abondante, source d'une alimentation de qualité pour les vaches laitières.",
+    "elevage": "Les vaches, nourries d'herbe fraîche et de foin de qualité, produisent un lait riche et crémeux, essentiel à l'élaboration d'un cheddar d'exception. Le respect du bien-être animal est une priorité, garantissant un lait de la plus haute qualité.",
+    "savoir_faire": "Le savoir-faire fromager anglais, transmis de génération en génération, se conjugue ici à la tradition portugaise. L'affinage est réalisé avec soin, permettant au Porto de s'imprégner délicatement dans la masse du cheddar."
+  },
+  "profil_gustatif": {
+    "titre": "Un Voyage Sensoriel Inoubliable",
+    "visuel": "Sa pâte offre une couleur ivoire marbrée de veinures rouge-rubis, témoignant de l'infusion du Porto. La texture est lisse et légèrement brillante.",
+    "texture": "En bouche, il se révèle d'abord ferme, puis fond délicatement sur la langue, libérant une onctuosité crémeuse. Une légère cristallisation peut apparaître avec l'âge, signe d'une maturation réussie.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait frais, le beurre clarifié et une pointe acidulée typique du cheddar.",
+    "aromes_secondaires": "Des notes secondaires de fruits rouges confits, de pruneaux et d'épices douces apportent complexité et profondeur à l'ensemble.",
+    "evolution": "L'attaque est franche et fruitée, suivie d'un milieu de bouche équilibré où les saveurs du cheddar et du Porto se marient harmonieusement. La finale est longue et persistante, avec une légère chaleur alcoolisée.",
+    "temperature_service": "Servir idéalement entre 16 et 18°C pour permettre aux arômes de s'exprimer pleinement."
+  },
+  "conservation": {
+    "titre": "Conseils de Conservation",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4 et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation pour révéler toutes ses saveurs.",
+    "coupe": "Couper en tranches fines ou en petits dés pour apprécier pleinement sa texture et sa richesse aromatique.",
+    "presentation": "Présenter sur un plateau avec des fruits secs, des noix et des craquelins pour un contraste de saveurs et de textures.",
+    "duree": "Consommer de préférence dans les 5 à 7 jours après ouverture."
+  },
+  "degustation": "Ce mariage audacieux offre une texture onctueuse et une palette aromatique complexe, où la puissance du cheddar se fond dans la douceur fruitée du Porto. Une expérience gustative inoubliable pour les amateurs de fromages d'exception.",
+  "accords": "Accompagner d'un verre de Porto Tawny 10 ans d'âge pour un accord parfait, ou d'un vin rouge corsé comme un Pomerol pour un contraste intéressant. Un chutney de figues ou de dattes rehaussera également sa saveur.",
+  "histoire": "Né de l'ingéniosité fromagère, le Cheddar Porto est une création contemporaine qui revisite les traditions anglaises et portugaises. Son affinage unique en fait un fromage d'exception, apprécié des connaisseurs."
+}

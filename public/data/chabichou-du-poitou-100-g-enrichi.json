@@ -1,0 +1,41 @@
+{
+  "id": 159,
+  "slug": "chabichou-du-poitou-100-g",
+  "nom": "CHABICHOU DU POITOU 100 G",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 10.4,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Chabichou du Poitou, une pyramide tronquée au lait cru de chèvre, est un concentré du terroir poitevin. Sa pâte fine et délicate révèle des saveurs caprines subtiles, évoluant avec l'affinage.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Poitou, avec ses douces collines et ses vallées verdoyantes, offre un paysage idéal pour l'élevage caprin. La région est caractérisée par un sol calcaire, riche en minéraux, qui nourrit une flore diversifiée. Cette diversité se reflète dans le lait et, par conséquent, dans le fromage. Les chèvres paissent librement dans ce cadre bucolique, contribuant à la typicité du Chabichou.",
+    "climat": "Le climat du Poitou est tempéré et atlantique, avec des étés chauds et des hivers doux. L'humidité ambiante favorise le développement d'une flore microbienne spécifique sur la croûte du fromage, essentielle à son affinage et à son goût unique.",
+    "elevage": "Les chèvres de race Poitevine, rustiques et parfaitement adaptées à la région, sont élevées avec soin et respect. Leur alimentation est principalement constituée d'herbe fraîche et de foin de qualité, complétée par des céréales locales. Cet élevage extensif, privilégiant le bien-être animal, garantit un lait d'une qualité exceptionnelle.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération dans le Poitou. Chaque étape de la fabrication, du moulage à la louche à l'affinage en cave, est réalisée avec une attention particulière. Les producteurs locaux perpétuent des méthodes ancestrales, garantissant l'authenticité et la qualité du Chabichou."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Chabichou présente une croûte fine et ridée, de couleur ivoire à beige clair, parfois parsemée de fines moisissures bleutées. Sa pâte est blanche et homogène, légèrement brillante, avec une texture fine et un cœur plus crayeux selon l'affinage.",
+    "texture": "En bouche, la texture évolue de fondante et crémeuse à plus sèche et friable avec l'âge. On perçoit une légère granulosité au centre, témoin de son authenticité. L'ensemble offre une sensation à la fois délicate et persistante.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait frais de chèvre, avec des notes de crème et de beurre frais. On peut également déceler une pointe d'acidité lactique, caractéristique du Chabichou.",
+    "aromes_secondaires": "Les arômes secondaires se développent avec l'affinage, révélant des notes subtiles de noisette fraîche, de foin coupé et de sous-bois. Une légère note caprine persiste, témoignant de l'origine du lait.",
+    "evolution": "L'attaque est douce et fraîche, suivie d'un milieu de bouche plus prononcé, où les arômes caprins et les notes de noisette se déploient. La finale est longue et persistante, avec une légère amertume agréable et une salinité discrète. La longueur en bouche est remarquable.",
+    "temperature_service": "Il est conseillé de sortir le Chabichou du réfrigérateur au moins une heure avant la dégustation, afin de permettre aux arômes de se libérer pleinement."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Chabichou se conserve idéalement au réfrigérateur, entre 4°C et 8°C.",
+    "avant_service": "Sortez le Chabichou du réfrigérateur environ une heure avant de le déguster. Cela permettra à la pâte de s'assouplir et aux arômes de s'exprimer pleinement.",
+    "coupe": "La pyramide tronquée du Chabichou se prête à une coupe en quartiers, permettant de révéler les différentes textures de la pâte.",
+    "presentation": "Présentez le Chabichou sur un plateau de fromages accompagné de pain de campagne, de fruits frais (raisins, figues) et de quelques noix.",
+    "duree": "Après ouverture, il est préférable de consommer le Chabichou dans les 3 à 5 jours pour profiter de sa fraîcheur optimale."
+  },
+  "degustation": "Le Chabichou offre une texture à la fois fondante et légèrement sèche, avec des arômes caprins délicats et une intensité progressive. Un fromage de caractère qui exprime pleinement son terroir.",
+  "accords": "Un Sancerre blanc, avec ses notes d'agrumes et sa minéralité, accompagnera à merveille la fraîcheur du Chabichou. Pour une option plus audacieuse, un Pouilly-Fumé apportera une complexité aromatique intéressante. On peut également l'associer avec un miel de fleurs sauvages ou une confiture de figues.",
+  "histoire": "Le Chabichou est un fromage ancestral, dont l'origine remonte au VIIIe siècle. Son nom viendrait de l'arabe \"chebli\", désignant une chèvre, témoignant de l'influence sarrasine dans la région. Il est aujourd'hui un fromage AOP, garantissant son origine et son savoir-faire."
+}

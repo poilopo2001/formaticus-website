@@ -1,0 +1,41 @@
+{
+  "id": 482,
+  "slug": "quadrello",
+  "nom": "QUADRELLO",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 55.9,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Quadrello, un fromage carré au charme rustique, dévoile une pâte onctueuse et un goût riche qui évoquent les prairies verdoyantes. Sa croûte lavée, naturellement humide, renferme un cœur fondant aux arômes complexes et persistants. Une invitation au voyage gustatif au cœur des traditions fromagères.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Quadrello est né dans les plaines fertiles de la Lombardie, en Italie. Cette région, traversée par le fleuve Pô, offre des paysages doux et vallonnés, parfaits pour l'élevage. Les vastes étendues herbeuses et la proximité de l'eau confèrent au lait utilisé pour sa fabrication une qualité exceptionnelle.",
+    "climat": "Le climat tempéré de la Lombardie, caractérisé par des étés chauds et humides et des hivers frais, favorise une herbe riche et variée. Cette diversité végétale se retrouve dans le lait et contribue à la complexité aromatique du Quadrello.",
+    "elevage": "Les vaches laitières, principalement de race Frisonne, paissent librement dans les prairies lombardes. Leur alimentation naturelle, riche en herbes fraîches et en foin de qualité, confère au lait une saveur unique et un profil nutritionnel optimal. Le bien-être animal est une priorité pour les producteurs, garantissant un lait d'exception.",
+    "savoir_faire": "La fabrication du Quadrello est un art ancestral, transmis de génération en génération. Les fromagers locaux perpétuent des techniques traditionnelles, utilisant du lait cru et affinant les fromages avec soin et patience. Ce savoir-faire garantit un produit authentique et de qualité supérieure."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Quadrello se présente sous une forme carrée distinctive, avec une croûte lavée de couleur orangée à rougeâtre. Sa pâte, d'un jaune paille uniforme, révèle une texture légèrement humide et fondante.",
+    "texture": "En bouche, le Quadrello offre une texture onctueuse et souple, avec un fondant agréable. Sa pâte se révèle douce et crémeuse, sans être coulante. Une légère élasticité peut se faire sentir, signe d'une maturation optimale.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait frais, de la crème et du beurre fondu. Une légère note animale se fait également sentir, témoignant de l'utilisation de lait cru.",
+    "aromes_secondaires": "Des arômes secondaires plus subtils de noisette, de champignon frais et de foin coupé viennent enrichir le profil aromatique. Une pointe d'amertume légère en fin de bouche ajoute de la complexité.",
+    "evolution": "L'attaque en bouche est douce et crémeuse, évoluant vers des saveurs plus intenses et complexes. La finale est persistante, avec une longueur en bouche agréable et une légère note salée. L'umami est bien présent.",
+    "temperature_service": "Servez le Quadrello à température ambiante (environ 20°C) pour libérer pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez le Quadrello au réfrigérateur, dans sa boîte d'origine ou enveloppé dans du papier sulfurisé, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortez le Quadrello du réfrigérateur environ 30 minutes avant de le déguster pour permettre aux arômes de se développer et à la texture de s'assouplir.",
+    "coupe": "Pour une présentation élégante, coupez le Quadrello en tranches fines ou en cubes, en suivant les diagonales du carré.",
+    "presentation": "Présentez le Quadrello sur un plateau de fromages accompagné de fruits secs, de noix, de pain de campagne et d'une confiture de figues.",
+    "duree": "Consommez le Quadrello dans les 5 à 7 jours suivant l'ouverture pour profiter pleinement de sa fraîcheur et de ses saveurs."
+  },
+  "degustation": "Le Quadrello offre une texture crémeuse et des arômes lactiques intenses, avec une complexité aromatique surprenante. Son intensité modérée en fait un fromage accessible et savoureux.",
+  "accords": "Accompagnez le Quadrello d'un vin blanc sec et fruité, comme un Pinot Grigio italien ou un Chardonnay léger. Pour un accord plus audacieux, optez pour une bière blonde artisanale aux notes maltées et florales. Un verre de Gewürztraminer vendanges tardives magnifiquement le bouquet aromatique du Quadrello.",
+  "histoire": "Le Quadrello, originaire de Lombardie, est un fromage traditionnel dont l'histoire remonte à plusieurs siècles. Sa forme carrée distinctive est inspirée des moules utilisés par les premiers fromagers. Il témoigne d'un savoir-faire ancestral et d'une passion pour le lait de qualité."
+}

@@ -1,0 +1,41 @@
+{
+  "id": 164,
+  "slug": "tomme-chevre-et-brebis",
+  "nom": "TOMME CHEVRE ET BREBIS",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 39.4,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Tomme Chèvre et Brebis, un mariage harmonieux de deux laits d'exception, dévoile une pâte onctueuse aux saveurs délicates. Son affinage révèle des notes subtiles de terroir, un voyage gustatif au cœur des paysages verdoyants.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Ce fromage est né au cœur de la Nouvelle-Aquitaine, une région vallonnée où les pâturages verdoyants s'étendent à perte de vue. Les paysages sont caractérisés par une mosaïque de forêts, de prairies et de cours d'eau, offrant un environnement idéal pour l'élevage des chèvres et des brebis. L'altitude modérée et la diversité des sols contribuent à la richesse de la flore locale.",
+    "climat": "Le climat de la Nouvelle-Aquitaine est de type océanique tempéré, avec des étés doux et des hivers relativement cléments. Les précipitations régulières favorisent la croissance de l'herbe, essentielle à l'alimentation des animaux et à la qualité du lait.",
+    "elevage": "Les chèvres et les brebis sont élevées dans le respect des traditions, avec un accès permanent aux pâturages. Leur alimentation est principalement composée d'herbe fraîche, complétée par du foin en hiver. Ce mode d'élevage extensif contribue à la typicité et à la qualité du lait.",
+    "savoir_faire": "La fabrication de la Tomme Chèvre et Brebis repose sur un savoir-faire ancestral, transmis de génération en génération. Les fromagers locaux perpétuent les gestes traditionnels, de la collecte du lait à l'affinage en cave, pour garantir un produit d'exception."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La Tomme Chèvre et Brebis présente une pâte ivoire à jaune pâle, parfois parsemée de petites ouvertures. Sa croûte naturelle est fine et légèrement duveteuse, de couleur beige à gris clair.",
+    "texture": "Sa texture est souple et onctueuse, fondante en bouche. Elle peut présenter une légère fermeté au centre, évoluant vers une texture plus crémeuse en périphérie.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait frais, la crème et le beurre, avec une pointe de noisette.",
+    "aromes_secondaires": "Des notes subtiles de foin coupé et d'herbes sauvages se mêlent aux arômes primaires, apportant une complexité aromatique intéressante.",
+    "evolution": "L'attaque est douce et légèrement acidulée, suivie d'un milieu de bouche onctueux et savoureux. La finale est persistante, avec des notes délicates de chèvre et de brebis. La longueur en bouche est agréable.",
+    "temperature_service": "Servir à température ambiante (environ 18-20°C) pour apprécier pleinement ses arômes et sa texture."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur au moins une heure avant la dégustation pour qu'il révèle tous ses arômes.",
+    "coupe": "Couper la Tomme en portions triangulaires pour une présentation élégante et une dégustation optimale.",
+    "presentation": "Présenter sur un plateau avec d'autres fromages de caractère, des fruits frais et secs, et du pain de campagne.",
+    "duree": "Consommer dans les 5 à 7 jours après ouverture."
+  },
+  "degustation": "La Tomme Chèvre et Brebis offre une texture fondante et des arômes subtils de lait frais et de terroir. Son intensité est modérée, ce qui en fait un fromage apprécié par tous.",
+  "accords": "Accompagner d'un vin blanc sec et fruité, comme un Sauvignon de Loire ou un Sancerre, pour équilibrer sa douceur. Un vin rouge léger, tel qu'un Pinot Noir d'Alsace, peut également sublimer ses saveurs. Il s'accorde aussi très bien avec une bière blonde artisanale aux notes florales.",
+  "histoire": "Issue d'un savoir-faire ancestral, la Tomme Chèvre et Brebis est le fruit d'une passion pour l'élevage et la transformation laitière. Elle incarne le terroir de la Nouvelle-Aquitaine, où les chèvres et les brebis paissent en liberté."
+}

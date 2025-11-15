@@ -1,0 +1,41 @@
+{
+  "id": 77,
+  "slug": "munster",
+  "nom": "MUNSTER",
+  "image": "/images/munster.jpg",
+  "prixKg": 50.5,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Munster, ambassadeur du Grand Est, se révèle sous une croûte lavée orangée, promesse d'un cœur fondant et d'une saveur affirmée. Ce fromage au lait cru, héritier d'un savoir-faire ancestral, offre une expérience gustative riche et complexe, reflet d'un terroir généreux.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Munster est ancré dans le massif vosgien, une région de montagnes douces et de vallées verdoyantes, où l'altitude varie entre 300 et 1400 mètres. Cette topographie particulière façonne des paysages propices à l'élevage et confère au lait des caractéristiques uniques. Les prairies d'altitude, baignées de soleil et arrosées par les pluies, offrent un écrin de verdure essentiel à la qualité du lait.",
+    "climat": "Le climat vosgien, semi-continental, se caractérise par des hivers rigoureux et des étés tempérés. Les précipitations abondantes favorisent la croissance d'une flore riche et variée, essentielle à l'alimentation des vaches laitières et à la typicité du Munster.",
+    "elevage": "Les vaches laitières, principalement de race Vosgienne, paissent librement dans les prairies durant la belle saison, se nourrissant d'une herbe riche en essences aromatiques. L'alimentation hivernale, composée de foin de qualité, est complétée par des céréales issues de l'exploitation, garantissant un lait de qualité constante tout au long de l'année.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant les gestes précis et les techniques ancestrales. L'affinage, étape cruciale, est réalisé en caves humides, où le Munster est régulièrement lavé à l'eau salée, favorisant le développement de sa croûte orangée caractéristique et de ses arômes puissants."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Munster arbore une croûte lavée d'une belle couleur orangée à rouge brique, parfois légèrement humide. Sa pâte, de couleur ivoire à jaune pâle, présente une texture souple et onctueuse, pouvant être légèrement coulante à maturité.",
+    "texture": "En bouche, la texture est fondante et crémeuse, avec une légère élasticité. La pâte, fine et homogène, libère progressivement ses arômes. L'absence de granulosité témoigne d'un affinage soigné.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait cuit, la crème fraîche et le sous-bois. Des notes animales légères et une pointe de levure lactique viennent compléter ce bouquet initial.",
+    "aromes_secondaires": "Des arômes secondaires plus subtils se révèlent ensuite, tels que des notes de champignon, de foin et d'épices douces. Une légère note ammoniacale peut également apparaître à pleine maturité.",
+    "evolution": "L'attaque est franche et puissante, avec une saveur lactique intense. Le milieu de bouche développe des arômes complexes et une légère acidité. La finale est longue et persistante, laissant une agréable sensation de chaleur et de complexité aromatique. Une longueur en bouche remarquable.",
+    "temperature_service": "Le Munster se déguste idéalement à température ambiante (18-20°C) afin de libérer pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Munster se conserve au réfrigérateur, idéalement entre 4 et 8°C, dans son emballage d'origine ou du papier sulfurisé.",
+    "avant_service": "Sortez le Munster du réfrigérateur environ une heure avant la dégustation. Cette étape permet aux arômes de se développer et à la pâte de retrouver sa texture optimale.",
+    "coupe": "Pour une dégustation optimale, coupez le Munster en parts radiales, en partant du centre vers la croûte, afin de répartir uniformément les différentes saveurs.",
+    "presentation": "Présentez le Munster sur un plateau de fromages accompagné de pain de campagne, de fruits secs (noix, noisettes) et de confitures de fruits (figues, cerises noires).",
+    "duree": "Après ouverture, le Munster se conserve environ 3 à 5 jours au réfrigérateur, en veillant à bien l'emballer."
+  },
+  "degustation": "Ce Munster dévoile une pâte onctueuse et des arômes puissants de lait et de cave, soulignés par une intensité gustative persistante. Un fromage de caractère pour les amateurs de saveurs authentiques.",
+  "accords": "Pour accompagner le Munster, optez pour un Grand Cidre brut de Normandie, tel que la cuvée Carpe Diem de Kerveguen, dont les bulles fines et les notes fruitées équilibreront la puissance du fromage. Un Riesling Grand Cru d'Alsace, avec ses arômes d'agrumes et sa minéralité, sera également un excellent choix. Si vous préférez un vin rouge, un Pomerol souple et fruité apportera une touche d'élégance.",
+  "histoire": "Le Munster, dont l'origine remonte au Moyen Âge, tire son nom de la ville de Munster, située au cœur de la vallée du même nom. Fabriqué selon des méthodes artisanales, ce fromage témoigne d'un savoir-faire ancestral transmis de génération en génération."
+}

@@ -1,0 +1,41 @@
+{
+  "id": 27,
+  "slug": "raclette-fumee",
+  "nom": "RACLETTE FUMEE",
+  "image": "/images/raclette-fumee.jpg",
+  "prixKg": 37.5,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Raclette Fumée, née au cœur des Hautes-Alpes, dévoile un équilibre subtil entre la douceur laitière et les notes boisées du fumage. Sa pâte fondante, promesse d'un moment convivial, offre une expérience gustative riche et mémorable.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Les Hautes-Alpes, territoire de montagnes escarpées et de vallées verdoyantes, offrent un cadre idéal pour l'élevage bovin. L'altitude, souvent supérieure à 1000 mètres, confère aux pâturages une flore riche et diversifiée, essentielle à la qualité du lait. Les pentes abruptes et les plateaux ensoleillés façonnent un paysage unique, reflet de la robustesse et de l'authenticité de ce terroir.",
+    "climat": "Le climat montagnard, caractérisé par des hivers longs et froids et des étés courts et frais, influence directement la composition du lait. Les variations thermiques favorisent le développement d'une flore microbienne spécifique, participant activement à l'affinage du fromage et à l'expression de ses arômes.",
+    "elevage": "Les vaches, principalement de race Montbéliarde et Abondance, paissent librement durant la belle saison, se nourrissant d'une herbe fraîche et parfumée. L'alimentation naturelle, complétée par du foin de montagne en hiver, garantit un lait riche en matières grasses et en protéines, essentiel à la fabrication d'une Raclette de qualité. Le respect du bien-être animal est au cœur des pratiques d'élevage, assurant un produit d'exception.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des gestes précis et un amour du produit. Le lait cru, travaillé avec passion et rigueur, est le fruit d'un travail ancestral, respectueux des traditions et du terroir. L'affinage, étape cruciale, est réalisé avec patience et expertise, permettant au fromage de développer pleinement ses saveurs et sa texture."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte de la Raclette Fumée présente une couleur ivoire à jaune pâle, légèrement ambrée par le fumage. Sa texture est lisse et homogène, parsemée de quelques ouvertures irrégulières. La croûte, fine et dorée, porte les marques subtiles du fumage.",
+    "texture": "En bouche, la Raclette Fumée offre une texture fondante et onctueuse, enveloppant le palais d'une douceur laitière. Sa fermeté, juste ce qu'il faut, lui permet de bien tenir à la coupe tout en révélant un cœur crémeux. Aucune granulosité ne vient perturber la dégustation.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait cru, du beurre frais et de la crème, évoquant les pâturages verdoyants des Hautes-Alpes.",
+    "aromes_secondaires": "Des notes subtiles de fumée, de bois précieux et d'épices douces viennent compléter le profil aromatique, apportant complexité et profondeur. On peut également déceler des nuances de noisette et de fruits secs.",
+    "evolution": "L'attaque est douce et onctueuse, laissant rapidement place à la richesse des arômes fumés. Le milieu de bouche est ample et persistant, offrant une belle longueur en bouche. La finale est légèrement acidulée, rafraîchissant le palais et invitant à une nouvelle dégustation.",
+    "temperature_service": "La température de service idéale se situe entre 12 et 16°C, afin de permettre au fromage de libérer pleinement ses arômes et sa texture."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "La Raclette Fumée se conserve de préférence au réfrigérateur, dans un endroit frais et sec, à une température comprise entre 4 et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ une heure avant la dégustation, afin qu'il retrouve sa souplesse et exprime pleinement ses arômes.",
+    "coupe": "Pour une présentation élégante, coupez la Raclette Fumée en tranches fines et régulières, en partant du centre vers l'extérieur.",
+    "presentation": "Disposez les tranches sur un plateau en ardoise ou en bois, accompagnées de charcuteries fines, de pommes de terre et de cornichons.",
+    "duree": "Après ouverture, la Raclette Fumée se conserve idéalement 3 à 5 jours au réfrigérateur, bien emballée dans du papier alimentaire."
+  },
+  "degustation": "La Raclette Fumée offre une texture fondante et des arômes délicats de lait et de fumée. Son intensité est moyenne, ce qui la rend accessible à tous les palais.",
+  "accords": "Pour un accord parfait, privilégiez un vin blanc sec et fruité de Savoie, tel qu'un Chignin Bergeron ou une Roussette de Savoie, dont la fraîcheur équilibrera la richesse du fromage. Un Gamay de Savoie, léger et fruité, ou un Champagne brut seront également d'excellents compagnons. La subtilité du fromage se marie aussi très bien avec une bière blonde artisanale.",
+  "histoire": "La Raclette est un fromage traditionnel des Alpes, dont l'origine remonte au Moyen Âge. La version fumée apporte une touche d'originalité à cette recette ancestrale, grâce à un fumage délicat réalisé avec des bois nobles des montagnes environnantes."
+}

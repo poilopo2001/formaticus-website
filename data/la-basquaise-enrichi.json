@@ -1,0 +1,41 @@
+{
+  "id": 41,
+  "slug": "la-basquaise",
+  "nom": "LA BASQUAISE",
+  "image": "/images/la-basquaise.jpg",
+  "prixKg": 57.0,
+  "type": "pate-pressee-cuite",
+  "lait": "brebis",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Basquaise, un fromage de brebis au lait cru, évoque la chaleur du Pays Basque. Le piment d'Espelette, signature de son terroir, vient délicatement relever sa pâte onctueuse et son léger goût lactique, offrant une expérience sensorielle authentique et raffinée.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Niché au cœur de la Nouvelle-Aquitaine, le Pays Basque déploie ses collines verdoyantes et ses vallées profondes, sculptées par les eaux vives des Pyrénées. L'altitude modérée et l'exposition aux vents océaniques contribuent à la richesse de sa flore et à la qualité de ses pâturages. Ce paysage unique façonne l'identité de La Basquaise.",
+    "climat": "Le climat océanique tempéré du Pays Basque, caractérisé par des étés doux et des hivers humides, favorise une végétation luxuriante. L'alternance des pluies et du soleil permet aux brebis de bénéficier d'une herbe fraîche et abondante, essentielle à la qualité du lait.",
+    "elevage": "Les brebis de race locale, Manech ou Basco-béarnaise, paissent librement sur les coteaux verdoyants, se nourrissant d'une flore variée et riche en essences aromatiques. L'élevage extensif et le respect du bien-être animal sont au cœur de la production de La Basquaise, garantissant un lait d'une qualité exceptionnelle.",
+    "savoir_faire": "La fabrication de La Basquaise est un héritage ancestral, transmis de génération en génération par les bergers basques. Le savoir-faire artisanal, alliant tradition et modernité, permet de préserver les saveurs authentiques du terroir et de garantir la qualité du fromage."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La Basquaise présente une pâte ivoire à jaune pâle, parfois parsemée de quelques ouvertures discrètes. Sa croûte, naturelle et fleurie, arbore une teinte allant du beige clair à l'orangé, témoignant de son affinage soigné.",
+    "texture": "Sa texture est à la fois souple et fondante, offrant une agréable sensation en bouche. Elle peut évoluer vers une consistance plus crémeuse au fur et à mesure de l'affinage, dévoilant une finesse exceptionnelle.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait frais de brebis, la crème et le beurre frais, offrant une base gourmande et réconfortante.",
+    "aromes_secondaires": "Des notes subtiles de noisette, d'herbes fraîches et d'une pointe de piment d'Espelette viennent complexifier le profil aromatique, apportant une touche épicée et chaleureuse.",
+    "evolution": "L'attaque en bouche est douce et lactique, laissant place à une sensation onctueuse et persistante. La finale, légèrement épicée, prolonge le plaisir et invite à la dégustation. Sa longueur en bouche est notable.",
+    "temperature_service": "La température de service idéale se situe entre 16 et 18°C, permettant de libérer pleinement les arômes et d'apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver La Basquaise au réfrigérateur, dans sa boîte d'origine ou enveloppée de papier sulfurisé, à une température comprise entre 4 et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation, afin qu'il puisse exprimer pleinement ses arômes et sa texture.",
+    "coupe": "La Basquaise se coupe en parts triangulaires, en partant du centre vers l'extérieur, pour une dégustation optimale.",
+    "presentation": "Présenter La Basquaise sur un plateau de fromages aux côtés de fruits secs, de confitures de cerises noires et de pain de campagne aux noix.",
+    "duree": "La Basquaise se conserve environ une semaine après ouverture, en veillant à bien la protéger de l'air et de l'humidité."
+  },
+  "degustation": "Ce fromage offre une texture onctueuse et fondante, avec des arômes lactiques et épicés. Son intensité est moyenne, ce qui le rend accessible et agréable à déguster.",
+  "accords": "La Basquaise s'accorde à merveille avec un vin rouge léger et fruité, tel qu'un Chinon jeune sur le fruit, sans trop de tanins. Un vin blanc sec du Pays Basque, comme un Irouléguy, sublimera également ses saveurs. Accompagnez-le de confiture de cerise noire pour un contraste sucré-salé exquis.",
+  "histoire": "La Basquaise est un hommage au terroir et au savoir-faire du Pays Basque. Ce fromage de brebis, fabriqué artisanalement, incarne la tradition fromagère de la région et l'amour des bergers pour leur terre."
+}

@@ -1,0 +1,41 @@
+{
+  "id": 29,
+  "slug": "raclette-poivre",
+  "nom": "RACLETTE POIVRE",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 42.8,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Raclette au Poivre, un fromage au lait cru de vache, revisite un classique montagnard avec une audace aromatique. Le poivre, infusé avec soin, révèle un caractère piquant qui se fond délicatement sous l’effet de la chaleur, exaltant les saveurs lactiques profondes et persistantes.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Née au cœur des Hautes-Alpes, cette raclette puise son caractère dans un paysage de montagnes escarpées et de vallées verdoyantes. L'altitude, souvent supérieure à 1000 mètres, contribue à un air pur et à une biodiversité riche, éléments essentiels au bien-être des troupeaux. Les alpages, parsemés de roches calcaires, confèrent une minéralité subtile au lait.",
+    "climat": "Le climat montagnard, avec ses étés courts et ses hivers rigoureux, façonne la flore alpine et influence la qualité du lait. L'alternance de périodes chaudes et froides favorise une concentration des arômes dans les herbes et les fleurs sauvages, qui se retrouvent ensuite dans le fromage.",
+    "elevage": "Les vaches, de races locales adaptées aux conditions alpines, paissent librement dans les alpages pendant la saison estivale. Leur alimentation naturelle, composée d'herbes fraîches et de fleurs de montagne, confère au lait une richesse aromatique exceptionnelle. L'élevage extensif et respectueux de l'environnement est une tradition ancrée dans cette région.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des techniques artisanales ancestrales. La transformation du lait cru, réalisée avec minutie et passion, permet de préserver toute la richesse et la complexité des arômes du terroir. Chaque étape, du caillage à l'affinage, est réalisée avec une attention particulière."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte de la Raclette au Poivre présente une couleur ivoire à jaune pâle, parsemée de grains de poivre noir concassés. Sa texture est lisse et homogène, avec une croûte naturelle frottée de couleur ocre à brun clair. Des marbrures subtiles peuvent apparaître avec l'affinage.",
+    "texture": "En bouche, la Raclette au Poivre offre une texture fondante et crémeuse, qui enrobe délicatement le palais. Sa fermeté est idéale pour la fonte, tout en conservant une certaine tenue. La présence du poivre apporte une légère sensation granuleuse, qui stimule les papilles.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait cru, avec des notes de beurre frais et de crème. Une légère odeur de cave et d'étable témoigne du caractère authentique du fromage. L'affinage développe des nuances de noisette et de foin.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes subtiles de poivre noir, à la fois épicées et légèrement fruitées. Des touches florales et herbacées peuvent également se faire sentir, rappelant la flore alpine. L'ensemble est harmonieux et complexe.",
+    "evolution": "L'attaque en bouche est douce et lactique, avec une légère pointe d'acidité. Le milieu de bouche est dominé par les saveurs épicées du poivre, qui se fondent harmonieusement avec les arômes fromagers. La finale est longue et persistante, laissant une agréable sensation de chaleur et de complexité aromatique. La longueur en bouche est notable.",
+    "temperature_service": "La température de service idéale se situe entre 16 et 18°C. Cette température permet de libérer pleinement les arômes du fromage et d'apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez la Raclette au Poivre au réfrigérateur, dans un endroit frais et sec, à une température comprise entre 4 et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ une heure avant de le déguster. Cela permettra à la pâte de s'assouplir et de libérer pleinement ses arômes.",
+    "coupe": "La Raclette au Poivre se coupe en tranches épaisses, en partant du centre vers la croûte, pour une dégustation optimale. Une tranche d'épaisseur uniforme assure une fonte homogène lors de la préparation de la raclette.",
+    "presentation": "Présentez la Raclette au Poivre sur un plateau de fromages avec d'autres spécialités alpines, telles que de la charcuterie de montagne, des cornichons et des pommes de terre. Accompagnez-la d'un pain de campagne croustillant.",
+    "duree": "Une fois entamée, la Raclette au Poivre se conserve au réfrigérateur pendant environ une semaine, enveloppée dans du papier sulfurisé ou un film alimentaire."
+  },
+  "degustation": "Sa texture fondante et ses arômes épicés de poivre offrent une expérience gustative unique. L'intensité du poivre relève subtilement les saveurs lactiques, créant un équilibre parfait entre douceur et caractère.",
+  "accords": "Pour un accord mets et vins réussi, privilégiez un vin blanc sec et fruité de Savoie, tel qu'un Chignin Bergeron ou une Roussette de Savoie. Leurs notes florales et minérales s'harmoniseront parfaitement avec les arômes du fromage. Pour une raclette plus festive, osez un Champagne Blanc de Blancs, dont la fraîcheur et les bulles viendront équilibrer la richesse du plat. Évitez les vins rouges trop tanniques.",
+  "histoire": "La Raclette au Poivre est une variante revisitée de la raclette traditionnelle, un plat emblématique des montagnes savoyardes. Elle perpétue le savoir-faire fromager alpin tout en apportant une touche d'originalité et de modernité. Un fromage qui raconte une histoire de terroir et de passion."
+}

@@ -1,0 +1,41 @@
+{
+  "id": 57,
+  "slug": "moelleux-du-revard",
+  "nom": "MOELLEUX DU REVARD",
+  "image": "/Séance Photo Nicolas 20220423/moelleux-du-revard-composite.jpg",
+  "prixKg": 51.75,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Moelleux du Revard, un fromage à pâte molle et à croûte fleurie, offre une texture onctueuse et un goût subtilement lactique. Son affinage délicat lui confère une douceur réconfortante, évoquant les prairies verdoyantes des montagnes savoyardes. Un véritable délice, simple et authentique.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Revard, point culminant du massif des Bauges, domine le lac du Bourget et offre un panorama exceptionnel sur les Alpes. Ses pentes douces et ses plateaux calcaires sont propices à l'élevage. L'altitude, variant entre 800 et 1500 mètres, influence la richesse de la flore et la qualité du lait.",
+    "climat": "Le climat montagnard, caractérisé par des étés frais et des hivers rigoureux, favorise une végétation riche et diversifiée. L'alternance des saisons, avec ses périodes de pluie et de soleil, contribue à la typicité du lait et au développement des arômes du fromage.",
+    "elevage": "Les vaches laitières, principalement de race Montbéliarde et Abondance, paissent librement dans les alpages pendant la belle saison. Leur alimentation naturelle, composée d'herbes fraîches et de fleurs sauvages, confère au lait une saveur unique et subtile. L'agriculture est respectueuse de l'environnement et privilégie les méthodes traditionnelles.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des gestes ancestraux. Les techniques de fabrication, respectueuses du lait et du terroir, garantissent la qualité et l'authenticité du Moelleux du Revard. L'affinage est réalisé avec soin, dans des caves fraîches et humides, pour développer pleinement les arômes et la texture du fromage."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Moelleux du Revard présente une pâte ivoire, légèrement crémeuse, recouverte d'une fine croûte fleurie blanche à crème. L'aspect est uniforme, avec parfois quelques légères marbrures dues à l'affinage. La croûte peut présenter des nuances de beige clair.",
+    "texture": "Sa texture est souple et fondante en bouche, offrant une sensation de douceur et d'onctuosité. Le fromage peut légèrement couler à température ambiante. Il est dépourvu de croûte dure.",
+    "aromes_primaires": "Les arômes primaires dominants sont lactiques, évoquant le lait frais, la crème et le beurre doux. Une légère note acidulée apporte de la fraîcheur.",
+    "aromes_secondaires": "On perçoit des arômes secondaires subtils de champignon frais, de noisette et d'herbes des montagnes. Une pointe de levure peut également être décelée, témoignant de l'affinage.",
+    "evolution": "L'attaque est douce et crémeuse, suivie d'un milieu de bouche plus aromatique, où les notes lactiques s'intensifient. La finale est persistante, avec une légère amertume agréable. La longueur en bouche est modérée.",
+    "temperature_service": "Il est idéal de le servir à température ambiante (environ 20°C) pour apprécier pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur, dans son emballage d'origine ou du papier sulfurisé, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortir le Moelleux du Revard du réfrigérateur environ une heure avant la dégustation afin qu'il révèle pleinement ses saveurs et sa texture crémeuse.",
+    "coupe": "Pour une dégustation optimale, couper le fromage en parts égales, de la pointe vers la croûte, afin de profiter de toutes ses nuances.",
+    "presentation": "Présenter le Moelleux du Revard sur un plateau de fromages avec d'autres spécialités régionales, accompagné de fruits secs, de noix et de pain de campagne.",
+    "duree": "Une fois entamé, le Moelleux du Revard se conserve idéalement 3 à 4 jours au réfrigérateur."
+  },
+  "degustation": "Ce fromage à pâte molle offre une texture fondante et des arômes lactiques délicats. Son intensité est douce à moyenne, ce qui en fait un fromage accessible et apprécié.",
+  "accords": "Le Moelleux du Revard se marie à merveille avec un vin blanc sec et fruité, tel qu'un Apremont de Savoie ou un Chardonnay de Bourgogne. Il accompagne également un cidre brut ou une bière blanche artisanale. Pour un accord plus gourmand, essayez-le avec un pain aux noix et une confiture de figues.",
+  "histoire": "Le Moelleux du Revard est un fromage traditionnel de Savoie, fabriqué à partir de lait de vache entier. Son nom évoque le massif du Revard, où il est affiné selon des méthodes ancestrales."
+}

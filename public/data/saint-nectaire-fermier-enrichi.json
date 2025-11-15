@@ -1,0 +1,41 @@
+{
+  "id": 21,
+  "slug": "saint-nectaire-fermier",
+  "nom": "SAINT NECTAIRE FERMIER",
+  "image": "/Séance Photo Nicolas 20220423/saint-nectaire-composite.jpg",
+  "prixKg": 41.9,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Saint-Nectaire Fermier, un fromage d'Auvergne authentique, dévoile une palette de saveurs rustiques où le terroir s'exprime pleinement. Sa texture souple et sa croûte fleurie invitent à un voyage gustatif inoubliable au cœur des volcans.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Né au cœur des volcans d'Auvergne, le Saint-Nectaire Fermier puise son caractère dans un paysage vallonné et accidenté. Les pâturages d'altitude, sculptés par l'érosion, offrent un terrain propice à une flore riche et variée. Ces prairies, situées entre 800 et 1600 mètres, contribuent à la typicité du lait.",
+    "climat": "Le climat montagnard, caractérisé par des étés courts et des hivers rigoureux, influence la composition du lait. L'alternance de périodes humides et sèches favorise le développement d'une flore diversifiée, source d'arômes complexes pour le fromage.",
+    "elevage": "Les vaches de race Salers et Montbéliarde, réputées pour leur rusticité, paissent librement dans les prairies naturelles. Leur alimentation, composée d'herbes et de fleurs sauvages, confère au lait des arômes subtils et une richesse nutritionnelle exceptionnelle. Le respect du cycle naturel des animaux est primordial.",
+    "savoir_faire": "Le savoir-faire ancestral des producteurs fermiers se transmet de génération en génération, garantissant une qualité irréprochable. La fabrication, réalisée selon des méthodes traditionnelles, respecte le cahier des charges strict de l'AOP. Chaque étape, du moulage à l'affinage, est réalisée avec soin et passion."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Saint-Nectaire Fermier arbore une croûte fleurie de couleur grise à orangée, témoignant d'un affinage soigné. Sa pâte, de couleur ivoire à jaune pâle, présente une texture lisse et homogène. L'œil est rare, parfois absent.",
+    "texture": "En bouche, la texture est souple et fondante, offrant une sensation de douceur et de confort. La pâte ne doit pas être molle ni coulante, mais plutôt onctueuse et agréable. Une légère élasticité est possible.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent les moisissures nobles, le foin coupé et le sous-bois humide. On perçoit également des notes de lait frais et de beurre légèrement acidulé.",
+    "aromes_secondaires": "Des arômes secondaires plus subtils se révèlent au fil de la dégustation : des notes de noisette fraîche, de champignon de Paris et une légère touche herbacée. La persistance aromatique est longue et agréable.",
+    "evolution": "L'attaque est douce et onctueuse, laissant place à des saveurs plus prononcées de terroir en milieu de bouche. La finale est légèrement acidulée et persistante, laissant une empreinte aromatique agréable et complexe. La longueur en bouche est appréciable.",
+    "temperature_service": "Idéalement, le Saint-Nectaire Fermier se déguste à température ambiante (environ 18-20°C) pour permettre aux arômes de s'exprimer pleinement."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver le Saint-Nectaire Fermier dans le bac à légumes du réfrigérateur, entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation afin qu'il retrouve sa texture optimale et que ses arômes se libèrent.",
+    "coupe": "Pour apprécier pleinement sa texture, coupez le Saint-Nectaire Fermier en parts triangulaires, de la croûte vers le centre.",
+    "presentation": "Présentez-le sur un plateau de fromages accompagné de fruits secs, de noix et d'un pain de campagne légèrement toasté.",
+    "duree": "Après entame, le Saint-Nectaire Fermier se conserve quelques jours au réfrigérateur, enveloppé dans un papier sulfurisé ou un film alimentaire."
+  },
+  "degustation": "Sa texture onctueuse révèle des arômes francs de cave et de champignon, parfaitement équilibrés par une légère acidité. Un fromage de caractère qui ravira les amateurs de saveurs authentiques.",
+  "accords": "Le Saint-Nectaire Fermier s'accorde merveilleusement avec un Vin de Savoie Chautagne rouge, apportant des notes fruitées et une fraîcheur bienvenue. Un Bourgogne Côtes d'Auxerre rouge, avec ses tanins souples et ses arômes de fruits rouges, constitue également un excellent choix. Pour une option plus originale, optez pour un Valençay rouge, dont les notes épicées souligneront le caractère du fromage.",
+  "histoire": "Originaire des Monts Dore, le Saint-Nectaire Fermier perpétue un savoir-faire ancestral transmis par les femmes d'Auvergne. Sa fabrication artisanale et son affinage en cave lui confèrent un caractère unique et authentique."
+}

@@ -1,0 +1,41 @@
+{
+  "id": 133,
+  "slug": "l-exquis-herve-200-gr",
+  "nom": "L EXQUIS HERVE 200 GR",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 12.6,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "L'Exquis Herve, affiné à la bière belge, est un fromage de caractère qui révèle une palette aromatique complexe et une texture fondante. Sa croûte ambrée témoigne d'un affinage soigné, tandis que sa pâte onctueuse dévoile des saveurs lactiques subtilement rehaussées par des notes maltées.",
+  "terroir": {
+    "titre": "Le Terroir de Herve",
+    "geographie": "La région de Herve, située en Belgique, est caractérisée par un paysage vallonné et verdoyant. Ses prairies luxuriantes, parsemées de haies bocagères, offrent un cadre idéal pour l'élevage bovin. L'altitude modérée et la richesse des sols contribuent à la typicité de ce terroir fromager.",
+    "climat": "Le climat tempéré océanique de la région de Herve, avec ses étés doux et ses hivers humides, favorise la pousse d'une herbe riche et nutritive. Cette herbe est essentielle à la qualité du lait et, par conséquent, à la saveur unique du fromage.",
+    "elevage": "Les vaches laitières, principalement de race Pie Noire, paissent librement dans les prairies herbagères pendant la belle saison. Leur alimentation naturelle, riche en herbes aromatiques et en fleurs sauvages, confère au lait des arômes subtils et une qualité exceptionnelle.",
+    "savoir_faire": "Le savoir-faire fromager de la région de Herve se transmet de génération en génération. Les affineurs maîtrisent l'art délicat de l'affinage à la bière, qui confère au fromage sa saveur unique et sa texture onctueuse."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "L'Exquis Herve présente une croûte lavée de couleur ambrée, parfois légèrement orangée, témoignant de son affinage à la bière. Sa pâte est ivoire à jaune pâle, avec une texture lisse et brillante.",
+    "texture": "En bouche, la texture est fondante et onctueuse, presque crémeuse. Elle offre une légère résistance initiale, suivie d'une sensation de douceur et de plaisir.",
+    "aromes_primaires": "Les arômes primaires dominants sont lactiques, évoquant le lait frais et la crème. On perçoit également des notes de beurre fondu et de foin coupé.",
+    "aromes_secondaires": "Les arômes secondaires sont plus complexes, avec des notes maltées et légèrement houblonnées provenant de la bière utilisée pour l'affinage. On peut également déceler des nuances de levure et de cave.",
+    "evolution": "L'attaque est douce et crémeuse, suivie d'une montée en puissance des arômes maltés et légèrement amers. La finale est longue et persistante, laissant une agréable sensation en bouche. La longueur est moyenne à longue.",
+    "temperature_service": "Il est conseillé de servir L'Exquis Herve à température ambiante (environ 18-20°C) afin de libérer pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver L'Exquis Herve au réfrigérateur, dans son emballage d'origine ou dans une boîte hermétique, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation pour qu'il retrouve sa texture optimale et que ses arômes se développent pleinement.",
+    "coupe": "Couper L'Exquis Herve en tranches ou en portions, en suivant la forme du fromage pour une présentation esthétique.",
+    "presentation": "Présenter L'Exquis Herve sur un plateau de fromages accompagné de pain de campagne, de fruits secs et de confitures.",
+    "duree": "Après ouverture ou entame, consommer L'Exquis Herve dans les 5 à 7 jours pour profiter pleinement de sa fraîcheur et de ses arômes."
+  },
+  "degustation": "La texture onctueuse et fondante en bouche est une invitation à la dégustation. Les arômes lactiques se mêlent harmonieusement aux notes maltées, offrant une expérience gustative riche et complexe.",
+  "accords": "L'Exquis Herve s'accorde parfaitement avec une bière blonde belge de type Abbaye, dont les notes fruitées et légèrement épicées complètent les saveurs du fromage. Un vin blanc sec et minéral, tel qu'un Riesling allemand ou un Chablis, peut également sublimer sa dégustation. Accompagnez-le de pain d'épeautre et d'une confiture de figues.",
+  "histoire": "L'Exquis Herve est un fromage traditionnel de la région de Herve, en Belgique, fabriqué à partir de lait de vache pasteurisé et affiné à la bière. Son affinage unique lui confère une saveur distinctive et une texture onctueuse, témoignant du savoir-faire fromager local."
+}

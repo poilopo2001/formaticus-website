@@ -1,0 +1,41 @@
+{
+  "id": 360,
+  "slug": "capocollo-stagionato-martina-franca",
+  "nom": "CAPOCOLLO STAGIONATO MARTINA FRANCA",
+  "image": "/images/capocollo-stagionato-martina-franca.jpg",
+  "prixKg": 55.0,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Capocollo Stagionato Martina Franca, joyau de la charcuterie italienne, offre une symphonie de saveurs complexes, fruit d'un affinage patient dans le climat unique des Pouilles. Sa texture persillée et son goût intense en font une expérience gustative inoubliable, un hommage à la tradition et au terroir.",
+  "terroir": {
+    "titre": "Le Terroir de Martina Franca",
+    "geographie": "Martina Franca, située dans les Pouilles, est perchée sur les collines de la Murgia, une région calcaire caractérisée par des paysages vallonnés et une altitude variant entre 300 et 450 mètres. Ces conditions géographiques favorisent un microclimat idéal pour l'affinage des charcuteries et des fromages. Les grottes naturelles présentes dans la région offrent des conditions de température et d'humidité stables, essentielles pour le développement des arômes complexes.",
+    "climat": "Le climat méditerranéen de Martina Franca, avec ses étés chauds et secs et ses hivers doux et humides, joue un rôle crucial dans le processus de maturation. Les brises marines apportent une salinité subtile qui contribue au caractère unique du Capocollo.",
+    "elevage": "Le Capocollo est issu de porcs élevés dans le respect des traditions locales, souvent en semi-liberté. Leur alimentation, basée sur des céréales et des glands, confère à la viande une saveur riche et une texture persillée caractéristique. L'attention portée au bien-être animal est une valeur fondamentale de la production artisanale.",
+    "savoir_faire": "Le savoir-faire ancestral de la fabrication du Capocollo se transmet de génération en génération. Les techniques traditionnelles d'affinage, basées sur l'observation et l'expérience, sont essentielles pour garantir la qualité et l'authenticité du produit."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Capocollo se présente avec une belle robe rouge rubis, marbrée de veines de gras blanc nacré. Sa surface est recouverte d'une fine fleur naturelle, témoin d'un affinage soigné.",
+    "texture": "La texture est ferme et fondante à la fois, offrant une résistance délicate en bouche. Le gras persillé apporte une onctuosité qui enrobe le palais.",
+    "aromes_primaires": "Les arômes primaires évoquent la viande séchée, le poivre noir et les épices douces.",
+    "aromes_secondaires": "Des notes subtiles de noisette, de muscade et de pain d'épices complètent le profil aromatique, apportant une complexité et une profondeur remarquables.",
+    "evolution": "L'attaque est franche et savoureuse, évoluant vers un milieu de bouche ample et persistant. La finale est longue et épicée, laissant une agréable sensation de chaleur.",
+    "temperature_service": "Servir à température ambiante (environ 18-20°C) pour permettre aux arômes de s'exprimer pleinement."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4°C et 8°C.",
+    "avant_service": "Sortir le Capocollo du réfrigérateur environ 30 minutes avant la dégustation pour qu'il retrouve sa texture optimale et libère ses arômes.",
+    "coupe": "Trancher finement à l'aide d'une trancheuse ou d'un couteau bien aiguisé, en biseaux réguliers pour préserver la texture et la présentation.",
+    "presentation": "Disposer les tranches sur un plateau en ardoise ou en bois, en les espaçant légèrement pour une présentation élégante et aérée. Accompagner de quelques cornichons aigre-doux et de croûtons de pain de campagne.",
+    "duree": "Consommer de préférence dans les 2 à 3 jours après ouverture, en prenant soin de bien l'emballer dans du film alimentaire."
+  },
+  "degustation": "Le Capocollo Stagionato Martina Franca offre une texture fondante et des arômes riches et complexes, d'une intensité remarquable. Un produit d'exception qui ravira les palais les plus exigeants.",
+  "accords": "Un vin rouge puissant et structuré, tel qu'un Primitivo di Manduria, mettra en valeur les saveurs épicées du Capocollo. Pour une alternative plus légère, un Nero d'Avola accompagnera harmonieusement sa texture fondante.",
+  "histoire": "Le Capocollo Stagionato Martina Franca est une spécialité charcutière ancestrale des Pouilles. Sa fabrication artisanale perpétue un savoir-faire transmis de génération en génération, garantissant un produit d'une qualité et d'une authenticité inégalées."
+}

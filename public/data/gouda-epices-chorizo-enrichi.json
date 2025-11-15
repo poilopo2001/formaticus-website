@@ -1,0 +1,41 @@
+{
+  "id": 38,
+  "slug": "gouda-epices-chorizo",
+  "nom": "GOUDA EPICES CHORIZO",
+  "image": "/Séance Photo Nicolas 20220423/gouda-epices-chorizo-composite.jpg",
+  "prixKg": 37.75,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Gouda Épices Chorizo, une invitation au voyage gustatif. La douceur crémeuse du Gouda hollandais rencontre la vivacité ensoleillée du paprika fumé, une alliance audacieuse pour un fromage plein de caractère. Sa pâte jaune d'or révèle un cœur tendre et fondant, promesse d'une dégustation chaleureuse.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Les Pays-Bas, berceau de ce Gouda, offrent un paysage de plaines verdoyantes sillonnées de canaux. L'altitude modeste et la proximité de la mer du Nord confèrent à cette région un caractère unique. Les sols riches et fertiles favorisent une agriculture laitière de qualité.",
+    "climat": "Le climat tempéré océanique, avec des étés doux et des hivers cléments, influence directement la qualité des pâturages. L'humidité constante permet aux vaches de profiter d'une herbe riche et nourrissante tout au long de l'année.",
+    "elevage": "Les vaches laitières sont élevées avec soin, bénéficiant d'un accès régulier aux pâturages. Leur alimentation, principalement composée d'herbe fraîche et de fourrage, contribue à la richesse et à la complexité aromatique du lait. Le bien-être animal est une priorité.",
+    "savoir_faire": "Le savoir-faire fromager néerlandais se transmet de génération en génération. Les techniques de fabrication du Gouda, affinées au fil des siècles, garantissent une qualité constante et une typicité incomparable. Le thermisage du lait assure une sécurité alimentaire optimale."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Sa pâte, d'un jaune doré profond, est parsemée de fines inclusions rouge orangé de paprika fumé. Sa croûte est fine et orangée. La texture est lisse et homogène.",
+    "texture": "En bouche, la texture est à la fois ferme et fondante, offrant une sensation de douceur et de confort. Le fromage se révèle onctueux et soyeux, tapissant délicatement le palais.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait frais, du beurre doux et d'une légère note acidulée. La base Gouda est immédiatement reconnaissable et rassurante.",
+    "aromes_secondaires": "Les arômes secondaires apportent une dimension épicée et fumée, avec des notes de paprika, de piment doux et de chorizo. Une subtile touche végétale vient équilibrer l'ensemble.",
+    "evolution": "L'attaque est douce et crémeuse, laissant rapidement place à la chaleur des épices. Le milieu de bouche est riche et savoureux, avec une longueur persistante des arômes de chorizo fumé. La finale est légèrement piquante et réconfortante.",
+    "temperature_service": "Servir à température ambiante (environ 20°C) pour libérer pleinement tous ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur, dans un endroit frais et sec, entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation afin qu'il révèle toutes ses saveurs.",
+    "coupe": "Couper en tranches fines ou en cubes pour une dégustation optimale. La coupe en biseau permet d'apprécier toutes les textures.",
+    "presentation": "Présenter sur un plateau de fromages accompagné de pain de campagne, de fruits secs (noix, amandes) et de quelques olives.",
+    "duree": "À consommer dans les 5 à 7 jours après ouverture pour une fraîcheur optimale."
+  },
+  "degustation": "La texture fondante du Gouda associée à la saveur fumée et épicée du chorizo crée une expérience gustative unique. Un fromage réconfortant et plein de caractère.",
+  "accords": "Ce Gouda Épices Chorizo s'accorde parfaitement avec un vin rouge fruité et souple, comme un Côtes du Rhône Villages ou un Languedoc. Les notes épicées du vin viendront sublimer les arômes du fromage. Une bière blonde artisanale légère et rafraîchissante peut également être un excellent choix.",
+  "histoire": "Inspiré des saveurs ibériques, ce Gouda Épices Chorizo est une création audacieuse qui revisite un classique de la fromagerie néerlandaise. Un mariage heureux entre tradition et innovation, pour un plaisir gustatif garanti."
+}

@@ -1,0 +1,41 @@
+{
+  "id": 183,
+  "slug": "triple-rousse-argental",
+  "nom": "TRIPLE ROUSSE ARGENTAL",
+  "image": "/images/triple-rousse-argental.jpg",
+  "prixKg": 57.0,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Triple Rousse Argental, une symphonie laitière où la richesse du lait de vache, la vivacité du lait de chèvre et la douceur du lait de brebis s'entrelacent. Son affinage méticuleux révèle une pâte onctueuse et des saveurs complexes, un hommage au terroir bourguignon.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "La Bourgogne, terre de collines douces et de vallées verdoyantes, offre un paysage unique où l'altitude modérée et le sol riche en calcaire contribuent à la qualité exceptionnelle du lait. Les pâturages, parsemés de forêts et de haies, offrent un environnement idéal pour l'élevage. Ce terroir, façonné par des siècles d'histoire agricole, confère au Triple Rousse Argental son identité propre. Les cours d'eau sinueux nourrissent une végétation luxuriante, essentielle à l'alimentation des animaux.",
+    "climat": "Le climat bourguignon, de type tempéré continental, est marqué par des étés chauds et des hivers froids, avec des précipitations régulières tout au long de l'année. Ces variations saisonnières influencent la composition du lait, lui apportant une complexité aromatique spécifique. L'humidité modérée favorise un affinage lent et maîtrisé du fromage.",
+    "elevage": "Les vaches, chèvres et brebis sont élevées avec soin, bénéficiant d'un accès régulier aux pâturages où elles se nourrissent d'une flore variée et naturelle. Cette alimentation, riche en herbes sauvages et en fleurs, confère au lait des arômes subtils et une richesse nutritionnelle incomparable. Le bien-être animal est une priorité, garantissant un lait de qualité supérieure.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des techniques ancestrales et un amour profond du produit. Les artisans fromagers maîtrisent chaque étape de la fabrication, de la sélection du lait à l'affinage, en passant par le moulage et le retournement des fromages. Ce savoir-faire, associé à des méthodes modernes de contrôle qualité, assure la constance et l'excellence du Triple Rousse Argental."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Triple Rousse Argental présente une pâte ivoire à jaune pâle, légèrement brillante. Sa texture est lisse et homogène, parfois parsemée de quelques fines ouvertures. La croûte, de couleur orangée à rouge brique, est fine et légèrement duveteuse.",
+    "texture": "En bouche, la texture est crémeuse et fondante, avec une légère onctuosité. Il offre une sensation de douceur et de confort. L'absence de granulosité souligne sa finesse et sa qualité.",
+    "aromes_primaires": "Les arômes primaires évoquent le beurre frais, la crème fraîche et le lait chaud. Une légère note de noisette se révèle également, témoignant de la richesse du lait.",
+    "aromes_secondaires": "Des arômes secondaires de foin coupé, de fleurs des champs et une subtile touche animale se font jour. Une pointe de miel et d'épices douces vient complexifier le profil aromatique.",
+    "evolution": "L'attaque est douce et onctueuse, suivie d'un milieu de bouche riche et savoureux où les différentes saveurs laitières s'entrelacent. La finale est persistante, avec une longueur en bouche agréable et une légère note acidulée qui équilibre l'ensemble. L'évolution des saveurs est progressive et harmonieuse.",
+    "temperature_service": "Servir à température ambiante (environ 18-20°C) pour permettre aux arômes de s'exprimer pleinement et à la texture de s'assouplir."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur, dans son emballage d'origine, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes à 1 heure avant la dégustation pour exalter ses arômes et sa texture.",
+    "coupe": "Couper le fromage en parts égales, en partant du centre vers l'extérieur, afin de préserver l'équilibre des saveurs.",
+    "presentation": "Présenter le Triple Rousse Argental sur un plateau de fromages, accompagné de fruits frais, de noix, de pain de campagne et de confitures.",
+    "duree": "À consommer de préférence dans les 5 à 7 jours après ouverture."
+  },
+  "degustation": "Un fromage d'une grande finesse, à la texture fondante et aux arômes complexes. Son intensité modérée en fait un choix idéal pour une dégustation raffinée.",
+  "accords": "Un vin blanc sec et fruité, tel qu'un Bourgogne Aligoté ou un Chardonnay du Mâconnais, accompagnera à merveille le Triple Rousse Argental. Le gras du fromage est parfaitement contrebalancé par la fraîcheur et la vivacité du vin, tandis que ses arômes fruités s'harmonisent avec les notes lactiques et subtilement animales du fromage. Une bière blonde artisanale légère et florale peut également offrir un accord surprenant.",
+  "histoire": "Issu d'un savoir-faire ancestral bourguignon, le Triple Rousse Argental est le fruit d'une tradition laitière riche et diversifiée. Sa fabrication artisanale, mêlant les laits de vache, de chèvre et de brebis, en fait un fromage unique et emblématique de son terroir."
+}

@@ -1,0 +1,41 @@
+{
+  "id": 239,
+  "slug": "tomme-du-maquis",
+  "nom": "TOMME DU MAQUIS",
+  "image": "/images/tomme-du-maquis.jpg",
+  "prixKg": 37.1,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Tomme du Maquis, une ode ensoleillée à la Savoie, où la douceur du lait de vache rencontre l'arôme enivrant des herbes de Provence et de l'ail. Sa pâte tendre dévoile un cœur crémeux, promesse d'une dégustation savoureuse et authentique. Un fromage qui réchauffe le palais et évoque les paysages verdoyants.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Nichée au cœur des Alpes, la Savoie offre un paysage de montagnes imposantes et de vallées verdoyantes, où l'altitude varie considérablement, offrant une mosaïque de microclimats. Les pâturages d'altitude, baignés de soleil, fournissent une herbe riche et variée, essentielle à la qualité du lait. Les traditions agricoles ancestrales façonnent le paysage et contribuent à la singularité des fromages savoyards.",
+    "climat": "Le climat montagnard de la Savoie, caractérisé par des étés chauds et des hivers rigoureux, influence directement la qualité du lait. L'alternance des saisons favorise une flore riche et diversifiée dans les pâturages, offrant aux vaches une alimentation naturelle et équilibrée.",
+    "elevage": "Les vaches laitières savoyardes, principalement de race Tarine et Abondance, sont élevées avec soin dans le respect des traditions locales. Elles passent une grande partie de l'année en pâturage, se nourrissant d'herbe fraîche et de foin de montagne. Cette alimentation naturelle confère au lait des arômes subtils et une richesse aromatique incomparable. Le bien-être animal est une priorité, garantissant un lait de qualité supérieure.",
+    "savoir_faire": "Le savoir-faire fromager savoyard se transmet de génération en génération, perpétuant des techniques ancestrales et un amour du travail bien fait. Les fromagers locaux maîtrisent l'art de la transformation du lait, de la coagulation à l'affinage, en respectant les traditions et en s'adaptant aux spécificités de chaque terroir. Ce savoir-faire unique est la clé de la qualité et de l'authenticité de la Tomme du Maquis."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La Tomme du Maquis présente une pâte de couleur ivoire à jaune pâle, parsemée d'herbes de Provence et d'ail, lui conférant un aspect rustique et appétissant. Sa croûte fine et naturelle peut être légèrement fleurie, témoignant d'un affinage soigné.",
+    "texture": "En bouche, la Tomme du Maquis offre une texture fondante et crémeuse, avec une légère fermeté au centre. Sa pâte est lisse et homogène, sans être cassante. La présence des herbes apporte une légère sensation granuleuse, rehaussant la dégustation.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait frais, de la crème douce et du beurre fondu. Une légère note acidulée vient équilibrer la richesse du fromage.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes subtiles d'herbes de Provence (thym, romarin, sarriette) et d'ail, apportant une touche provençale ensoleillée. On peut également percevoir de légères notes florales et de foin frais.",
+    "evolution": "L'attaque est douce et crémeuse, suivie d'un milieu de bouche où les arômes d'herbes et d'ail se développent pleinement. La finale est persistante et légèrement épicée, laissant une agréable sensation de fraîcheur. Sa longueur en bouche est moyenne.",
+    "temperature_service": "Il est conseillé de servir la Tomme du Maquis à température ambiante (environ 18-20°C) afin de libérer pleinement ses arômes et d'apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "La Tomme du Maquis se conserve idéalement au réfrigérateur, dans un endroit frais et sec, à une température comprise entre 4 et 8°C.",
+    "avant_service": "Sortez la Tomme du Maquis du réfrigérateur environ une heure avant la dégustation. Cela permettra à ses arômes de se développer et à sa texture de s'attendrir.",
+    "coupe": "Coupez la Tomme du Maquis en quartiers ou en tranches, en veillant à inclure une partie de la croûte pour profiter pleinement de ses saveurs.",
+    "presentation": "Présentez la Tomme du Maquis sur un plateau de fromages avec d'autres spécialités savoyardes, accompagnées de fruits frais, de noix et de pain de campagne.",
+    "duree": "Après ouverture, la Tomme du Maquis se conserve environ 5 à 7 jours au réfrigérateur, enveloppée dans du papier sulfurisé ou un film alimentaire."
+  },
+  "degustation": "Sa texture fondante et ses arômes de lait frais, d'herbes de Provence et d'ail en font un fromage savoureux et parfumé. L'intensité est douce à moyenne, idéale pour une dégustation en toute simplicité.",
+  "accords": "Pour un accord mets et vins réussi, accompagnez la Tomme du Maquis d'un vin blanc sec et fruité, tel qu'un Apremont de Savoie ou un Chardonnay. Les notes minérales et la fraîcheur de ces vins s'harmonisent parfaitement avec la douceur et les arômes herbacés du fromage. Une bière blonde artisanale peut aussi être un excellent choix.",
+  "histoire": "La Tomme du Maquis, héritière des traditions fromagères savoyardes, est fabriquée à partir de lait de vache pasteurisé, enrichi d'herbes de Provence et d'ail. Son nom évoque les paysages sauvages et parfumés de la région, où les vaches paissent librement et où le savoir-faire fromager se transmet de génération en génération."
+}

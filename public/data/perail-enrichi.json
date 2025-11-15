@@ -1,0 +1,41 @@
+{
+  "id": 110,
+  "slug": "perail",
+  "nom": "PÉRAIL",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 10.25,
+  "type": "pate-pressee-cuite",
+  "lait": "brebis",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Pérail, une caresse lactée venue des terres d'Occitanie, dévoile une pâte onctueuse et délicatement parfumée. Sa douceur veloutée, presque aérienne, enchante le palais et invite à un voyage gustatif authentique.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Pérail prend naissance au cœur des paysages vallonnés de l'Occitanie, où les plateaux calcaires alternent avec de douces collines. Cette région, baignée par le soleil du sud, offre un terrain propice à l'élevage des brebis. Les pâturages verdoyants s'étendent à perte de vue, sculptés par des siècles d'histoire agricole.",
+    "climat": "Le climat méditerranéen, avec ses étés chauds et secs et ses hivers doux et humides, influence directement la qualité du lait. L'ensoleillement généreux favorise la richesse florale des pâturages, contribuant ainsi aux arômes spécifiques du Pérail.",
+    "elevage": "Les brebis, de race Lacaune principalement, sont élevées avec soin et respect dans le cadre d'une agriculture raisonnée. Elles bénéficient de vastes espaces de pâturage où elles peuvent se nourrir d'une flore diversifiée, composée d'herbes aromatiques et de fleurs sauvages. Leur alimentation naturelle confère au lait une typicité unique.",
+    "savoir_faire": "Le savoir-faire fromager, transmis de génération en génération, est un élément clé de la fabrication du Pérail. Les producteurs locaux perpétuent des gestes ancestraux, maîtrisant chaque étape de la transformation du lait cru. Cette tradition garantit l'authenticité et la qualité exceptionnelle du fromage."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Pérail se présente sous une forme cylindrique, enveloppé d'une fine croûte naturelle de couleur ivoire à crème. Sa pâte, d'un blanc immaculé, révèle une texture souple et onctueuse, promesse d'une dégustation fondante.",
+    "texture": "En bouche, la texture est d'une douceur incomparable, fondante et crémeuse. Elle se laisse savourer sans effort, offrant une sensation de légèreté et de volupté.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait frais, la crème et le beurre doux. Une délicate note lactique persiste, témoignant de la fraîcheur et de la qualité du lait de brebis.",
+    "aromes_secondaires": "Des arômes secondaires de noisette fraîche et de fleurs des champs viennent subtilement complexifier le profil aromatique. Une pointe d'amande douce peut également se révéler, apportant une touche de gourmandise.",
+    "evolution": "L'attaque est douce et onctueuse, évoluant vers un milieu de bouche plus intense où les arômes lactiques s'expriment pleinement. La finale est longue et persistante, laissant une agréable sensation de fraîcheur et de gourmandise. Sa longueur en bouche est notable.",
+    "temperature_service": "Il est préférable de le déguster à température ambiante (environ 18-20°C) afin de libérer pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur, dans son emballage d'origine ou dans une boîte hermétique, à une température idéale entre 4°C et 8°C.",
+    "avant_service": "Sortir le Pérail du réfrigérateur environ 30 minutes avant la dégustation afin qu'il puisse développer pleinement ses arômes et sa texture.",
+    "coupe": "Pour apprécier pleinement sa texture, découpez le Pérail en quartiers ou en tranches fines, en partant du centre vers l'extérieur.",
+    "presentation": "Présentez-le sur un plateau de fromages accompagné de fruits frais, de pain de campagne et de quelques noix. Un filet de miel peut également sublimer sa saveur.",
+    "duree": "Après ouverture, il est conseillé de le consommer dans les 3 à 4 jours pour profiter au maximum de sa fraîcheur."
+  },
+  "degustation": "Le Pérail offre une texture soyeuse et fondante, inondant le palais d'arômes délicats de lait de brebis et de notes subtiles de noisette. Son intensité est douce et harmonieuse.",
+  "accords": "Il se marie à merveille avec un vin blanc sec et fruité, tel qu'un Picpoul de Pinet ou un Sauvignon de Loire. Pour un accord plus audacieux, un vin rouge léger et peu tannique, comme un Gamay du Beaujolais, peut également être envisagé. Une confiture de cerises noires accompagnera divinement ce fromage.",
+  "histoire": "Le Pérail est un fromage traditionnel de brebis originaire d'Occitanie, dont l'histoire remonte à plusieurs siècles. Fabriqué artisanalement à partir de lait cru, il est le fruit d'un savoir-faire ancestral transmis de génération en génération."
+}

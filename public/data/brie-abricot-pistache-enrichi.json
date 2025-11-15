@@ -1,0 +1,41 @@
+{
+  "id": 53,
+  "slug": "brie-abricot-pistache",
+  "nom": "BRIE ABRICOT PISTACHE",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 44.9,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Brie Abricot Pistache est une ode à la gourmandise, où la douceur crémeuse du brie de chèvre rencontre la vivacité ensoleillée de l'abricot et le croquant délicat de la pistache. Un mariage de textures et de saveurs qui enchante le palais et invite au voyage.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Ce brie d'exception puise son caractère unique dans les paysages vallonnés de l'Auvergne et du Rhône-Alpes, régions réputées pour leurs vastes prairies verdoyantes. Les reliefs doux, bercés par les vents, offrent un cadre idéal pour l'élevage caprin. L'altitude modérée favorise une biodiversité riche, contribuant à la qualité du lait.",
+    "climat": "Le climat tempéré de ces régions, avec des étés chauds et des hivers froids, joue un rôle crucial dans le développement des arômes du fromage. Les variations saisonnières influencent la composition du lait, lui conférant des nuances subtiles et une complexité aromatique particulière.",
+    "elevage": "Les chèvres qui produisent le lait de ce brie pâturent librement dans les prairies verdoyantes, se nourrissant d'une flore variée et abondante. Cette alimentation naturelle confère au lait une richesse aromatique incomparable et un goût authentique, reflet du terroir. L'éleveur veille au bien-être animal, garantissant ainsi un lait de qualité supérieure.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des gestes précis et des techniques ancestrales. Chaque étape de la fabrication, du caillage à l'affinage, est réalisée avec passion et rigueur, afin de préserver l'authenticité et la typicité du fromage."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Brie Abricot Pistache se présente avec une pâte ivoire, parsemée de morceaux d'abricots confits et d'éclats de pistaches. Sa croûte fine et duveteuse dévoile des nuances allant du blanc crème au beige doré.",
+    "texture": "Sa texture est à la fois fondante et onctueuse, offrant une sensation de douceur en bouche. Les inclusions d'abricots apportent une légère mâche, tandis que les pistaches offrent un croquant subtil et agréable.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait frais, la crème, et une légère note de chèvre, typique des bries affinés. On perçoit également des notes beurrées et délicatement lactiques.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes fruitées d'abricot confit, des nuances de fruits secs apportées par les pistaches, et une pointe herbacée subtile. Une discrète note de miel peut également se manifester.",
+    "evolution": "L'attaque est douce et crémeuse, évoluant vers un milieu de bouche plus complexe où se mêlent les saveurs fruitées et la légère acidité du chèvre. La finale est longue et persistante, laissant une agréable sensation de gourmandise.",
+    "temperature_service": "Servir à température ambiante (idéalement entre 18 et 20°C) pour exhaler pleinement ses arômes et apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4 et 8°C dans son emballage d'origine ou du papier sulfurisé.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation pour lui permettre de développer ses arômes et d'atteindre sa texture optimale.",
+    "coupe": "Pour une présentation élégante, couper le brie en parts triangulaires, en partant du centre vers l'extérieur, afin de garantir une répartition équilibrée des ingrédients.",
+    "presentation": "Présenter le Brie Abricot Pistache sur un plateau en bois ou en ardoise, accompagné de fruits frais, de noix, et de pain de campagne.",
+    "duree": "Consommer de préférence dans les 5 jours après ouverture pour profiter pleinement de sa fraîcheur et de ses saveurs."
+  },
+  "degustation": "Sa texture onctueuse et fondante, combinée à l'harmonie des saveurs fruitées et lactiques, en fait un fromage d'exception. L'intensité aromatique est délicate, offrant un équilibre parfait entre douceur et complexité.",
+  "accords": "Pour un accord mets et vins raffiné, privilégiez un vin blanc moelleux tel qu'un Coteaux du Layon ou un Jurançon. Leurs notes de fruits confits et de miel s'harmoniseront parfaitement avec la douceur de l'abricot et la richesse du fromage. Un champagne brut nature peut également magnifier cette dégustation.",
+  "histoire": "Le Brie Abricot Pistache est une création originale, fruit de l'alliance entre le savoir-faire fromager traditionnel et l'audace de l'innovation. Il incarne la richesse du terroir auvergnat et rhônalpin, sublimée par des ingrédients nobles et savoureux."
+}

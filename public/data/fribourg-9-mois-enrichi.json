@@ -1,0 +1,41 @@
+{
+  "id": 435,
+  "slug": "fribourg-9-mois",
+  "nom": "FRIBOURG 9 MOIS",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 45.1,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Fribourg 9 Mois, fruit d'un long affinage, dévoile une pâte dense et onctueuse aux saveurs profondes et complexes. Son terroir d'origine, façonné par des traditions séculaires, lui confère une identité unique, à la fois rustique et élégante.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Fribourg est né au cœur des Préalpes fribourgeoises, un paysage vallonné où les pâturages verdoyants s'étendent à perte de vue. Ces terres d'altitude, sculptées par les glaciers, offrent un terrain idéal pour l'élevage et la production laitière. Les sols riches et diversifiés contribuent à la typicité du lait et, par conséquent, du fromage.",
+    "climat": "Le climat montagnard, caractérisé par des étés frais et des hivers rigoureux, influence directement la qualité du fourrage et la période de lactation des vaches. Les variations thermiques favorisent également le développement d'une flore microbienne complexe, essentielle à l'affinage du fromage.",
+    "elevage": "Les vaches, de race Brune ou Holstein, paissent librement dans les alpages pendant la période estivale, se nourrissant d'une herbe riche et parfumée. Cette alimentation naturelle, complétée par du foin de qualité en hiver, confère au lait une richesse aromatique exceptionnelle. Le respect du bien-être animal est au cœur des pratiques d'élevage.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des gestes précis et des techniques ancestrales. De la traite à la cave d'affinage, chaque étape est réalisée avec soin et passion, dans le respect des traditions et du terroir. Le Fribourg 9 Mois est le fruit de ce travail minutieux et de cet héritage précieux."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte, d'une couleur jaune paille soutenue, présente une texture dense et légèrement brillante. De fines ouvertures, caractéristiques d'un affinage long, parsèment sa surface. La croûte, naturelle et brossée, arbore des teintes allant du brun clair au brun foncé.",
+    "texture": "En bouche, le Fribourg 9 Mois offre une texture à la fois ferme et fondante. Sa pâte, dense et homogène, libère progressivement ses saveurs. Une légère granulosité peut apparaître au fil de l'affinage, témoignant de la cristallisation des protéines.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait cru, le beurre fondu et la noisette fraîche. On perçoit également des notes végétales, rappelant l'herbe des pâturages et le foin séché.",
+    "aromes_secondaires": "Des arômes secondaires plus subtils se révèlent à la dégustation, tels que des notes de fruits secs, de miel et d'épices douces. Une légère touche animale peut également être perçue, signe d'un affinage réussi.",
+    "evolution": "L'attaque est franche et légèrement acidulée, laissant rapidement place à une rondeur et une complexité aromatique croissante. Le milieu de bouche est riche et persistant, avec une finale longue et savoureuse, marquée par des notes de noisette et de caramel. Sa longueur en bouche est remarquable.",
+    "temperature_service": "Il est conseillé de servir le Fribourg 9 Mois à température ambiante (18-20°C) afin de permettre aux arômes de se libérer pleinement."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Fribourg 9 Mois se conserve idéalement au réfrigérateur, dans un endroit frais et sec (4-8°C).",
+    "avant_service": "Sortez le fromage du réfrigérateur environ une heure avant la dégustation pour qu'il retrouve sa texture optimale et que ses arômes se développent.",
+    "coupe": "Pour apprécier pleinement sa texture, coupez le Fribourg 9 Mois en fines tranches, en partant du centre vers l'extérieur.",
+    "presentation": "Présentez-le sur un plateau de fromages avec des fruits secs, des noix et du pain de campagne pour accompagner sa richesse aromatique.",
+    "duree": "Après ouverture, le Fribourg 9 Mois se conserve environ une semaine, enveloppé dans du papier sulfurisé ou un film alimentaire."
+  },
+  "degustation": "Sa texture ferme et fondante libère des arômes complexes de noisette, de lait cru et d'herbes alpines. Son intensité est prononcée, avec une belle longueur en bouche.",
+  "accords": "Accompagnez-le d'un vin blanc sec et fruité, tel qu'un Chasselas de Lavaux, dont la vivacité et les notes minérales équilibreront sa richesse. Un vin rouge léger et épicé, comme un Pinot Noir d'Alsace, peut également sublimer ses saveurs.",
+  "histoire": "Le Fribourg est un fromage ancestral, produit depuis des siècles dans les Préalpes fribourgeoises. Son affinage de 9 mois lui confère une complexité aromatique unique, témoignant d'un savoir-faire traditionnel et d'un terroir d'exception."
+}

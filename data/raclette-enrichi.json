@@ -1,0 +1,41 @@
+{
+  "id": 33,
+  "slug": "raclette",
+  "nom": "RACLETTE",
+  "image": "/images/raclette.jpg",
+  "prixKg": 38.5,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Raclette, fromage emblématique des Alpes suisses, déploie une pâte onctueuse et fondante, imprégnée des parfums floraux de l'alpage. Sa texture souple et son goût typé, fruité et légèrement acidulé, en font une expérience gustative inoubliable.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "La Raclette trouve son origine dans les vallées montagneuses de Suisse, un pays façonné par les Alpes. Ces paysages accidentés, parsemés de pâturages verdoyants en altitude, offrent un cadre idéal à l'élevage laitier. Les reliefs escarpés et les sols riches contribuent à la typicité du lait et, par conséquent, du fromage.",
+    "climat": "Le climat alpin, caractérisé par des étés frais et des hivers rigoureux, influence la flore et la lactation des vaches. L'alternance des saisons favorise une biodiversité végétale unique, qui se retrouve dans le lait et confère au fromage ses arômes subtils.",
+    "elevage": "Les vaches laitières paissent librement durant la belle saison, se nourrissant d'une herbe fraîche et variée. Leur alimentation est complétée par du foin de montagne en hiver, assurant une qualité de lait constante tout au long de l'année. Le bien-être animal est une priorité pour les producteurs, qui pratiquent un élevage traditionnel et respectueux de l'environnement.",
+    "savoir_faire": "La fabrication de la Raclette est un art ancestral, transmis de génération en génération. Les fromagers utilisent des méthodes traditionnelles, combinant savoir-faire manuel et technologies modernes. L'affinage, réalisé dans des caves fraîches et humides, est une étape cruciale qui permet au fromage de développer sa saveur caractéristique."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La Raclette présente une pâte de couleur ivoire à jaune pâle, lisse et homogène. Sa croûte, de couleur brun-orangé, peut être légèrement collante. L'œil est rare, voire absent.",
+    "texture": "La texture est souple et fondante en bouche, avec une légère élasticité lorsqu'elle est chauffée. Elle peut présenter une légère onctuosité, voire une sensation beurrée.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait frais, la crème, et une légère note de beurre fondu.",
+    "aromes_secondaires": "Des arômes secondaires de foin, d'herbes de montagne et de fleurs sauvages se développent au fur et à mesure de l'affinage. Une subtile note de noisette peut également être perçue.",
+    "evolution": "L'attaque est douce et crémeuse, suivie d'un milieu de bouche fruité et légèrement acidulé. La finale est persistante, avec une agréable longueur en bouche et des notes lactiques et végétales. La saveur s'intensifie avec la chaleur.",
+    "temperature_service": "La température de service idéale est ambiante, afin de permettre aux arômes de s'exprimer pleinement et de faciliter la fonte du fromage."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver la Raclette au réfrigérateur, dans un endroit frais et sec, entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur au moins 30 minutes avant de le déguster, afin qu'il puisse développer ses arômes et atteindre une température optimale.",
+    "coupe": "Pour une dégustation à froid, couper le fromage en tranches fines. Pour la raclette traditionnelle, faire fondre une demi-meule ou des portions individuelles.",
+    "presentation": "Présenter la Raclette sur un plateau de fromages accompagné de charcuteries fines, de pommes de terre cuites à la vapeur, de cornichons et d'oignons au vinaigre.",
+    "duree": "Consommer la Raclette dans les 5 à 7 jours après ouverture, en la conservant dans un emballage hermétique au réfrigérateur."
+  },
+  "degustation": "Sa texture fondante et ses arômes lactiques et fruités offrent une expérience gustative riche et équilibrée. L'intensité de son goût, typique des fromages de montagne, en fait un incontournable des plateaux de fromages.",
+  "accords": "Un Fendant du Valais, vin blanc sec et fruité, est un accord parfait pour accompagner la Raclette. Ses notes minérales et sa fraîcheur équilibrent la richesse du fromage. On peut également opter pour une bière blonde artisanale, aux arômes maltés et houblonnés.",
+  "histoire": "Originaire des Alpes suisses, la Raclette était traditionnellement fondue sur un feu de bois et raclée directement sur l'assiette. Aujourd'hui, elle est dégustée grâce à des appareils à raclette modernes, mais conserve son caractère convivial et authentique."
+}

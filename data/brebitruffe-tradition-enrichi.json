@@ -1,0 +1,41 @@
+{
+  "id": 199,
+  "slug": "brebitruffe-tradition",
+  "nom": "BREBITRUFFE TRADITION",
+  "image": "/images/brebitruffe-tradition.jpg",
+  "prixKg": 59.35,
+  "type": "pate-pressee-cuite",
+  "lait": "brebis",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Brebitruffe Tradition est une ode à la simplicité et à l'authenticité, où la richesse du lait de brebis espagnol rencontre la subtilité envoûtante de la truffe d'été. Sa pâte onctueuse révèle un mariage de saveurs terreuses et lactiques, un véritable voyage gustatif au cœur de la tradition fromagère.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Les brebis qui donnent naissance à ce fromage paissent dans les vastes plaines et sur les contreforts montagneux d'Espagne. Ces régions se caractérisent par une altitude variable, offrant une diversité de microclimats propices à une flore riche et variée. Les paysages ouverts et vallonnés permettent aux brebis de se déplacer librement et de profiter d'une alimentation naturelle et équilibrée.",
+    "climat": "Le climat de cette région est de type méditerranéen continental, avec des étés chauds et secs et des hivers froids et humides. Cette alternance de saisons influence directement la qualité du lait, lui conférant des arômes spécifiques et une concentration en matières grasses idéale pour la fabrication du fromage.",
+    "elevage": "Les brebis sont élevées avec soin et respect, selon des méthodes traditionnelles qui privilégient le bien-être animal. Elles passent la majeure partie de l'année en pâturage libre, se nourrissant d'une herbe riche en nutriments et de plantes aromatiques sauvages. Ce régime alimentaire se reflète dans la qualité et le goût unique du lait.",
+    "savoir_faire": "Le savoir-faire fromager est transmis de génération en génération, perpétuant les gestes ancestraux et les secrets de fabrication. Chaque étape, de la collecte du lait à l'affinage, est réalisée avec une grande attention et un souci constant de la qualité, garantissant un fromage d'exception."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte ivoire, parsemée de brisures de truffe, offre un visuel élégant et appétissant. Sa texture est lisse et homogène, avec une croûte naturelle fine et légèrement fleurie.",
+    "texture": "En bouche, la texture est onctueuse et fondante, avec une légère élasticité. La pâte libère progressivement ses arômes, offrant une expérience sensorielle riche et complexe.",
+    "aromes_primaires": "Les arômes primaires dominants sont lactiques, évoquant le lait frais de brebis, la crème et le beurre doux.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes terreuses et sauvages de truffe, ainsi que des nuances subtiles de noisette et de sous-bois.",
+    "evolution": "L'attaque est douce et crémeuse, suivie d'un milieu de bouche où les arômes de truffe se développent pleinement. La finale est persistante et élégante, avec une longueur en bouche agréable et équilibrée.",
+    "temperature_service": "Il est conseillé de servir ce fromage à température ambiante (environ 18-20°C) afin de libérer pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver le Brebitruffe Tradition au réfrigérateur, idéalement entre 4°C et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ 30 minutes avant la dégustation afin qu'il retrouve sa texture optimale et libère tous ses arômes.",
+    "coupe": "Pour une dégustation optimale, coupez le fromage en parts égales, en veillant à ce que chaque portion contienne une part de truffe.",
+    "presentation": "Présentez le Brebitruffe Tradition sur un plateau de fromages accompagné de fruits secs, de pain de campagne et d'un confit de figues.",
+    "duree": "Une fois entamé, le fromage se conserve idéalement pendant 5 à 7 jours au réfrigérateur, enveloppé dans du papier sulfurisé ou une boîte hermétique."
+  },
+  "degustation": "Sa texture fondante et ses arômes complexes de lait de brebis et de truffe font de ce fromage un véritable délice. L'intensité de la truffe est équilibrée, ne masquant pas la finesse du lait.",
+  "accords": "Pour un accord mets et vins parfait, accompagnez le Brebitruffe Tradition d'un vin blanc sec et fruité, comme un Chardonnay de Bourgogne ou un Gewürztraminer d'Alsace. Les notes beurrées du Chardonnay et les arômes épicés du Gewürztraminer se marieront à merveille avec la richesse du fromage et la subtilité de la truffe. Alternativement, un vin rouge léger et fruité comme un Pinot Noir de Bourgogne pourra également sublimer ce fromage.",
+  "histoire": "Le Brebitruffe Tradition est un hommage au terroir espagnol et au savoir-faire ancestral des fromagers locaux. Sa fabrication artisanale garantit un produit d'exception, où chaque bouchée est une invitation à la découverte des saveurs authentiques."
+}

@@ -1,0 +1,41 @@
+{
+  "id": 188,
+  "slug": "fromage-italien-rape",
+  "nom": "FROMAGE ITALIEN RAPE",
+  "image": "/images/fromage-italien-rape.jpg",
+  "prixKg": 47.9,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Ce fromage italien à râper, élaboré à partir de lait cru de vache, offre une saveur intense et umami. Sa texture ferme et granuleuse en fait un ingrédient de choix pour sublimer vos plats. Un hommage au savoir-faire ancestral des fromagers italiens.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Originaire d'Italie, ce fromage bénéficie d'un terroir riche et diversifié. Les prairies alpines et les douces collines de la plaine du Pô offrent un paysage idéal pour l'élevage des vaches laitières. Cette diversité géographique se reflète dans la complexité des saveurs du fromage.",
+    "climat": "Le climat italien, avec ses étés chauds et secs et ses hivers froids et humides, joue un rôle crucial dans le développement des arômes du lait. Les variations saisonnières influencent la qualité du fourrage et, par conséquent, la composition du lait utilisé pour la fabrication du fromage.",
+    "elevage": "Les vaches laitières sont élevées avec soin, bénéficiant d'un accès régulier aux pâturages. Leur alimentation, riche en herbes et en fleurs sauvages, contribue à la richesse aromatique du lait cru. Le respect du bien-être animal est au cœur de la production laitière.",
+    "savoir_faire": "La fabrication de ce fromage à râper est le fruit d'un savoir-faire ancestral transmis de génération en génération. Les techniques traditionnelles de transformation du lait cru, associées à un affinage méticuleux, garantissent un produit d'une qualité exceptionnelle."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Sa pâte présente une couleur jaune paille uniforme. La texture est ferme et présente une légère granulation due à un affinage prolongé. L'absence de croûte permet une utilisation directe et pratique.",
+    "texture": "En bouche, la texture est sèche et friable, offrant une légère résistance avant de fondre délicatement. La granulation subtile ajoute une dimension tactile agréable. Une texture typique des fromages à râper de qualité.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le beurre clarifié, la noisette torréfiée et le lait cuit. Une base aromatique riche et gourmande, annonçant une dégustation intense.",
+    "aromes_secondaires": "Des notes secondaires de fruits secs, de foin coupé et une pointe d'épices douces viennent compléter le profil aromatique. On perçoit également une légère note animale, signe d'un affinage maîtrisé.",
+    "evolution": "L'attaque est franche et légèrement salée, suivie d'un développement aromatique complexe en milieu de bouche. La finale est longue et persistante, laissant une agréable sensation umami et une légère astringence. Un fromage de caractère.",
+    "temperature_service": "Ce fromage se savoure idéalement râpé directement sur les plats chauds. La chaleur libère ses arômes et permet une meilleure intégration des saveurs."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4°C et 8°C dans un emballage hermétique pour préserver sa fraîcheur.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ 30 minutes avant de le râper. Cela permettra aux arômes de se développer pleinement.",
+    "coupe": "Étant donné qu'il est vendu râpé, aucun conseil de coupe n'est requis.",
+    "presentation": "Bien qu'il soit râpé, il peut être présenté dans un petit ramequin élégant pour accompagner vos plats.",
+    "duree": "Une fois ouvert, consommer de préférence dans les 7 jours pour une qualité optimale."
+  },
+  "degustation": "Ce fromage à râper offre une texture granuleuse et une palette aromatique intense, dominée par des notes de noisette et de beurre. Sa saveur umami persistante en fait un condiment de choix pour rehausser vos plats.",
+  "accords": "Un accord parfait avec un Barolo Riserva, dont les tanins puissants et les arômes de fruits rouges confits équilibreront la saveur intense du fromage. Pour une alternative, un Vin Santo del Chianti Classico apportera une touche sucrée et des notes de noix qui se marieront à merveille.",
+  "histoire": "Issu d'une longue tradition fromagère italienne, ce fromage à râper est fabriqué selon des méthodes ancestrales. Son affinage lent et méticuleux lui confère son caractère unique et sa saveur incomparable."
+}

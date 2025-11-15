@@ -1,0 +1,41 @@
+{
+  "id": 16,
+  "slug": "emmental-suisse",
+  "nom": "EMMENTAL SUISSE",
+  "image": "/Séance Photo Nicolas 20220423/emmental-suisse-composite.jpg",
+  "prixKg": 42.57,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "L'Emmental Suisse AOP, avec ses meules imposantes, est une invitation au voyage sensoriel, un écho des alpages verdoyants où paissent les vaches. Son affinage patient révèle une symphonie de saveurs fruitées et de notes subtiles de noisette grillée, sublimée par une texture onctueuse et persistante.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "L'Emmental, berceau de ce fromage emblématique, s'étend au cœur de la Suisse, dans un paysage vallonné parsemé de fermes traditionnelles. Les montagnes douces et les vastes prairies offrent un cadre idéal pour l'élevage laitier. L'altitude, variant entre 600 et 1000 mètres, contribue à la richesse de la flore et à la qualité du lait.",
+    "climat": "Le climat continental de l'Emmental, caractérisé par des étés frais et des hivers rigoureux, joue un rôle crucial dans le développement des arômes du fromage. Les variations de température favorisent une maturation lente et harmonieuse, intensifiant les saveurs.",
+    "elevage": "Les vaches, principalement de race Brune Suisse ou Simmental, sont élevées avec soin et bénéficient d'une alimentation naturelle à base d'herbe fraîche en été et de foin de qualité en hiver. Le respect du bien-être animal est une priorité, garantissant un lait d'une qualité exceptionnelle, riche en matières grasses et en protéines.",
+    "savoir_faire": "La fabrication de l'Emmental Suisse AOP est un art ancestral transmis de génération en génération. Chaque étape, du moulage à l'affinage, est réalisée avec une précision et une passion inégalées. Les maîtres fromagers veillent jalousement au respect des traditions, garantissant l'authenticité et la typicité du fromage."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "L'Emmental Suisse AOP se présente sous la forme d'une meule imposante, reconnaissable à ses grands trous caractéristiques, appelés « yeux ». Sa pâte est d'une couleur jaune ivoire uniforme, brillante et légèrement translucide.",
+    "texture": "En bouche, l'Emmental offre une texture à la fois ferme et fondante. Sa pâte est souple et élastique, libérant progressivement ses arômes. Sa consistance est uniforme, sans granulosité.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait frais, de la crème et du beurre fondu. On perçoit également des notes subtiles de noisette fraîchement concassée et de foin coupé.",
+    "aromes_secondaires": "Des arômes secondaires plus complexes se dévoilent ensuite, évoquant les fruits secs (amande, noix de cajou), les herbes des montagnes et une légère touche florale.",
+    "evolution": "L'attaque en bouche est douce et onctueuse, suivie d'un milieu de bouche ample et savoureux, où les arômes primaires et secondaires s'entremêlent harmonieusement. La finale est persistante et légèrement acidulée, laissant une agréable sensation de fraîcheur. La longueur en bouche est notable.",
+    "temperature_service": "Il est conseillé de servir l'Emmental à température ambiante (environ 18-20°C) afin de permettre aux arômes de se libérer pleinement."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "L'Emmental Suisse AOP se conserve idéalement au réfrigérateur, dans une température comprise entre 4 et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur au moins une heure avant la dégustation pour qu'il puisse développer tous ses arômes et sa texture optimale.",
+    "coupe": "Pour une dégustation optimale, coupez l'Emmental en tranches fines, de manière à révéler la beauté de ses « yeux » et à faciliter la libération des arômes.",
+    "presentation": "Présentez l'Emmental sur un plateau de fromages accompagné de fruits secs, de noix et de pain de campagne. N'hésitez pas à ajouter une touche de verdure avec quelques feuilles de salade ou des herbes fraîches.",
+    "duree": "Une fois entamé, l'Emmental se conserve environ une semaine au réfrigérateur, enveloppé dans un papier sulfurisé ou un film alimentaire."
+  },
+  "degustation": "L'Emmental Suisse AOP offre une texture fondante et un goût riche en arômes de noisette et de fruits, avec une intensité modérée qui le rend accessible à tous les palais.",
+  "accords": "Ce fromage s'accorde à merveille avec un vin rouge de Bourgogne, tel qu'un Pommard ou un Volnay, dont les tanins souples et les notes fruitées subliment ses saveurs. Pour une alternative plus audacieuse, osez un vin blanc d'Alsace, comme un Gewurztraminer, dont la richesse aromatique et les notes épicées équilibreront parfaitement la gourmandise de l'Emmental. Un Châteauneuf-du-Pape rouge, aux notes de garrigue, est également une option intéressante.",
+  "histoire": "L'Emmental Suisse AOP est né au Moyen Âge, dans les vallées verdoyantes du canton de Berne. Son nom provient de la vallée de l'Emme, où il était traditionnellement fabriqué. Son processus de fabrication unique et son affinage patient lui confèrent son goût incomparable et ses célèbres « yeux »."
+}

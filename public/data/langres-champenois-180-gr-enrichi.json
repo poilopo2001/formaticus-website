@@ -1,0 +1,41 @@
+{
+  "id": 240,
+  "slug": "langres-champenois-180-gr",
+  "nom": "LANGRES CHAMPENOIS 180 GR",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 10.8,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Langres Champenois, un fromage au lait thermisé de vache, est un voyage gustatif au cœur de la Haute-Marne. Sa pâte onctueuse, lavée au marc de Champagne, révèle des arômes subtils et une texture fondante qui en font un joyau de notre terroir.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "La Haute-Marne, berceau du Langres, est une région vallonnée où les plateaux calcaires alternent avec des forêts luxuriantes. L'altitude modérée, entrecoupée de rivières sinueuses, contribue à la richesse de la flore et à la qualité des pâturages. Cette mosaïque de paysages façonne l'identité unique de ce fromage.",
+    "climat": "Le climat de la Haute-Marne est de type continental dégradé, avec des hivers froids et des étés tempérés. Les précipitations régulières favorisent la croissance d'une herbe riche et variée, essentielle à l'alimentation des vaches laitières, influençant positivement le goût du Langres.",
+    "elevage": "Les vaches laitières, principalement de race Montbéliarde, paissent librement dans les prairies verdoyantes de la région. Leur alimentation, composée d'herbe fraîche en été et de foin de qualité en hiver, confère au lait des arômes complexes et une richesse incomparable. Le bien-être animal est au cœur des préoccupations des producteurs.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des gestes ancestraux. Le lavage de la croûte au marc de Champagne est une étape cruciale qui affine le fromage et lui apporte son caractère unique. Ce savoir-faire est le garant de l'authenticité du Langres."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Langres Champenois présente une croûte de couleur orangée, légèrement humide et ridée, signe de son affinage délicat. Sa pâte, ivoire à jaune pâle, révèle une texture souple et onctueuse. L'absence de retournement pendant l'affinage lui donne son fameux « trou » central.",
+    "texture": "En bouche, le Langres offre une texture fondante et crémeuse. Sa pâte, légèrement salée, se révèle onctueuse et laisse une sensation de douceur persistante. La croûte, plus ferme, apporte une légère astringence qui équilibre l'ensemble.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait frais, la crème et le beurre légèrement acidulé. Une légère note animale, propre aux fromages de terroir, complète ce bouquet olfactif.",
+    "aromes_secondaires": "Des notes plus subtiles de levure, de marc de Champagne et de cave se dévoilent au fur et à mesure de la dégustation. Une pointe d'épices douces vient complexifier le profil aromatique.",
+    "evolution": "L'attaque est douce et crémeuse, suivie d'un milieu de bouche où les arômes se développent pleinement. La finale est longue et persistante, avec une légère amertume agréable. La longueur en bouche témoigne de la qualité du fromage et de son affinage soigné.",
+    "temperature_service": "Servir à température ambiante (environ 18-20°C) afin de permettre aux arômes de s'exprimer pleinement et d'apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4°C et 8°C, dans son emballage d'origine ou dans une boîte à fromage hermétique.",
+    "avant_service": "Sortir le Langres du réfrigérateur environ une heure avant de le déguster pour qu'il retrouve sa texture optimale et que ses arômes se libèrent.",
+    "coupe": "Traditionnellement, le Langres n'est pas coupé mais consommé à la cuillère, directement depuis son trou central. On peut également le couper en quartiers pour faciliter le partage.",
+    "presentation": "Présenter le Langres sur un plateau de fromages accompagné de pain de campagne, de fruits secs et de noix. Quelques grains de raisin frais apporteront une touche de fraîcheur.",
+    "duree": "Consommer de préférence dans les 3 à 5 jours après ouverture pour profiter pleinement de ses qualités gustatives."
+  },
+  "degustation": "Sa texture onctueuse et ses arômes délicats font du Langres un fromage d'exception. Son intensité aromatique modérée en fait un choix idéal pour une dégustation raffinée.",
+  "accords": "Un Champagne Blanc de Blancs, avec ses bulles fines et son acidité rafraîchissante, est un accord parfait pour le Langres Champenois. Un Pinot Noir de Bourgogne, avec ses notes fruitées et sa structure élégante, sublimera également ce fromage.",
+  "histoire": "Le Langres, originaire de la région de Champagne-Ardenne, est un fromage ancestral dont les premières traces remontent au XVIIIe siècle. Son affinage au marc de Champagne est un savoir-faire unique qui lui confère son identité particulière."
+}

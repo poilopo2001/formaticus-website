@@ -1,0 +1,41 @@
+{
+  "id": 30,
+  "slug": "raclette-piment-espelette",
+  "nom": "RACLETTE PIMENT ESPELETTE",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 43.6,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Raclette Piment d'Espelette, née des alpages des Hautes-Alpes, offre une pâte onctueuse et fondante, sublimée par la chaleur piquante du piment d'Espelette. Un mariage audacieux qui réveille les sens et invite au voyage gustatif au cœur des montagnes.",
+  "terroir": {
+    "titre": "Le Terroir des Hautes-Alpes",
+    "geographie": "Les Hautes-Alpes, terre de sommets majestueux et de vallées verdoyantes, offrent un cadre exceptionnel pour l'élevage laitier. Les pâturages d'altitude, baignés de soleil et d'air pur, confèrent au lait une richesse aromatique unique. L'altitude varie considérablement, influençant la diversité de la flore et donc du lait.",
+    "climat": "Le climat montagnard, caractérisé par des hivers rigoureux et des étés frais, joue un rôle essentiel dans l'affinage du fromage. L'alternance des saisons favorise le développement d'une flore microbienne spécifique, indispensable à l'expression des saveurs.",
+    "elevage": "Les vaches, principalement de races Montbéliarde et Abondance, paissent librement dans les alpages durant la période estivale. Elles se nourrissent d'une herbe riche et variée, composée de fleurs sauvages et de plantes aromatiques, qui transmettent au lait leurs parfums subtils. L'alimentation est complétée par du foin de montagne pendant l'hiver.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des gestes ancestraux et un amour profond pour le terroir. Les producteurs locaux veillent au respect des traditions, tout en intégrant des techniques modernes pour garantir la qualité et la sécurité des produits."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte, d'une couleur ivoire à jaune pâle, présente une texture lisse et fondante. Quelques ouvertures discrètes peuvent apparaître, témoignant d'un affinage soigné. La croûte, fine et orangée, est parsemée de piment d'Espelette.",
+    "texture": "En bouche, la Raclette Piment d'Espelette offre une texture onctueuse et fondante, qui tapisse agréablement le palais. Sa fermeté évolue avec la température, devenant plus coulante lorsqu'elle est chauffée.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait frais, la crème et le beurre fondu. Des notes animales subtiles peuvent également se révéler, témoignant de l'origine du lait cru.",
+    "aromes_secondaires": "Le piment d'Espelette apporte une chaleur piquante et des notes fruitées, rappelant le poivron rouge et les épices douces. Des nuances de noisette et de foin coupé peuvent également se distinguer.",
+    "evolution": "L'attaque est douce et crémeuse, suivie d'une montée progressive de la chaleur du piment d'Espelette. Le milieu de bouche est riche et savoureux, avec une finale persistante et légèrement piquante. La longueur en bouche est appréciable.",
+    "temperature_service": "Il est idéal de la servir à température ambiante (environ 18-20°C) afin d'apprécier pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver la Raclette Piment d'Espelette au réfrigérateur, dans un endroit frais et sec, entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation, afin qu'il développe pleinement ses arômes et sa texture.",
+    "coupe": "Pour une présentation élégante, couper le fromage en tranches fines, en suivant la forme de la meule. Si le fromage est déjà tranché, laisser les tranches se détendre à température ambiante.",
+    "presentation": "Présenter la Raclette Piment d'Espelette sur un plateau en bois ou en ardoise, accompagnée de charcuterie de montagne, de pommes de terre cuites à la vapeur, de cornichons et d'oignons grelots.",
+    "duree": "Après ouverture, consommer le fromage dans les 5 à 7 jours, en veillant à bien l'emballer pour éviter qu'il ne se dessèche."
+  },
+  "degustation": "Une texture fondante et une saveur riche, rehaussée par le piquant subtil du piment d'Espelette. L'intensité aromatique croissante offre une expérience gustative complexe et mémorable.",
+  "accords": "Pour accompagner la Raclette Piment d'Espelette, privilégier des vins blancs secs et fruités, tels qu'un Chignin Bergeron ou une Roussette de Savoie. Pour les amateurs de vin rouge, un Gamay de Savoie ou un Pinot Noir léger apporteront un bel équilibre. Un Champagne Blanc de Blancs, avec ses bulles fines et son acidité rafraîchissante, constitue également un excellent choix.",
+  "histoire": "Issue d'une tradition fromagère ancestrale des Hautes-Alpes, la Raclette a été revisitée avec l'ajout du piment d'Espelette, ingrédient emblématique du Pays Basque. Cette alliance audacieuse entre deux terroirs d'exception confère à ce fromage un caractère unique et savoureux."
+}

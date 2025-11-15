@@ -1,0 +1,41 @@
+{
+  "id": 11,
+  "slug": "tete-de-moine-gold",
+  "nom": "TETE DE MOINE GOLD",
+  "image": "/images/tete-de-moine-gold.jpg",
+  "prixKg": 56.2,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Tête de Moine Gold, issue des pâturages suisses, se révèle sous une forme unique, sculptée en délicates rosettes. Sa pâte, affinée avec soin, offre une palette aromatique complexe et une texture fondante, promesse d'une dégustation mémorable.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Née au cœur des montagnes du Jura suisse, la Tête de Moine Gold tire son caractère de paysages vallonnés et de vastes plateaux herbeux. L'altitude, variant entre 700 et 1000 mètres, confère une biodiversité unique à la flore locale, essentielle à l'alimentation des vaches.",
+    "climat": "Le climat jurassien, caractérisé par des étés frais et des hivers rigoureux, façonne l'herbe des pâturages et influence la maturation lente du fromage. L'humidité ambiante contribue au développement d'une flore de surface spécifique durant l'affinage.",
+    "elevage": "Les vaches, principalement de race Montbéliarde, paissent librement durant la saison estivale, se nourrissant d'une herbe riche et variée. En hiver, elles sont nourries de foin de qualité, préservant ainsi la richesse du lait, base essentielle de la Tête de Moine Gold.",
+    "savoir_faire": "Le savoir-faire fromager, transmis de génération en génération, repose sur des techniques ancestrales. L'affinage, réalisé avec patience et précision, est l'étape clé qui révèle la complexité aromatique du fromage."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte, de couleur ivoire à jaune pâle, présente une texture fine et homogène. L'absence de croûte, caractéristique de la Tête de Moine, révèle la pureté du fromage.",
+    "texture": "En bouche, la Tête de Moine Gold offre une texture fondante et soyeuse, légèrement beurrée. Sa finesse contraste avec sa puissance aromatique.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait cru, la crème fraîche et une légère note beurrée.",
+    "aromes_secondaires": "Des arômes secondaires de noisette, de foin coupé et de notes florales délicates viennent compléter la palette aromatique.",
+    "evolution": "L'attaque est douce et onctueuse, évoluant vers un milieu de bouche plus intense et persistant. La finale est longue et aromatique, laissant une agréable sensation de fraîcheur. La longueur en bouche est notable.",
+    "temperature_service": "La Tête de Moine Gold se déguste idéalement à température ambiante (18-20°C) pour exhaler pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver la Tête de Moine Gold au réfrigérateur, dans un compartiment adapté, entre 4 et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur au moins 30 minutes avant la dégustation pour qu'il développe tous ses arômes.",
+    "coupe": "La Tête de Moine se déguste traditionnellement en rosettes, obtenues à l'aide d'une girolle.",
+    "presentation": "Présenter les rosettes sur un plateau, accompagnées de fruits secs, de noix ou de pain de campagne.",
+    "duree": "Après entame, consommer la Tête de Moine Gold dans les 5 à 7 jours pour une dégustation optimale."
+  },
+  "degustation": "La Tête de Moine Gold offre une texture fondante et des arômes intenses de lait cru et de noisette. Son intensité aromatique est parfaitement équilibrée, faisant de ce fromage un véritable plaisir gustatif.",
+  "accords": "Un vin blanc sec assez puissant, fin et très légèrement boisé, au nez ouvert et à la bouche fraîche, accompagnera à merveille la Tête de Moine Gold. Un Côtes du Rhône Villages Chusclan apportera des notes fruitées, tandis qu'un Mâcon Blanc offrira une fraîcheur minérale. Un Mercurey, avec sa subtilité, complètera la dégustation avec élégance.",
+  "histoire": "Née dans l'abbaye de Bellelay au XIIe siècle, la Tête de Moine, littéralement « tête de moine », était jadis utilisée comme monnaie d'échange. Aujourd'hui, elle perpétue la tradition fromagère suisse avec un savoir-faire ancestral."
+}

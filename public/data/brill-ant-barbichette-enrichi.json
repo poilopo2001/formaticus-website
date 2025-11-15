@@ -1,0 +1,41 @@
+{
+  "id": 254,
+  "slug": "brill-ant-barbichette",
+  "nom": "BRILL'ANT BARBICHETTE",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 52.75,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Brill'Ant Barbichette, un fromage de vache au lait pasteurisé, dévoile une texture onctueuse et un goût délicat, reflet du terroir de la Loire. Sa saveur douce et légèrement acidulée en fait un plaisir raffiné pour les connaisseurs.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "La Vallée de la Loire, berceau de ce fromage, est caractérisée par des paysages doux et vallonnés, façonnés par le fleuve majestueux. Les prairies verdoyantes et les coteaux ensoleillés offrent un cadre idéal pour l'élevage des vaches laitières. Cette région, au carrefour des influences, bénéficie d'une richesse naturelle exceptionnelle.",
+    "climat": "Le climat tempéré de la Loire, avec ses étés chauds et ses hivers doux, favorise une herbe abondante et de qualité. L'humidité modérée contribue à l'épanouissement d'une flore variée, qui se retrouve dans le lait des vaches.",
+    "elevage": "Les vaches laitières, principalement de race locale, paissent librement dans les prairies luxuriantes de la région. Leur alimentation, riche en herbes fraîches et en fleurs sauvages, confère au lait des arômes subtils et complexes. Le bien-être animal est au cœur des préoccupations des éleveurs.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant les gestes ancestraux. Chaque étape de la fabrication, du caillage à l'affinage, est réalisée avec soin et passion. Le Brill'Ant Barbichette est le fruit d'un travail méticuleux et d'une tradition fromagère bien ancrée."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Brill'Ant Barbichette présente une pâte ivoire, lisse et brillante. Sa croûte fine, de couleur crème, peut être légèrement plissée. Son aspect général est appétissant et invite à la dégustation.",
+    "texture": "Sa texture est fondante et onctueuse en bouche, offrant une sensation de douceur et de légèreté. Il est dépourvu de granulosité, laissant une impression soyeuse sur le palais.",
+    "aromes_primaires": "Les arômes primaires dominants sont le beurre frais, la crème fraîche et une légère note lactique. Ces saveurs douces et agréables sont caractéristiques des fromages de vache de qualité.",
+    "aromes_secondaires": "Des arômes secondaires subtils de noisette fraîche et de foin coupé viennent compléter le profil aromatique. Une légère note acidulée apporte une fraîcheur agréable.",
+    "evolution": "L'attaque est douce et crémeuse, suivie d'un milieu de bouche équilibré et savoureux. La finale est légèrement acidulée, laissant une sensation persistante de fraîcheur et de gourmandise. Sa longueur en bouche est appréciable.",
+    "temperature_service": "Il est préférable de servir le Brill'Ant Barbichette à température ambiante (18-20°C) pour exhaler pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez le Brill'Ant Barbichette au réfrigérateur, dans son emballage d'origine, entre 4°C et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ 30 minutes avant la dégustation afin qu'il retrouve sa texture optimale et libère tous ses arômes.",
+    "coupe": "Pour apprécier pleinement sa texture, coupez le Brill'Ant Barbichette en parts égales, en partant du centre vers l'extérieur.",
+    "presentation": "Présentez-le sur un plateau de fromages avec des fruits frais de saison, des noix et du pain de campagne.",
+    "duree": "Une fois entamé, consommez le Brill'Ant Barbichette dans les 5 à 7 jours pour une dégustation optimale."
+  },
+  "degustation": "Sa texture fondante et ses arômes délicats de crème fraîche en font un fromage exceptionnel. Son intensité est douce et agréable, idéale pour les palais délicats.",
+  "accords": "Accompagnez-le d'un Sancerre blanc, dont la vivacité et les notes d'agrumes souligneront sa fraîcheur. Un Vouvray sec, avec ses arômes floraux et fruités, constitue également un accord harmonieux. Évitez les vins trop puissants qui masqueraient sa délicatesse.",
+  "histoire": "Le Brill'Ant Barbichette est un fromage moderne, inspiré des traditions fromagères de la Loire. Son nom évoque l'élégance et la douceur, à l'image de sa saveur raffinée et de son terroir d'exception."
+}

@@ -1,0 +1,41 @@
+{
+  "id": 17,
+  "slug": "cantal",
+  "nom": "CANTAL",
+  "image": "/images/cantal.jpg",
+  "prixKg": 32.3,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Cantal, un joyau auvergnat façonné par le temps, offre une palette de saveurs évoluant de l'acidulé à la profondeur fruitée. Sa pâte pressée non cuite, empreinte du terroir volcanique, révèle une texture généreuse et un caractère authentique.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Cantal est né au cœur des montagnes d'Auvergne, dans une région façonnée par des volcans endormis et des vallées verdoyantes. Ces paysages d'altitude, riches en biodiversité, offrent un cadre idéal pour l'élevage des vaches laitières. Les pâturages, parsemés de fleurs sauvages, confèrent au lait une richesse aromatique incomparable.",
+    "climat": "Le climat montagnard, caractérisé par des étés frais et des hivers rigoureux, joue un rôle essentiel dans l'affinage du Cantal. Les variations de température et d'humidité contribuent au développement de sa croûte naturelle et à l'épanouissement de ses saveurs.",
+    "elevage": "Les vaches de race Salers et Aubrac, rustiques et parfaitement adaptées au terroir, paissent librement dans les prairies d'altitude pendant la belle saison. Leur alimentation naturelle, riche en herbes aromatiques, influence directement la qualité et le goût du lait, base essentielle du Cantal.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération au sein des fermes et des ateliers artisanaux. Des gestes précis et une connaissance approfondie du lait sont nécessaires pour maîtriser chaque étape de la fabrication, de la coagulation à l'affinage en cave."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Cantal présente une pâte de couleur ivoire à jaune pâle, parsemée de petites ouvertures. Sa croûte naturelle, épaisse et rugueuse, évolue du gris-blanc au brun doré au fil de l'affinage.",
+    "texture": "Sa texture est ferme et fondante, avec une légère élasticité. En bouche, il offre une sensation agréable et onctueuse, évoluant avec l'âge du fromage vers une consistance plus friable.",
+    "aromes_primaires": "Ses arômes primaires évoquent le lait frais, le beurre cru et la noisette, témoignant de la qualité du lait et du savoir-faire fromager.",
+    "aromes_secondaires": "On perçoit également des notes subtiles de foin coupé, d'herbes sauvages et de cave, reflet du terroir et de l'affinage en cave.",
+    "evolution": "L'attaque est douce et légèrement acidulée, laissant place à des saveurs plus complexes et fruitées en milieu de bouche. La finale est persistante et légèrement salée, avec une belle longueur en bouche.",
+    "temperature_service": "Il est conseillé de servir le Cantal à température ambiante (environ 18°C) afin de révéler pleinement ses arômes et sa texture."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver le Cantal au réfrigérateur, dans un endroit frais et sec, idéalement entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation pour qu'il puisse développer ses arômes.",
+    "coupe": "Couper le Cantal en tranches régulières, en partant du centre vers l'extérieur, pour apprécier toutes les nuances de sa pâte.",
+    "presentation": "Présenter le Cantal sur un plateau de fromages avec d'autres spécialités laitières, des fruits secs et du pain de campagne.",
+    "duree": "Après ouverture, le Cantal se conserve idéalement 5 à 7 jours au réfrigérateur, bien emballé."
+  },
+  "degustation": "Sa texture ferme et fondante offre une expérience tactile plaisante, tandis que ses arômes lactiques et fruités dévoilent une intensité aromatique subtile et équilibrée.",
+  "accords": "Le Cantal s'accorde à merveille avec un vin rouge fruité et léger, tel qu'un Chinon ou un Beaujolais, dont la fraîcheur souligne ses saveurs. Un vin blanc sec et minéral, comme un Sancerre, peut également sublimer ses arômes.",
+  "histoire": "Le Cantal, l'un des plus anciens fromages de France, est issu d'un savoir-faire ancestral transmis depuis des siècles. Son terroir volcanique et sa fabrication artisanale lui confèrent un caractère unique et authentique."
+}

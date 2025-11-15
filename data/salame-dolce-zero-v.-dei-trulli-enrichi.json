@@ -1,0 +1,41 @@
+{
+  "id": 358,
+  "slug": "salame-dolce-zero-v.-dei-trulli",
+  "nom": "SALAME DOLCE ZERO V. DEI TRULLI",
+  "image": "/images/salame-dolce-zero-v.-dei-trulli.jpg",
+  "prixKg": 59.48,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Salame Dolce Zero V. dei Trulli est une douceur fromagère qui évoque la fraîcheur des Pouilles. Sa texture fondante et ses saveurs délicatement lactiques en font une gourmandise à savourer à tout moment.",
+  "terroir": {
+    "titre": "Le Terroir des Pouilles",
+    "geographie": "Les Pouilles, région du sud de l'Italie, offrent un paysage vallonné et ensoleillé, parsemé de pittoresques trulli. Ces constructions de pierre blanche témoignent d'un riche patrimoine agricole et pastoral. L'altitude modérée et la proximité de la mer Adriatique contribuent à un microclimat unique. La région est particulièrement connue pour ses oliviers centenaires et ses terres fertiles.",
+    "climat": "Le climat méditerranéen des Pouilles, caractérisé par des étés chauds et secs et des hivers doux et humides, influence positivement la qualité du lait. La brise marine tempère les chaleurs estivales, favorisant le bien-être des animaux et la richesse aromatique du lait. Les pluies hivernales assurent une végétation luxuriante au printemps.",
+    "elevage": "Les vaches laitières, nourries d'herbes fraîches et de foin local, paissent librement dans les prairies verdoyantes des Pouilles. Cette alimentation naturelle confère au lait une qualité exceptionnelle, riche en nutriments et en saveurs. Les éleveurs locaux veillent au bien-être de leurs animaux, dans le respect des traditions ancestrales.",
+    "savoir_faire": "Le savoir-faire fromager des Pouilles se transmet de génération en génération, perpétuant des techniques artisanales ancestrales. La transformation du lait frais en fromage est un art délicat, qui exige patience, précision et une connaissance approfondie des produits du terroir. Chaque étape de la fabrication est réalisée avec soin, afin de préserver l'authenticité et la qualité du Salame Dolce Zero V. dei Trulli."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Ce fromage présente une pâte d'un blanc ivoire immaculé, d'une texture lisse et homogène. Sa forme cylindrique rappelle celle d'un salami, lui conférant une esthétique originale et appétissante. L'absence de croûte souligne sa fraîcheur et sa douceur.",
+    "texture": "En bouche, la texture est incroyablement fondante et crémeuse, presque aérienne. Il offre une sensation de douceur enveloppante, sans aucune résistance. La pâte est soyeuse et laisse une impression de fraîcheur persistante.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait frais, de la crème douce et du beurre délicat. Une légère note acidulée vient équilibrer la douceur, apportant une fraîcheur agréable.",
+    "aromes_secondaires": "Des notes subtiles de vanille et de fleurs blanches se révèlent progressivement, ajoutant une complexité aromatique délicate. On peut également percevoir une légère touche végétale, rappelant les herbes fraîches des prairies.",
+    "evolution": "L'attaque est douce et crémeuse, suivie d'un milieu de bouche onctueux et parfumé. La finale est longue et persistante, laissant une agréable sensation de fraîcheur et de gourmandise. La longueur en bouche est notable, témoignant de la qualité des ingrédients et du savoir-faire artisanal.",
+    "temperature_service": "Servir frais, idéalement entre 8 et 10°C, pour apprécier pleinement sa texture fondante et ses arômes délicats."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur, dans son emballage d'origine, à une température comprise entre 2 et 6°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 15 minutes avant de le déguster, afin qu'il exprime pleinement ses arômes.",
+    "coupe": "Couper le Salame Dolce Zero V. dei Trulli en tranches fines, à l'aide d'un couteau à lame lisse et fine.",
+    "presentation": "Présenter les tranches sur un plateau en ardoise ou en bois, accompagnées de fruits frais de saison (figues, raisins) et de quelques noix.",
+    "duree": "A consommer de préférence dans les 3 à 4 jours après ouverture, pour préserver sa fraîcheur et sa texture optimale."
+  },
+  "degustation": "Ce fromage offre une texture incroyablement fondante et des arômes lactiques doux et délicats. Son intensité est légère, ce qui en fait un fromage idéal à déguster en toute occasion.",
+  "accords": "Accompagner le Salame Dolce Zero V. dei Trulli d'un vin blanc sec et fruité, tel qu'un Pinot Grigio des Pouilles ou un Vermentino de Sardaigne. Ces vins, aux notes florales et minérales, sublimeront la fraîcheur et la douceur du fromage. Il se marie également très bien avec un Prosecco frais et pétillant.",
+  "histoire": "Le Salame Dolce Zero V. dei Trulli est un fromage récent, inspiré des traditions fromagères des Pouilles. Il est fabriqué artisanalement à partir de lait de vache de qualité supérieure, selon une recette exclusive qui lui confère sa texture unique et son goût inimitable."
+}

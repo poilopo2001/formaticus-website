@@ -1,0 +1,41 @@
+{
+  "id": 5,
+  "slug": "etivaz-alpage",
+  "nom": "ETIVAZ ALPAGE",
+  "image": "/images/etivaz-alpage.jpg",
+  "prixKg": 58.7,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "L'Etivaz AOP, un joyau des Alpes suisses, offre une symphonie de saveurs alpines, un équilibre parfait entre notes fruitées et nuances de noisette, sublimées par une texture ferme et fondante. Son goût unique témoigne d'un terroir exceptionnel et d'un savoir-faire ancestral, capturant l'essence des pâturages d'altitude.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "L'Etivaz est produit dans les Alpes vaudoises, une région montagneuse caractérisée par des pâturages verdoyants situés entre 1000 et 2000 mètres d'altitude. Ces pentes abruptes et ces vallées encaissées offrent un paysage unique où la flore alpine s'épanouit pleinement. Cette géographie isolée a contribué à la préservation des traditions fromagères locales.",
+    "climat": "Le climat alpin, avec ses étés courts et frais et ses hivers longs et rigoureux, influence directement la qualité du lait. Les variations de température favorisent une flore diversifiée, conférant au lait des arômes complexes et uniques. L'ensoleillement intense en altitude est également un facteur clé.",
+    "elevage": "Les vaches, de race principalement brune alpine, paissent librement sur les alpages durant la saison estivale. Leur alimentation, composée d'herbes fraîches, de fleurs sauvages et de plantes aromatiques, enrichit le lait de saveurs subtiles et complexes. Le respect du bien-être animal est une priorité pour les producteurs de L'Etivaz.",
+    "savoir_faire": "Le savoir-faire fromager de L'Etivaz se transmet de génération en génération, perpétuant des gestes ancestraux. La fabrication, entièrement artisanale, est réalisée dans des chalets d'alpage chauffés au feu de bois. Cette méthode traditionnelle confère au fromage une saveur fumée caractéristique et incomparable."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "L'Etivaz présente une pâte de couleur jaune paille, parfois ivoire selon la saison, avec une texture dense et homogène. Sa croûte, naturelle et ambrée, peut présenter des marques de frottage et des nuances plus foncées.",
+    "texture": "En bouche, sa texture est ferme mais fondante, offrant une légère résistance à la coupe. Au fur et à mesure de l'affinage, elle peut devenir plus friable et développer des cristaux de tyrosine, signe d'une maturation optimale.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait cru, de la noisette fraîche et du beurre clarifié. On perçoit également des notes végétales évoquant les herbes des alpages.",
+    "aromes_secondaires": "Des arômes secondaires plus subtils se révèlent, tels que des fruits secs (amande, abricot), des fleurs de montagne et une légère note fumée, héritée du chauffage au feu de bois.",
+    "evolution": "L'attaque est franche et aromatique, le milieu de bouche ample et persistant, avec une légère acidité qui équilibre les saveurs riches. La finale est longue et chaleureuse, laissant une empreinte gustative agréable et complexe. Sa longueur en bouche est notable.",
+    "temperature_service": "L'Etivaz se déguste idéalement à température ambiante (environ 18-20°C) afin de libérer pleinement ses arômes et de révéler sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver L'Etivaz au réfrigérateur, dans un endroit frais et sec, entre 4 et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur au moins une heure avant la dégustation pour qu'il puisse développer toutes ses saveurs.",
+    "coupe": "Pour apprécier pleinement sa texture, couper L'Etivaz en copeaux ou en petits cubes.",
+    "presentation": "Présenter L'Etivaz sur un plateau avec des fruits secs, des noix et du pain de campagne.",
+    "duree": "Une fois entamé, L'Etivaz se conserve environ une semaine au réfrigérateur, emballé dans du papier sulfurisé."
+  },
+  "degustation": "Sa texture ferme et fondante révèle un éventail d'arômes complexes, allant des notes de noisette aux nuances florales. Son intensité aromatique en fait un fromage de caractère, apprécié des connaisseurs.",
+  "accords": "L'Etivaz s'accorde à merveille avec un Pinot Auxerrois d'Alsace, dont la fraîcheur et les notes fruitées équilibrent sa richesse. Un Riesling Grand Cru, avec ses arômes minéraux et sa vivacité, constitue également un excellent choix. Pour une expérience plus audacieuse, osez un Château Chalon du Jura, dont les notes oxydatives et de noix s'harmonisent parfaitement avec les saveurs de L'Etivaz.",
+  "histoire": "L'Etivaz AOP est un fromage d'alpage fabriqué selon des méthodes traditionnelles depuis le Moyen Âge. Son nom provient du village de L'Etivaz, situé au cœur des Alpes vaudoises, où il est produit avec passion et savoir-faire."
+}

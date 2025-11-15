@@ -1,0 +1,41 @@
+{
+  "id": 95,
+  "slug": "brillat-savarin-112,5",
+  "nom": "BRILLÂT SAVARIN 112,5",
+  "image": "/Séance Photo Nicolas 20220423/brillat-savarin-composite.jpg",
+  "prixKg": 6.15,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Brillat-Savarin 112,5, une ode à la gourmandise la plus pure, se révèle sous une croûte fleurie immaculée, promettant une expérience sensorielle riche et onctueuse. Ce triple-crème d'exception, originaire du Grand Est, fond délicatement en bouche, libérant des arômes subtils et persistants qui témoignent d'un savoir-faire ancestral.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Grand Est, berceau de ce délice, est une mosaïque de paysages où se côtoient plaines fertiles et reliefs vallonnés. Cette diversité géographique façonne un terroir unique, propice à l'élevage et à la production laitière. Les pâturages verdoyants, arrosés par des rivières sinueuses, offrent un cadre idéal pour l'épanouissement des vaches laitières.",
+    "climat": "Le climat continental, avec ses hivers froids et ses étés chauds, joue un rôle essentiel dans le développement des arômes complexes du Brillat-Savarin. Les variations de température favorisent la richesse de la flore, influençant directement la qualité du lait et, par conséquent, le caractère unique du fromage.",
+    "elevage": "Les vaches laitières, nourries d'une alimentation riche et variée, profitent d'un élevage extensif qui respecte leur bien-être. Elles paissent librement dans les prairies, se nourrissant d'herbes fraîches et de fleurs sauvages, ce qui confère au lait une saveur particulière et une qualité nutritionnelle optimale. Le respect de l'animal est au cœur de la production de ce fromage d'exception.",
+    "savoir_faire": "Le Brillat-Savarin est le fruit d'un savoir-faire transmis de génération en génération, où chaque étape de la fabrication est réalisée avec soin et passion. Des techniques ancestrales, combinées à des méthodes modernes, garantissent une qualité irréprochable et un goût authentique qui font la renommée de ce fromage d'exception."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Brillat-Savarin se pare d'une robe blanche et lumineuse, légèrement brillante, recouverte d'une fine croûte fleurie. Sa pâte, d'une blancheur immaculée, présente une texture lisse et homogène, invitant à la dégustation.",
+    "texture": "Sa texture est d'un fondant exceptionnel, caressant le palais avec une douceur incomparable. Onctueux et crémeux, il fond littéralement en bouche, laissant une sensation de volupté et de plaisir intense.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent la crème fraîche, le beurre doux et le lait chaud, offrant une base gustative riche et gourmande.",
+    "aromes_secondaires": "Des notes subtiles de champignons de sous-bois et de noisettes grillées viennent enrichir le bouquet aromatique, apportant une complexité et une profondeur remarquables. Une pointe saline, discrète mais présente, souligne l'ensemble des saveurs.",
+    "evolution": "L'attaque est douce et onctueuse, évoluant vers un milieu de bouche riche et crémeux, où les arômes se développent pleinement. La finale est persistante, laissant un souvenir gustatif agréable et une envie irrésistible d'y revenir. Sa longueur en bouche est remarquable.",
+    "temperature_service": "Servez-le à température ambiante (environ 18-20°C) pour exalter tous ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez-le au réfrigérateur, dans son emballage d'origine, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortez-le du réfrigérateur environ 30 minutes avant de le déguster pour qu'il retrouve sa texture optimale et que ses arômes se libèrent pleinement.",
+    "coupe": "Pour une présentation élégante, coupez-le en pointes ou en tranches, en partant du centre vers l'extérieur, afin de préserver l'intégrité de sa forme.",
+    "presentation": "Présentez-le sur un plateau de fromages avec d'autres spécialités laitières, des fruits frais (raisins, figues), des noix et du pain de campagne.",
+    "duree": "Consommez-le de préférence dans les 5 jours suivant son ouverture pour profiter pleinement de sa fraîcheur et de ses saveurs."
+  },
+  "degustation": "Sa texture incroyablement crémeuse et ses arômes délicats de crème et de noisettes font du Brillat-Savarin un fromage d'une intensité aromatique modérée, mais d'une richesse gustative exceptionnelle. Un véritable plaisir pour les sens.",
+  "accords": "Il s'accorde à merveille avec des vins blancs de Bourgogne, tels qu'un Chablis ou un Meursault, dont la fraîcheur et la minéralité équilibrent sa richesse. Pour une option plus audacieuse, osez un Pinot Noir de la Côte d'Auxerre, dont les notes fruitées et légèrement épicées souligneront ses arômes subtils. Un Bourgogne Epineuil sera également un excellent choix.",
+  "histoire": "Créé dans les années 1930 par Henri Androuët, en hommage au célèbre gastronome Jean Anthelme Brillat-Savarin, ce fromage est rapidement devenu un incontournable de la gastronomie française. Son nom évoque à lui seul le plaisir de la table et l'art de vivre à la française."
+}

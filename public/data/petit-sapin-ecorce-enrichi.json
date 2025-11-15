@@ -1,0 +1,41 @@
+{
+  "id": 352,
+  "slug": "petit-sapin-ecorce",
+  "nom": "PETIT SAPIN ECORCE",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 40.75,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Petit Sapin Écorce offre une expérience gustative unique, façonnée par le terroir montagnard. Sa pâte onctueuse exhale des arômes subtils de résine et de crème fraîche, enveloppés d'une écorce naturelle délicatement parfumée.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Niché au cœur des vallées verdoyantes, ce fromage est le fruit des pâturages d'altitude où l'air pur et la nature préservée façonnent un environnement unique. Les pentes douces et les plateaux herbeux offrent un terrain idéal pour l'élevage. Cette géographie particulière contribue à la richesse et à la complexité des arômes du lait.",
+    "climat": "Le climat montagnard, caractérisé par des étés frais et des hivers rigoureux, joue un rôle essentiel dans le développement des arômes subtils du fromage. Les variations de température favorisent la diversité de la flore alpine, source d'alimentation naturelle pour les vaches laitières. Cette alimentation se reflète dans la qualité et le goût du lait.",
+    "elevage": "Les vaches, fières représentantes de la race Montbéliarde, paissent librement sur les alpages luxuriants pendant la belle saison. Elles se nourrissent d'une flore variée et abondante, composée d'herbes sauvages et de fleurs alpines. Cet élevage extensif et respectueux de l'environnement confère au lait une qualité exceptionnelle et des arômes complexes.",
+    "savoir_faire": "Le savoir-faire ancestral des fromagers locaux se transmet de génération en génération, garantissant la pérennité de ce fromage d'exception. Chaque étape de la fabrication, du caillage à l'affinage, est réalisée avec soin et passion, selon des méthodes traditionnelles. Ce savoir-faire unique confère au Petit Sapin Écorce son caractère authentique et sa saveur incomparable."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte, d'une couleur ivoire crémeuse, révèle une texture souple et onctueuse. L'écorce naturelle, fine et légèrement ridée, présente des nuances allant du beige clair au brun doré. Des marques subtiles témoignent de son affinage soigné.",
+    "texture": "En bouche, le Petit Sapin Écorce offre une texture fondante et soyeuse qui caresse le palais. Sa pâte moelleuse se révèle progressivement, libérant une sensation de douceur et de fraîcheur. Une légère fermeté persiste en bouche, témoignant de son affinage maîtrisé.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent la crème fraîche, le lait cru et le beurre doux. Des notes subtiles de foin coupé et de champignon frais viennent enrichir le bouquet olfactif. L'ensemble dégage une impression de fraîcheur et de pureté.",
+    "aromes_secondaires": "Des arômes secondaires plus complexes se révèlent ensuite, tels que la noisette grillée, les herbes sauvages et une pointe de résine de sapin. Ces notes subtiles apportent une profondeur et une complexité supplémentaires au profil gustatif. Une légère touche végétale persiste en finale.",
+    "evolution": "L'attaque en bouche est douce et crémeuse, évoluant vers des notes plus prononcées de lait et de noisette. Le milieu de bouche est ample et équilibré, avec une belle longueur. La finale est légèrement acidulée et persistante, laissant une agréable sensation de fraîcheur et de gourmandise.",
+    "temperature_service": "Servez-le idéalement à température ambiante (environ 18°C) pour permettre aux arômes de s'exprimer pleinement."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez le Petit Sapin Écorce au réfrigérateur, dans sa boîte d'origine ou enveloppé de papier sulfurisé, entre 4°C et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ 30 minutes avant de le déguster afin qu'il retrouve sa texture optimale et que ses arômes se développent pleinement.",
+    "coupe": "Coupez le Petit Sapin Écorce en quartiers, en partant du centre vers l'extérieur, afin de répartir équitablement la pâte et l'écorce.",
+    "presentation": "Présentez-le sur un plateau de fromages accompagné de fruits frais, de noix et de pain de campagne. N'hésitez pas à ajouter une branche de sapin pour rappeler son terroir.",
+    "duree": "Après ouverture, consommez-le dans les 5 jours pour apprécier pleinement sa fraîcheur et sa saveur."
+  },
+  "degustation": "Sa texture fondante et ses arômes subtils de crème et de sapin en font un fromage d'exception. Son intensité est modérée, offrant un équilibre parfait entre douceur et caractère.",
+  "accords": "Accompagnez-le d'un vin blanc sec et fruité, tel qu'un Riesling d'Alsace ou un Chardonnay de Bourgogne, dont la fraîcheur et l'acidité se marieront harmonieusement avec la douceur du fromage. Pour les amateurs de vin rouge, un Pinot Noir léger et fruité sera également un excellent choix. Un Gewürztraminer Vendanges Tardives apportera une gourmandise supplémentaire. ",
+  "histoire": "Issu d'un savoir-faire fromager ancestral, le Petit Sapin Écorce est fabriqué avec amour et passion dans le respect des traditions. Il incarne l'authenticité et la richesse du terroir montagnard."
+}

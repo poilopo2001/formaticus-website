@@ -1,0 +1,41 @@
+{
+  "id": 99,
+  "slug": "saint-felicien-180-g",
+  "nom": "SAINT FÉLICIEN 180 G",
+  "image": "/Séance Photo Nicolas 20220423/st-felicien-composite.jpg",
+  "prixKg": 9.85,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Saint-Félicien, un écrin de douceur au lait cru de vache, offre une texture onctueuse qui fond délicatement en bouche. Son caractère lactique et légèrement animal révèle la richesse du terroir de l'Auvergne-Rhône-Alpes.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Saint-Félicien est né au cœur de l'Auvergne-Rhône-Alpes, une région où les douces collines verdoyantes se succèdent. Les reliefs modérés favorisent un climat tempéré, idéal pour l'élevage laitier. Les pâturages luxuriants contribuent à la qualité exceptionnelle du lait.",
+    "climat": "Le climat tempéré de la région, caractérisé par des étés doux et des hivers relativement cléments, joue un rôle essentiel dans le développement des arômes du lait. L'humidité ambiante favorise également l'affinage délicat du fromage.",
+    "elevage": "Les vaches laitières paissent librement dans les prairies environnantes, se nourrissant d'une herbe riche et variée. Cette alimentation naturelle confère au lait des arômes subtils et une typicité unique, qui se retrouvent dans le Saint-Félicien.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, préservant les méthodes artisanales qui font la renommée du Saint-Félicien. Chaque étape de la fabrication, du caillage à l'affinage, est réalisée avec soin et passion."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Saint-Félicien présente une pâte ivoire, légèrement ridée, d'une douceur irrésistible. Sa croûte fine et fleurie témoigne d'un affinage soigné.",
+    "texture": "Sa texture est onctueuse et fondante, presque crémeuse, offrant une sensation de velours en bouche. Il révèle une légère humidité agréable.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait frais, la crème fraîche et une pointe beurrée délicate.",
+    "aromes_secondaires": "On perçoit des notes secondaires subtiles de foin coupé, de champignon frais et une légère touche animale.",
+    "evolution": "L'attaque est douce et lactique, évoluant vers un milieu de bouche plus riche et persistant. La finale est longue et légèrement acidulée, laissant une agréable sensation de fraîcheur.",
+    "temperature_service": "Il est idéal de le servir à température ambiante (environ 20°C) afin d'exprimer pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Saint-Félicien se conserve idéalement au réfrigérateur, entre 4°C et 8°C.",
+    "avant_service": "Sortez-le du réfrigérateur environ 30 minutes avant la dégustation pour qu'il révèle toute sa saveur et sa texture.",
+    "coupe": "Il est préférable de le couper en quartiers afin de préserver sa texture fondante.",
+    "presentation": "Présentez-le sur un plateau avec des fruits frais, des noix et un pain de campagne.",
+    "duree": "Consommez-le de préférence dans les 2-3 jours après ouverture."
+  },
+  "degustation": "Sa texture onctueuse et son goût lactique frais en font un fromage idéal pour une dégustation délicate. L'intensité de ses arômes évolue avec l'affinage.",
+  "accords": "Un Saint-Félicien s'accorde à merveille avec un vin blanc sec et fruité, tel qu'un Saint-Véran ou un Viognier, dont les notes florales et minérales équilibreront sa richesse. Pour une expérience plus audacieuse, optez pour un Champagne Blanc de Blancs, dont les bulles fines et l'acidité vive contrasteront agréablement avec le gras du fromage.",
+  "histoire": "Né dans les fermes du Lyonnais, le Saint-Félicien a conservé son caractère artisanal et authentique. Son nom provient d'un petit village de l'Isère, berceau de sa fabrication."
+}

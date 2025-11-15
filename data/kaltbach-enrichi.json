@@ -1,0 +1,41 @@
+{
+  "id": 13,
+  "slug": "kaltbach",
+  "nom": "KALTBACH",
+  "image": "/images/kaltbach.jpg",
+  "prixKg": 53.35,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le KALTBACH, un fromage suisse d'exception, dévoile une pâte onctueuse et fondante, enrichie d'une subtile crème. Son affinage délicat lui confère une saveur douce et lactique, un véritable plaisir pour les sens.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Les fromages KALTBACH tirent leur caractère unique des paysages vallonnés et verdoyants de la Suisse centrale. Les pâturages s'échelonnent sur les contreforts des Alpes, offrant un terrain idéal pour l'élevage laitier. Les grottes naturelles de Kaltbach, creusées au cœur de la montagne, jouent un rôle crucial dans l'affinage des fromages.",
+    "climat": "Le climat tempéré de la région, caractérisé par des étés doux et des hivers rigoureux, contribue à la richesse de la flore alpine. Cette diversité végétale se reflète dans le lait des vaches, influençant subtilement le goût du fromage.",
+    "elevage": "Les vaches laitières, principalement de race Brune, paissent librement dans les prairies alpines pendant la saison estivale. Leur alimentation naturelle, composée d'herbes fraîches et de fleurs sauvages, confère au lait une qualité exceptionnelle et des arômes complexes.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, respectant des méthodes traditionnelles tout en intégrant des techniques modernes. L'affinage en grotte, un processus lent et minutieux, est une étape essentielle pour révéler la pleine expression du KALTBACH."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le KALTBACH présente une pâte ivoire à jaune pâle, uniforme et lisse, parfois parsemée de petites ouvertures. Sa croûte, naturelle et fine, est légèrement humide et peut présenter des nuances de gris ou de brun clair.",
+    "texture": "La texture est incroyablement fondante et crémeuse en bouche, presque beurrée, avec une légère élasticité. Elle offre une sensation de douceur et de confort, sans aucune granulosité.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait frais, la crème fraîche et le beurre doux. On perçoit également des notes végétales subtiles, rappelant l'herbe fraîchement coupée.",
+    "aromes_secondaires": "Des arômes secondaires délicats de noisette fraîche et de foin séché viennent compléter le profil aromatique. Une pointe de champignon de cave, due à l'affinage en grotte, apporte une complexité supplémentaire.",
+    "evolution": "L'attaque est douce et lactique, évoluant vers un milieu de bouche plus riche et crémeux. La finale est persistante et légèrement acidulée, laissant une agréable sensation de fraîcheur. La longueur en bouche est notable.",
+    "temperature_service": "Servir idéalement à température ambiante (18-20°C) pour permettre aux arômes de s'épanouir pleinement et à la texture de devenir plus souple et fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur, dans un emballage hermétique, à une température comprise entre 4 et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation afin qu'il retrouve sa texture optimale et libère tous ses arômes.",
+    "coupe": "Couper le KALTBACH en tranches fines ou en petits cubes, selon la forme du fromage et l'usage prévu.",
+    "presentation": "Présenter le KALTBACH sur un plateau de fromages avec des fruits frais (raisins, poires), des noix et du pain de campagne.",
+    "duree": "À consommer de préférence dans les 5 à 7 jours après ouverture pour profiter pleinement de sa fraîcheur et de sa saveur."
+  },
+  "degustation": "Le KALTBACH offre une texture fondante et des arômes lactiques délicats, avec une intensité modérée qui le rend accessible à tous les palais. Sa complexité subtile en fait un fromage raffiné et polyvalent.",
+  "accords": "Pour un accord parfait, mariez le KALTBACH avec un Chardonnay de Bourgogne, tel qu'un Meursault, dont les notes beurrées et toastées feront écho à la douceur du fromage. Un Chenin Blanc de Loire, comme un Vouvray, apportera une fraîcheur bienvenue et des arômes de fruits blancs. Pour une expérience plus audacieuse, optez pour une bière de blé belge, dont les notes d'agrumes et d'épices souligneront la complexité aromatique du KALTBACH.",
+  "histoire": "Le KALTBACH est un fromage suisse à pâte mi-dure affiné dans les grottes naturelles de Kaltbach, connues pour leur hygrométrie et leur température constantes. Ce processus d'affinage unique lui confère sa texture fondante et sa saveur incomparable."
+}

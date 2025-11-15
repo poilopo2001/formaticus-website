@@ -1,0 +1,41 @@
+{
+  "id": 351,
+  "slug": "munster-fermier",
+  "nom": "MUNSTER FERMIER",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 53.9,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Munster Fermier, un joyau des Vosges, révèle une pâte onctueuse et un caractère affirmé. Son affinage méticuleux lui confère des arômes complexes, témoins d'un terroir riche et d'un savoir-faire ancestral.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Né au cœur du massif vosgien, le Munster Fermier puise sa typicité dans un paysage de montagnes douces et de vallées verdoyantes. L'altitude modérée, entre 300 et 1400 mètres, favorise une biodiversité unique. Les pâturages luxuriants où paissent les vaches sont essentiels à la qualité du lait.",
+    "climat": "Le climat vosgien, à la fois continental et montagnard, influence directement le caractère du Munster. Les étés frais et humides alternent avec des hivers rigoureux, permettant une maturation lente et une concentration des arômes dans le lait.",
+    "elevage": "Les vaches, principalement de race vosgienne, sont élevées dans le respect des traditions. Elles profitent de vastes pâturages et d'une alimentation naturelle, riche en herbes et en fleurs de montagne. Cette alimentation variée se retrouve dans le goût unique du lait.",
+    "savoir_faire": "La fabrication du Munster Fermier est un art transmis de génération en génération. Chaque étape, du caillage à l'affinage, est réalisée avec soin et attention. Le savoir-faire des fermiers est la garantie d'un fromage authentique et de qualité."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Munster Fermier arbore une croûte lavée de couleur orangée, signe de son affinage en cave humide. Sa pâte, d'un jaune ivoire, présente une texture souple et légèrement humide.",
+    "texture": "En bouche, la texture est fondante et onctueuse, avec une légère élasticité. La pâte libère progressivement ses saveurs, offrant une expérience gustative riche et complexe.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait frais, le beurre et les notes animales subtiles.",
+    "aromes_secondaires": "Des arômes secondaires de foin, de cave et d'épices douces viennent compléter le profil aromatique. On peut également percevoir de légères notes de levure et de fermentation.",
+    "evolution": "L'attaque est douce et crémeuse, suivie d'une montée en puissance des arômes. Le milieu de bouche est ample et persistant, avec une finale légèrement piquante et une belle longueur en bouche.",
+    "temperature_service": "Il est conseillé de servir le Munster Fermier à température ambiante (environ 18°C) afin de libérer pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver le Munster Fermier au réfrigérateur, dans son emballage d'origine, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur au moins une heure avant la dégustation afin qu'il puisse développer tous ses arômes.",
+    "coupe": "Couper le Munster Fermier en parts égales, en partant du centre vers l'extérieur, afin de garantir une répartition homogène des saveurs.",
+    "presentation": "Présenter le Munster Fermier sur un plateau de fromages accompagné de pain de campagne, de noix et de fruits secs.",
+    "duree": "Après ouverture, le Munster Fermier se conserve idéalement 2 à 3 jours au réfrigérateur, bien emballé."
+  },
+  "degustation": "Sa texture fondante et ses arômes puissants et complexes en font un fromage d'exception. Son intensité évolue avec l'affinage, offrant une expérience gustative unique.",
+  "accords": "Un Gewürztraminer d'Alsace, avec ses notes de litchi et d'épices, s'accorde parfaitement avec la richesse du Munster Fermier. Un Pinot Gris Vendanges Tardives, plus opulent, magnifiera ses saveurs complexes.",
+  "histoire": "Le Munster Fermier, dont l'origine remonte au Moyen Âge, est le fruit d'un savoir-faire paysan transmis de génération en génération. Son nom est lié aux moines de l'abbaye de Munster, qui ont contribué à sa renommée."
+}

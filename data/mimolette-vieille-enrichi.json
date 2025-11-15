@@ -1,0 +1,41 @@
+{
+  "id": 18,
+  "slug": "mimolette-vieille",
+  "nom": "MIMOLETTE VIEILLE",
+  "image": "/images/mimolette-vieille.jpg",
+  "prixKg": 32.15,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Mimolette Vieille, un joyau orangé du Nord de la France, est un fromage à pâte pressée non cuite qui révèle une palette aromatique complexe, fruit d'un affinage patient. Sa texture ferme et sa saveur prononcée témoignent d'un savoir-faire ancestral et d'un terroir unique.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Hauts-de-France, région d'origine de la Mimolette, est un territoire de plaines ondulantes et de bocages verdoyants, où l'élevage laitier prospère. L'altitude modérée et le sol riche contribuent à la qualité du lait, base essentielle de ce fromage d'exception.",
+    "climat": "Le climat tempéré océanique, caractérisé par des étés doux et des hivers frais et humides, favorise la pousse d'une herbe riche et variée, indispensable à l'alimentation des vaches. L'humidité ambiante joue également un rôle crucial dans l'affinage du fromage.",
+    "elevage": "Les vaches, principalement de race Prim'Holstein, paissent paisiblement dans les prairies verdoyantes de la région. Elles se nourrissent d'une herbe riche et variée, complétée par des céréales et des fourrages locaux, garantissant un lait de qualité supérieure, riche en arômes.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des gestes précis et une attention constante. L'affinage, étape cruciale, est réalisé dans des caves spécifiques, où les fromages sont régulièrement retournés et brossés, développant ainsi leurs arômes caractéristiques."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La Mimolette Vieille présente une pâte d'un orange intense, parsemée de quelques ouvertures irrégulières. Sa croûte, naturellement formée, est d'un gris-brun rustique, marquée par les traces des mites fromagères.",
+    "texture": "Sa texture est ferme, voire légèrement friable, offrant une agréable sensation en bouche. Elle peut présenter une légère granulosité liée à l'affinage prolongé.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du beurre noisette, du caramel et d'une légère pointe animale.",
+    "aromes_secondaires": "On perçoit également des notes plus subtiles de fruits secs (noix, noisette), d'épices douces et d'une légère pointe iodée, témoignant de son affinage en cave.",
+    "evolution": "L'attaque est franche et légèrement salée, évoluant vers un milieu de bouche riche et complexe, où les arômes de fruits secs et de caramel se développent pleinement. La finale est longue et persistante, avec une légère amertume agréable. Sa longueur en bouche est notable.",
+    "temperature_service": "La température de service idéale se situe entre 16 et 18°C, afin de permettre aux arômes de s'exprimer pleinement."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez la Mimolette Vieille dans la partie la moins froide de votre réfrigérateur, idéalement entre 4 et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ une heure avant la dégustation pour qu'il puisse révéler toute sa richesse aromatique.",
+    "coupe": "Pour une dégustation optimale, coupez la Mimolette Vieille en fines tranches ou en copeaux, en partant du centre vers l'extérieur.",
+    "presentation": "Présentez la Mimolette Vieille sur un plateau de fromages avec des fruits secs (noix, amandes), des pains de campagne et un chutney de figues.",
+    "duree": "Après ouverture, la Mimolette Vieille se conserve environ une semaine au réfrigérateur, emballée dans du papier sulfurisé ou un film alimentaire."
+  },
+  "degustation": "Sa texture est ferme et légèrement friable, offrant une expérience tactile unique. Les arômes riches et complexes évoquent le caramel, les fruits secs et une légère note saline, offrant une intensité gustative prononcée.",
+  "accords": "La Mimolette Vieille se marie à merveille avec un Vin de Savoie Chignin rouge, dont les tanins souples et les arômes fruités mettent en valeur la complexité du fromage. Un Côtes d'Auvergne Madargues rouge, avec ses notes épicées et sa structure élégante, constitue également un excellent accord. Pour une association plus audacieuse, optez pour un Valençay rouge, dont la fraîcheur et les notes de fruits rouges équilibrent le caractère prononcé de la Mimolette.",
+  "histoire": "Née au XVIIe siècle à l'initiative de Louis XIV, la Mimolette, initialement appelée \"Vieux Hollande\", fut créée pour contourner les embargos commerciaux. Son affinage long et sa couleur orangée en font un fromage unique, symbole du savoir-faire fromager français."
+}

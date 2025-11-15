@@ -1,0 +1,41 @@
+{
+  "id": 90,
+  "slug": "camembert-de-normandie-aop",
+  "nom": "Camembert de Normandie AOP",
+  "image": "/Séance Photo Nicolas 20220423/camembert-de-normandie-aop-composite.jpg",
+  "prixKg": 11.3,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": true,
+  "intensite": 3,
+  "description": "Le Camembert de Normandie AOP au lait cru biologique, une ode à la tradition fromagère normande, dévoile une pâte onctueuse et un cœur tendre, auréolée d'une croûte fleurie délicatement parfumée. Ce fromage d'exception, reflet d'un terroir unique, offre une expérience gustative inoubliable, véritable voyage au cœur de la Normandie.",
+  "terroir": {
+    "titre": "Le Terroir Normand",
+    "geographie": "La Normandie, baignée par la Manche, est une terre de bocages verdoyants et de douces collines. Son relief, façonné par des siècles d'agriculture, offre un paysage idéal pour l'élevage des vaches laitières. Les prairies, parsemées de pommiers, confèrent au lait des arômes subtils et complexes.",
+    "climat": "Le climat normand, tempéré et humide, favorise une herbe riche et abondante. L'influence maritime apporte une douceur constante, limitant les variations de température et garantissant une qualité de lait optimale.",
+    "elevage": "Les vaches normandes, emblèmes de la région, paissent paisiblement dans les prairies. Leur alimentation, riche en herbes fraîches et en foin de qualité, confère au lait une typicité aromatique incomparable. L'agriculture biologique privilégie le bien-être animal et le respect de l'environnement.",
+    "savoir_faire": "Le savoir-faire fromager normand se transmet de génération en génération. Des techniques ancestrales, associées à des pratiques modernes, permettent de préserver l'authenticité et la qualité du Camembert. Chaque étape de la fabrication est réalisée avec soin, du moulage à la main à l'affinage en cave."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Camembert présente une pâte ivoire à jaune pâle, lisse et brillante. Sa croûte, fine et duveteuse, est parsemée de fleurs blanches et parfois de légères marbrures ocres. L'ensemble est d'une grande élégance.",
+    "texture": "En bouche, la texture est fondante et onctueuse, évoluant vers un cœur plus crémeux au fur et à mesure de l'affinage. Sa légère élasticité offre une sensation agréable et persistante.",
+    "aromes_primaires": "Les arômes primaires dominants sont le beurre frais, la crème et la noisette, évoquant la richesse du lait cru et la douceur des pâturages normands.",
+    "aromes_secondaires": "Des notes subtiles de champignon frais, d'humus et de foin coupé viennent complexifier le profil aromatique. Une légère touche animale peut également se développer avec l'affinage.",
+    "evolution": "L'attaque est douce et beurrée, évoluant vers un milieu de bouche plus intense et complexe. La finale est longue et persistante, laissant une agréable sensation de fraîcheur et de gourmandise. La longueur en bouche est remarquable.",
+    "temperature_service": "Servez le Camembert à température ambiante (environ 20°C) pour apprécier pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez le Camembert au réfrigérateur, dans son emballage d'origine, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortez le Camembert du réfrigérateur au moins une heure avant la dégustation afin qu'il puisse développer pleinement ses arômes.",
+    "coupe": "Coupez le Camembert en quartiers égaux, en partant du centre vers l'extérieur, pour une dégustation harmonieuse.",
+    "presentation": "Présentez le Camembert sur un plateau en bois ou en ardoise, accompagné de pain de campagne, de fruits secs et de confiture de figues.",
+    "duree": "Le Camembert se conserve idéalement 2 à 3 jours après ouverture, en veillant à bien le protéger de l'air."
+  },
+  "degustation": "Ce Camembert offre une texture crémeuse et fondante, aux arômes lactiques et légèrement fongiques, d'une intensité modérée à soutenue selon son affinage. Un fromage authentique qui révèle toute la richesse du terroir normand.",
+  "accords": "Accompagnez ce Camembert d'un cidre fermier brut de Normandie pour un accord régional authentique. Un vin blanc sec et fruité, tel qu'un Sancerre ou un Pouilly-Fumé, saura également sublimer ses saveurs.",
+  "histoire": "Le Camembert, né au cœur de la Normandie à la fin du XVIIIe siècle, est devenu un symbole de la gastronomie française. Sa fabrication artisanale, respectueuse des traditions, perpétue un savoir-faire unique et ancestral."
+}

@@ -1,0 +1,41 @@
+{
+  "id": 117,
+  "slug": "sainte-maure-250-g",
+  "nom": "SAINTE MAURE 250 G",
+  "image": "/images/sainte-maure-250-g.jpg",
+  "prixKg": 15.9,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Sainte-Maure-de-Touraine AOP, cylindre cendré traversé par une paille de seigle, offre une rencontre délicate entre saveurs caprines franches et textures fondantes. Sa robe cendrée, fruit d'un affinage soigné, révèle un cœur crémeux aux arômes subtils.",
+  "terroir": {
+    "titre": "Le Terroir Tourangeau",
+    "geographie": "Le Val de Loire, berceau du Sainte-Maure, est une mosaïque de vallées verdoyantes sculptées par la Loire et ses affluents. Les douces collines, parsemées de forêts et de prairies, offrent un paysage propice à l'élevage caprin. La richesse des sols, mêlant argile, silex et calcaire, contribue à la typicité du lait.",
+    "climat": "Le climat tempéré océanique, avec des étés chauds et des hivers doux, favorise une herbe abondante et diversifiée. L'alternance des saisons influence la qualité du lait, conférant au Sainte-Maure des nuances gustatives variables selon la période de l'année.",
+    "elevage": "Les chèvres de race Alpine et Saanen, rustiques et adaptées au terroir, pâturent librement dans les prairies environnantes. Leur alimentation, riche en herbes sauvages, fleurs et céréales, enrichit le lait de saveurs complexes et aromatiques. Le respect du bien-être animal est primordial pour garantir un lait de qualité supérieure.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des gestes ancestraux. L'emprésurage lent et la coagulation douce permettent de préserver la finesse du lait. Le moulage à la louche, étape délicate, confère au Sainte-Maure sa forme caractéristique."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Sainte-Maure se présente sous la forme d'un cylindre allongé, recouvert d'une fine croûte cendrée naturelle. La pâte, de couleur ivoire, est parsemée de fines stries et peut présenter quelques légères marbrures bleutées selon l'affinage.",
+    "texture": "Sa texture est à la fois ferme et fondante, évoluant au fil de l'affinage. Le cœur est plus crémeux, tandis que la croûte offre une légère résistance. En bouche, il procure une sensation onctueuse et agréable.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait de chèvre frais, avec des notes lactiques et végétales. On perçoit également des nuances de noisette fraîche et de beurre doux.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes subtiles de foin coupé, de fleurs sauvages et d'agrumes. Une légère pointe d'acidité vient équilibrer l'ensemble.",
+    "evolution": "L'attaque est douce et fraîche, laissant rapidement place à des saveurs caprines plus prononcées. Le milieu de bouche est ample et persistant, avec une finale légèrement acidulée et une longueur en bouche remarquable.",
+    "temperature_service": "Il est idéal de servir le Sainte-Maure à température ambiante (environ 18°C) afin de permettre aux arômes de s'exprimer pleinement."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver le Sainte-Maure au réfrigérateur, dans son emballage d'origine, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ 30 minutes avant la dégustation. Cela permettra à la pâte de s'assouplir et aux arômes de se libérer.",
+    "coupe": "Pour apprécier pleinement sa texture, coupez le Sainte-Maure en tranches fines, perpendiculairement à la paille. Vous pouvez également le proposer en palets.",
+    "presentation": "Présentez-le sur un plateau de fromages en bois ou en ardoise, accompagné de fruits frais (raisins, figues), de pain de campagne et de noix.",
+    "duree": "Le Sainte-Maure se conserve idéalement 3 à 5 jours après ouverture, en prenant soin de bien le protéger de l'air."
+  },
+  "degustation": "Ce fromage de chèvre AOP offre une texture fondante et des arômes caprins affirmés mais équilibrés. Son intensité aromatique en fait un délice pour les amateurs de fromages de chèvre.",
+  "accords": "Un Sancerre blanc, avec ses notes d'agrumes et de pierre à fusil, sublimera la fraîcheur du Sainte-Maure. Pour un accord plus audacieux, osez un Pouilly-Fumé, dont les arômes de buis et de fruits exotiques se marieront à merveille. Un vin rouge léger de Loire, comme un Touraine, pourra également accompagner ce fromage avec élégance.",
+  "histoire": "Originaire de la Touraine, le Sainte-Maure est fabriqué depuis le Moyen Âge. La paille de seigle qui le traverse est un signe distinctif, autrefois utilisée pour maintenir sa forme pendant l'affinage. Il est aujourd'hui un fleuron de la gastronomie française."
+}

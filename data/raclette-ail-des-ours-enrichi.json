@@ -1,0 +1,41 @@
+{
+  "id": 25,
+  "slug": "raclette-ail-des-ours",
+  "nom": "RACLETTE AIL DES OURS",
+  "image": "/images/raclette-ail-des-ours.jpg",
+  "prixKg": 42.75,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Raclette Ail des Ours est une invitation au cœur des Alpes, où le lait cru de vache s'imprègne des notes sauvages et herbacées de l'ail des ours. Sa pâte fondante révèle un caractère affirmé, promesse d'une expérience gustative authentique et vivifiante.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Issue des Hautes-Alpes, cette raclette est le fruit d'un terroir montagneux où les pâturages d'altitude s'étendent à perte de vue. Les vaches évoluent dans un environnement préservé, bercé par l'air pur et les panoramas grandioses. Les vallées profondes et les sommets enneigés façonnent un paysage unique, propice à l'épanouissement d'une flore riche et variée.",
+    "climat": "Le climat alpin, avec ses étés courts et ses hivers longs et rigoureux, influence directement la qualité du lait. Les variations de température et d'ensoleillement contribuent à la diversité des arômes que l'on retrouve dans ce fromage de caractère. L'affinage en cave fraîche et humide permet au fromage de développer pleinement sa personnalité.",
+    "elevage": "Les vaches laitières, de races adaptées à la montagne, paissent librement dans les alpages dès le printemps. Leur alimentation, composée d'herbes fraîches et de fleurs sauvages, confère au lait une richesse aromatique incomparable. Le respect du bien-être animal est une priorité pour les producteurs, garantissant ainsi un lait d'une qualité exceptionnelle.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des techniques ancestrales. La fabrication artisanale, à partir de lait cru et entier, préserve l'authenticité du terroir. L'affinage, réalisé avec soin et patience, est une étape cruciale qui révèle toute la complexité des arômes de cette raclette d'exception."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte de la Raclette Ail des Ours présente une couleur ivoire à jaune pâle, parsemée de morceaux d'ail des ours finement hachés. Sa texture est lisse et homogène, avec une croûte naturelle de couleur ocre clair. On remarque parfois un léger cerclage sous-croûte, témoin d'un affinage soigné.",
+    "texture": "En bouche, la Raclette Ail des Ours offre une texture fondante et onctueuse. Sa pâte, souple et élastique, se révèle délicatement beurrée. La présence des morceaux d'ail des ours apporte une légère mâche, agréablement contrastée.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait frais, la crème et le beurre fondu. On perçoit également des notes végétales, rappelant l'herbe fraîchement coupée et les fleurs des champs. L'ensemble est d'une grande fraîcheur.",
+    "aromes_secondaires": "Les arômes secondaires dévoilent des notes subtiles d'ail des ours, légèrement piquantes et poivrées. On peut également déceler des nuances de noisette et de champignon, témoignant de la complexité aromatique du fromage. Une légère pointe d'amertume en fin de bouche apporte de l'équilibre.",
+    "evolution": "L'attaque en bouche est douce et onctueuse, laissant rapidement place aux arômes herbacés de l'ail des ours. Le milieu de bouche est ample et généreux, avec une texture fondante. La finale est persistante et aromatique, avec une longueur en bouche agréable et rafraîchissante. L'équilibre entre le gras et l'acidité est remarquable.",
+    "temperature_service": "La température de service idéale se situe entre 16 et 18°C, afin de permettre aux arômes de s'exprimer pleinement et d'apprécier la texture fondante du fromage."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "La température de conservation optimale au réfrigérateur se situe entre 4 et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation, afin de lui permettre de développer pleinement ses arômes et sa texture.",
+    "coupe": "La raclette se coupe idéalement en tranches fines, de manière à faciliter la fonte du fromage et à optimiser sa dégustation.",
+    "presentation": "Présenter la Raclette Ail des Ours sur un plateau en bois, accompagnée de charcuteries fines, de pommes de terre, de cornichons et d'oignons au vinaigre. On peut également ajouter une salade verte pour apporter de la fraîcheur.",
+    "duree": "Après ouverture ou entame, la Raclette Ail des Ours se conserve environ 5 à 7 jours au réfrigérateur, dans un emballage hermétique."
+  },
+  "degustation": "Sa texture fondante et ses arômes herbacés, alliés à une pointe d'ail des ours, en font un fromage de caractère. Son intensité est modérée, ce qui la rend accessible à tous les palais.",
+  "accords": "Pour accompagner cette raclette sauvage, privilégiez un vin blanc sec et fruité, tel qu'un Côtes du Jura ou un Riesling d'Alsace. Leurs notes minérales et leur vivacité s'accordent à merveille avec la richesse du fromage et les arômes de l'ail des ours. Une bière blonde artisanale légèrement amère peut également être un excellent choix.",
+  "histoire": "La Raclette Ail des Ours est née de la volonté de valoriser le terroir alpin et les produits locaux. Elle est fabriquée de manière artisanale, à partir de lait cru de vache et d'ail des ours cueilli à la main dans les montagnes environnantes."
+}

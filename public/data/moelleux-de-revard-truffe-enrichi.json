@@ -1,0 +1,41 @@
+{
+  "id": 61,
+  "slug": "moelleux-de-revard-truffe",
+  "nom": "MOELLEUX DE REVARD TRUFFE",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 79.9,
+  "type": "pate-pressee-cuite",
+  "lait": "brebis",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Moelleux de Revard Truffé est un fromage de brebis espagnol délicatement parfumé à la truffe, offrant une texture onctueuse et un goût raffiné. Sa pâte crémeuse fond en bouche, libérant des arômes subtils qui évoquent la richesse du terroir.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Originaire d'Espagne, ce fromage bénéficie d'un terroir riche et diversifié. Les vastes plaines et les montagnes escarpées façonnent un paysage propice à l'élevage ovin. Les brebis paissent librement dans ces environnements naturels préservés.",
+    "climat": "Le climat méditerranéen, avec ses étés chauds et secs et ses hivers doux et humides, influence la qualité du lait. Cette alternance de saisons favorise une flore variée, essentielle à l'alimentation des brebis.",
+    "elevage": "Les brebis, principalement de race locale, sont élevées avec soin et respect. Elles bénéficient d'une alimentation naturelle, composée d'herbes sauvages et de céréales cultivées localement. Ce régime confère au lait des saveurs uniques et authentiques.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, préservant les méthodes traditionnelles de fabrication. Chaque étape, du caillage à l'affinage, est réalisée avec une attention particulière pour garantir la qualité du fromage."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Moelleux de Revard Truffé présente une pâte ivoire, parsemée de fines brisures de truffe noire. Sa texture est lisse et brillante, témoignant d'un affinage soigné. La croûte est fine et naturelle.",
+    "texture": "En bouche, la texture est fondante et crémeuse, offrant une sensation de douceur intense. La pâte est souple et homogène, sans aucune granulosité. Elle fond littéralement sur la langue.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait de brebis frais, avec des notes beurrées et légèrement acidulées. La truffe noire apporte une touche d'umami et de profondeur.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes subtiles de noisette, de champignon et de sous-bois, caractéristiques de la truffe. Une légère pointe de sel rehausse les saveurs.",
+    "evolution": "L'attaque est douce et crémeuse, évoluant vers un milieu de bouche plus intense, où les arômes de truffe se déploient pleinement. La finale est longue et persistante, laissant une agréable sensation de chaleur et de gourmandise. La longueur en bouche est notable.",
+    "temperature_service": "Il est conseillé de servir ce fromage à température ambiante (environ 18-20°C) afin de libérer pleinement ses arômes et d'apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez le Moelleux de Revard Truffé au réfrigérateur, dans un endroit frais et sec, idéalement entre 4°C et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ 30 minutes avant de le déguster. Cela permettra aux arômes de se développer et à la texture de s'assouplir.",
+    "coupe": "Pour apprécier pleinement sa texture, coupez-le en parts égales, en partant du centre vers l'extérieur.",
+    "presentation": "Présentez-le sur un plateau avec d'autres fromages de caractère, accompagné de pain de campagne frais et de fruits secs.",
+    "duree": "Après ouverture, il est préférable de consommer le fromage dans les 5 à 7 jours pour profiter de sa fraîcheur optimale."
+  },
+  "degustation": "Ce fromage offre une texture fondante et des arômes riches de truffe noire et de lait de brebis. Son intensité est modérée, ce qui le rend accessible et agréable.",
+  "accords": "Accompagnez ce Moelleux de Revard Truffé d'un vin blanc sec et minéral, tel qu'un Chablis Premier Cru, dont la fraîcheur viendra équilibrer la richesse du fromage. Un Champagne Blanc de Blancs millésimé, avec ses notes briochées, sera également un accord parfait. Il peut également être intéressant avec un vin rouge léger et fruité, comme un Pinot Noir de Bourgogne.",
+  "histoire": "Le Moelleux de Revard Truffé est une création fromagère inspirée par le terroir espagnol et le raffinement de la truffe. Il incarne le savoir-faire artisanal et la passion pour les produits de qualité."
+}

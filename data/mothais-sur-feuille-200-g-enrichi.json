@@ -1,0 +1,41 @@
+{
+  "id": 123,
+  "slug": "mothais-sur-feuille-200-g",
+  "nom": "MOTHAIS SUR FEUILLE 200 G",
+  "image": "/images/mothais-sur-feuille-200-g.jpg",
+  "prixKg": 11.75,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Mothais sur feuille, un joyau de la Nouvelle-Aquitaine, offre une palette gustative complexe où les notes caprines se fondent dans des arômes délicats de sous-bois. Sa texture fondante, enveloppée par la feuille de châtaignier, évoque un terroir riche et authentique. Un fromage cru d'exception, affiné avec patience et savoir-faire.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "La Nouvelle-Aquitaine, avec ses paysages vallonnés et ses forêts verdoyantes, offre un cadre idéal pour l'élevage caprin. Les collines douces et les prairies luxuriantes favorisent une alimentation riche et variée pour les chèvres. Les microclimats locaux, influencés par la proximité de l'océan Atlantique et des reliefs du Massif Central, contribuent à la typicité du lait.",
+    "climat": "Le climat tempéré de la région, caractérisé par des étés chauds et des hivers doux, offre des conditions optimales pour le développement d'une flore diversifiée. L'humidité ambiante, conjuguée aux variations de température, joue un rôle essentiel dans l'affinage du Mothais, favorisant le développement de sa croûte et de ses arômes.",
+    "elevage": "Les chèvres de race Poitevine ou Alpine, réputées pour leur lait de qualité, paissent librement dans les pâturages verdoyants. Leur alimentation, composée d'herbes fraîches, de fleurs sauvages et de feuilles d'arbres, confère au lait des arômes subtils et complexes. Le respect du bien-être animal est une priorité pour les producteurs, garantissant un lait de qualité supérieure.",
+    "savoir_faire": "La fabrication du Mothais sur feuille est un art ancestral transmis de génération en génération. Le lait cru, non pasteurisé, est travaillé avec délicatesse pour préserver sa richesse aromatique. L'affinage, réalisé avec patience et attention, confère au fromage sa texture fondante et ses saveurs uniques."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Mothais se présente sous une forme ronde, enveloppé d'une feuille de châtaignier qui lui confère une couleur crème à ivoire. Sa croûte, fine et légèrement plissée, peut présenter des nuances allant du blanc au beige clair. La pâte, souple et onctueuse, révèle une texture homogène.",
+    "texture": "En bouche, le Mothais offre une texture fondante et crémeuse qui tapisse le palais. Sa pâte, délicatement persillée, libère une sensation soyeuse. Une légère humidité peut être perçue, témoignant de son affinage soigné.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait frais, le beurre, et une légère acidité lactique. Une note caprine, typique des fromages de chèvre, est présente sans être excessive.",
+    "aromes_secondaires": "Des arômes secondaires de sous-bois, de noisette fraîche et de champignons apparaissent en bouche. Des notes subtiles de feuilles mortes et d'humus se développent au fil de l'affinage.",
+    "evolution": "L'attaque est douce et fraîche, laissant place à une complexité aromatique croissante en milieu de bouche. La finale est persistante, avec une longueur en bouche remarquable et une légère pointe d'amertume agréable. Les saveurs évoluent subtilement au fur et à mesure de la dégustation.",
+    "temperature_service": "Servir à température ambiante (environ 18-20°C) pour apprécier pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation pour qu'il retrouve sa texture optimale et libère tous ses arômes.",
+    "coupe": "Couper en parts égales, en partant du centre vers l'extérieur, pour répartir uniformément la croûte et la pâte.",
+    "presentation": "Présenter sur un plateau de fromages avec des fruits frais, des noix et du pain de campagne.",
+    "duree": "Consommer dans les 3 à 5 jours après ouverture."
+  },
+  "degustation": "Sa texture fondante et sa croûte délicate offrent une expérience gustative unique, où les saveurs caprines se mêlent aux arômes subtils de sous-bois. Un fromage d'une intensité modérée, parfait pour une dégustation raffinée.",
+  "accords": "Ce Mothais s'accorde merveilleusement avec un Riesling sec d'Alsace, dont la minéralité et l'acidité équilibrent sa richesse. Un Chablis Premier Cru, avec ses notes d'agrumes et sa fraîcheur, sublimera également ses saveurs. Pour les amateurs de vins rouges, un Sancerre rouge léger et fruité peut être envisagé.",
+  "histoire": "Le Mothais sur feuille est un fromage fermier traditionnel de la région du Poitou-Charentes, aujourd'hui Nouvelle-Aquitaine. Son nom vient du village de Mothais, où il était traditionnellement fabriqué. L'utilisation de la feuille de châtaignier, héritée de pratiques anciennes, permet de conserver l'humidité du fromage et de lui conférer des arômes spécifiques."
+}

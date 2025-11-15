@@ -1,0 +1,41 @@
+{
+  "id": 248,
+  "slug": "chevrerousse-argental",
+  "nom": "CHEVREROUSSE ARGENTAL",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 49.8,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Chevrerousse Argental, un fromage de chèvre à pâte fondante, révèle une douceur lactique rehaussée de subtiles notes salées. Sa croûte, délicatement duveteuse, renferme un cœur crémeux qui fond en bouche, laissant un souvenir gustatif persistant.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Chevrerousse Argental est né au cœur de la région Rhône-Alpes, un territoire façonné par des reliefs montagneux et des vallées verdoyantes. Les pâturages s'étendent sur des coteaux ensoleillés, bénéficiant d'une altitude idéale pour le développement d'une flore riche et variée. Cette diversité végétale contribue à la qualité exceptionnelle du lait.",
+    "climat": "Le climat de la région est caractérisé par des étés chauds et des hivers froids, avec une pluviométrie bien répartie tout au long de l'année. Ces conditions climatiques favorisent la croissance d'une herbe abondante et nutritive, essentielle à l'alimentation des chèvres.",
+    "elevage": "Les chèvres sont élevées avec soin, dans le respect des traditions pastorales. Elles profitent d'un accès quotidien aux pâturages, où elles se nourrissent d'une herbe fraîche et variée, enrichie de fleurs sauvages et de plantes aromatiques. Ce régime alimentaire naturel confère au lait une saveur unique et complexe.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, préservant des gestes ancestraux et une attention particulière à chaque étape de la fabrication. La maîtrise de l'affinage, notamment, est cruciale pour révéler le potentiel aromatique du fromage et lui conférer sa texture caractéristique."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Chevrerousse Argental présente une pâte blanche à ivoire, légèrement brillante. Sa croûte, fine et duveteuse, est parsemée de quelques taches blanches ou grises. L'ensemble offre un aspect appétissant et raffiné.",
+    "texture": "Sa texture est fondante et crémeuse, offrant une sensation de douceur en bouche. La pâte est homogène, sans être trop coulante. Elle se laisse déguster avec une grande facilité.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait frais de chèvre, avec des notes beurrées et légèrement acidulées. Une subtile touche de crème fraîche vient compléter ce bouquet initial.",
+    "aromes_secondaires": "Des arômes secondaires plus complexes se révèlent ensuite, évoquant les herbes fraîches, les fleurs sauvages et une légère note salée. Une discrète touche caprine apporte une complexité supplémentaire.",
+    "evolution": "L'attaque en bouche est douce et onctueuse, laissant rapidement place à des saveurs plus intenses et persistantes. La finale est légèrement acidulée, avec une belle longueur en bouche.",
+    "temperature_service": "Il est idéal de servir le Chevrerousse Argental à température ambiante (environ 18-20°C) pour qu'il exprime pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez le Chevrerousse Argental au réfrigérateur, entre 4 et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ 30 minutes avant de le déguster, afin qu'il retrouve sa texture optimale et libère ses arômes.",
+    "coupe": "Coupez le Chevrerousse Argental en parts triangulaires, en partant du centre vers l'extérieur, pour une répartition équilibrée de la croûte et de la pâte.",
+    "presentation": "Présentez le Chevrerousse Argental sur un plateau de fromages accompagné de fruits secs, de noix et d'une baguette de pain frais.",
+    "duree": "Le Chevrerousse Argental se conserve environ 5 à 7 jours après ouverture, à condition d'être bien emballé."
+  },
+  "degustation": "Ce fromage offre une texture fondante et des arômes délicats de chèvre frais, d'une intensité subtile et agréable. Il se savoure aussi bien seul qu'accompagné.",
+  "accords": "Le Chevrerousse Argental s'accorde merveilleusement avec un Sancerre blanc, dont la vivacité et les arômes d'agrumes viennent équilibrer la douceur du fromage. Un Chablis Premier Cru, avec ses notes minérales et sa fraîcheur, constitue également un excellent choix.",
+  "histoire": "Le Chevrerousse Argental incarne le savoir-faire fromager de la région Rhône-Alpes, perpétué depuis des générations. Sa fabrication artisanale, à partir de lait de chèvre pasteurisé, garantit une qualité constante et une saveur authentique."
+}

@@ -1,0 +1,41 @@
+{
+  "id": 92,
+  "slug": "coulommiers-225-gr",
+  "nom": "COULOMMIERS 225 GR",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 7.75,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Coulommiers AOP, un fromage au lait cru de vache, évoque la richesse du terroir du Grand Est. Sa pâte onctueuse révèle des saveurs douces et délicates, parfois rehaussées de notes subtiles de noisette.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Grand Est, berceau du Coulommiers, est une région de plateaux et de vallées verdoyantes, où l'altitude modérée favorise un climat propice à l'élevage. Les sols, riches en argile et en calcaire, contribuent à la qualité du lait.",
+    "climat": "Le climat du Grand Est, de type continental, se caractérise par des étés chauds et des hivers froids, avec des précipitations régulières. Cette alternance de saisons favorise la pousse d'une herbe riche et variée, essentielle à l'alimentation des vaches.",
+    "elevage": "Les vaches, principalement de race Prim'Holstein et Montbéliarde, paissent librement dans les prairies du Grand Est dès que le climat le permet. Elles bénéficient d'une alimentation naturelle, à base d'herbe fraîche et de foin, qui confère au lait ses arômes uniques.",
+    "savoir_faire": "La fabrication du Coulommiers AOP est un art ancestral, transmis de génération en génération. Les fromagers perpétuent des méthodes traditionnelles, notamment l'utilisation de ferments lactiques naturels et un affinage lent en cave humide, pour garantir la qualité et l'authenticité du fromage."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Coulommiers présente une pâte de couleur ivoire à jaune pâle, recouverte d'une fine croûte fleurie blanche à crème. Sa texture est souple et légèrement humide.",
+    "texture": "En bouche, sa texture est onctueuse et fondante, avec une légère élasticité. Un Coulommiers affiné peut révéler une texture plus crémeuse sous la croûte.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait frais, de la crème et du beurre doux. Une subtile note de champignon frais peut également se dégager.",
+    "aromes_secondaires": "Des arômes secondaires de noisette fraîche et de foin coupé se révèlent avec l'affinage. Les fromages plus affinés peuvent développer des notes plus animales.",
+    "evolution": "L'attaque est douce et lactique, suivie d'un milieu de bouche plus complexe, où les arômes de noisette se développent. La finale est longue et persistante, avec une légère acidité rafraîchissante. Sa longueur en bouche est moyenne à longue.",
+    "temperature_service": "Il est recommandé de le servir à température ambiante (environ 18-20°C) afin de libérer pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur, dans son emballage d'origine, à une température entre 4°C et 8°C.",
+    "avant_service": "Sortir le Coulommiers du réfrigérateur environ une heure avant la dégustation. Cela permet à la pâte de s'assouplir et de révéler tous ses arômes.",
+    "coupe": "Pour une dégustation optimale, couper le Coulommiers en parts triangulaires, de la croûte vers le centre, afin de profiter de toutes les nuances de saveurs.",
+    "presentation": "Présenter le Coulommiers sur un plateau de fromages avec des fruits frais de saison (raisins, figues), des noix et du pain de campagne.",
+    "duree": "Il est préférable de consommer le Coulommiers dans les 3 à 5 jours après son ouverture, pour profiter pleinement de sa fraîcheur."
+  },
+  "degustation": "Ce Coulommiers offre une texture fondante et des arômes délicats de lait et de noisette, avec une intensité douce à moyenne.",
+  "accords": "Un Coulommiers s'accorde à merveille avec un cidre fermier brut de Normandie ou un vin blanc sec et fruité, tel qu'un Bourgogne Aligoté. L'effervescence du cidre ou la vivacité du vin équilibrent le gras du fromage et mettent en valeur ses arômes.",
+  "histoire": "Le Coulommiers, cousin du Brie, est un fromage originaire de la région de Coulommiers, en Brie. Sa fabrication artisanale, basée sur des méthodes ancestrales, en fait un fleuron du patrimoine gastronomique français."
+}

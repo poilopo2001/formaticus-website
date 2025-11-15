@@ -1,0 +1,41 @@
+{
+  "id": 48,
+  "slug": "rutland-red",
+  "nom": "RUTLAND RED",
+  "image": "/images/rutland-red.jpg",
+  "prixKg": 49.85,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Rutland Red, un joyau fromager britannique, offre une saveur fruitée complexe et une texture rappelant le Cheddar, tout en se distinguant par son onctuosité. Sa pâte, riche et généreuse, révèle un caractère unique, sublimé par une robe orangée distinctive.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Rutland Red est originaire du comté de Rutland, le plus petit comté d'Angleterre, caractérisé par ses douces collines et ses vallées verdoyantes. Ce paysage pastoral, sculpté par le temps et l'activité agricole, offre un cadre idéal pour l'élevage bovin. La richesse des sols, combinée à une altitude modérée, contribue à la qualité des pâturages.",
+    "climat": "Le climat tempéré de Rutland, avec des étés doux et des hivers frais, favorise une herbe abondante et de qualité. L'humidité ambiante, bien que présente, reste modérée, contribuant à l'affinage optimal du fromage.",
+    "elevage": "Les vaches laitières, principalement de race locale, paissent librement dans les prairies luxuriantes de Rutland. Leur alimentation naturelle, riche en herbes sauvages et en fleurs des champs, confère au lait des arômes subtils et une complexité gustative incomparable. Le bien-être animal est une priorité, garantissant un lait de qualité supérieure.",
+    "savoir_faire": "Le Rutland Red est fabriqué selon des méthodes traditionnelles transmises de génération en génération. Le lait pasteurisé est travaillé avec soin, puis le fromage est affiné pendant plusieurs mois, développant ainsi sa texture unique et ses saveurs fruitées. L'utilisation de rocou, un colorant naturel, lui confère sa teinte orangée caractéristique."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Rutland Red arbore une croûte orangée vive, résultat de l'ajout de rocou. Sa pâte, d'une couleur jaune pâle à orange clair, présente une texture lisse et légèrement brillante, témoignant de sa richesse en matière grasse.",
+    "texture": "En bouche, la texture du Rutland Red est ferme mais fondante, avec une légère onctuosité qui enrobe le palais. Moins friable qu'un Cheddar classique, il offre une sensation de douceur et de confort.",
+    "aromes_primaires": "Les arômes primaires dominants sont fruités, évoquant la pomme, la poire et les agrumes. On perçoit également des notes lactiques douces et une subtile touche beurrée.",
+    "aromes_secondaires": "Des arômes secondaires de noisette grillée et de foin coupé viennent compléter le profil aromatique. Une légère pointe d'acidité apporte de la fraîcheur et de la complexité.",
+    "evolution": "L'attaque est douce et fruitée, évoluant vers un milieu de bouche plus complexe avec des notes de noisette et de beurre. La finale est longue et persistante, laissant une agréable sensation d'onctuosité et de saveurs fruitées. Sa longueur en bouche est remarquable.",
+    "temperature_service": "Il est préférable de le servir à température ambiante (environ 18-20°C) pour permettre aux arômes de s'exprimer pleinement."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4°C et 8°C dans son emballage d'origine ou dans un papier fromager.",
+    "avant_service": "Sortir le Rutland Red du réfrigérateur au moins une heure avant de le déguster afin qu'il puisse développer pleinement ses arômes et sa texture.",
+    "coupe": "Pour apprécier pleinement sa texture, couper le Rutland Red en tranches fines ou en dés, selon la forme du morceau.",
+    "presentation": "Présenter le Rutland Red sur un plateau de fromages avec d'autres variétés, des fruits frais (pommes, poires), des noix et des craquelins.",
+    "duree": "Une fois entamé, le Rutland Red se conserve environ une semaine au réfrigérateur, à condition d'être bien emballé."
+  },
+  "degustation": "Sa texture onctueuse et ses arômes fruités, alliés à une subtile acidité, font du Rutland Red un fromage équilibré et savoureux. Son intensité modérée le rend accessible à tous les palais.",
+  "accords": "Le Rutland Red s'accorde parfaitement avec une bière brune anglaise, dont les notes maltées et caramélisées soulignent ses saveurs fruitées. Un vin blanc sec et minéral, tel qu'un Viré-Clessé, apportera également un bel équilibre et une fraîcheur agréable. Les notes beurrées du vin répondent à l'onctuosité du fromage.",
+  "histoire": "Le Rutland Red est un fromage relativement récent, créé dans les années 1980 pour revitaliser l'agriculture locale. Il incarne le savoir-faire fromager britannique et la richesse du terroir de Rutland."
+}

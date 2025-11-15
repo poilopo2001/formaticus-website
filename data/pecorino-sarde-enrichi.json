@@ -1,0 +1,41 @@
+{
+  "id": 49,
+  "slug": "pecorino-sarde",
+  "nom": "PECORINO SARDE",
+  "image": "/images/pecorino-sarde.jpg",
+  "prixKg": 49.5,
+  "type": "pate-pressee-cuite",
+  "lait": "brebis",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Pecorino Sarde, trésor de la Sardaigne, est un fromage de brebis au lait cru, affiné avec patience pour révéler un caractère puissant et des saveurs authentiques. Sa pâte ferme et sa croûte rustique promettent une expérience gustative intense, empreinte du terroir insulaire.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "La Sardaigne, île aux reliefs contrastés, offre un paysage de montagnes escarpées et de vallées verdoyantes. Les brebis paissent librement sur ces terres sauvages, où l'altitude et la diversité de la flore contribuent à la richesse du lait. Cette topographie unique façonne le caractère distinctif du Pecorino Sarde.",
+    "climat": "Le climat méditerranéen de la Sardaigne, avec ses étés chauds et secs et ses hivers doux et humides, influence la qualité des pâturages et, par conséquent, le profil aromatique du lait. L'ensoleillement généreux favorise une flore diversifiée, tandis que les vents marins apportent une salinité subtile.",
+    "elevage": "Les brebis sardes, rustiques et adaptées aux conditions locales, sont élevées selon des méthodes traditionnelles. Elles bénéficient d'un parcours libre dans les pâturages naturels, se nourrissant d'une végétation riche en herbes aromatiques et fleurs sauvages. Cette alimentation variée confère au lait des arômes complexes et subtils.",
+    "savoir_faire": "Le savoir-faire fromager sarde se transmet de génération en génération, perpétuant des gestes ancestraux et un profond respect du terroir. Les producteurs locaux maîtrisent l'art de la transformation du lait cru, en utilisant des techniques traditionnelles pour préserver l'authenticité et la typicité du Pecorino Sarde."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Pecorino Sarde présente une pâte de couleur ivoire à jaune paille, selon son degré d'affinage. Sa texture peut être légèrement granuleuse, et sa croûte, naturelle et rustique, arbore parfois des marques de moulage.",
+    "texture": "En bouche, la texture est ferme et fondante à la fois, offrant une légère sensation granuleuse qui témoigne de son affinage prolongé. Il procure une agréable sensation de richesse et de complexité.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait de brebis frais, avec des notes animales subtiles et une pointe de beurre fondu.",
+    "aromes_secondaires": "Des arômes secondaires complexes se révèlent, tels que des notes herbacées, d'épices douces et de fruits secs, témoignant de la richesse de son terroir.",
+    "evolution": "L'attaque est franche et légèrement piquante, suivie d'un milieu de bouche ample et riche en saveurs. La finale est longue et persistante, avec une agréable sensation épicée. Sa longueur en bouche est remarquable.",
+    "temperature_service": "Il est préférable de servir le Pecorino Sarde à température ambiante (environ 18-20°C) pour permettre aux arômes de s'exprimer pleinement."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Pecorino Sarde se conserve idéalement au réfrigérateur, dans un endroit frais et sec, à une température comprise entre 4 et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur au moins une heure avant la dégustation afin qu'il puisse développer pleinement ses arômes et sa texture.",
+    "coupe": "Pour une dégustation optimale, coupez le Pecorino Sarde en copeaux ou en petits triangles, en partant du centre vers l'extérieur.",
+    "presentation": "Présentez le Pecorino Sarde sur un plateau de fromages accompagné de fruits secs, de noix et de pain de campagne.",
+    "duree": "Après ouverture, le Pecorino Sarde se conserve environ une semaine au réfrigérateur, enveloppé dans du papier sulfurisé."
+  },
+  "degustation": "Ce fromage offre une texture ferme et une palette aromatique intense, dominée par des notes de brebis et d'épices. Sa puissance et sa complexité en font un fromage d'exception.",
+  "accords": "Le Pecorino Sarde affiné se marie à merveille avec les vins rouges corsés de Sardaigne, tels que le Cannonau di Sardegna DOC. Il s'accorde également avec un vin rouge italien de caractère comme un Nero d'Avola. La puissance du vin équilibrera les saveurs intenses du fromage.",
+  "histoire": "Le Pecorino Sarde, fromage emblématique de la Sardaigne, est le fruit d'un savoir-faire ancestral transmis de génération en génération. Fabriqué à partir de lait cru de brebis, il incarne l'authenticité et la richesse du terroir insulaire."
+}

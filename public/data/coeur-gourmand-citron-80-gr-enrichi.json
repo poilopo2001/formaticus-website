@@ -1,0 +1,41 @@
+{
+  "id": 329,
+  "slug": "coeur-gourmand-citron-80-gr",
+  "nom": "COEUR GOURMAND CITRON 80 GR",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 6.25,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Un cœur de chèvre frais, enrobé de la vivacité ensoleillée des citrons de Sicile. La douceur crémeuse du fromage s'entrelace avec l'acidulé confit des agrumes pour une expérience gustative pétillante et délicate.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Périgord, terre de collines douces et de vallées verdoyantes, offre un écrin idéal à l'élevage caprin. Les paysages vallonnés, traversés de rivières sinueuses, contribuent à la richesse de la flore et à la typicité du terroir.",
+    "climat": "Bénéficiant d'un climat tempéré océanique, le Périgord connaît des étés chauds et des hivers doux, favorisant une herbe abondante et de qualité. L'influence océanique apporte une humidité bénéfique qui nourrit les pâturages.",
+    "elevage": "Nos chèvres, de race alpine, évoluent en plein air sur des prairies naturelles et des parcours arborés. Leur alimentation diversifiée, composée d'herbes fraîches, de fleurs sauvages et de céréales sélectionnées, confère au lait sa richesse aromatique.",
+    "savoir_faire": "Le savoir-faire fromager se transmet ici de génération en génération, respectant des méthodes artisanales ancestrales. Le caillage doux et lent, le moulage à la main et l'affinage soigné sont autant de gestes qui garantissent la qualité et l'authenticité de nos fromages."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Cœur Gourmand Citron se présente sous une forme élégante et généreuse. Sa pâte est d'un blanc ivoire, parsemée de petits morceaux de confiture de citron, créant un contraste visuel appétissant.",
+    "texture": "Sa texture est à la fois fondante et légèrement friable, offrant une sensation crémeuse en bouche. La confiture de citron apporte une touche de moelleux et de gourmandise.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait de chèvre frais, avec des notes lactiques douces et une légère pointe acidulée.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes d'agrumes confits, de zeste de citron, et une subtile touche florale.",
+    "evolution": "L'attaque est douce et crémeuse, évoluant vers une fraîcheur acidulée et une finale persistante sur des notes citronnées. La longueur en bouche est agréable et équilibrée.",
+    "temperature_service": "Servir idéalement entre 14 et 16°C pour apprécier pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4 et 8°C, dans son emballage d'origine.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation pour permettre aux arômes de se développer.",
+    "coupe": "Pour une présentation élégante, couper le Cœur Gourmand en quartiers.",
+    "presentation": "Présenter sur un plateau avec quelques fruits frais, des noix et du pain de campagne.",
+    "duree": "À consommer de préférence dans les 5 jours après ouverture pour profiter de sa fraîcheur optimale."
+  },
+  "degustation": "Sa texture fondante et crémeuse, alliée à la fraîcheur acidulée du citron, en font un fromage particulièrement gourmand. Son intensité aromatique est délicate et équilibrée.",
+  "accords": "Accompagner d'un Sancerre blanc frais et minéral, dont les notes d'agrumes et de fleurs blanches sublimeront la fraîcheur du fromage. Un Gewürztraminer Vendanges Tardives, avec ses arômes de fruits exotiques et de miel, offrira un contraste savoureux.",
+  "histoire": "Ce fromage est le fruit d'une rencontre entre le savoir-faire fromager périgourdin et la richesse des agrumes siciliens. Une création originale, alliant tradition et innovation, pour une expérience gustative unique."
+}

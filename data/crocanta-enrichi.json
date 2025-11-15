@@ -1,0 +1,41 @@
+{
+  "id": 335,
+  "slug": "crocanta",
+  "nom": "CROCANTA",
+  "image": "/images/crocanta.jpg",
+  "prixKg": 63.35,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Crocanta, fromage au lait cru de vache, révèle une texture à la fois ferme et fondante, promesse d'une expérience gustative authentique. Ses saveurs lactiques et légèrement acidulées évoquent la richesse des pâturages suisses dont il est issu.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Né au cœur des alpages suisses, le Crocanta puise sa singularité dans un environnement montagnard préservé. Les vallées verdoyantes, sculptées par les glaciers, offrent un paysage d'une beauté exceptionnelle, propice à l'épanouissement d'une flore diversifiée. L'altitude, variant entre 800 et 1500 mètres, contribue à la qualité exceptionnelle du lait.",
+    "climat": "Le climat alpin, caractérisé par des étés frais et des hivers rigoureux, influence directement la composition du lait. Les variations de température favorisent une flore riche et variée, conférant au lait des arômes subtils et complexes.",
+    "elevage": "Les vaches, de race suisse, paissent librement dans les alpages durant la période estivale, se nourrissant d'herbes fraîches et de fleurs sauvages. Cette alimentation naturelle et diversifiée est la clé de la qualité exceptionnelle du lait cru utilisé pour la fabrication du Crocanta. Le respect du bien-être animal est une priorité pour les producteurs.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des méthodes artisanales ancestrales. Chaque étape de la fabrication, du moulage à l'affinage, est réalisée avec soin et passion, garantissant l'authenticité et la qualité du Crocanta."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Crocanta présente une pâte ivoire à jaune pâle, parsemée de quelques ouvertures irrégulières. Sa croûte naturelle, de couleur beige à orangée, peut être légèrement fleurie, témoignant de son affinage en cave.",
+    "texture": "Sa texture est à la fois ferme et souple, offrant une agréable sensation en bouche. Au fil de la dégustation, la pâte devient plus fondante, libérant des saveurs subtiles et persistantes.",
+    "aromes_primaires": "Les arômes primaires dominants sont lactiques, évoquant le beurre frais et la crème. Une légère note acidulée apporte une fraîcheur agréable.",
+    "aromes_secondaires": "Des arômes secondaires de noisette et de foin coupé se révèlent progressivement, témoignant de la richesse du terroir. Une subtile note florale peut également être perçue.",
+    "evolution": "L'attaque est douce et crémeuse, évoluant vers un milieu de bouche plus affirmé, où les arômes de noisette se développent pleinement. La finale est longue et persistante, laissant une agréable sensation de fraîcheur et de gourmandise. Sa longueur en bouche est notable.",
+    "temperature_service": "Il est idéal de servir le Crocanta à température ambiante (environ 18°C) afin de révéler pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver le Crocanta au réfrigérateur, dans son emballage d'origine ou dans une boîte à fromage, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortir le Crocanta du réfrigérateur environ 30 minutes avant la dégustation afin qu'il puisse développer pleinement ses arômes et sa texture.",
+    "coupe": "Pour une dégustation optimale, couper le Crocanta en tranches fines ou en dés, selon sa forme. Privilégier une coupe radiale pour apprécier toutes les nuances de sa pâte.",
+    "presentation": "Présenter le Crocanta sur un plateau de fromages accompagné de fruits frais, de noix et de pain de campagne. Une touche de miel ou de confiture de figues peut également sublimer sa saveur.",
+    "duree": "Le Crocanta se conserve idéalement 5 à 7 jours après ouverture, en veillant à bien le protéger de l'air."
+  },
+  "degustation": "Sa pâte offre une texture soyeuse et fondante, libérant des arômes de lait frais et de noisette. Son intensité est modérée, ce qui en fait un fromage agréable à déguster à tout moment de la journée.",
+  "accords": "Le Crocanta s'accorde à merveille avec un vin blanc sec et fruité, tel qu'un Riesling allemand ou un Chasselas suisse. Pour les amateurs de vin rouge, un Pinot Noir léger et élégant, de Bourgogne par exemple, saura également le sublimer. Un Gewürztraminer d'Alsace peut aussi magnifier ce fromage.",
+  "histoire": "Le Crocanta est un fromage suisse au lait cru de vache, fabriqué selon des méthodes traditionnelles dans le respect du terroir. Son nom évoque sa texture légèrement croquante, caractéristique d'un affinage soigné et méticuleux."
+}

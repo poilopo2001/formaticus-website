@@ -1,0 +1,41 @@
+{
+  "id": 67,
+  "slug": "persille-de-chevre",
+  "nom": "PERSILLE DE CHEVRE",
+  "image": "/Séance Photo Nicolas 20220423/persille-de-chevre-composite.jpg",
+  "prixKg": 56.35,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Persillé de Chèvre, une rencontre audacieuse entre la douceur caprine et la puissance du persillé. Un fromage francilien d'exception, où les arômes subtils de la chèvre s'entrelacent avec les notes herbacées et légèrement piquantes de la moisissure bleue, offrant une expérience gustative complexe et raffinée.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "L'Île-de-France, terre d'histoire et de traditions agricoles, offre un paysage vallonné et fertile, propice à l'élevage caprin. Les prairies verdoyantes, parsemées de forêts et de champs cultivés, fournissent un environnement idéal pour le bien-être animal et la production d'un lait de qualité supérieure. L'altitude modérée et la proximité de la Seine contribuent à un microclimat unique.",
+    "climat": "Le climat francilien, de type océanique dégradé, se caractérise par des hivers doux et des étés tempérés. Les précipitations régulières favorisent la pousse d'une herbe abondante et nutritive, essentielle à la production d'un lait riche et aromatique.",
+    "elevage": "Les chèvres, de race alpine ou saanen, sont élevées avec soin et respect, bénéficiant d'un accès régulier aux pâturages. Leur alimentation, composée d'herbe fraîche, de foin de qualité et de compléments alimentaires naturels, contribue à la typicité du lait et à la complexité aromatique du fromage. Le bien-être animal est au cœur des préoccupations de l'éleveur.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des techniques ancestrales et un amour du travail bien fait. Chaque étape de la fabrication, du moulage à l'affinage, est réalisée avec minutie et passion, garantissant un fromage d'exception, reflet d'un terroir unique."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte ivoire, marbrée de veines bleutées irrégulières, offre un contraste visuel saisissant. La croûte, fine et légèrement plissée, peut présenter des nuances allant du blanc crème au gris clair, témoignant de l'affinage en cave. L'aspect général est appétissant et invite à la dégustation.",
+    "texture": "La texture est à la fois fondante et légèrement friable, offrant une sensation agréable en bouche. Le gras du lait de chèvre apporte une onctuosité délicate, tandis que le persillage contribue à une légère granulosité. L'ensemble est harmonieux et équilibré.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait de chèvre frais, avec des notes lactiques et légèrement acidulées. On perçoit également des nuances de crème fraîche et de beurre doux, caractéristiques du lait de qualité.",
+    "aromes_secondaires": "Les arômes secondaires dévoilent des notes herbacées, rappelant le foin coupé et les herbes sauvages. Des nuances plus subtiles de champignon et de cave se développent au fil de l'affinage, témoignant de la complexité aromatique du fromage.",
+    "evolution": "L'attaque en bouche est douce et crémeuse, laissant rapidement place à une légère acidité et à des notes herbacées. Le persillage apporte une pointe de piquant qui persiste agréablement en finale. La longueur en bouche est remarquable, laissant un souvenir gustatif intense et durable.",
+    "temperature_service": "Il est conseillé de servir le Persillé de Chèvre à une température de 16-18°C afin de libérer pleinement ses arômes et sa texture."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Persillé de Chèvre se conserve idéalement au réfrigérateur, dans son emballage d'origine ou dans une boîte hermétique, à une température de 4 à 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ 30 minutes avant de le déguster, afin qu'il puisse développer pleinement ses arômes et sa texture.",
+    "coupe": "Pour apprécier pleinement sa beauté, coupez le Persillé de Chèvre en portions triangulaires, en veillant à ce que chaque part contienne une portion de croûte et de pâte persillée.",
+    "presentation": "Présentez-le sur un plateau de fromages avec des fruits secs, des noix et des pains de campagne, pour un accord parfait des saveurs et des textures.",
+    "duree": "Après ouverture, le Persillé de Chèvre se conserve environ 5 à 7 jours au réfrigérateur."
+  },
+  "degustation": "Ce fromage offre une texture onctueuse et fondante, mariant les saveurs caprines délicates aux notes puissantes et herbacées du persillage. Son intensité aromatique en fait un fromage de caractère, parfait pour les amateurs de sensations gustatives complexes.",
+  "accords": "Accompagnez ce fromage d'un vin blanc sec et fruité, tel qu'un Sancerre ou un Pouilly-Fumé, dont la vivacité et les arômes d'agrumes équilibreront parfaitement la richesse du Persillé de Chèvre. Pour une expérience plus audacieuse, osez un vin de liqueur comme un Sauternes, dont les notes de miel et de fruits confits sublimeront les saveurs du fromage.",
+  "histoire": "Le Persillé de Chèvre, né en Île-de-France, est le fruit d'une rencontre originale entre le savoir-faire fromager traditionnel et l'audace de l'innovation. Sa fabrication artisanale, respectueuse des méthodes ancestrales, en fait un fromage d'exception, témoin d'un terroir riche et authentique."
+}

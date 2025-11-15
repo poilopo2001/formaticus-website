@@ -1,0 +1,41 @@
+{
+  "id": 487,
+  "slug": "affinois-courge",
+  "nom": "AFFINOIS COURGE",
+  "image": "/images/affinois-courge.jpg",
+  "prixKg": 36.15,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "L'Affinois Courge, une variation automnale d'un classique, offre une pâte onctueuse enrichie de la douceur subtile et parfumée de la courge. Son profil gustatif unique évoque les saveurs réconfortantes des récoltes d'arrière-saison, parfait pour accompagner les soirées fraîches.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Bien que l'Affinois soit originaire de la région Rhône-Alpes, l'ajout de la courge évoque les terroirs fertiles où ce légume prospère. Les vallées verdoyantes, bercées par des rivières sinueuses, offrent des sols riches et profonds, essentiels à la culture des courges de qualité. Les collines douces, ensoleillées et abritées des vents forts, complètent ce paysage idéal.",
+    "climat": "Le climat tempéré, avec des étés chauds et des automnes doux, favorise la maturation lente et complète des courges. L'amplitude thermique entre le jour et la nuit contribue à concentrer les sucres et les arômes, conférant à l'Affinois Courge sa saveur distinctive. Les précipitations régulières assurent une hydratation optimale des sols.",
+    "elevage": "L'Affinois est élaboré à partir de lait de vache, issu de troupeaux sélectionnés pour la qualité de leur production. Les vaches pâturent dans des prairies verdoyantes, profitant d'une alimentation riche et variée, composée d'herbes fraîches et de fleurs sauvages. Ce régime alimentaire naturel influence positivement la richesse aromatique du lait.",
+    "savoir_faire": "Le savoir-faire fromager ancestral se conjugue ici avec une touche de créativité moderne. La technique d'ultrafiltration du lait, propre à l'Affinois, confère à sa pâte une texture particulièrement fondante. L'ajout de purée de courge, préparée selon une recette traditionnelle, apporte une dimension gustative unique et authentique."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "L'Affinois Courge présente une pâte d'un jaune crème délicat, parfois parsemée de fines particules orangées provenant de la courge. Sa croûte, fine et duveteuse, arbore une couleur ivoire uniforme. L'ensemble évoque la douceur et la gourmandise.",
+    "texture": "Sa texture est d'un fondant exceptionnel, presque liquoreux en bouche. La pâte, incroyablement crémeuse, se répand délicatement sur le palais, offrant une sensation de confort et de plénitude. L'absence de croûte dure facilite la dégustation.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux de la crème fraîche, du beurre doux et du lait chaud. On perçoit également une subtile note végétale, évoquant la courge cuite et ses nuances sucrées.",
+    "aromes_secondaires": "Des arômes secondaires de noisette fraîche, de châtaigne et de potimarron viennent compléter le profil aromatique. Une légère pointe épicée, rappelant la cannelle ou la muscade, apporte une touche de complexité et de chaleur.",
+    "evolution": "L'attaque en bouche est douce et crémeuse, évoluant vers un milieu de bouche plus riche et aromatique. La finale, persistante et délicatement sucrée, laisse une agréable sensation de réconfort. Sa longueur en bouche est moyenne.",
+    "temperature_service": "Idéalement, servez l'Affinois Courge à température ambiante (environ 20°C) afin de révéler pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez l'Affinois Courge au réfrigérateur, dans sa boîte d'origine ou enveloppé de papier sulfurisé, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortez-le du réfrigérateur environ 30 minutes avant de le déguster pour qu'il retrouve sa texture optimale et libère tous ses arômes.",
+    "coupe": "Coupez l'Affinois Courge en parts égales, de la croûte vers le centre, afin de répartir harmonieusement la matière grasse et les saveurs.",
+    "presentation": "Présentez-le sur un plateau de fromages accompagné de fruits secs (noix, amandes, figues), de pain de campagne et de confitures artisanales. Quelques brins de romarin frais apporteront une touche décorative et parfumée.",
+    "duree": "Consommez l'Affinois Courge dans les 5 à 7 jours après ouverture, afin de profiter pleinement de sa fraîcheur et de sa texture."
+  },
+  "degustation": "Sa texture fondante et ses arômes délicats de courge et de crème fraîche en font un fromage particulièrement gourmand et réconfortant. L'intensité de ses saveurs est subtile et équilibrée.",
+  "accords": "Un vin blanc moelleux, tel qu'un Gewürztraminer d'Alsace, accompagnera parfaitement l'Affinois Courge, soulignant ses notes sucrées et épicées. Pour les amateurs de vin rouge, un Pinot Noir de Bourgogne, aux arômes de fruits rouges et de sous-bois, offrira un contraste intéressant. Une bière ambrée aux notes de caramel et de noisette peut aussi être un excellent choix.",
+  "histoire": "L'Affinois Courge est une variation saisonnière de l'Affinois, un fromage français à pâte molle et à croûte fleurie. Il incarne l'alliance réussie entre le savoir-faire fromager traditionnel et la richesse des produits du terroir automnal."
+}

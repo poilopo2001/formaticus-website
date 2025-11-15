@@ -1,0 +1,41 @@
+{
+  "id": 142,
+  "slug": "sein-de-nounou-250g",
+  "nom": "SEIN DE NOUNOU 250G",
+  "image": "/images/sein-de-nounou-250g.jpg",
+  "prixKg": 12.7,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Sein de Nounou, un trésor lactique du Centre-Val de Loire, offre une pâte d'une douceur caressante et une expérience gustative caprine affirmée. Son authenticité se révèle dans chaque bouchée, un hommage au terroir et au savoir-faire fromager traditionnel.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Niché au cœur du Centre-Val de Loire, ce fromage est l'expression d'un paysage façonné par la douceur des vallées de la Loire et du Cher. Les sols calcaires, parsemés de silex, confèrent une minéralité unique aux pâturages. L'altitude modérée favorise une biodiversité riche, essentielle à l'alimentation des chèvres.",
+    "climat": "Le climat tempéré de la région, avec ses étés chauds et ses hivers doux, crée des conditions idéales pour la croissance d'une flore variée. L'alternance des saisons influence la qualité du lait, apportant des nuances subtiles au fromage tout au long de l'année.",
+    "elevage": "Les chèvres, de race alpine ou saanen, pâturent librement sur des prairies verdoyantes, se nourrissant d'une herbe riche et parfumée. Complétée par des fourrages secs locaux durant l'hiver, leur alimentation naturelle contribue à la typicité et à la complexité aromatique du lait.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des gestes ancestraux. L'affinage, réalisé avec patience et rigueur, est une étape cruciale qui permet au fromage de développer pleinement ses arômes et sa texture singulière."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Sein de Nounou se présente avec une pâte d'un blanc ivoire, parfois légèrement crémeuse. Sa surface, lisse et brillante, témoigne d'un affinage soigné. On peut parfois observer un léger plissé naturel dû au moulage.",
+    "texture": "La texture est d'abord souple et fondante en bouche, évoluant vers une onctuosité délicate. La pâte lactique procure une sensation de fraîcheur et de légèreté, sans aucune astringence.",
+    "aromes_primaires": "Les arômes primaires sont dominés par des notes caprines franches, accompagnées de nuances lactiques évoquant le lait frais et la crème.",
+    "aromes_secondaires": "Des notes plus subtiles de foin coupé, de noisette fraîche et une pointe de fleurs sauvages viennent complexifier le profil aromatique.",
+    "evolution": "L'attaque est douce et onctueuse, laissant rapidement place à un cœur de saveurs caprines intenses. La finale est longue et persistante, avec une légère acidité rafraîchissante. La longueur en bouche est notable.",
+    "temperature_service": "Il est conseillé de le servir à température ambiante (environ 18°C) afin de libérer pleinement ses arômes et d'apprécier sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4°C et 8°C dans son emballage d'origine ou dans une boîte à fromage.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation pour qu'il retrouve sa texture optimale et que ses arômes se développent.",
+    "coupe": "Pour une présentation élégante, couper le fromage en quartiers ou en tranches, en respectant sa forme originelle.",
+    "presentation": "Présenter le Sein de Nounou sur un plateau de fromages accompagné de fruits frais (raisins, figues), de pain de campagne et de quelques noix.",
+    "duree": "Il est préférable de consommer le fromage dans les 3 à 5 jours après l'ouverture pour profiter de toute sa fraîcheur."
+  },
+  "degustation": "La texture est remarquablement onctueuse et fondante, les arômes caprins sont présents et équilibrés, d'une intensité juste et plaisante. Un fromage de chèvre authentique et savoureux.",
+  "accords": "Ce fromage s'accorde à merveille avec un Sancerre blanc, dont la vivacité et les arômes d'agrumes soulignent la fraîcheur du chèvre. Un Pouilly-Fumé, avec ses notes minérales et fumées, crée également un mariage harmonieux. Pour une expérience plus audacieuse, osez un Coteaux du Giennois.",
+  "histoire": "Le Sein de Nounou tire son nom de sa forme singulière, évoquant une générosité maternelle. Fabriqué artisanalement depuis des générations, il témoigne du riche patrimoine fromager du Centre-Val de Loire."
+}

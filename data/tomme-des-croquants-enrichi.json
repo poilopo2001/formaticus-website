@@ -1,0 +1,41 @@
+{
+  "id": 47,
+  "slug": "tomme-des-croquants",
+  "nom": "TOMME DES CROQUANTS",
+  "image": "/images/tomme-des-croquants.jpg",
+  "prixKg": 50.0,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Tomme des Croquants à la liqueur de noix est une alliance exquise où la douceur lactique de la tomme rencontre les notes boisées et légèrement amères de la noix. Un fromage subtil, à la texture fondante, qui invite à la dégustation contemplative.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Née au cœur de la Nouvelle-Aquitaine, cette tomme bénéficie d'un terroir généreux, parsemé de douces collines et de vallées verdoyantes. L'altitude modérée et la richesse des sols contribuent à la qualité du lait utilisé pour sa fabrication. Les vastes prairies, où paissent les vaches, offrent un paysage apaisant et une source d'alimentation naturelle pour le bétail.",
+    "climat": "Le climat océanique tempéré de la région, avec des étés chauds et des hivers doux, favorise une herbe riche et abondante. Cette alimentation de qualité confère au lait des arômes subtils et une richesse en matières grasses qui se retrouvent dans le fromage.",
+    "elevage": "Les vaches, principalement de races locales adaptées au terroir, sont élevées avec soin et dans le respect du bien-être animal. Elles profitent d'un pâturage quotidien dès que le temps le permet, se nourrissant d'herbes fraîches et de fleurs sauvages qui enrichissent leur lait. Un complément de foin de qualité est apporté en hiver pour garantir une alimentation équilibrée.",
+    "savoir_faire": "La fabrication de la Tomme des Croquants repose sur un savoir-faire ancestral transmis de génération en génération. Les fromagers locaux perpétuent des méthodes traditionnelles, privilégiant le travail manuel et le respect des cycles naturels. L'affinage, étape cruciale, est réalisé avec patience et expertise pour développer pleinement les arômes du fromage."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La Tomme des Croquants à la liqueur de noix présente une pâte ivoire à jaune pâle, parsemée de quelques ouvertures irrégulières. Sa croûte, fine et souple, est de couleur beige clair à brun clair, parfois légèrement collante en raison de la liqueur de noix. On peut observer de légères marques de la toile sur sa surface.",
+    "texture": "En bouche, sa texture est fondante et onctueuse, avec une légère élasticité. Le gras du lait apporte une sensation de douceur et de richesse. Elle ne présente aucune granulosité et se révèle parfaitement homogène.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait frais, de la crème et du beurre doux. On perçoit également des notes subtiles de noisette, provenant à la fois du lait et de la liqueur de noix.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes boisées et légèrement amères, caractéristiques de la liqueur de noix. On peut également déceler des nuances de fruits secs et de sous-bois, qui complexifient le profil aromatique du fromage.",
+    "evolution": "L'attaque en bouche est douce et crémeuse, évoluant vers des saveurs plus prononcées de noix et de noisette. La finale est longue et persistante, laissant une agréable sensation de chaleur et de gourmandise. La liqueur de noix apporte une légère amertume qui équilibre la douceur du fromage.",
+    "temperature_service": "Il est recommandé de servir la Tomme des Croquants à la liqueur de noix à température ambiante (environ 20°C) pour permettre aux arômes de s'exprimer pleinement."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver la Tomme des Croquants à la liqueur de noix au réfrigérateur, dans son emballage d'origine ou dans un papier fromager, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ une heure avant la dégustation pour qu'il retrouve sa texture fondante et que ses arômes se libèrent.",
+    "coupe": "La Tomme des Croquants se coupe idéalement en parts triangulaires, de manière à offrir un équilibre entre la croûte et le cœur du fromage. Utilisez un couteau à fromage à lame fine pour une coupe nette.",
+    "presentation": "Présentez la Tomme des Croquants sur un plateau avec d'autres fromages de caractère, des fruits secs (noix, noisettes), des fruits frais (raisins, figues) et du pain de campagne.",
+    "duree": "Une fois entamée, la Tomme des Croquants à la liqueur de noix se conserve environ 5 à 7 jours au réfrigérateur, en veillant à bien la protéger de l'air."
+  },
+  "degustation": "La Tomme des Croquants à la liqueur de noix offre une texture onctueuse et des arômes délicats de lait, de noix et de noisette. Son intensité aromatique est modérée, ce qui en fait un fromage accessible et apprécié de tous.",
+  "accords": "Pour un accord mets et vins réussi, privilégiez un vin blanc doux, tel qu'un Sauternes ou un Coteaux du Layon. Leurs notes de fruits confits et de miel se marieront à merveille avec la douceur et les saveurs de noix du fromage. On peut également opter pour un vin rouge léger et fruité, comme un Beaujolais Villages, pour un contraste intéressant.",
+  "histoire": "La Tomme des Croquants est un fromage traditionnel de la Nouvelle-Aquitaine, dont l'origine remonte à plusieurs siècles. La version affinée à la liqueur de noix est une création plus récente, qui met en valeur les produits locaux et le savoir-faire des artisans fromagers."
+}

@@ -1,0 +1,41 @@
+{
+  "id": 36,
+  "slug": "gouda-truffes",
+  "nom": "GOUDA TRUFFES",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 43.4,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Un hommage luxueux à la tradition fromagère hollandaise, rehaussé par le parfum enivrant de la truffe d'été. Ce Gouda thermisé offre une pâte onctueuse, parsemée de notes terreuses et délicatement boisées, pour une expérience gustative inoubliable.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Les Pays-Bas, pays de plaines et de polders, offrent un paysage unique façonné par l'eau. Les vastes prairies verdoyantes, sillonnées de canaux, fournissent un environnement idéal pour l'élevage laitier. Cette proximité avec la mer influence également le microclimat et la composition des sols.",
+    "climat": "Le climat tempéré océanique des Pays-Bas, avec ses étés doux et ses hivers modérés, favorise la croissance d'une herbe riche et abondante. Cette herbe de qualité contribue à la richesse et à la complexité du lait utilisé pour la fabrication du Gouda.",
+    "elevage": "Les vaches laitières, principalement de race Holstein-Frisonne, paissent librement dans les prairies pendant la belle saison. Elles bénéficient d'une alimentation naturelle à base d'herbe fraîche, complétée par du foin et des céréales en hiver, ce qui influence positivement la qualité du lait.",
+    "savoir_faire": "Le savoir-faire fromager néerlandais se transmet de génération en génération, avec un souci constant de la qualité et du respect des traditions. La technique de thermisation, utilisée pour ce Gouda, permet de préserver les arômes tout en garantissant la sécurité alimentaire."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte, d'une couleur jaune pâle uniforme, est parsemée de fines inclusions de truffe noire. La texture est lisse et homogène, avec une croûte fine et naturelle de couleur ocre.",
+    "texture": "La texture est souple et fondante en bouche, offrant une agréable sensation d'onctuosité. Elle évolue au fur et à mesure de la dégustation, libérant progressivement ses arômes complexes.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait frais, le beurre doux et une légère note de noisette, caractéristiques du Gouda.",
+    "aromes_secondaires": "Les arômes secondaires révèlent des notes terreuses et boisées de truffe, avec une subtile pointe d'humus et de champignon frais.",
+    "evolution": "L'attaque est douce et crémeuse, évoluant vers un milieu de bouche plus intense avec des saveurs de truffe persistantes. La finale est longue et élégante, laissant une agréable sensation de chaleur et de gourmandise.",
+    "temperature_service": "Il est recommandé de servir ce Gouda à température ambiante (environ 18-20°C) afin de permettre aux arômes de se développer pleinement."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver ce Gouda au réfrigérateur, dans son emballage d'origine ou enveloppé dans du papier sulfurisé, à une température comprise entre 4 et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation pour qu'il retrouve toute sa souplesse et que ses arômes se libèrent.",
+    "coupe": "Pour apprécier pleinement sa texture, couper le Gouda en fines tranches ou en petits cubes.",
+    "presentation": "Présenter sur un plateau de fromages avec des fruits secs, des noix et du pain de campagne pour accompagner la dégustation.",
+    "duree": "Une fois entamé, ce Gouda se conserve environ une semaine au réfrigérateur, en veillant à bien le protéger de l'air."
+  },
+  "degustation": "Ce Gouda à la truffe offre une texture fondante et des arômes riches et complexes, parfaitement équilibrés entre la douceur du fromage et la puissance de la truffe. L'intensité est modérée, ce qui en fait un fromage accessible et apprécié de tous.",
+  "accords": "Un vin rouge fruité et léger comme un Pinot Noir d'Alsace, ou un rosé sec de Provence, accompagneront à merveille ce Gouda. Pour une expérience originale, une bière blonde de type Abbaye, aux notes fruitées et épicées, sublimera les saveurs de la truffe.",
+  "histoire": "Le Gouda, originaire de la ville du même nom en Hollande méridionale, est l'un des fromages les plus populaires au monde. L'ajout de truffe sublime ce fromage traditionnel, créant un mariage de saveurs exceptionnel et raffiné."
+}

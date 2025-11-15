@@ -1,0 +1,41 @@
+{
+  "id": 209,
+  "slug": "gingerpepe",
+  "nom": "GINGERPEPE",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 53.75,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Gingerpepe, une audace fromagère suisse, marie la douceur lactique du lait cru à l'exubérance chaleureuse du gingembre, à la vivacité du citron et au piquant délicat du poivre. Un mariage subtil qui réveille les sens et enchante le palais, offrant une expérience gustative unique.",
+  "terroir": {
+    "titre": "Le Terroir Suisse",
+    "geographie": "Le Gingerpepe puise son essence au cœur des alpages suisses, là où les montagnes sculptent des vallées verdoyantes et où l'air pur caresse les sommets. Les vaches paissent sur des prairies d'altitude, gorgées de soleil, offrant un lait riche et parfumé. Ces paysages préservés contribuent à la typicité de ce fromage d'exception.",
+    "climat": "Le climat alpin, caractérisé par des étés frais et des hivers rigoureux, façonne la flore locale et influence la qualité du lait. Les variations saisonnières accentuent les saveurs et la complexité du fromage.",
+    "elevage": "Les vaches qui produisent le lait du Gingerpepe sont élevées avec soin et respect, bénéficiant de vastes pâturages où elles peuvent s'épanouir librement. Leur alimentation, riche en herbes sauvages et en fleurs des montagnes, confère au lait des arômes subtils et une saveur incomparable.",
+    "savoir_faire": "Le savoir-faire fromager suisse, transmis de génération en génération, est un gage de qualité et d'authenticité. Les artisans fromagers maîtrisent les techniques ancestrales de fabrication, veillant à préserver les saveurs et les textures uniques du lait cru."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte ivoire du Gingerpepe est parsemée de petits éclats colorés de gingembre, de citron et de poivre, témoignant de sa composition unique. Sa texture est lisse et onctueuse, invitant à la dégustation.",
+    "texture": "En bouche, le Gingerpepe révèle une texture fondante et crémeuse, offrant une sensation de douceur enveloppante. Les épices finement intégrées apportent une légère granulosité qui éveille les papilles.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait frais, de la crème et du beurre, évoquant la richesse et la gourmandise. Une note subtile de noisette vient compléter ce bouquet olfactif.",
+    "aromes_secondaires": "Les arômes secondaires se manifestent par des notes chaleureuses de gingembre confit, une pointe acidulée de citron et un parfum poivré délicat. Des nuances herbacées subtiles évoquent le terroir alpin.",
+    "evolution": "L'attaque en bouche est douce et crémeuse, laissant rapidement place à la chaleur épicée du gingembre et du poivre. La finale est longue et persistante, avec une légère acidité qui rafraîchit le palais. La longueur en bouche est remarquable.",
+    "temperature_service": "Servez le Gingerpepe à température ambiante (18-20°C) pour exalter pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez le Gingerpepe dans la partie la moins froide de votre réfrigérateur (4-8°C).",
+    "avant_service": "Sortez le Gingerpepe du réfrigérateur au moins une heure avant de le déguster afin qu'il puisse développer pleinement ses saveurs.",
+    "coupe": "Coupez le Gingerpepe en fines tranches pour apprécier sa texture fondante et répartir harmonieusement les épices.",
+    "presentation": "Présentez le Gingerpepe sur un plateau de fromages accompagné de fruits secs, de noix et d'une baguette artisanale.",
+    "duree": "Après ouverture, consommez le Gingerpepe dans les 5 à 7 jours pour profiter de sa fraîcheur optimale."
+  },
+  "degustation": "Ce fromage offre une texture crémeuse et fondante, avec des arômes complexes de lait frais, de gingembre, de citron et de poivre. Son intensité est moyenne, avec une finale persistante et légèrement acidulée.",
+  "accords": "Le Gingerpepe s'accorde à merveille avec un vin blanc sec et fruité, tel qu'un Riesling allemand ou un Gewürztraminer d'Alsace, qui équilibreront son côté épicé. Il peut également être associé à un champagne brut, dont les bulles fines apporteront une touche de fraîcheur et d'élégance.",
+  "histoire": "Le Gingerpepe est une création fromagère originale qui revisite les traditions suisses avec une touche d'audace et de modernité. Fabriqué artisanalement à partir de lait cru de vache, il est le fruit d'un savoir-faire unique et d'une passion pour les saveurs authentiques."
+}

@@ -1,0 +1,41 @@
+{
+  "id": 137,
+  "slug": "mej-thym-90-gr",
+  "nom": "MEJ'THYM 90 GR",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 5.25,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "MEJ'THYM, un fromage de chèvre d'Occitanie, incarne l'équilibre parfait entre la douceur caprine et le parfum aromatique du thym sauvage. Sa pâte tendre et onctueuse révèle un goût authentique, témoin d'un savoir-faire ancestral.",
+  "terroir": {
+    "titre": "Le Terroir Occitan",
+    "geographie": "Niché au cœur de l'Occitanie, ce fromage puise son essence dans un paysage vallonné et ensoleillé. Les chèvres paissent sur des coteaux calcaires, où l'altitude modérée favorise une flore riche et diversifiée. Les sols, gorgés de soleil, confèrent aux herbes des arômes intenses qui se retrouvent dans le lait.",
+    "climat": "Le climat méditerranéen, avec ses étés chauds et secs et ses hivers doux, influence la qualité du lait. Les brises marines apportent une touche saline subtile, tandis que le soleil généreux concentre les saveurs des plantes.",
+    "elevage": "Les chèvres sont élevées dans le respect des traditions, bénéficiant d'un parcours quotidien en plein air. Leur alimentation, composée d'herbes sauvages, de fleurs et de fourrage de qualité, contribue à la richesse aromatique du lait. Le bien-être animal est au cœur de la production.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des gestes précis et une connaissance approfondie du lait. La fabrication, artisanale, privilégie le travail à la main et l'affinage lent pour développer pleinement les saveurs du fromage."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "MEJ'THYM se présente avec une croûte naturelle, fine et légèrement plissée, de couleur ivoire à crème. Sa pâte, d'un blanc pur, révèle une texture homogène et délicate.",
+    "texture": "En bouche, la texture est fondante et onctueuse, avec une légère fermeté initiale qui laisse rapidement place à une douceur crémeuse. Une légère humidité se fait sentir, signe d'une fraîcheur préservée.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait de chèvre frais, avec des notes subtiles de beurre et de crème. Une pointe d'acidité agréable équilibre la douceur.",
+    "aromes_secondaires": "Le thym, finement incorporé, apporte des notes herbacées et florales, évoquant le maquis et la garrigue. Des nuances discrètes de noisette et d'amande peuvent également se révéler.",
+    "evolution": "L'attaque est douce et fraîche, avec une montée progressive des arômes de chèvre et de thym. Le milieu de bouche est ample et persistant, laissant une finale légèrement acidulée et aromatique. La longueur en bouche est remarquable.",
+    "temperature_service": "Servir à température ambiante (environ 18-20°C) pour apprécier pleinement les arômes et la texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur, dans son emballage d'origine, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation pour permettre aux arômes de se libérer pleinement.",
+    "coupe": "Couper le fromage en quartiers ou en tranches fines pour faciliter la dégustation et apprécier sa texture fondante.",
+    "presentation": "Présenter le MEJ'THYM sur un plateau de fromages avec des fruits frais, des noix et du pain de campagne pour accompagner sa dégustation.",
+    "duree": "Consommer dans les 5 jours après ouverture pour une qualité optimale."
+  },
+  "degustation": "MEJ'THYM offre une texture fondante et crémeuse, mariée aux arômes frais et herbacés du thym. Son intensité est moyenne, permettant une dégustation agréable et équilibrée.",
+  "accords": "Ce fromage de chèvre s'accorde merveilleusement avec un Sancerre blanc, dont la vivacité et les notes d'agrumes équilibrent la douceur du fromage. On peut également l'associer à un Pouilly-Fumé, aux arômes fumés et minéraux, ou un Coteaux du Giennois, frais et fruité.",
+  "histoire": "MEJ'THYM est le fruit d'un savoir-faire ancestral, transmis de génération en génération au cœur de l'Occitanie. La fabrication artisanale et l'affinage lent confèrent à ce fromage son caractère unique et authentique."
+}

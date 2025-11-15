@@ -1,0 +1,41 @@
+{
+  "id": 34,
+  "slug": "ossau-iraty",
+  "nom": "OSSAU IRATY",
+  "image": "/images/fromage-default.jpg",
+  "prixKg": 55.8,
+  "type": "pate-pressee-cuite",
+  "lait": "brebis",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "L'Oussau-Iraty AOP, un joyau des Pyrénées, offre une texture fondante et une palette aromatique complexe. Ce fromage de brebis au lait cru, témoigne d'un savoir-faire ancestral et d'un terroir d'exception.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Niché au cœur des Pyrénées Atlantiques et du Pays Basque, l'Ossau-Iraty est le fruit d'un terroir montagneux sculpté par le temps. Les vallées verdoyantes et les pentes escarpées offrent un paysage unique, où l'altitude varie considérablement, influençant la flore et les pratiques d'élevage. Cette diversité géographique contribue à la richesse et à la complexité du lait de brebis.",
+    "climat": "Le climat montagnard, avec ses étés chauds et ses hivers rigoureux, façonne le caractère de l'Ossau-Iraty. L'alternance des saisons favorise une herbe riche et variée, essentielle à la qualité du lait et aux arômes subtils du fromage.",
+    "elevage": "Les brebis de races locales, Manech et Basco-Béarnaise, paissent librement dans les prairies de montagne, se nourrissant d'une flore diversifiée. Cette alimentation naturelle, riche en herbes aromatiques et en fleurs sauvages, confère au lait une saveur unique et authentique. L'élevage extensif, respectueux du bien-être animal, est au cœur de la tradition fromagère.",
+    "savoir_faire": "Le savoir-faire ancestral se transmet de génération en génération, perpétuant les gestes et les techniques traditionnelles. Chaque étape de la fabrication, de la traite à l'affinage, est réalisée avec soin et passion, dans le respect du cahier des charges de l'AOP. Ce savoir-faire garantit la qualité et l'authenticité de l'Ossau-Iraty."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "L'Ossau-Iraty présente une pâte ivoire à jaune pâle, parfois parsemée de quelques ouvertures. Sa croûte naturelle, allant du gris beige à l'orangé, peut être légèrement fleurie. Son aspect témoigne d'un affinage soigné et d'un terroir unique.",
+    "texture": "En bouche, l'Ossau-Iraty offre une texture fondante et onctueuse. Sa fermeté évolue au fil de l'affinage, passant d'une pâte souple à un grain plus prononcé. Il procure une sensation de douceur et de plaisir immédiat.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait de brebis frais, de la noisette et du beurre. On perçoit également des notes végétales évoquant l'herbe fraîchement coupée et les fleurs des champs.",
+    "aromes_secondaires": "Des arômes secondaires de fruits secs, de caramel et d'épices douces viennent enrichir la palette aromatique. On peut également déceler des notes subtiles de champignons et de sous-bois, témoins de l'affinage en cave.",
+    "evolution": "L'attaque est douce et onctueuse, laissant rapidement place à des saveurs plus complexes et intenses. Le milieu de bouche révèle des notes fruitées et épicées, tandis que la finale est longue et persistante, avec une légère amertume agréable. Sa longueur en bouche est remarquable.",
+    "temperature_service": "Il est recommandé de déguster l'Ossau-Iraty à température ambiante (18-20°C) afin de libérer pleinement ses arômes et sa texture."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver l'Ossau-Iraty au réfrigérateur, dans un endroit frais et sec, idéalement entre 4 et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation. Cela permet à la pâte de s'assouplir et aux arômes de se développer pleinement.",
+    "coupe": "Pour une présentation optimale, couper l'Ossau-Iraty en portions triangulaires, en partant du centre vers la croûte. Cela permet de répartir équitablement les différentes textures et saveurs.",
+    "presentation": "Présenter l'Ossau-Iraty sur un plateau de fromage en bois, accompagné de fruits secs, de confitures de cerises noires et de pain de campagne. Un couteau à fromage adapté complètera la présentation.",
+    "duree": "Après ouverture ou entame, l'Ossau-Iraty se conserve environ une semaine au réfrigérateur, bien emballé dans du papier sulfurisé."
+  },
+  "degustation": "Ce fromage révèle une texture fondante et des arômes complexes de noisette et de brebis. Son intensité est équilibrée, offrant une expérience gustative raffinée et mémorable.",
+  "accords": "L'Ossau-Iraty s'accorde merveilleusement avec les vins rouges secs du Pays Basque, tels que l'Irouléguy, dont les notes fruitées et épicées soulignent la richesse du fromage. Un Jurançon moelleux, avec ses arômes de fruits confits, crée également un mariage harmonieux. Pour une expérience plus audacieuse, essayez un vin rouge léger du Piémont Pyrénéen.",
+  "histoire": "L'Ossau-Iraty tire son nom de deux régions des Pyrénées Atlantiques, le Pic du Midi d'Ossau et la vallée d'Iraty. Sa fabrication artisanale, transmise de génération en génération, perpétue un savoir-faire ancestral et valorise le terroir unique des Pyrénées."
+}

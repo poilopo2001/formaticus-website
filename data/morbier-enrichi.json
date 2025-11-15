@@ -1,0 +1,41 @@
+{
+  "id": 19,
+  "slug": "morbier",
+  "nom": "MORBIER",
+  "image": "/images/morbier.jpg",
+  "prixKg": 28.9,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Morbier AOP, un joyau de Bourgogne-Franche-Comté, se révèle par sa pâte souple et son onctuosité singulière, traversée d'une ligne cendrée témoignant d'un savoir-faire ancestral. Ses arômes lactiques et fruités évoquent les pâturages verdoyants où paissent les vaches laitières.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Morbier puise son caractère dans les montagnes du Jura, un paysage de vallées verdoyantes et de plateaux calcaires. L'altitude, souvent supérieure à 600 mètres, contribue à la fraîcheur et à la richesse de la flore locale. Ces reliefs sculptés par le temps offrent un environnement idéal pour l'élevage laitier.",
+    "climat": "Le climat du Jura est continental, marqué par des hivers rigoureux et des étés doux. Cette amplitude thermique favorise une flore riche et diversifiée, qui influence directement la qualité du lait et les arômes subtils du Morbier.",
+    "elevage": "Les vaches, principalement de races Montbéliarde et Simmental, pâturent librement dans les prairies jurassiennes dès le printemps. Leur alimentation, composée d'herbes fraîches et de foin de qualité, confère au lait une richesse aromatique incomparable, essentielle à l'élaboration du Morbier.",
+    "savoir_faire": "Le savoir-faire fromager du Morbier se transmet de génération en génération. La méthode de fabrication, inchangée depuis des siècles, respecte les traditions ancestrales et garantit l'authenticité de ce fromage d'exception."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Morbier présente une pâte ivoire à jaune pâle, lisse et brillante, traversée par une ligne noire caractéristique de charbon végétal. Sa croûte est fine, de couleur beige à orangée, pouvant présenter quelques moisissures naturelles.",
+    "texture": "En bouche, la texture du Morbier est souple et fondante, offrant une agréable sensation d'onctuosité. Sa pâte, délicatement élastique, libère progressivement ses saveurs.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait frais, la crème et le beurre doux, témoignant de la qualité du lait cru utilisé pour sa fabrication.",
+    "aromes_secondaires": "Des notes subtiles de fruits secs (noisette, amande), d'herbes fraîches et de fleurs sauvages viennent enrichir le profil aromatique du Morbier, lui conférant une complexité remarquable.",
+    "evolution": "L'attaque en bouche est douce et lactique, évoluant vers des saveurs plus prononcées et légèrement acidulées. La finale est longue et persistante, laissant une agréable sensation de fraîcheur et une subtile amertume. Sa longueur en bouche est moyenne.",
+    "temperature_service": "Il est conseillé de sortir le Morbier du réfrigérateur environ une heure avant la dégustation, afin de permettre à ses arômes de s'exprimer pleinement."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Morbier se conserve idéalement au réfrigérateur, entre 4°C et 8°C, dans son emballage d'origine ou enveloppé dans du papier sulfurisé.",
+    "avant_service": "Sortez le Morbier du réfrigérateur environ une heure avant la dégustation. Cela permet à la pâte de s'assouplir et aux arômes de se libérer, offrant une expérience gustative optimale.",
+    "coupe": "Pour apprécier pleinement sa texture et ses saveurs, coupez le Morbier en tranches fines, en partant du centre vers l'extérieur.",
+    "presentation": "Présentez le Morbier sur un plateau de fromages avec d'autres spécialités laitières, des fruits secs, des noix et du pain de campagne.",
+    "duree": "Une fois entamé, le Morbier se conserve au réfrigérateur pendant environ une semaine, en veillant à bien le protéger de l'air."
+  },
+  "degustation": "Sa texture souple et onctueuse révèle des arômes lactiques et fruités d'intensité moyenne. Le Morbier offre une dégustation équilibrée et savoureuse.",
+  "accords": "Le Morbier s'accorde à merveille avec des vins rouges secs et fruités, tels qu'un Vin de Savoie Jongieux rouge pour ses notes légères et fruitées, ou un Bourgogne Côtes d'Auxerre rouge pour son élégance et sa structure. Ces vins mettent en valeur la douceur et les arômes subtils du fromage.",
+  "histoire": "Né dans les fermes du Jura, le Morbier tire son nom du village éponyme. La ligne noire, autrefois constituée de suie, marquait la séparation entre les deux traites, témoignant d'une production artisanale et ingénieuse."
+}

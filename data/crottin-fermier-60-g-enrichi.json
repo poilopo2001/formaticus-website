@@ -1,0 +1,41 @@
+{
+  "id": 113,
+  "slug": "crottin-fermier-60-g",
+  "nom": "CROTTIN FERMIER 60 G",
+  "image": "/images/crottin-fermier-60-g.jpg",
+  "prixKg": 5.7,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Crottin Fermier 60g, une petite merveille du Centre-Val de Loire, incarne l'authenticité et la tradition fromagère. Ce fromage lactique au lait cru de chèvre dévoile, au fil de l'affinage, une palette aromatique complexe et une texture évolutive, témoignant d'un savoir-faire ancestral.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Centre-Val de Loire, berceau de ce Crottin, est une région douce, parsemée de vallées verdoyantes et de coteaux ensoleillés. La Loire, fleuve majestueux, irrigue ces terres fertiles, façonnant un paysage propice à l'élevage caprin. L'altitude modérée contribue à un climat tempéré, idéal pour le développement d'une flore riche et variée.",
+    "climat": "Le climat tempéré de la région, caractérisé par des étés chauds et des hivers doux, favorise une herbe abondante et de qualité. Les variations saisonnières influencent la composition du lait de chèvre, conférant au Crottin des nuances gustatives subtiles et changeantes au cours de l'année.",
+    "elevage": "Les chèvres, nourries d'une flore locale diversifiée, gambadent librement dans les prairies verdoyantes. L'alimentation naturelle et équilibrée, composée d'herbes, de fleurs et de fourrages, est essentielle pour la qualité du lait et la typicité du fromage. Le respect du bien-être animal est au cœur des pratiques d'élevage.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des gestes précis et un respect scrupuleux des traditions. L'utilisation de ferments lactiques naturels et un affinage lent et soigné confèrent au Crottin son caractère unique et sa complexité aromatique."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Crottin Fermier présente une pâte ivoire, parfois légèrement bleutée selon l'affinage. Sa croûte, fine et naturelle, peut être lisse ou légèrement plissée, parsemée de quelques moisissures nobles.",
+    "texture": "Sa texture évolue avec le temps, passant d'une pâte fraîche et légèrement friable à un cœur plus crémeux et fondant. En bouche, il offre une sensation à la fois douce et légèrement ferme, avec une finesse remarquable.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait frais de chèvre, la crème et une légère acidité lactique.",
+    "aromes_secondaires": "Des notes subtiles de noisette fraîche, de foin coupé et parfois de fleurs sauvages se révèlent à la dégustation, témoignant de la richesse du terroir.",
+    "evolution": "L'attaque en bouche est fraîche et acidulée, suivie d'un milieu de bouche plus onctueux et persistant. La finale est légèrement caprine et laisse une agréable sensation de fraîcheur. Sa longueur en bouche est appréciable.",
+    "temperature_service": "Il est conseillé de le servir à température ambiante (environ 18-20°C) pour exalter pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4°C et 8°C.",
+    "avant_service": "Sortir le Crottin du réfrigérateur environ 30 minutes avant la dégustation afin qu'il puisse développer tous ses arômes.",
+    "coupe": "Couper en quartiers pour une dégustation optimale, permettant ainsi de savourer la croûte et le cœur simultanément.",
+    "presentation": "Présenter sur un plateau de fromages avec des fruits secs, des noix et un pain de campagne de qualité.",
+    "duree": "À consommer dans les 3-4 jours après ouverture."
+  },
+  "degustation": "Sa texture est fondante et ses arômes caprins sont prononcés, offrant une expérience gustative intense et authentique. C'est un fromage de caractère qui séduira les amateurs de saveurs franches.",
+  "accords": "Le Crottin Fermier s'accorde merveilleusement avec un Sancerre blanc vif et minéral, dont l'acidité équilibrera la richesse du fromage. Un Châteaumeillant rouge léger et fruité, avec ses notes de fruits rouges frais, soulignera également ses saveurs caprines. Une bière blonde artisanale aux notes florales peut aussi être un accord surprenant et réussi.",
+  "histoire": "Le Crottin Fermier est un fromage ancestral, fabriqué selon des méthodes traditionnelles depuis des siècles. Son nom viendrait de la petite lampe à huile, appelée \"crot\", que les paysans utilisaient autrefois pour éclairer leurs caves d'affinage."
+}

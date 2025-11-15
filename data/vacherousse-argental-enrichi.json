@@ -1,0 +1,41 @@
+{
+  "id": 196,
+  "slug": "vacherousse-argental",
+  "nom": "VACHEROUSSE ARGENTAL",
+  "image": "/images/vacherousse-argental.jpg",
+  "prixKg": 38.7,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Vacherousse Argental, originaire des terroirs verdoyants de Bourgogne-Franche-Comté, est une invitation à la douceur. Sa pâte onctueuse et sa croûte lavée délicatement rosée dévoilent des arômes subtils de crème et de foin frais, pour une expérience fromagère réconfortante.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "La Bourgogne-Franche-Comté, terre d'histoire et de traditions, est caractérisée par un relief varié, alternant plaines et collines. Les pâturages, souvent situés à des altitudes modérées, bénéficient d'une exposition idéale au soleil, favorisant ainsi une flore riche et diversifiée. Les rivières et les forêts contribuent à l'équilibre de cet environnement préservé.",
+    "climat": "Le climat de la région est de type semi-continental, avec des étés chauds et des hivers froids. Les précipitations régulières favorisent la pousse d'une herbe abondante et nutritive, essentielle à la qualité du lait.",
+    "elevage": "Les vaches laitières, principalement de race Montbéliarde, paissent librement dans les prairies verdoyantes pendant la majeure partie de l'année. Leur alimentation, riche en herbes fraîches et en fleurs sauvages, confère au lait une saveur unique et authentique. Le bien-être animal est au cœur des préoccupations des producteurs locaux.",
+    "savoir_faire": "La fabrication du Vacherousse Argental est un savoir-faire ancestral transmis de génération en génération. Les fromagers perpétuent les méthodes traditionnelles, utilisant le lait cru ou pasteurisé selon les traditions, pour garantir un fromage d'une qualité exceptionnelle."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Vacherousse Argental se présente avec une pâte de couleur ivoire à jaune pâle, souple et onctueuse. Sa croûte lavée, d'une teinte allant du rose pâle à l'orangé clair, témoigne d'un affinage soigné.",
+    "texture": "En bouche, sa texture est fondante et crémeuse, presque beurrée, avec une légère élasticité. L'absence de granulosité contribue à la sensation de douceur et de confort.",
+    "aromes_primaires": "Les arômes primaires dominants sont ceux du lait frais, de la crème et du beurre, avec une subtile note de foin coupé.",
+    "aromes_secondaires": "Des notes secondaires de noisette et de champignon frais peuvent se révéler lors de la dégustation, complexifiant ainsi le profil aromatique.",
+    "evolution": "L'attaque est douce et onctueuse, laissant place à un milieu de bouche plus expressif avec des notes lactiques persistantes. La finale est longue et agréable, avec une légère pointe d'acidité qui équilibre l'ensemble. Sa longueur en bouche est notable.",
+    "temperature_service": "Il est conseillé de servir le Vacherousse Argental à température ambiante (environ 20°C) afin d'apprécier pleinement ses arômes et sa texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Vacherousse Argental se conserve idéalement au réfrigérateur, entre 4°C et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ 30 minutes avant de le déguster pour permettre à ses arômes de se développer pleinement et à sa texture de s'assouplir.",
+    "coupe": "Pour apprécier au mieux sa texture, coupez-le en parts régulières en partant du centre vers l'extérieur.",
+    "presentation": "Présentez-le sur un plateau avec des fruits frais (raisins, figues), des noix et du pain de campagne pour un contraste de saveurs et de textures.",
+    "duree": "Une fois entamé, il est préférable de le consommer dans les 5 à 7 jours pour une dégustation optimale."
+  },
+  "degustation": "Ce fromage à pâte molle offre une texture crémeuse et des arômes délicats de lait frais et de noisette. Son intensité est modérée, ce qui en fait un fromage accessible et apprécié par tous.",
+  "accords": "Accompagnez le Vacherousse Argental d'un vin blanc sec et fruité tel qu'un Bourgogne Aligoté ou un Côtes du Jura. Pour une expérience plus audacieuse, un Pinot Noir de Bourgogne, léger et élégant, saura également sublimer ses saveurs.",
+  "histoire": "Le Vacherousse Argental est un fromage relativement récent, mais il s'inspire des traditions fromagères de la Bourgogne-Franche-Comté. Il est fabriqué avec le plus grand soin, dans le respect des méthodes artisanales, pour offrir un produit d'une qualité irréprochable."
+}

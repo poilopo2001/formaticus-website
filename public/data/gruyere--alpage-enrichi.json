@@ -1,0 +1,41 @@
+{
+  "id": 6,
+  "slug": "gruyere--alpage",
+  "nom": "GRUYERE  ALPAGE",
+  "image": "/Séance Photo Nicolas 20220423/gruyere-alpage-rape.jpg",
+  "prixKg": 59.75,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Gruyère d'Alpage AOP, une symphonie de saveurs montagnardes, où le lait cru exprime toute la richesse du terroir suisse. Ses arômes profonds et sa texture soyeuse, ponctués de cristaux de sel, en font un fromage d'exception, véritable reflet de l'artisanat fromager ancestral.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Originaire des alpages suisses, le Gruyère d'Alpage AOP est façonné dans un environnement où les montagnes majestueuses rencontrent des vallées verdoyantes. L'altitude, souvent supérieure à 1000 mètres, confère à ce terroir une singularité incomparable. Ces paysages sculptés par le temps offrent un cadre idéal pour l'épanouissement d'une flore riche et variée.",
+    "climat": "Le climat montagnard, caractérisé par des étés frais et des hivers rigoureux, influence directement la qualité du lait. Les variations thermiques favorisent le développement d'une herbe riche en nutriments, essentielle à la typicité aromatique du Gruyère d'Alpage.",
+    "elevage": "Les vaches, de race Brune Alpine principalement, paissent librement sur les alpages durant la saison estivale. Leur alimentation, constituée d'herbes fraîches et de fleurs sauvages, se traduit par un lait d'une qualité exceptionnelle, riche en arômes et en saveurs. Le respect du bien-être animal est une priorité pour les producteurs.",
+    "savoir_faire": "La fabrication du Gruyère d'Alpage AOP est un art transmis de génération en génération. Les fromagers perpétuent des gestes ancestraux, de la traite à la maturation, en passant par le moulage et l'affinage. Ce savoir-faire unique garantit la qualité et l'authenticité de ce fromage d'exception."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte, de couleur ivoire à jaune paille, présente une texture dense et homogène. On observe parfois la présence de petites ouvertures, signe d'une fermentation maîtrisée. La croûte, de couleur brun-roux, est naturelle et légèrement humide.",
+    "texture": "En bouche, la texture est à la fois ferme et fondante, avec une légère granulosité due à la présence de cristaux de sel. Le Gruyère d'Alpage AOP offre une sensation soyeuse et agréable, témoignant de sa longue maturation.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait cru, le beurre frais et la noisette. Ces notes gourmandes sont caractéristiques des fromages de montagne, élaborés à partir d'un lait de qualité supérieure.",
+    "aromes_secondaires": "Des arômes secondaires de fruits secs, de foin coupé et d'herbes aromatiques viennent complexifier le profil gustatif. On peut également percevoir de subtiles notes florales, témoignant de la richesse de la flore alpine.",
+    "evolution": "L'attaque est franche et savoureuse, avec une belle intensité aromatique. Le milieu de bouche est ample et équilibré, laissant s'exprimer les différentes nuances du fromage. La finale est longue et persistante, avec une agréable note saline et une légère amertume.",
+    "temperature_service": "Il est préférable de servir le Gruyère d'Alpage AOP à température ambiante (environ 18-20°C) afin de libérer pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Gruyère d'Alpage AOP se conserve idéalement au réfrigérateur, dans un endroit frais et sec, entre 4 et 8°C.",
+    "avant_service": "Sortez le fromage du réfrigérateur environ une heure avant de le déguster afin qu'il puisse développer pleinement ses arômes et sa texture.",
+    "coupe": "Pour une présentation élégante, coupez le Gruyère d'Alpage AOP en portions triangulaires, en partant du centre vers l'extérieur.",
+    "presentation": "Disposez les tranches de fromage sur un plateau en ardoise ou en bois, accompagnées de fruits secs, de noix et de quelques raisins frais.",
+    "duree": "Une fois entamé, le Gruyère d'Alpage AOP se conserve environ une semaine au réfrigérateur, enveloppé dans un film alimentaire ou du papier sulfurisé."
+  },
+  "degustation": "Sa texture ferme et fondante, parsemée de cristaux de sel, offre une expérience gustative inoubliable. Les arômes riches et complexes de noisette, de lait cru et d'herbes alpines en font un fromage d'une grande intensité.",
+  "accords": "Ce Gruyère d'Alpage AOP s'accorde à merveille avec un vin blanc sec et fruité, tel qu'un Riesling alsacien ou un Chardonnay de Bourgogne. Pour les amateurs de vin rouge, un Pinot Noir léger et élégant, avec des notes de fruits rouges, sublimera ses saveurs.",
+  "histoire": "Le Gruyère d'Alpage AOP est un fromage ancestral, dont les origines remontent au XIIe siècle. Sa fabrication artisanale, perpétuée de génération en génération, témoigne du riche patrimoine fromager suisse et de l'importance du terroir."
+}

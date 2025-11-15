@@ -1,0 +1,41 @@
+{
+  "id": 367,
+  "slug": "speck-tito",
+  "nom": "SPECK TITO",
+  "image": "/images/speck-tito.jpg",
+  "prixKg": 37.63,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Speck Tito, une rencontre audacieuse entre le savoir-faire fromager et la tradition charcutière. Un fromage unique où la douceur du lait cru se marie aux saveurs fumées du speck, offrant une expérience gustative inattendue et raffinée.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Bien que l'affinage soit réalisé avec soin, le terroir originel du lait est un élément clé. Le lait provient de vallées verdoyantes où les pâturages s'étendent à perte de vue. Ces régions, souvent en altitude, offrent une biodiversité riche, influençant directement la qualité du lait.",
+    "climat": "Le climat, caractérisé par des étés doux et des hivers froids et enneigés, joue un rôle essentiel dans le développement des arômes du lait. L'alternance des saisons favorise une flore variée, source d'une alimentation naturelle pour les troupeaux.",
+    "elevage": "Les vaches, principalement de races locales, sont élevées dans le respect des traditions. Elles profitent de vastes prairies où elles se nourrissent d'herbes fraîches et de fleurs sauvages, garantissant un lait riche en saveurs et en nutriments. Un complément de foin de montagne en hiver assure une alimentation équilibrée tout au long de l'année.",
+    "savoir_faire": "Le savoir-faire ancestral se transmet de génération en génération, garantissant un fromage d'exception. Les méthodes de fabrication artisanales, associées à un affinage méticuleux, permettent de révéler toute la complexité des arômes du Speck Tito."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte ivoire, parsemée de fines tranches de speck, offre un visuel appétissant. La croûte, naturelle et légèrement ambrée, témoigne d'un affinage soigné.",
+    "texture": "En bouche, la texture est souple et fondante, avec une légère fermeté au cœur. Les fines tranches de speck apportent une texture délicatement fondante qui contraste avec le fromage.",
+    "aromes_primaires": "Les arômes primaires sont dominés par des notes lactiques fraîches, évoquant le beurre doux et la crème fraîche.",
+    "aromes_secondaires": "Des notes fumées et épicées, typiques du speck, viennent compléter le profil aromatique. On perçoit également des nuances subtiles de noisette et de foin.",
+    "evolution": "L'attaque est douce et crémeuse, laissant place à des saveurs fumées et légèrement salées. La finale est longue et persistante, avec une agréable sensation de chaleur en bouche. Le speck amène une complexité qui prolonge l'expérience gustative.",
+    "temperature_service": "Servir à température ambiante (environ 18°C) pour exhaler pleinement les arômes et apprécier la texture fondante."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4°C et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation afin de libérer tous ses arômes.",
+    "coupe": "Couper en fines tranches afin de préserver la texture et de permettre une dégustation optimale.",
+    "presentation": "Présenter sur un plateau avec des fruits secs, des noix et du pain de campagne.",
+    "duree": "Consommer dans les 5 jours après ouverture pour une qualité optimale."
+  },
+  "degustation": "La pâte offre une texture crémeuse et fondante, délicatement parfumée par le speck fumé. L'intensité aromatique est équilibrée, offrant une expérience gustative à la fois douce et savoureuse.",
+  "accords": "Accompagner d'un vin rouge léger et fruité, tel qu'un Pinot Noir d'Alsace, dont les notes de fruits rouges s'harmoniseront avec les saveurs fumées du fromage. Un Gewürztraminer vendanges tardives, avec ses arômes de fruits exotiques et d'épices, peut également constituer un accord intéressant.",
+  "histoire": "Le Speck Tito est né d'une rencontre entre la tradition fromagère et la charcuterie artisanale. Un hommage aux saveurs authentiques et aux terroirs riches en histoire."
+}

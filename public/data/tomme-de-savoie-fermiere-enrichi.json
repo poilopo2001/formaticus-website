@@ -1,0 +1,41 @@
+{
+  "id": 22,
+  "slug": "tomme-de-savoie-fermiere",
+  "nom": "TOMME DE SAVOIE FERMIERE",
+  "image": "/Séance Photo Nicolas 20220423/tomme-de-savoie-composite.jpg",
+  "prixKg": 37.75,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "La Tomme de Savoie Fermière, un joyau lactique des alpages, révèle une texture fondante qui caresse le palais. Son odeur, empreinte du terroir savoyard, précède un goût lactique nuancé de notes animales, promesse d'une dégustation authentique.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "La Savoie, berceau de cette tomme, est une terre de contrastes, où les sommets alpins sculptent des vallées verdoyantes. L'altitude, parfois vertigineuse, offre des paysages à couper le souffle et un écrin de fraîcheur pour les pâturages. Les fromages y puisent une typicité unique, reflet de cette nature préservée.",
+    "climat": "Le climat montagnard, caractérisé par des hivers rigoureux et des étés frais, influe directement sur la flore alpine. Cette végétation spécifique, riche en herbes aromatiques, se retrouve ensuite dans le lait des vaches, conférant à la Tomme de Savoie Fermière son caractère unique.",
+    "elevage": "Les vaches, majoritairement de race Abondance, Tarine ou Montbéliarde, paissent librement dans les alpages durant la belle saison. Elles se nourrissent d'une herbe fraîche et variée, garante d'un lait riche en saveurs. Le respect du bien-être animal est au cœur de la production fermière, assurant un lait de qualité supérieure.",
+    "savoir_faire": "Le savoir-faire fromager en Savoie se transmet de génération en génération. Les techniques ancestrales, alliées aux méthodes modernes, garantissent la qualité et l'authenticité de la Tomme de Savoie Fermière. Chaque producteur apporte sa touche personnelle, faisant de chaque fromage une pièce unique."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte, de couleur ivoire à jaune pâle, présente parfois quelques ouvertures irrégulières. La croûte, naturelle et fleurie, arbore des nuances de gris et de beige, témoignant de l'affinage en cave.",
+    "texture": "En bouche, la Tomme de Savoie Fermière offre une texture souple et fondante. Sa pâte, ni trop sèche ni trop humide, se révèle onctueuse et agréable à la dégustation.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait cru, le beurre frais et la crème. Ces notes lactiques, douces et gourmandes, invitent à la dégustation.",
+    "aromes_secondaires": "Des arômes secondaires plus complexes se révèlent ensuite, tels que des notes de champignon frais, d'humus et de foin coupé. Une subtile pointe d'animalité vient complexifier l'ensemble.",
+    "evolution": "L'attaque est douce et lactée, évoluant vers des saveurs plus affirmées de terroir. La finale est persistante, laissant en bouche un agréable souvenir de montagne. La longueur en bouche est appréciable, témoignant de la qualité du fromage.",
+    "temperature_service": "La Tomme de Savoie Fermière se déguste idéalement à température ambiante (environ 18-20°C) afin de libérer pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver la Tomme de Savoie Fermière au réfrigérateur, dans son emballage d'origine ou dans une boîte à fromage, à une température comprise entre 4 et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation afin qu'il retrouve sa texture optimale et que ses arômes se développent pleinement.",
+    "coupe": "Pour une présentation élégante, couper la Tomme de Savoie Fermière en quartiers ou en parts triangulaires, en partant du centre vers l'extérieur.",
+    "presentation": "Présenter la Tomme de Savoie Fermière sur un plateau de fromages en bois ou en ardoise, accompagnée de fruits secs (noix, noisettes), de pain de campagne et de confiture de figues.",
+    "duree": "La Tomme de Savoie Fermière se conserve environ une semaine après ouverture, en veillant à bien la protéger de l'air et de l'humidité."
+  },
+  "degustation": "Sa texture fondante et ses arômes de lait cru et de terroir en font un fromage d'une grande finesse. Son intensité gustative est moyenne, idéale pour une dégustation en toute simplicité.",
+  "accords": "La Tomme de Savoie Fermière s'accorde à merveille avec un vin rouge léger et fruité, tel qu'un Savoie Jongieux Rouge pour un accord régional. Un Côtes d'Auvergne Madargues rouge, avec ses notes de fruits rouges et d'épices douces, sublimera également ses saveurs. Pour les amateurs de vins blancs, un Chardonnay de Bourgogne apportera une belle fraîcheur.",
+  "histoire": "La Tomme de Savoie est un fromage ancestral, dont les origines remontent au Moyen Âge. Fabriquée à partir de lait de vache cru entier, elle est le fruit d'un savoir-faire traditionnel transmis de génération en génération par les producteurs fermiers."
+}

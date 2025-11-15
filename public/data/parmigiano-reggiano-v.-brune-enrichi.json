@@ -1,0 +1,41 @@
+{
+  "id": 15,
+  "slug": "parmigiano-reggiano-v.-brune",
+  "nom": "PARMIGIANO REGGIANO V. BRUNE",
+  "image": "/Séance Photo Nicolas 20220423/parmigiano-reggiano-composite.jpg",
+  "prixKg": 55.7,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Parmigiano Reggiano Vacche Bruna, une expression raffinée du parmesan, dévoile une texture soyeuse et un cœur de saveurs délicates. Issu du lait précieux des vaches brunes, ce fromage d'exception offre une dégustation singulière, où la douceur et la complexité s'entrelacent.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le berceau du Parmigiano Reggiano Vacche Bruna s'étend sur la plaine padane, une région au relief doux et fertile, irriguée par le fleuve Pô et ses affluents. Les vaches brunes, emblèmes de ce terroir, paissent sur des prairies verdoyantes, profitant d'un environnement naturel préservé. L'altitude modérée contribue à la richesse et à la diversité de la flore locale, qui se reflètent dans le lait.",
+    "climat": "Le climat de la région est de type continental, caractérisé par des étés chauds et humides et des hivers froids et brumeux. Cette alternance saisonnière influe sur la qualité du lait, lui conférant des arômes spécifiques selon la période de l'année. L'humidité favorise également le développement d'une flore microbienne essentielle à l'affinage du fromage.",
+    "elevage": "Les vaches brunes, race autochtone, sont élevées dans le respect des traditions, avec une alimentation à base de fourrages locaux, riches en herbes et en céréales. Les animaux bénéficient d'un accès régulier au pâturage, favorisant leur bien-être et la qualité de leur lait. Un élevage extensif garantit un lait d'une richesse aromatique incomparable.",
+    "savoir_faire": "La fabrication du Parmigiano Reggiano Vacche Bruna est un art ancestral, transmis de génération en génération. Les fromagers perpétuent des gestes précis et un savoir-faire unique, garantissant la qualité et l'authenticité du produit. Chaque meule est le fruit d'un travail minutieux et passionné, respectueux des traditions."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "La pâte présente une couleur jaune paille uniforme, parsemée de quelques grains de tyrosine, signe d'un affinage maîtrisé. Sa texture est dense et légèrement granuleuse. La croûte, naturelle et dure, est d'une couleur brun doré.",
+    "texture": "En bouche, la texture est à la fois ferme et fondante, offrant une légère sensation granuleuse qui s'intensifie avec l'affinage. Le fromage se révèle onctueux et agréable au palais. L'absence d'humidité excessive contribue à sa persistance.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait frais, le beurre doux et la crème fraîche, témoins de la richesse et de la qualité du lait utilisé. Une légère note lactique apporte une fraîcheur agréable.",
+    "aromes_secondaires": "Des arômes secondaires de noisette fraîche, d'amande douce et de foin coupé se révèlent subtilement, complexifiant le profil aromatique. Une touche minérale rappelle le terroir d'origine.",
+    "evolution": "L'attaque en bouche est douce et délicate, laissant place à un milieu de bouche riche et ample, où les arômes se développent harmonieusement. La finale est persistante et élégante, avec une légère note salée qui rehausse les saveurs. La longueur en bouche est remarquable.",
+    "temperature_service": "Servir idéalement entre 18 et 20°C afin de permettre aux arômes de s'exprimer pleinement et d'apprécier sa texture optimale."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur, dans un endroit frais et sec, entre 4 et 8°C.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ une heure avant la dégustation pour qu'il puisse exprimer pleinement ses arômes et sa texture.",
+    "coupe": "Le Parmigiano Reggiano se déguste traditionnellement en copeaux ou en morceaux irréguliers, cassés à l'aide d'un couteau spécial afin de préserver sa texture unique.",
+    "presentation": "Présenter le fromage sur un plateau en bois ou en ardoise, accompagné de fruits secs, de confitures artisanales ou de pain de campagne.",
+    "duree": "Après ouverture, conserver le fromage dans un film alimentaire ou une boîte hermétique au réfrigérateur et consommer dans les 2 à 3 semaines pour une qualité optimale."
+  },
+  "degustation": "Ce Parmigiano Reggiano offre une texture légèrement granuleuse et des arômes de beurre frais et de noisette, d'une intensité équilibrée. C'est un fromage d'exception, témoin d'un savoir-faire ancestral.",
+  "accords": "Un accord parfait serait un Châteauneuf-du-Pape blanc millésimé, dont les arômes de fruits à chair blanche et les notes miellées répondent à la douceur du fromage. Un Condrieu, avec ses notes florales et abricotées, constitue également un excellent choix. L'acidité maîtrisée de ces vins équilibre la richesse du parmesan.",
+  "histoire": "Le Parmigiano Reggiano Vacche Bruna est issu d'une longue tradition fromagère, perpétuée dans la région d'Émilie-Romagne depuis des siècles. Son lait provient exclusivement de vaches brunes, une race locale réputée pour la qualité de son lait et sa production limitée."
+}

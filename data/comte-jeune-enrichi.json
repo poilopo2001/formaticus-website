@@ -1,0 +1,41 @@
+{
+  "id": 1,
+  "slug": "comte-jeune",
+  "nom": "COMTE JEUNE",
+  "image": "/Séance Photo Nicolas 20220423/comte-jeune-03-composite.jpg",
+  "prixKg": 37.9,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "Franche-Comté, France",
+  "aop": true,
+  "intensite": 3,
+  "description": "Le Comté Jeune, un voyage gustatif au cœur du Jura. Sa pâte ivoire révèle des arômes délicats, témoins d'un affinage respectueux et d'un terroir d'exception. Une promesse de douceur et d'authenticité.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Comté Jeune est né dans le berceau du Massif Jurassien, une région de moyenne montagne aux paysages ondulants. Les vallées verdoyantes alternent avec les plateaux calcaires, offrant un environnement idéal pour l'élevage. L'altitude, variant entre 400 et 1500 mètres, influe directement sur la flore et donc sur le lait.",
+    "climat": "Le climat du Jura est continental, caractérisé par des hivers rigoureux et des étés tempérés. Les précipitations, régulières tout au long de l'année, favorisent la pousse d'une herbe riche et variée, essentielle à la qualité du lait.",
+    "elevage": "Les vaches de race Montbéliarde, reines de la région, paissent librement dans les prairies jurassiennes. Leur alimentation, composée principalement d'herbe fraîche en été et de foin de qualité en hiver, confère au lait ses arômes si particuliers. Le respect du cycle naturel des animaux est primordial.",
+    "savoir_faire": "Le savoir-faire fromager du Comté se transmet de génération en génération depuis des siècles. Chaque étape de la fabrication, du caillage à l'affinage, est réalisée avec une attention méticuleuse, garantissant un produit d'une qualité irréprochable."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Comté Jeune présente une pâte de couleur ivoire à jaune pâle, uniforme et brillante. Sa texture est lisse et peut présenter quelques petits \"yeux\" (trous) signe d'une bonne fermentation. La croûte est fine, de couleur jaune paille.",
+    "texture": "En bouche, le Comté Jeune offre une texture souple et fondante, légèrement élastique. Il est agréable à mâcher et ne présente pas de granulosité. Sa douceur est un atout.",
+    "aromes_primaires": "Les arômes primaires dominants sont le beurre frais, la crème et la noisette fraîche. On retrouve également des notes lactiques agréables et discrètes.",
+    "aromes_secondaires": "Des arômes secondaires subtils de fruits secs (amande, noisette grillée) et d'herbes fraîches viennent complexifier le profil aromatique. Une légère pointe florale peut également se révéler.",
+    "evolution": "L'attaque est douce et beurrée, laissant rapidement place à des notes plus franches de noisette et de crème. La finale est longue et persistante, avec une légère amertume agréable qui appelle à une nouvelle dégustation. La longueur en bouche est notable.",
+    "temperature_service": "Il est préférable de servir le Comté Jeune à température ambiante (environ 18-20°C) afin de libérer pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Le Comté Jeune se conserve idéalement au réfrigérateur, dans sa partie la moins froide (entre 4 et 8°C).",
+    "avant_service": "Sortez le Comté du réfrigérateur environ 30 minutes avant la dégustation. Cela permettra à la pâte de s'assouplir et aux arômes de se développer pleinement.",
+    "coupe": "Pour une dégustation optimale, coupez le Comté en fines tranches ou en petits dés. Cela permettra d'apprécier au mieux sa texture fondante.",
+    "presentation": "Présentez le Comté sur un plateau avec d'autres fromages de caractère différent, accompagnés de fruits secs, de noix et de pain de campagne.",
+    "duree": "Après ouverture, le Comté se conserve environ une semaine au réfrigérateur, enveloppé dans un papier sulfurisé ou un film alimentaire."
+  },
+  "degustation": "Ce Comté Jeune séduit par sa texture onctueuse et ses arômes délicats de beurre frais et de noisette. Son intensité est modérée, ce qui en fait un fromage accessible et agréable.",
+  "accords": "Ce Comté se marie à merveille avec un vin blanc sec et fruité, comme un Jurançon sec aux notes d'agrumes et de fruits exotiques, ou une bière d'abbaye blonde, dont les saveurs maltées et épicées équilibreront sa douceur. Un Chablis premier cru offrira une minéralité complémentaire.",
+  "histoire": "Le Comté est un fromage ancestral dont les origines remontent au Moyen Âge. Fabriqué dans les fruitières du Jura, il est le fruit d'un savoir-faire unique et d'une tradition fromagère profondément enracinée."
+}

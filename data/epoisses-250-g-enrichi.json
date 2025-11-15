@@ -1,0 +1,41 @@
+{
+  "id": 78,
+  "slug": "epoisses-250-g",
+  "nom": "ÉPOISSES 250 G",
+  "image": "/images/epoisses-250-g.jpg",
+  "prixKg": 18.25,
+  "type": "pate-pressee-cuite",
+  "lait": "vache",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "L'Époisses AOP, joyau de Bourgogne, est un fromage au lait de vache cru dont la pâte onctueuse révèle un cœur riche et complexe. Son affinage au Marc de Bourgogne lui confère une personnalité unique, un équilibre parfait entre puissance et délicatesse.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le berceau de l'Époisses se situe au cœur de la Bourgogne, une région vallonnée traversée par des rivières sinueuses. Les pâturages verdoyants, parsemés de bosquets et de haies, offrent un paysage harmonieux où les vaches paissent paisiblement. L'altitude modérée contribue à un climat tempéré, idéal pour l'élevage et l'affinage.",
+    "climat": "Le climat bourguignon, de type océanique dégradé, se caractérise par des étés chauds et des hivers froids et humides. Les variations de température favorisent le développement d'une flore microbienne spécifique sur la croûte des fromages, contribuant ainsi à leur typicité.",
+    "elevage": "Les vaches laitières, principalement de race Brune ou Montbéliarde, sont élevées avec soin dans le respect des traditions. Elles bénéficient d'une alimentation riche et variée, composée d'herbe fraîche en été et de foin de qualité en hiver, ce qui confère au lait des arômes subtils et complexes.",
+    "savoir_faire": "Le savoir-faire ancestral de fabrication de l'Époisses se transmet de génération en génération. Les fromagers respectent scrupuleusement les étapes de la production, de la coagulation du lait à l'affinage minutieux, pour garantir la qualité et l'authenticité de ce fromage d'exception."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "L'Époisses présente une croûte lisse et brillante, de couleur orangée à rouge brique, due aux lavages réguliers au Marc de Bourgogne. Sa pâte, souple et onctueuse, dévoile une couleur ivoire à crème.",
+    "texture": "En bouche, sa texture est à la fois ferme et fondante, offrant une sensation de crémeux incomparable. Une légère humidité à la coupe témoigne de son affinage parfait.",
+    "aromes_primaires": "Les arômes primaires dominants évoquent le lait frais, le beurre doux et la crème fraîche.",
+    "aromes_secondaires": "Des notes plus subtiles de levure, de cave et de fruits secs (noisette, amande) se dévoilent progressivement, témoignant de la complexité de son affinage.",
+    "evolution": "L'attaque est franche et puissante, suivie d'un milieu de bouche onctueux et équilibré. La finale est longue et persistante, laissant une agréable sensation de chaleur et de gourmandise. Sa longueur en bouche est remarquable.",
+    "temperature_service": "L'Époisses se déguste idéalement à température ambiante (environ 20°C) pour exhaler pleinement ses arômes."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conservez l'Époisses au réfrigérateur, dans son emballage d'origine ou dans une boîte hermétique, à une température comprise entre 4°C et 8°C.",
+    "avant_service": "Sortez l'Époisses du réfrigérateur au moins une heure avant la dégustation afin de permettre à ses arômes de se développer pleinement.",
+    "coupe": "Pour une présentation élégante, coupez l'Époisses en parts égales, en partant du centre vers l'extérieur.",
+    "presentation": "Présentez l'Époisses sur un plateau de fromages accompagné de pain de campagne, de fruits secs et de quelques noix fraîches.",
+    "duree": "Une fois entamé, l'Époisses se conserve idéalement pendant 3 à 5 jours au réfrigérateur."
+  },
+  "degustation": "Sa texture souple et onctueuse enrobe le palais, libérant une palette aromatique intense et persistante. L'Époisses offre un équilibre parfait entre force et finesse.",
+  "accords": "Un Pont l'Évêque appelle un Rasteau Blanc pour sa richesse et ses notes fruitées, contrastant agréablement avec la puissance de l'Époisses. Pour un Époisses légèrement affiné, un Chinon du Domaine P. Alliet s'avère un accord parfait; un affinage plus poussé exigera un Condrieu du domaine du Monteillet, dont les arômes d'abricot et de fleurs blanches sublimeront le fromage.",
+  "histoire": "Créé par des moines cisterciens au XVIe siècle, l'Époisses a traversé les siècles en conservant son caractère unique et son savoir-faire ancestral. Son affinage au Marc de Bourgogne, une tradition locale, lui confère sa typicité et sa renommée."
+}

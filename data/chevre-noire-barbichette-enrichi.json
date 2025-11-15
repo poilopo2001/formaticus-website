@@ -1,0 +1,41 @@
+{
+  "id": 197,
+  "slug": "chevre-noire-barbichette",
+  "nom": "CHEVRE NOIRE BARBICHETTE",
+  "image": "/images/chevre-noire-barbichette.jpg",
+  "prixKg": 51.0,
+  "type": "pate-pressee-cuite",
+  "lait": "chevre",
+  "origine": "France",
+  "region": "France",
+  "aop": false,
+  "intensite": 3,
+  "description": "Le Chèvre Noire Barbichette, un joyau du Val de Loire, se révèle sous un manteau de cendre végétale, promettant une expérience gustative complexe et raffinée. Sa pâte, d'un blanc immaculé, offre une texture à la fois ferme et fondante, libérant des arômes caprins délicats et persistants.",
+  "terroir": {
+    "titre": "Le Terroir",
+    "geographie": "Le Val de Loire, berceau de ce fromage d'exception, est une région façonnée par la Loire et ses affluents, sculptant des vallées verdoyantes et des coteaux ensoleillés. Les sols, riches en silex et en argile, confèrent aux pâturages une typicité unique, idéale pour l'élevage caprin. L'altitude modérée favorise un climat tempéré, propice à une végétation riche et variée.",
+    "climat": "Le climat tempéré du Val de Loire, influencé par la Loire, se caractérise par des étés doux et des hivers relativement cléments. Cette douceur climatique permet une longue période de pâturage, favorisant ainsi la qualité du lait et l'expression des arômes dans le fromage.",
+    "elevage": "Les chèvres de race alpine et saanen, élevées avec soin, paissent librement dans les prairies luxuriantes du Val de Loire. Leur alimentation, composée d'herbes fraîches et de fleurs sauvages, enrichit le lait de saveurs subtiles et complexes. Le bien-être animal est une priorité, garantissant un lait de qualité supérieure.",
+    "savoir_faire": "Le savoir-faire fromager se transmet de génération en génération, perpétuant des techniques ancestrales. Chaque étape de la fabrication, du caillage lent à l'affinage délicat, est réalisée avec une attention particulière, garantissant l'authenticité et la qualité du Chèvre Noire Barbichette."
+  },
+  "profil_gustatif": {
+    "titre": "Profil Gustatif Détaillé",
+    "visuel": "Le Chèvre Noire Barbichette se présente sous une forme cylindrique, enrobé d'une fine couche de cendre végétale anthracite. Sa pâte, d'un blanc ivoire, révèle une texture lisse et homogène, parfois parsemée de légères marbrures.",
+    "texture": "Sa texture est à la fois ferme et fondante, offrant une agréable sensation en bouche. Une légère onctuosité se développe au fur et à mesure de la dégustation, laissant une impression soyeuse et persistante.",
+    "aromes_primaires": "Les arômes primaires évoquent le lait frais de chèvre, la crème fraîche et une subtile note herbacée, témoignant de la qualité du lait et du terroir.",
+    "aromes_secondaires": "Des notes secondaires de noisette fraîche, de champignon et une pointe de foin coupé viennent complexifier le profil aromatique, ajoutant une dimension supplémentaire à la dégustation.",
+    "evolution": "L'attaque est franche et légèrement acidulée, évoluant vers un milieu de bouche plus crémeux et équilibré. La finale est longue et persistante, laissant une agréable sensation de fraîcheur et une délicate amertume. Sa longueur en bouche est notable.",
+    "temperature_service": "Il est conseillé de le servir à une température de 16-18°C pour permettre aux arômes de s'exprimer pleinement."
+  },
+  "conservation": {
+    "titre": "Conservation et Service",
+    "temperature_conservation": "Conserver au réfrigérateur entre 4°C et 8°C dans son emballage d'origine.",
+    "avant_service": "Sortir le fromage du réfrigérateur environ 30 minutes avant la dégustation pour qu'il retrouve sa texture optimale et libère tous ses arômes.",
+    "coupe": "Pour apprécier pleinement sa texture, couper le Chèvre Noire Barbichette en tranches fines avec un couteau à fromage adapté.",
+    "presentation": "Présenter sur un plateau de fromages accompagné de fruits secs, de pain de campagne et de confiture de figues.",
+    "duree": "Consommer de préférence dans les 7 jours après ouverture."
+  },
+  "degustation": "Un fromage d'une finesse remarquable, offrant une texture onctueuse et des arômes caprins délicats. Son intensité aromatique est progressive, laissant une empreinte gustative mémorable.",
+  "accords": "Ce fromage se marie à merveille avec un Sancerre blanc, dont la fraîcheur et les notes minérales soulignent son caractère caprin. Un Pouilly-Fumé, avec ses arômes de buis et de pierre à fusil, apportera également une belle complémentarité. Pour une association originale, osez un vin rouge léger du Val de Loire, comme un Chinon.",
+  "histoire": "Le Chèvre Noire Barbichette est le fruit d'un savoir-faire ancestral transmis de génération en génération au cœur du Val de Loire. Sa robe de cendre végétale témoigne d'une tradition fromagère authentique et d'un engagement envers la qualité."
+}
