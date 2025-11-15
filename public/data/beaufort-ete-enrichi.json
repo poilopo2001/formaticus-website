@@ -37,5 +37,6 @@
   },
   "degustation": "Ce Beaufort d'été offre une texture soyeuse et un éventail aromatique complexe, allant de la noisette grillée aux notes florales des alpages. Son intensité gustative est équilibrée, faisant de lui un fromage d'exception.",
   "accords": "Le Beaufort d'été s'accorde à merveille avec des vins blancs secs et minéraux tels qu'un L'Etoile vin jaune, dont les notes oxydatives répondent aux arômes de noisette du fromage. Un Château-Chalon, avec sa complexité aromatique, ou un Pacherenc du Vic-Bilh sec, pour sa fraîcheur, sublimeront également ce fromage savoyard.",
-  "histoire": "Le Beaufort, dont l'origine remonte au XIIe siècle, est le fruit d'un savoir-faire ancestral transmis de génération en génération dans les alpages savoyards. Sa fabrication artisanale, respectueuse des traditions, en fait un fromage d'exception, symbole du terroir et de la passion des hommes."
+  "histoire": "Le Beaufort, dont l'origine remonte au XIIe siècle, est le fruit d'un savoir-faire ancestral transmis de génération en génération dans les alpages savoyards. Sa fabrication artisanale, respectueuse des traditions, en fait un fromage d'exception, symbole du terroir et de la passion des hommes.",
+  "unite": "kg"
 }

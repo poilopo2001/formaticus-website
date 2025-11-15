@@ -37,5 +37,6 @@
   },
   "degustation": "Le KALTBACH offre une texture fondante et des arômes lactiques délicats, avec une intensité modérée qui le rend accessible à tous les palais. Sa complexité subtile en fait un fromage raffiné et polyvalent.",
   "accords": "Pour un accord parfait, mariez le KALTBACH avec un Chardonnay de Bourgogne, tel qu'un Meursault, dont les notes beurrées et toastées feront écho à la douceur du fromage. Un Chenin Blanc de Loire, comme un Vouvray, apportera une fraîcheur bienvenue et des arômes de fruits blancs. Pour une expérience plus audacieuse, optez pour une bière de blé belge, dont les notes d'agrumes et d'épices souligneront la complexité aromatique du KALTBACH.",
-  "histoire": "Le KALTBACH est un fromage suisse à pâte mi-dure affiné dans les grottes naturelles de Kaltbach, connues pour leur hygrométrie et leur température constantes. Ce processus d'affinage unique lui confère sa texture fondante et sa saveur incomparable."
+  "histoire": "Le KALTBACH est un fromage suisse à pâte mi-dure affiné dans les grottes naturelles de Kaltbach, connues pour leur hygrométrie et leur température constantes. Ce processus d'affinage unique lui confère sa texture fondante et sa saveur incomparable.",
+  "unite": "kg"
 }

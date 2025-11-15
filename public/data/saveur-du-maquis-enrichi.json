@@ -37,5 +37,6 @@
   },
   "degustation": "Ce fromage de brebis offre une texture fondante et des arômes herbacés intenses. Son intensité est modérée, ce qui le rend accessible à tous les palais.",
   "accords": "Accompagnez ce Saveur du Maquis d'un vin rouge fruité et léger, comme un Vacqueyras, pour faire écho aux notes herbacées. Un Chignin Bergeron, vin blanc savoyard aux arômes floraux et minéraux, apportera également un bel équilibre. Évitez les vins trop tanniques.",
-  "histoire": "Le Saveur du Maquis est un fromage corse authentique, fabriqué à partir de lait de brebis pasteurisé selon des méthodes traditionnelles. Il incarne le terroir de l'île de Beauté et le savoir-faire des fromagers locaux."
+  "histoire": "Le Saveur du Maquis est un fromage corse authentique, fabriqué à partir de lait de brebis pasteurisé selon des méthodes traditionnelles. Il incarne le terroir de l'île de Beauté et le savoir-faire des fromagers locaux.",
+  "unite": "kg"
 }

@@ -37,5 +37,6 @@
   },
   "degustation": "Ce fromage persillé offre une texture crémeuse et des arômes puissants de champignon et de lait frais, avec une intensité gustative affirmée.",
   "accords": "Un vin blanc sec et fruité de Savoie, tel qu'une Roussette de Savoie, accompagnera parfaitement le Bleu d'Auvergne, équilibrant sa force et sa richesse. On peut également l'associer à un vin rouge léger et fruité, comme un Gamay du Beaujolais, pour un contraste intéressant.",
-  "histoire": "Le Bleu d'Auvergne est né au milieu du XIXe siècle, grâce à l'intuition d'un agriculteur auvergnat qui eut l'idée d'ensemencer la pâte avec des moisissures. Depuis, sa fabrication artisanale et son goût unique en font un fleuron de la gastronomie française."
+  "histoire": "Le Bleu d'Auvergne est né au milieu du XIXe siècle, grâce à l'intuition d'un agriculteur auvergnat qui eut l'idée d'ensemencer la pâte avec des moisissures. Depuis, sa fabrication artisanale et son goût unique en font un fleuron de la gastronomie française.",
+  "unite": "kg"
 }

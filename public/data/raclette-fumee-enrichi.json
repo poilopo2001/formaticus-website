@@ -37,5 +37,6 @@
   },
   "degustation": "La Raclette Fumée offre une texture fondante et des arômes délicats de lait et de fumée. Son intensité est moyenne, ce qui la rend accessible à tous les palais.",
   "accords": "Pour un accord parfait, privilégiez un vin blanc sec et fruité de Savoie, tel qu'un Chignin Bergeron ou une Roussette de Savoie, dont la fraîcheur équilibrera la richesse du fromage. Un Gamay de Savoie, léger et fruité, ou un Champagne brut seront également d'excellents compagnons. La subtilité du fromage se marie aussi très bien avec une bière blonde artisanale.",
-  "histoire": "La Raclette est un fromage traditionnel des Alpes, dont l'origine remonte au Moyen Âge. La version fumée apporte une touche d'originalité à cette recette ancestrale, grâce à un fumage délicat réalisé avec des bois nobles des montagnes environnantes."
+  "histoire": "La Raclette est un fromage traditionnel des Alpes, dont l'origine remonte au Moyen Âge. La version fumée apporte une touche d'originalité à cette recette ancestrale, grâce à un fumage délicat réalisé avec des bois nobles des montagnes environnantes.",
+  "unite": "kg"
 }

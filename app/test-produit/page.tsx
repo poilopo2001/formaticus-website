@@ -12,6 +12,7 @@ const fromage = {
   image: '/Séance Photo Nicolas 20220423/comte-jeune-03-composite.jpg',
   prix: 37.9,
   prixKg: 37.9,
+  unite: 'kg',
   lait: 'vache',
   origine: 'France',
   region: 'Franche-Comté, France',
@@ -195,8 +196,12 @@ export default function TestProduitPage() {
 
               {/* Prix */}
               <div className="flex items-baseline gap-3 mb-10">
-                <span className="text-5xl font-light text-accent-600">{(fromage.prixKg / 5).toFixed(2)}€</span>
-                <span className="text-primary-400 text-xl font-light">/200g</span>
+                <span className="text-5xl font-light text-accent-600">
+                  {fromage.unite === 'piece' ? fromage.prixKg.toFixed(2) : (fromage.prixKg / 5).toFixed(2)}€
+                </span>
+                <span className="text-primary-400 text-xl font-light">
+                  {fromage.unite === 'piece' ? '/pièce' : '/200g'}
+                </span>
               </div>
 
               {/* CTA Commander */}

@@ -37,5 +37,6 @@
   },
   "degustation": "Ce fromage offre une texture fondante et une palette aromatique délicate, dominée par des notes lactiques et légèrement beurrées. Son intensité est modérée, ce qui le rend accessible et apprécié de tous.",
   "accords": "Un vin blanc sec et fruité, tel qu'un Chasselas suisse ou un Pinot Blanc d'Alsace, accompagnera à merveille la douceur du Fribourg à la Crème. Pour les amateurs de rouge, un Pinot Noir léger et peu tannique soulignera sa finesse sans l'écraser.",
-  "histoire": "Le Fribourg à la Crème est une variation gourmande du célèbre Fribourgeois, enrichie de crème fraîche pour une texture encore plus onctueuse. Son héritage remonte à des siècles de tradition fromagère dans le canton de Fribourg."
+  "histoire": "Le Fribourg à la Crème est une variation gourmande du célèbre Fribourgeois, enrichie de crème fraîche pour une texture encore plus onctueuse. Son héritage remonte à des siècles de tradition fromagère dans le canton de Fribourg.",
+  "unite": "kg"
 }

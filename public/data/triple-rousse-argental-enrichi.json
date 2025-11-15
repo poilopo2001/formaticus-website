@@ -37,5 +37,6 @@
   },
   "degustation": "Un fromage d'une grande finesse, à la texture fondante et aux arômes complexes. Son intensité modérée en fait un choix idéal pour une dégustation raffinée.",
   "accords": "Un vin blanc sec et fruité, tel qu'un Bourgogne Aligoté ou un Chardonnay du Mâconnais, accompagnera à merveille le Triple Rousse Argental. Le gras du fromage est parfaitement contrebalancé par la fraîcheur et la vivacité du vin, tandis que ses arômes fruités s'harmonisent avec les notes lactiques et subtilement animales du fromage. Une bière blonde artisanale légère et florale peut également offrir un accord surprenant.",
-  "histoire": "Issu d'un savoir-faire ancestral bourguignon, le Triple Rousse Argental est le fruit d'une tradition laitière riche et diversifiée. Sa fabrication artisanale, mêlant les laits de vache, de chèvre et de brebis, en fait un fromage unique et emblématique de son terroir."
+  "histoire": "Issu d'un savoir-faire ancestral bourguignon, le Triple Rousse Argental est le fruit d'une tradition laitière riche et diversifiée. Sa fabrication artisanale, mêlant les laits de vache, de chèvre et de brebis, en fait un fromage unique et emblématique de son terroir.",
+  "unite": "kg"
 }

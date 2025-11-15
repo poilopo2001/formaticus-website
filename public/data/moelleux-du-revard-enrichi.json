@@ -37,5 +37,6 @@
   },
   "degustation": "Ce fromage à pâte molle offre une texture fondante et des arômes lactiques délicats. Son intensité est douce à moyenne, ce qui en fait un fromage accessible et apprécié.",
   "accords": "Le Moelleux du Revard se marie à merveille avec un vin blanc sec et fruité, tel qu'un Apremont de Savoie ou un Chardonnay de Bourgogne. Il accompagne également un cidre brut ou une bière blanche artisanale. Pour un accord plus gourmand, essayez-le avec un pain aux noix et une confiture de figues.",
-  "histoire": "Le Moelleux du Revard est un fromage traditionnel de Savoie, fabriqué à partir de lait de vache entier. Son nom évoque le massif du Revard, où il est affiné selon des méthodes ancestrales."
+  "histoire": "Le Moelleux du Revard est un fromage traditionnel de Savoie, fabriqué à partir de lait de vache entier. Son nom évoque le massif du Revard, où il est affiné selon des méthodes ancestrales.",
+  "unite": "piece"
 }

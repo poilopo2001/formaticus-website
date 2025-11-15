@@ -37,5 +37,6 @@
   },
   "degustation": "Un fromage râpé d'une finesse remarquable, dévoilant une texture fondante et des arômes délicats de lait frais et de noisette. Son intensité modérée en fait un ingrédient polyvalent et apprécié.",
   "accords": "Accompagnez-le d'un vin blanc sec et fruité, tel qu'un Chasselas suisse ou un Riesling d'Alsace, pour un accord harmonieux. Pour une dégustation plus audacieuse, osez un vin jaune du Jura, dont les notes oxydatives se marieront à merveille avec le fromage.",
-  "histoire": "L'Emmental, originaire du canton de Berne, est l'un des plus anciens fromages suisses. Sa production, régie par une AOP, garantit le respect d'un savoir-faire traditionnel et d'un cahier des charges strict."
+  "histoire": "L'Emmental, originaire du canton de Berne, est l'un des plus anciens fromages suisses. Sa production, régie par une AOP, garantit le respect d'un savoir-faire traditionnel et d'un cahier des charges strict.",
+  "unite": "kg"
 }

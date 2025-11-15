@@ -37,5 +37,6 @@
   },
   "degustation": "Ce fromage offre une texture crémeuse et fondante, enrichie de saveurs piquantes et beurrées. Son intensité aromatique moyenne en fait un fromage accessible et apprécié par tous.",
   "accords": "Le Shropshire s'accorde merveilleusement avec un vin de dessert liquoreux tel qu'un Sauternes Château d'Yquem, dont les notes miellées et fruitées équilibrent parfaitement le caractère piquant du fromage. Il se marie également très bien avec un Porto Tawny, dont les arômes de fruits secs et d'épices complètent sa complexité. Osez également un Gewürztraminer Vendanges Tardives.",
-  "histoire": "Créé dans les années 1970, le Shropshire est un fromage relativement récent, mais qui a rapidement conquis les amateurs de fromages persillés. Son nom rend hommage à la région anglaise du même nom, bien que sa production ait initialement lieu dans le Nottinghamshire, puis ailleurs. Il est aujourd'hui un fromage emblématique du Royaume-Uni."
+  "histoire": "Créé dans les années 1970, le Shropshire est un fromage relativement récent, mais qui a rapidement conquis les amateurs de fromages persillés. Son nom rend hommage à la région anglaise du même nom, bien que sa production ait initialement lieu dans le Nottinghamshire, puis ailleurs. Il est aujourd'hui un fromage emblématique du Royaume-Uni.",
+  "unite": "kg"
 }

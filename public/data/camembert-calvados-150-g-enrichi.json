@@ -37,5 +37,6 @@
   },
   "degustation": "Ce Camembert Calvados offre une texture fondante et crémeuse, révélant des arômes lactiques délicats et des notes fruitées subtiles. Son intensité aromatique est modérée, le rendant accessible à tous les palais.",
   "accords": "Il s'accorde à merveille avec un cidre fermier brut du Pays d'Auge, dont les notes de pomme fraîche font écho à celles du Calvados. Un vin blanc sec et fruité, tel qu'un Chardonnay de Bourgogne, peut également être envisagé pour un accord plus contrasté. Évitez les vins trop tanniques qui pourraient masquer les saveurs délicates du fromage.",
-  "histoire": "Héritier de la tradition normande, ce camembert est affiné avec du Calvados, eau-de-vie de cidre emblématique de la région. Cette technique artisanale lui confère un caractère unique et une saveur incomparable."
+  "histoire": "Héritier de la tradition normande, ce camembert est affiné avec du Calvados, eau-de-vie de cidre emblématique de la région. Cette technique artisanale lui confère un caractère unique et une saveur incomparable.",
+  "unite": "piece"
 }

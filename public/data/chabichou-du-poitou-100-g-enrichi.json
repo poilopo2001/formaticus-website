@@ -37,5 +37,6 @@
   },
   "degustation": "Le Chabichou offre une texture à la fois fondante et légèrement sèche, avec des arômes caprins délicats et une intensité progressive. Un fromage de caractère qui exprime pleinement son terroir.",
   "accords": "Un Sancerre blanc, avec ses notes d'agrumes et sa minéralité, accompagnera à merveille la fraîcheur du Chabichou. Pour une option plus audacieuse, un Pouilly-Fumé apportera une complexité aromatique intéressante. On peut également l'associer avec un miel de fleurs sauvages ou une confiture de figues.",
-  "histoire": "Le Chabichou est un fromage ancestral, dont l'origine remonte au VIIIe siècle. Son nom viendrait de l'arabe \"chebli\", désignant une chèvre, témoignant de l'influence sarrasine dans la région. Il est aujourd'hui un fromage AOP, garantissant son origine et son savoir-faire."
+  "histoire": "Le Chabichou est un fromage ancestral, dont l'origine remonte au VIIIe siècle. Son nom viendrait de l'arabe \"chebli\", désignant une chèvre, témoignant de l'influence sarrasine dans la région. Il est aujourd'hui un fromage AOP, garantissant son origine et son savoir-faire.",
+  "unite": "piece"
 }

@@ -37,5 +37,6 @@
   },
   "degustation": "Ce fromage AOP offre une texture fondante et riche. Ses arômes délicats et boisés se marient harmonieusement pour une expérience gustative inoubliable. L'intensité est moyenne, ce qui le rend accessible à tous.",
   "accords": "Un vin blanc sec et fruité, tel qu'un Côtes du Jura Chardonnay, mettra en valeur la finesse du Mont d'Or. Pour les amateurs de vin rouge, un Pinot Noir de Bourgogne, léger et élégant, apportera un bel équilibre. Un vin jaune du Jura s'accorde aussi à merveille.",
-  "histoire": "Le Mont d'Or, fromage saisonnier par excellence, est fabriqué uniquement de septembre à mai. Son nom évoque le Mont d'Or, sommet emblématique du Jura, témoignant de son attachement à son terroir et de ses origines montagnardes. Son caractère unique en fait un ambassadeur de la gastronomie française."
+  "histoire": "Le Mont d'Or, fromage saisonnier par excellence, est fabriqué uniquement de septembre à mai. Son nom évoque le Mont d'Or, sommet emblématique du Jura, témoignant de son attachement à son terroir et de ses origines montagnardes. Son caractère unique en fait un ambassadeur de la gastronomie française.",
+  "unite": "piece"
 }

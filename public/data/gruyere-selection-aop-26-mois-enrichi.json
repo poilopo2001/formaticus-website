@@ -37,5 +37,6 @@
   },
   "degustation": "Ce Gruyère Sélection 26 mois offre une texture ferme et fondante, avec des arômes intenses de noisette, de lait cru et de caramel. Son intensité aromatique est persistante et complexe.",
   "accords": "Ce Gruyère d'exception s'accorde à merveille avec un vin blanc sec et fruité, tel qu'un Chardonnay de Bourgogne (ex: Meursault) ou un vin rouge léger et élégant, comme un Pinot Noir d'Alsace. Il sublime également un vin jaune du Jura.",
-  "histoire": "Le Gruyère est un fromage emblématique de la Suisse, dont l'origine remonte au XIIe siècle. Sa fabrication artisanale, perpétuée par des générations de fromagers, témoigne d'un savoir-faire ancestral et d'un attachement profond au terroir."
+  "histoire": "Le Gruyère est un fromage emblématique de la Suisse, dont l'origine remonte au XIIe siècle. Sa fabrication artisanale, perpétuée par des générations de fromagers, témoigne d'un savoir-faire ancestral et d'un attachement profond au terroir.",
+  "unite": "kg"
 }
