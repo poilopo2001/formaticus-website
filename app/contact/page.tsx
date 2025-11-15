@@ -33,7 +33,7 @@ export default function ContactPage() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/Séance Photo Nicolas 20220423/3LwOiMaHtU7L8l6KsKkJY.jpg"
+            src="/images/exterieurformaticus.png"
             alt="Contactez Formaticus"
             fill
             className="object-cover"
