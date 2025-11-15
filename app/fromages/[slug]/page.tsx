@@ -188,8 +188,8 @@ export default function FromageDetailPage({ params }: { params: { slug: string }
 
               {/* Prix */}
               <div className="flex items-baseline gap-3 mb-8 pb-8 border-b border-accent-600/20">
-                <span className="text-4xl font-light text-accent-600">{fromage.prixKg.toFixed(2)}€</span>
-                <span className="text-gray-500 text-lg">/kg</span>
+                <span className="text-4xl font-light text-accent-600">{(fromage.prixKg / 5).toFixed(2)}€</span>
+                <span className="text-gray-500 text-lg">/200g</span>
               </div>
 
               {/* CTA Commander */}

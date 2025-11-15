@@ -195,8 +195,8 @@ export default function TestProduitPage() {
 
               {/* Prix */}
               <div className="flex items-baseline gap-3 mb-10">
-                <span className="text-5xl font-light text-accent-600">{fromage.prixKg}€</span>
-                <span className="text-primary-400 text-xl font-light">/kg</span>
+                <span className="text-5xl font-light text-accent-600">{(fromage.prixKg / 5).toFixed(2)}€</span>
+                <span className="text-primary-400 text-xl font-light">/200g</span>
               </div>
 
               {/* CTA Commander */}

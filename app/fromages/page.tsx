@@ -333,8 +333,8 @@ export default function FromagesPage() {
 
                 {/* Prix */}
                 <div className="flex items-baseline justify-center gap-2 mb-6">
-                  <span className="text-3xl font-serif text-accent-600">{fromage.prixKg.toFixed(2)}€</span>
-                  <span className="text-primary-300 text-lg font-light">/kg</span>
+                  <span className="text-3xl font-serif text-accent-600">{(fromage.prixKg / 5).toFixed(2)}€</span>
+                  <span className="text-primary-300 text-lg font-light">/200g</span>
                 </div>
 
                 {/* CTA avec bordure solide */}
