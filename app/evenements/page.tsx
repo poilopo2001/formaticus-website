@@ -21,7 +21,7 @@ const prochainesDates = [
     duration: '2h30',
     placesTotal: 24,
     placesRestantes: 6,
-    price: 42,
+    price: 34,
     badge: 'Presque complet',
     badgeColor: 'red'
   },
@@ -37,7 +37,7 @@ const prochainesDates = [
     duration: '2h30',
     placesTotal: 20,
     placesRestantes: 12,
-    price: 48,
+    price: 38,
     badge: null,
     badgeColor: null
   },
@@ -53,7 +53,7 @@ const prochainesDates = [
     duration: '2h30',
     placesTotal: 24,
     placesRestantes: 18,
-    price: 42,
+    price: 34,
     badge: 'Places disponibles',
     badgeColor: 'green'
   },
@@ -97,9 +97,9 @@ const evenements = [
     slug: 'soiree-raclette',
     name: 'Soirée Raclette',
     shortDescription: 'Vivez une authentique soirée raclette dans notre espace chaleureux. Raclette artisanale à volonté avec 4 variétés de fromages AOP, charcuterie fine, pommes de terre bio et accompagnements traditionnels.',
-    image: 'https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=2940',
-    pricePerPerson: '42€',
-    priceMin: 42,
+    image: '/images/racletteparty.png',
+    pricePerPerson: '34€',
+    priceMin: 34,
     estimatedDuration: '2h30 - 3h',
     schedule: {
       groupSize: '8-40 personnes',
@@ -121,9 +121,9 @@ const evenements = [
     slug: 'soiree-cheese-wine',
     name: 'Soirée Cheese & Wine',
     shortDescription: 'Découvrez l\'art subtil des accords fromages et vins lors d\'une soirée dégustation animée par nos sommeliers. 8 fromages d\'exception accompagnés de 5 vins soigneusement sélectionnés.',
-    image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=2940',
-    pricePerPerson: '48€',
-    priceMin: 48,
+    image: '/images/cheesewine.png',
+    pricePerPerson: '38€',
+    priceMin: 38,
     estimatedDuration: '2h - 2h30',
     schedule: {
       groupSize: '8-30 personnes',
@@ -145,7 +145,7 @@ const evenements = [
     slug: 'soiree-tartiflette',
     name: 'Soirée Tartiflette',
     shortDescription: 'Plongez dans la tradition savoyarde avec notre tartiflette authentique. Reblochon fermier AOP, pommes de terre grenaille, lardons fumés artisanaux et oignons confits maison.',
-    image: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=2940',
+    image: '/images/tartiflette-feast-snapshot.jpg',
     pricePerPerson: '38€',
     priceMin: 38,
     estimatedDuration: '2h - 2h30',
@@ -169,7 +169,7 @@ const evenements = [
     slug: 'soiree-fondue',
     name: 'Soirée Fondue',
     shortDescription: 'Savourez une fondue savoyarde traditionnelle préparée avec un mélange de 3 fromages AOP. Pain artisanal, charcuterie de montagne et cornichons maison pour une expérience authentique.',
-    image: 'https://images.unsplash.com/photo-1530648672449-81f6c723e2f1?q=80&w=2940',
+    image: '/images/fonduepartie.png',
     pricePerPerson: '44€',
     priceMin: 44,
     estimatedDuration: '2h30 - 3h',
@@ -235,8 +235,8 @@ export default function EvenementsPage() {
 
             <div className="flex justify-center mb-8">
               <svg className="w-12 h-3 text-accent-600" viewBox="0 0 48 12" fill="none">
-                <path d="M0 6h18M24 0l-6 6 6 6M24 0l6 6-6 6M30 6h18" stroke="currentColor" strokeWidth="0.5"/>
-                <circle cx="24" cy="6" r="1.5" fill="currentColor"/>
+                <path d="M0 6h18M24 0l-6 6 6 6M24 0l6 6-6 6M30 6h18" stroke="currentColor" strokeWidth="0.5" />
+                <circle cx="24" cy="6" r="1.5" fill="currentColor" />
               </svg>
             </div>
 
@@ -299,11 +299,10 @@ export default function EvenementsPage() {
                 {/* Badge si présent */}
                 {date.badge && (
                   <div className="absolute -top-3 left-1/2 -translate-x-1/2 z-20">
-                    <span className={`inline-block px-4 py-1 text-xs tracking-[0.2em] uppercase font-medium ${
-                      date.badgeColor === 'red' ? 'bg-red-600 text-white' :
+                    <span className={`inline-block px-4 py-1 text-xs tracking-[0.2em] uppercase font-medium ${date.badgeColor === 'red' ? 'bg-red-600 text-white' :
                       date.badgeColor === 'green' ? 'bg-green-600 text-white' :
-                      'bg-accent-600 text-black'
-                    }`}>
+                        'bg-accent-600 text-black'
+                      }`}>
                       {date.badge}
                     </span>
                   </div>
@@ -339,17 +338,15 @@ export default function EvenementsPage() {
                     <div className="bg-primary-900/50 border border-accent-600/20 p-4">
                       <div className="flex items-center justify-between mb-2">
                         <span className="text-primary-300 text-sm font-light">Places restantes</span>
-                        <span className={`text-sm font-medium ${
-                          date.placesRestantes <= 6 ? 'text-red-500' : 'text-accent-600'
-                        }`}>
+                        <span className={`text-sm font-medium ${date.placesRestantes <= 6 ? 'text-red-500' : 'text-accent-600'
+                          }`}>
                           {date.placesRestantes}/{date.placesTotal}
                         </span>
                       </div>
                       <div className="w-full bg-primary-900 h-2 rounded-full overflow-hidden">
                         <div
-                          className={`h-full transition-all duration-500 ${
-                            date.placesRestantes <= 6 ? 'bg-red-600' : 'bg-accent-600'
-                          }`}
+                          className={`h-full transition-all duration-500 ${date.placesRestantes <= 6 ? 'bg-red-600' : 'bg-accent-600'
+                            }`}
                           style={{ width: `${(date.placesRestantes / date.placesTotal) * 100}%` }}
                         />
                       </div>
@@ -386,8 +383,8 @@ export default function EvenementsPage() {
                 {/* Ornament hover */}
                 <div className="mt-6 flex justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                   <svg className="w-12 h-2 text-accent-600" viewBox="0 0 48 8" fill="none">
-                    <path d="M0 4h20M24 0v8M28 4h20" stroke="currentColor" strokeWidth="0.5"/>
-                    <circle cx="24" cy="4" r="1" fill="currentColor"/>
+                    <path d="M0 4h20M24 0v8M28 4h20" stroke="currentColor" strokeWidth="0.5" />
+                    <circle cx="24" cy="4" r="1" fill="currentColor" />
                   </svg>
                 </div>
               </div>
@@ -426,17 +423,16 @@ export default function EvenementsPage() {
             {events.map((event, index) => (
               <div
                 key={event.slug}
-                className={`grid md:grid-cols-2 gap-12 items-center ${
-                  index % 2 === 1 ? 'md:flex-row-reverse' : ''
-                }`}
+                className={`grid md:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? 'md:flex-row-reverse' : ''
+                  }`}
               >
                 {/* Image */}
                 <div className={`group ${index % 2 === 1 ? 'md:order-2' : ''}`}>
                   {/* Star ornament */}
                   <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
                     <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
-                      <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
-                      <circle cx="16" cy="16" r="2" fill="black"/>
+                      <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor" />
+                      <circle cx="16" cy="16" r="2" fill="black" />
                     </svg>
                   </div>
 
@@ -465,8 +461,8 @@ export default function EvenementsPage() {
                   {/* Geometric ornament */}
                   <div className="mt-8 flex justify-center">
                     <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
-                      <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
-                      <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
+                      <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5" />
+                      <circle cx="32" cy="6" r="1.5" fill="currentColor" />
                     </svg>
                   </div>
                 </div>

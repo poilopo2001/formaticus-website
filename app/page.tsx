@@ -23,6 +23,7 @@ import Autoplay from 'embla-carousel-autoplay'
 import { CountdownTimer } from '@/components/CountdownTimer'
 import { ParallaxScroll } from '@/components/ui/parallax-scroll'
 import { FadeInSection } from '@/components/ui/FadeInSection'
+import { motion, useScroll, useTransform } from 'framer-motion'
 
 // Données des slides pour le carousel hero
 const heroSlides = [
@@ -82,8 +83,13 @@ export default function HomePage() {
             {heroSlides.map((slide, index) => (
               <CarouselItem key={index} className="pl-0">
                 <div className="relative h-screen flex items-center justify-center overflow-hidden">
-                  {/* Background Image avec overlay */}
-                  <div className="absolute inset-0 z-0">
+                  {/* Background Image avec Parallax */}
+                  <motion.div
+                    className="absolute inset-0 z-0"
+                    initial={{ scale: 1.1 }}
+                    animate={{ scale: 1 }}
+                    transition={{ duration: 10, ease: "easeOut" }}
+                  >
                     <Image
                       src={slide.image}
                       alt={`${slide.tagline} - Formaticus Luxembourg`}
@@ -91,46 +97,74 @@ export default function HomePage() {
                       className="object-cover"
                       priority={index === 0}
                     />
-                    {/* Overlay sombre exactement comme Delici */}
-                    <div className="absolute inset-0 bg-black/50" />
-                  </div>
+                    {/* Overlay sombre */}
+                    <div className="absolute inset-0 bg-black/40" />
+                  </motion.div>
 
                   {/* Contenu centré */}
                   <div className="relative z-10 container mx-auto px-6 lg:px-12 text-center">
                     <div className="max-w-4xl mx-auto">
-                      {/* Tagline doré en majuscules avec espacement large */}
-                      <div className="mb-8">
+                      {/* Tagline doré */}
+                      <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.3, duration: 0.8 }}
+                        className="mb-8"
+                      >
                         <p className="text-accent-600 tracking-[0.4em] text-[11px] md:text-xs font-normal uppercase mb-6">
                           {slide.tagline}
                         </p>
-                        {/* Ornement décoratif sous le tagline */}
                         <div className="flex justify-center">
                           <svg className="w-12 h-3 text-accent-600" viewBox="0 0 48 12" fill="none">
-                            <path d="M0 6h18M24 0l-6 6 6 6M24 0l6 6-6 6M30 6h18" stroke="currentColor" strokeWidth="0.5"/>
-                            <circle cx="24" cy="6" r="1.5" fill="currentColor"/>
+                            <path d="M0 6h18M24 0l-6 6 6 6M24 0l6 6-6 6M30 6h18" stroke="currentColor" strokeWidth="0.5" />
+                            <circle cx="24" cy="6" r="1.5" fill="currentColor" />
                           </svg>
                         </div>
-                      </div>
+                      </motion.div>
 
-                      {/* Titre principal - très grand, serif, blanc */}
-                      <h1 className="text-6xl md:text-7xl lg:text-8xl font-serif font-light text-white leading-[1.15] mb-8">
-                        {slide.title[0]}<br />
-                        {slide.title[1]}
+                      {/* Titre principal - Reveal Animation */}
+                      <h1 className="text-6xl md:text-7xl lg:text-8xl font-serif font-light text-white leading-[1.15] mb-8 overflow-hidden">
+                        <motion.span
+                          initial={{ y: "100%" }}
+                          whileInView={{ y: 0 }}
+                          transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
+                          className="block"
+                        >
+                          {slide.title[0]}
+                        </motion.span>
+                        <motion.span
+                          initial={{ y: "100%" }}
+                          whileInView={{ y: 0 }}
+                          transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.5 }}
+                          className="block"
+                        >
+                          {slide.title[1]}
+                        </motion.span>
                       </h1>
 
-                      {/* Description - blanc, taille moyenne */}
-                      <p className="text-base md:text-lg text-white font-light mb-12 max-w-2xl mx-auto">
+                      {/* Description */}
+                      <motion.p
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ delay: 0.8, duration: 1 }}
+                        className="text-base md:text-lg text-white font-light mb-12 max-w-2xl mx-auto"
+                      >
                         {slide.description}
-                      </p>
+                      </motion.p>
 
-                      {/* Bouton CTA - bordure dorée, fond transparent */}
-                      <div className="inline-block">
+                      {/* Bouton CTA */}
+                      <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 1, duration: 0.8 }}
+                        className="inline-block"
+                      >
                         <Link href={slide.href}>
                           <button className="px-12 py-4 bg-transparent border border-accent-600 text-accent-600 font-sans tracking-[0.25em] text-[11px] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
                             {slide.cta}
                           </button>
                         </Link>
-                      </div>
+                      </motion.div>
                     </div>
                   </div>
                 </div>
@@ -202,96 +236,96 @@ export default function HomePage() {
             {/* Colonne 1 - Sélection Fromages */}
             <FadeInSection delay={0.4} direction="up">
               <div className="group text-center">
-              {/* Ornement étoile top avec pulse au hover */}
-              <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
-                <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.6)]" viewBox="0 0 32 32" fill="none">
-                  <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
-                  <circle cx="16" cy="16" r="2" fill="black"/>
-                </svg>
-              </div>
-
-              {/* Image avec glow et lift effect */}
-              <div className="relative h-96 mb-8 overflow-hidden shadow-2xl transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(212,175,55,0.3)]">
-                <Image
-                  src="/Séance Photo Nicolas 20220423/plateau-fromages-01.jpg"
-                  alt="Sélection fromages"
-                  fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-110"
-                />
-                {/* Overlay avec texte au hover */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center p-8">
-                  <p className="text-white/90 text-sm font-light leading-relaxed text-center">
-                    Plus de 150 fromages AOP et fermiers sélectionnés avec passion auprès des meilleurs artisans. De la Tomme de Savoie au Comté 36 mois, découvrez notre cave exceptionnelle.
-                  </p>
+                {/* Ornement étoile top avec pulse au hover */}
+                <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
+                  <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.6)]" viewBox="0 0 32 32" fill="none">
+                    <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor" />
+                    <circle cx="16" cy="16" r="2" fill="black" />
+                  </svg>
                 </div>
-                {/* Glow border interne */}
-                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
-                  <div className="absolute inset-0 border-2 border-accent-600/40 shadow-[inset_0_0_20px_rgba(212,175,55,0.2)]" />
+
+                {/* Image avec glow et lift effect */}
+                <div className="relative h-96 mb-8 overflow-hidden shadow-2xl transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(212,175,55,0.3)]">
+                  <Image
+                    src="/images/3f206db1-a6b0-462b-a1a5-e5eb98aa05c7.jpg"
+                    alt="Sélection fromages"
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  />
+                  {/* Overlay avec texte au hover */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center p-8">
+                    <p className="text-white/90 text-sm font-light leading-relaxed text-center">
+                      Plus de 150 fromages AOP et fermiers sélectionnés avec passion auprès des meilleurs artisans. De la Tomme de Savoie au Comté 36 mois, découvrez notre cave exceptionnelle.
+                    </p>
+                  </div>
+                  {/* Glow border interne */}
+                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
+                    <div className="absolute inset-0 border-2 border-accent-600/40 shadow-[inset_0_0_20px_rgba(212,175,55,0.2)]" />
+                  </div>
                 </div>
-              </div>
 
-              {/* Ornement géométrique bottom */}
-              <div className="mb-8 flex justify-center">
-                <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
-                  <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
-                  <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
-                </svg>
-              </div>
+                {/* Ornement géométrique bottom */}
+                <div className="mb-8 flex justify-center">
+                  <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
+                    <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5" />
+                    <circle cx="32" cy="6" r="1.5" fill="currentColor" />
+                  </svg>
+                </div>
 
-              {/* Titre */}
-              <h3 className="text-3xl font-serif font-light text-white mb-8">
-                Sélection Fromages
-              </h3>
+                {/* Titre */}
+                <h3 className="text-3xl font-serif font-light text-white mb-8">
+                  Sélection Fromages
+                </h3>
 
-              {/* CTA avec bordure solide */}
-              <Link href="/fromages" className="inline-block px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
-                Découvrir
-              </Link>
+                {/* CTA avec bordure solide */}
+                <Link href="/fromages" className="inline-block px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
+                  Découvrir
+                </Link>
               </div>
             </FadeInSection>
 
             {/* Colonne 2 - Soirées Conviviales */}
             <FadeInSection delay={0.6} direction="up">
               <div className="group text-center">
-              <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
-                <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.6)]" viewBox="0 0 32 32" fill="none">
-                  <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
-                  <circle cx="16" cy="16" r="2" fill="black"/>
-                </svg>
-              </div>
-
-              <div className="relative h-96 mb-8 overflow-hidden shadow-2xl transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(212,175,55,0.3)]">
-                <Image
-                  src="https://images.unsplash.com/photo-1530648672449-81f6c723e2f1"
-                  alt="Soirées raclette"
-                  fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-110"
-                />
-                {/* Overlay avec texte au hover */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center p-8">
-                  <p className="text-white/90 text-sm font-light leading-relaxed text-center">
-                    Chaque vendredi et samedi soir, vivez l'expérience d'une raclette, fondue ou tartiflette authentique dans une ambiance chaleureuse. Réservation recommandée.
-                  </p>
+                <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
+                  <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.6)]" viewBox="0 0 32 32" fill="none">
+                    <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor" />
+                    <circle cx="16" cy="16" r="2" fill="black" />
+                  </svg>
                 </div>
-                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
-                  <div className="absolute inset-0 border-2 border-accent-600/40 shadow-[inset_0_0_20px_rgba(212,175,55,0.2)]" />
+
+                <div className="relative h-96 mb-8 overflow-hidden shadow-2xl transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(212,175,55,0.3)]">
+                  <Image
+                    src="/images/soiree conviviale.jpg"
+                    alt="Soirées raclette"
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  />
+                  {/* Overlay avec texte au hover */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center p-8">
+                    <p className="text-white/90 text-sm font-light leading-relaxed text-center">
+                      Chaque vendredi et samedi soir, vivez l'expérience d'une raclette, fondue ou tartiflette authentique dans une ambiance chaleureuse. Réservation recommandée.
+                    </p>
+                  </div>
+                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
+                    <div className="absolute inset-0 border-2 border-accent-600/40 shadow-[inset_0_0_20px_rgba(212,175,55,0.2)]" />
+                  </div>
                 </div>
-              </div>
 
-              <div className="mb-8 flex justify-center">
-                <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
-                  <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
-                  <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
-                </svg>
-              </div>
+                <div className="mb-8 flex justify-center">
+                  <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
+                    <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5" />
+                    <circle cx="32" cy="6" r="1.5" fill="currentColor" />
+                  </svg>
+                </div>
 
-              <h3 className="text-3xl font-serif font-light text-white mb-8">
-                Soirées Conviviales
-              </h3>
+                <h3 className="text-3xl font-serif font-light text-white mb-8">
+                  Soirées Conviviales
+                </h3>
 
-              <Link href="/evenements" className="inline-block px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
-                Nos Événements
-              </Link>
+                <Link href="/evenements" className="inline-block px-10 py-3 border border-accent-600 text-accent-600 text-xs tracking-[0.2em] uppercase hover:bg-accent-600 hover:text-black transition-all duration-500">
+                  Nos Événements
+                </Link>
               </div>
             </FadeInSection>
           </div>
@@ -302,14 +336,13 @@ export default function HomePage() {
       <section className="relative overflow-hidden">
         <div className="grid lg:grid-cols-2">
           {/* Image gauche */}
-          <div className="relative h-[600px] lg:h-auto bg-black">
+          <div className="relative h-[600px] lg:h-auto bg-primary-900">
             <Image
-              src="/Séance Photo Nicolas 20220423/soiree-raclette-conviviale.jpg"
+              src="/images/soiree raclette.png"
               alt="Soirée Raclette Conviviale - Formaticus"
               fill
-              className="object-contain lg:object-cover"
+              className="object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/30 pointer-events-none" />
           </div>
 
           {/* Contenu droite */}
@@ -340,7 +373,7 @@ export default function HomePage() {
               </div>
 
               <div className="flex items-baseline gap-4 mb-10">
-                <span className="text-accent-600 text-4xl font-serif">42€</span>
+                <span className="text-accent-600 text-4xl font-serif">34€</span>
                 <span className="text-primary-300 text-xl font-light">par personne</span>
               </div>
 
@@ -369,7 +402,7 @@ export default function HomePage() {
             <div className="group bg-primary-900 overflow-hidden">
               <div className="relative h-72 overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1530648672449-81f6c723e2f1"
+                  src="/images/racletteparty.png"
                   alt="Soirée Raclette Conviviale"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -401,7 +434,7 @@ export default function HomePage() {
             <div className="group bg-primary-900 overflow-hidden">
               <div className="relative h-72 overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d"
+                  src="/images/cheesewine.png"
                   alt="Atelier Dégustation"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -433,7 +466,7 @@ export default function HomePage() {
             <div className="group bg-primary-900 overflow-hidden">
               <div className="relative h-72 overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1559339352-11d035aa65de"
+                  src="/images/fonduepartie.png"
                   alt="Soirée Fondue"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -501,136 +534,208 @@ export default function HomePage() {
 
           <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
             {/* Fromage 1 */}
-            <div className="flex gap-6 group">
-              <div className="relative w-24 h-24 flex-shrink-0 overflow-hidden">
-                <Image
-                  src="/Séance Photo Nicolas 20220423/comte-vieux.jpg"
-                  alt="Comté 24 mois"
-                  fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-500"
-                />
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1 }}
+              className="flex gap-6 group cursor-pointer"
+            >
+              <div className="relative w-24 h-24 flex-shrink-0 overflow-hidden rounded-sm">
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ duration: 0.7, ease: "easeOut" }}
+                  className="w-full h-full relative"
+                >
+                  <Image
+                    src="/Séance Photo Nicolas 20220423/comte-jeune-03-composite.jpg"
+                    alt="Comté 24 mois"
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-500" />
+                </motion.div>
               </div>
               <div className="flex-1">
                 <div className="flex items-start justify-between mb-2">
-                  <h4 className="text-xl font-serif font-light text-white">Comté 24 mois AOP</h4>
-                  <div className="flex-shrink-0 w-16 h-px bg-accent-600/30 mx-4 mt-3" />
+                  <h4 className="text-xl font-serif font-light text-white group-hover:text-accent-600 transition-colors duration-300">Comté 24 mois AOP</h4>
+                  <div className="flex-shrink-0 w-16 h-px bg-accent-600/30 mx-4 mt-3 group-hover:w-24 transition-all duration-500" />
                   <span className="text-accent-600 font-serif text-xl flex-shrink-0">38€/kg</span>
                 </div>
-                <p className="text-primary-300 text-sm font-light leading-relaxed">
+                <p className="text-primary-300 text-sm font-light leading-relaxed group-hover:text-white transition-colors duration-300">
                   Fruité intense, notes de caramel et noisette grillée, texture fondante exceptionnelle
                 </p>
               </div>
-            </div>
+            </motion.div>
 
             {/* Fromage 2 */}
-            <div className="flex gap-6 group">
-              <div className="relative w-24 h-24 flex-shrink-0 overflow-hidden">
-                <Image
-                  src="/Séance Photo Nicolas 20220423/tomme-de-savoie.jpg"
-                  alt="Reblochon Fermier"
-                  fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-500"
-                />
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2 }}
+              className="flex gap-6 group cursor-pointer"
+            >
+              <div className="relative w-24 h-24 flex-shrink-0 overflow-hidden rounded-sm">
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ duration: 0.7, ease: "easeOut" }}
+                  className="w-full h-full relative"
+                >
+                  <Image
+                    src="/Séance Photo Nicolas 20220423/tomme-de-savoie-composite.jpg"
+                    alt="Reblochon Fermier"
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-500" />
+                </motion.div>
               </div>
               <div className="flex-1">
                 <div className="flex items-start justify-between mb-2">
-                  <h4 className="text-xl font-serif font-light text-white">Reblochon Fermier AOP</h4>
-                  <div className="flex-shrink-0 w-16 h-px bg-accent-600/30 mx-4 mt-3" />
+                  <h4 className="text-xl font-serif font-light text-white group-hover:text-accent-600 transition-colors duration-300">Reblochon Fermier AOP</h4>
+                  <div className="flex-shrink-0 w-16 h-px bg-accent-600/30 mx-4 mt-3 group-hover:w-24 transition-all duration-500" />
                   <span className="text-accent-600 font-serif text-xl flex-shrink-0">32€/kg</span>
                 </div>
-                <p className="text-primary-300 text-sm font-light leading-relaxed">
+                <p className="text-primary-300 text-sm font-light leading-relaxed group-hover:text-white transition-colors duration-300">
                   Crémeux et fondant, arômes de noisette, parfait pour raclette et tartiflette
                 </p>
               </div>
-            </div>
+            </motion.div>
 
             {/* Fromage 3 */}
-            <div className="flex gap-6 group">
-              <div className="relative w-24 h-24 flex-shrink-0 overflow-hidden">
-                <Image
-                  src="/Séance Photo Nicolas 20220423/roquefort.jpg"
-                  alt="Roquefort Papillon"
-                  fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-500"
-                />
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.3 }}
+              className="flex gap-6 group cursor-pointer"
+            >
+              <div className="relative w-24 h-24 flex-shrink-0 overflow-hidden rounded-sm">
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ duration: 0.7, ease: "easeOut" }}
+                  className="w-full h-full relative"
+                >
+                  <Image
+                    src="/Séance Photo Nicolas 20220423/roquefort-composite.jpg"
+                    alt="Roquefort Papillon"
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-500" />
+                </motion.div>
               </div>
               <div className="flex-1">
                 <div className="flex items-start justify-between mb-2">
-                  <h4 className="text-xl font-serif font-light text-white">Roquefort Papillon AOP</h4>
-                  <div className="flex-shrink-0 w-16 h-px bg-accent-600/30 mx-4 mt-3" />
+                  <h4 className="text-xl font-serif font-light text-white group-hover:text-accent-600 transition-colors duration-300">Roquefort Papillon AOP</h4>
+                  <div className="flex-shrink-0 w-16 h-px bg-accent-600/30 mx-4 mt-3 group-hover:w-24 transition-all duration-500" />
                   <span className="text-accent-600 font-serif text-xl flex-shrink-0">42€/kg</span>
                 </div>
-                <p className="text-primary-300 text-sm font-light leading-relaxed">
+                <p className="text-primary-300 text-sm font-light leading-relaxed group-hover:text-white transition-colors duration-300">
                   Persillé noble, puissant et équilibré, affiné 3 mois en caves de Roquefort
                 </p>
               </div>
-            </div>
+            </motion.div>
 
             {/* Fromage 4 */}
-            <div className="flex gap-6 group">
-              <div className="relative w-24 h-24 flex-shrink-0 overflow-hidden">
-                <Image
-                  src="/Séance Photo Nicolas 20220423/brie-de-nangis.jpg"
-                  alt="Brie de Meaux"
-                  fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-500"
-                />
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4 }}
+              className="flex gap-6 group cursor-pointer"
+            >
+              <div className="relative w-24 h-24 flex-shrink-0 overflow-hidden rounded-sm">
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ duration: 0.7, ease: "easeOut" }}
+                  className="w-full h-full relative"
+                >
+                  <Image
+                    src="/Séance Photo Nicolas 20220423/brie-de-nangis-composite.jpg"
+                    alt="Brie de Meaux"
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-500" />
+                </motion.div>
               </div>
               <div className="flex-1">
                 <div className="flex items-start justify-between mb-2">
-                  <h4 className="text-xl font-serif font-light text-white">Brie de Meaux AOP</h4>
-                  <div className="flex-shrink-0 w-16 h-px bg-accent-600/30 mx-4 mt-3" />
+                  <h4 className="text-xl font-serif font-light text-white group-hover:text-accent-600 transition-colors duration-300">Brie de Meaux AOP</h4>
+                  <div className="flex-shrink-0 w-16 h-px bg-accent-600/30 mx-4 mt-3 group-hover:w-24 transition-all duration-500" />
                   <span className="text-accent-600 font-serif text-xl flex-shrink-0">28€/kg</span>
                 </div>
-                <p className="text-primary-300 text-sm font-light leading-relaxed">
+                <p className="text-primary-300 text-sm font-light leading-relaxed group-hover:text-white transition-colors duration-300">
                   Crème onctueuse, notes de champignon et noisette, roi des fromages français
                 </p>
               </div>
-            </div>
+            </motion.div>
 
             {/* Fromage 5 */}
-            <div className="flex gap-6 group">
-              <div className="relative w-24 h-24 flex-shrink-0 overflow-hidden">
-                <Image
-                  src="/Séance Photo Nicolas 20220423/crottin-fermier.jpg"
-                  alt="Crottin de Chavignol"
-                  fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-500"
-                />
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.5 }}
+              className="flex gap-6 group cursor-pointer"
+            >
+              <div className="relative w-24 h-24 flex-shrink-0 overflow-hidden rounded-sm">
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ duration: 0.7, ease: "easeOut" }}
+                  className="w-full h-full relative"
+                >
+                  <Image
+                    src="/Séance Photo Nicolas 20220423/crottin-fermier-composite.jpg"
+                    alt="Crottin de Chavignol"
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-500" />
+                </motion.div>
               </div>
               <div className="flex-1">
                 <div className="flex items-start justify-between mb-2">
-                  <h4 className="text-xl font-serif font-light text-white">Crottin Chavignol AOP</h4>
-                  <div className="flex-shrink-0 w-16 h-px bg-accent-600/30 mx-4 mt-3" />
+                  <h4 className="text-xl font-serif font-light text-white group-hover:text-accent-600 transition-colors duration-300">Crottin Chavignol AOP</h4>
+                  <div className="flex-shrink-0 w-16 h-px bg-accent-600/30 mx-4 mt-3 group-hover:w-24 transition-all duration-500" />
                   <span className="text-accent-600 font-serif text-xl flex-shrink-0">35€/kg</span>
                 </div>
-                <p className="text-primary-300 text-sm font-light leading-relaxed">
+                <p className="text-primary-300 text-sm font-light leading-relaxed group-hover:text-white transition-colors duration-300">
                   Chèvre fermier au lait cru, saveur de noisette, texture dense et crémeuse
                 </p>
               </div>
-            </div>
+            </motion.div>
 
             {/* Fromage 6 */}
-            <div className="flex gap-6 group">
-              <div className="relative w-24 h-24 flex-shrink-0 overflow-hidden">
-                <Image
-                  src="/Séance Photo Nicolas 20220423/beaufort-dete.jpg"
-                  alt="Beaufort d'Alpage"
-                  fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-500"
-                />
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.6 }}
+              className="flex gap-6 group cursor-pointer"
+            >
+              <div className="relative w-24 h-24 flex-shrink-0 overflow-hidden rounded-sm">
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ duration: 0.7, ease: "easeOut" }}
+                  className="w-full h-full relative"
+                >
+                  <Image
+                    src="/Séance Photo Nicolas 20220423/beaufort-dete-composite.jpg"
+                    alt="Beaufort d'Alpage"
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-500" />
+                </motion.div>
               </div>
               <div className="flex-1">
                 <div className="flex items-start justify-between mb-2">
-                  <h4 className="text-xl font-serif font-light text-white">Beaufort d'Alpage AOP</h4>
-                  <div className="flex-shrink-0 w-16 h-px bg-accent-600/30 mx-4 mt-3" />
+                  <h4 className="text-xl font-serif font-light text-white group-hover:text-accent-600 transition-colors duration-300">Beaufort d'Alpage AOP</h4>
+                  <div className="flex-shrink-0 w-16 h-px bg-accent-600/30 mx-4 mt-3 group-hover:w-24 transition-all duration-500" />
                   <span className="text-accent-600 font-serif text-xl flex-shrink-0">44€/kg</span>
                 </div>
-                <p className="text-primary-300 text-sm font-light leading-relaxed">
+                <p className="text-primary-300 text-sm font-light leading-relaxed group-hover:text-white transition-colors duration-300">
                   Prince des Gruyères, fruité floral, texture fondante incomparable
                 </p>
               </div>
-            </div>
+            </motion.div>
           </div>
 
           <div className="text-center mt-16">
@@ -660,7 +765,7 @@ export default function HomePage() {
             <div className="group text-center">
               <div className="relative h-80 mb-6 overflow-hidden rounded-sm">
                 <Image
-                  src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d"
+                  src="/images/racletteparty.png"
                   alt="Soirée Raclette"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -676,7 +781,7 @@ export default function HomePage() {
                   <p className="text-sm text-primary-200 font-light mb-3 line-clamp-2">
                     Raclette artisanale à volonté, charcuterie fine, ambiance montagne
                   </p>
-                  <div className="text-accent-600 font-serif text-xl">42€/pers</div>
+                  <div className="text-accent-600 font-serif text-xl">34€/pers</div>
                 </div>
               </div>
               <Link href="/reserver" className="inline-block px-8 py-3 border border-accent-600/50 text-accent-600 text-xs tracking-[0.15em] uppercase hover:border-accent-600 hover:bg-accent-600/10 transition-all duration-500">
@@ -688,7 +793,7 @@ export default function HomePage() {
             <div className="group text-center">
               <div className="relative h-80 mb-6 overflow-hidden rounded-sm">
                 <Image
-                  src="https://images.unsplash.com/photo-1530648672449-81f6c723e2f1"
+                  src="/images/fonduepartie.png"
                   alt="Soirée Fondue"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -716,7 +821,7 @@ export default function HomePage() {
             <div className="group text-center">
               <div className="relative h-80 mb-6 overflow-hidden rounded-sm">
                 <Image
-                  src="https://images.unsplash.com/photo-1559339352-11d035aa65de"
+                  src="/images/cheesewine.png"
                   alt="Atelier Dégustation"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -744,7 +849,7 @@ export default function HomePage() {
             <div className="group text-center">
               <div className="relative h-80 mb-6 overflow-hidden rounded-sm">
                 <Image
-                  src="https://images.unsplash.com/photo-1452195100486-9cc805987862"
+                  src="/images/plateau.png"
                   alt="Plateau Sur-Mesure"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -992,26 +1097,26 @@ export default function HomePage() {
       <section className="py-20 bg-primary-950">
         <ParallaxScroll
           images={[
-            // Colonne 1 - scroll vers le bas
-            "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3",
-            "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d",
-            "https://images.unsplash.com/photo-1559339352-11d035aa65de",
-            "https://images.unsplash.com/photo-1577219491135-ce391730fb2c",
-            // Colonne 2 - scroll vers le haut
-            "https://images.unsplash.com/photo-1530648672449-81f6c723e2f1",
-            "https://images.unsplash.com/photo-1452195100486-9cc805987862",
-            "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3",
-            "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d",
-            // Colonne 3 - scroll vers le bas
-            "https://images.unsplash.com/photo-1559339352-11d035aa65de",
-            "https://images.unsplash.com/photo-1577219491135-ce391730fb2c",
-            "https://images.unsplash.com/photo-1530648672449-81f6c723e2f1",
-            "https://images.unsplash.com/photo-1452195100486-9cc805987862",
-            // Colonne 4 - scroll vers le haut
-            "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3",
-            "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d",
-            "https://images.unsplash.com/photo-1559339352-11d035aa65de",
-            "https://images.unsplash.com/photo-1577219491135-ce391730fb2c",
+            // Colonne 1
+            "/images/Paralax1.jpeg",
+            "/images/Paralax2.jpeg",
+            "/images/Paralax3.jpeg",
+            "/images/Paralax4.jpeg",
+            // Colonne 2
+            "/images/Paralax5.jpeg",
+            "/images/Paralax6.jpeg",
+            "/images/Paralax1.jpeg",
+            "/images/Paralax2.jpeg",
+            // Colonne 3
+            "/images/Paralax3.jpeg",
+            "/images/Paralax4.jpeg",
+            "/images/Paralax5.jpeg",
+            "/images/Paralax6.jpeg",
+            // Colonne 4
+            "/images/Paralax1.jpeg",
+            "/images/Paralax2.jpeg",
+            "/images/Paralax3.jpeg",
+            "/images/Paralax4.jpeg",
           ]}
         />
       </section>
@@ -1232,14 +1337,14 @@ export default function HomePage() {
             {/* Instagram Image 1 */}
             <a href="#" className="relative aspect-square group overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d"
+                src="/instagram/Generated Image November 22, 2025 - 10_50PM (1).png"
                 alt="Instagram post"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                 </svg>
               </div>
             </a>
@@ -1247,14 +1352,14 @@ export default function HomePage() {
             {/* Instagram Image 2 */}
             <a href="#" className="relative aspect-square group overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1530648672449-81f6c723e2f1"
+                src="/instagram/Generated Image November 22, 2025 - 10_51PM (1).png"
                 alt="Instagram post"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                 </svg>
               </div>
             </a>
@@ -1262,14 +1367,14 @@ export default function HomePage() {
             {/* Instagram Image 3 */}
             <a href="#" className="relative aspect-square group overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1559339352-11d035aa65de"
+                src="/instagram/Generated Image November 22, 2025 - 10_53PM (1).png"
                 alt="Instagram post"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                 </svg>
               </div>
             </a>
@@ -1277,14 +1382,14 @@ export default function HomePage() {
             {/* Instagram Image 4 */}
             <a href="#" className="relative aspect-square group overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1452195100486-9cc805987862"
+                src="/instagram/Generated Image November 22, 2025 - 10_54PM (1).png"
                 alt="Instagram post"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                 </svg>
               </div>
             </a>
@@ -1292,14 +1397,14 @@ export default function HomePage() {
             {/* Instagram Image 5 */}
             <a href="#" className="relative aspect-square group overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3"
+                src="/instagram/Generated Image November 22, 2025 - 10_56PM (1).png"
                 alt="Instagram post"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                 </svg>
               </div>
             </a>
@@ -1307,14 +1412,14 @@ export default function HomePage() {
             {/* Instagram Image 6 */}
             <a href="#" className="relative aspect-square group overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c"
+                src="/instagram/Generated Image November 22, 2025 - 10_57PM (1).png"
                 alt="Instagram post"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                 </svg>
               </div>
             </a>

@@ -5,10 +5,10 @@
 @layer base {
   :root {
     --primary-900: 10 10 10;
-    --primary-800: 15 15 15;
-    --primary-700: 24 24 24;
-    --accent-600: 212 175 55;
-    --gold: 212 175 55;
+    --primary-800: 18 18 18;
+    --primary-700: 28 28 28;
+    --accent-600: 200 160 80; /* Gold plus métallique et moins jaune */
+    --gold: 200 160 80;
   }
 
   * {

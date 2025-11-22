@@ -16,7 +16,7 @@ export default function AProposPage() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=2940"
+            src="/images/plateau.png"
             alt="Fromagerie Artisanale Luxembourg - À Propos Formaticus"
             fill
             className="object-cover"
@@ -33,8 +33,8 @@ export default function AProposPage() {
 
             <div className="flex justify-center mb-8">
               <svg className="w-12 h-3 text-accent-600" viewBox="0 0 48 12" fill="none">
-                <path d="M0 6h18M24 0l-6 6 6 6M24 0l6 6-6 6M30 6h18" stroke="currentColor" strokeWidth="0.5"/>
-                <circle cx="24" cy="6" r="1.5" fill="currentColor"/>
+                <path d="M0 6h18M24 0l-6 6 6 6M24 0l6 6-6 6M30 6h18" stroke="currentColor" strokeWidth="0.5" />
+                <circle cx="24" cy="6" r="1.5" fill="currentColor" />
               </svg>
             </div>
 
@@ -56,55 +56,55 @@ export default function AProposPage() {
             <div className="grid md:grid-cols-2 gap-20 items-center max-w-6xl mx-auto">
               {/* Image */}
               <div className="group">
-              <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
-                <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
-                  <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
-                  <circle cx="16" cy="16" r="2" fill="black"/>
-                </svg>
-              </div>
+                <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
+                  <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
+                    <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor" />
+                    <circle cx="16" cy="16" r="2" fill="black" />
+                  </svg>
+                </div>
 
-              <div className="relative h-96 md:h-[500px] overflow-hidden shadow-2xl transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(228,197,144,0.3)]">
-                <Image
-                  src="https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=2940"
-                  alt="Notre histoire"
-                  fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
-                  <div className="absolute inset-0 border-2 border-accent-600/40 shadow-[inset_0_0_20px_rgba(228,197,144,0.2)]" />
+                <div className="relative h-96 md:h-[500px] overflow-hidden shadow-2xl transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(228,197,144,0.3)]">
+                  <Image
+                    src="/Séance Photo Nicolas 20220423/plateau-fromages-01.jpg"
+                    alt="Notre histoire"
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
+                    <div className="absolute inset-0 border-2 border-accent-600/40 shadow-[inset_0_0_20px_rgba(228,197,144,0.2)]" />
+                  </div>
+                </div>
+
+                <div className="mt-8 flex justify-center">
+                  <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
+                    <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5" />
+                    <circle cx="32" cy="6" r="1.5" fill="currentColor" />
+                  </svg>
                 </div>
               </div>
 
-              <div className="mt-8 flex justify-center">
-                <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
-                  <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
-                  <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
-                </svg>
+              {/* Contenu */}
+              <div>
+                <Ornament className="text-accent-600 mb-6" />
+                <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
+                  Notre Histoire
+                </p>
+                <h2 className="text-4xl md:text-5xl font-serif font-light text-white mb-8">
+                  L'Excellence<br />Fromagère
+                </h2>
+                <div className="space-y-6 text-lg text-primary-200 font-light leading-relaxed">
+                  <p>
+                    {SITE_DATA.business.description}
+                  </p>
+                  <p>
+                    Fondée par des passionnés de fromage, {SITE_DATA.business.name} s'est donné pour mission de faire découvrir la richesse du patrimoine fromager européen tout en créant des moments de partage authentiques.
+                  </p>
+                  <p>
+                    Notre sélection de plus de {SITE_DATA.stats.cheeseSelection} fromages artisanaux est le fruit d'un travail minutieux de recherche auprès des meilleurs producteurs fermiers et affineurs.
+                  </p>
+                </div>
               </div>
             </div>
-
-            {/* Contenu */}
-            <div>
-              <Ornament className="text-accent-600 mb-6" />
-              <p className="text-accent-600 tracking-[0.3em] text-xs font-light uppercase mb-6">
-                Notre Histoire
-              </p>
-              <h2 className="text-4xl md:text-5xl font-serif font-light text-white mb-8">
-                L'Excellence<br />Fromagère
-              </h2>
-              <div className="space-y-6 text-lg text-primary-200 font-light leading-relaxed">
-                <p>
-                  {SITE_DATA.business.description}
-                </p>
-                <p>
-                  Fondée par des passionnés de fromage, {SITE_DATA.business.name} s'est donné pour mission de faire découvrir la richesse du patrimoine fromager européen tout en créant des moments de partage authentiques.
-                </p>
-                <p>
-                  Notre sélection de plus de {SITE_DATA.stats.cheeseSelection} fromages artisanaux est le fruit d'un travail minutieux de recherche auprès des meilleurs producteurs fermiers et affineurs.
-                </p>
-              </div>
-            </div>
-          </div>
           </FadeInSection>
         </div>
       </section>
@@ -130,106 +130,106 @@ export default function AProposPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 max-w-6xl mx-auto">
             <FadeInSection delay={0.4} direction="up">
               <div className="group text-center">
-              <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
-                <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
-                  <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
-                  <circle cx="16" cy="16" r="2" fill="black"/>
-                </svg>
-              </div>
+                <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
+                  <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
+                    <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor" />
+                    <circle cx="16" cy="16" r="2" fill="black" />
+                  </svg>
+                </div>
 
-              <div className="bg-black/40 border border-accent-600/30 p-8 mb-8 transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(228,197,144,0.3)]">
-                <Award className="w-16 h-16 mx-auto mb-6 text-accent-600" />
-                <h3 className="text-2xl font-serif font-light text-white mb-4">Qualité</h3>
-                <p className="text-primary-200 font-light">
-                  Sélection rigoureuse des meilleurs fromages artisanaux et fermiers
-                </p>
-              </div>
+                <div className="bg-black/40 border border-accent-600/30 p-8 mb-8 transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(228,197,144,0.3)]">
+                  <Award className="w-16 h-16 mx-auto mb-6 text-accent-600" />
+                  <h3 className="text-2xl font-serif font-light text-white mb-4">Qualité</h3>
+                  <p className="text-primary-200 font-light">
+                    Sélection rigoureuse des meilleurs fromages artisanaux et fermiers
+                  </p>
+                </div>
 
-              <div className="flex justify-center">
-                <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
-                  <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
-                  <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
-                </svg>
+                <div className="flex justify-center">
+                  <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
+                    <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5" />
+                    <circle cx="32" cy="6" r="1.5" fill="currentColor" />
+                  </svg>
+                </div>
               </div>
-            </div>
             </FadeInSection>
 
             <FadeInSection delay={0.5} direction="up">
               <div className="group text-center">
-              <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
-                <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
-                  <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
-                  <circle cx="16" cy="16" r="2" fill="black"/>
-                </svg>
-              </div>
+                <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
+                  <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
+                    <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor" />
+                    <circle cx="16" cy="16" r="2" fill="black" />
+                  </svg>
+                </div>
 
-              <div className="bg-black/40 border border-accent-600/30 p-8 mb-8 transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(228,197,144,0.3)]">
-                <Heart className="w-16 h-16 mx-auto mb-6 text-accent-600" />
-                <h3 className="text-2xl font-serif font-light text-white mb-4">Passion</h3>
-                <p className="text-primary-200 font-light">
-                  Un amour inconditionnel du fromage transmis avec enthousiasme
-                </p>
-              </div>
+                <div className="bg-black/40 border border-accent-600/30 p-8 mb-8 transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(228,197,144,0.3)]">
+                  <Heart className="w-16 h-16 mx-auto mb-6 text-accent-600" />
+                  <h3 className="text-2xl font-serif font-light text-white mb-4">Passion</h3>
+                  <p className="text-primary-200 font-light">
+                    Un amour inconditionnel du fromage transmis avec enthousiasme
+                  </p>
+                </div>
 
-              <div className="flex justify-center">
-                <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
-                  <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
-                  <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
-                </svg>
+                <div className="flex justify-center">
+                  <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
+                    <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5" />
+                    <circle cx="32" cy="6" r="1.5" fill="currentColor" />
+                  </svg>
+                </div>
               </div>
-            </div>
             </FadeInSection>
 
             <FadeInSection delay={0.6} direction="up">
               <div className="group text-center">
-              <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
-                <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
-                  <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
-                  <circle cx="16" cy="16" r="2" fill="black"/>
-                </svg>
-              </div>
+                <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
+                  <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
+                    <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor" />
+                    <circle cx="16" cy="16" r="2" fill="black" />
+                  </svg>
+                </div>
 
-              <div className="bg-black/40 border border-accent-600/30 p-8 mb-8 transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(228,197,144,0.3)]">
-                <Users className="w-16 h-16 mx-auto mb-6 text-accent-600" />
-                <h3 className="text-2xl font-serif font-light text-white mb-4">Convivialité</h3>
-                <p className="text-primary-200 font-light">
-                  Créer des moments de partage authentiques autour du fromage
-                </p>
-              </div>
+                <div className="bg-black/40 border border-accent-600/30 p-8 mb-8 transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(228,197,144,0.3)]">
+                  <Users className="w-16 h-16 mx-auto mb-6 text-accent-600" />
+                  <h3 className="text-2xl font-serif font-light text-white mb-4">Convivialité</h3>
+                  <p className="text-primary-200 font-light">
+                    Créer des moments de partage authentiques autour du fromage
+                  </p>
+                </div>
 
-              <div className="flex justify-center">
-                <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
-                  <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
-                  <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
-                </svg>
+                <div className="flex justify-center">
+                  <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
+                    <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5" />
+                    <circle cx="32" cy="6" r="1.5" fill="currentColor" />
+                  </svg>
+                </div>
               </div>
-            </div>
             </FadeInSection>
 
             <FadeInSection delay={0.7} direction="up">
               <div className="group text-center">
-              <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
-                <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
-                  <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
-                  <circle cx="16" cy="16" r="2" fill="black"/>
-                </svg>
-              </div>
+                <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
+                  <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
+                    <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor" />
+                    <circle cx="16" cy="16" r="2" fill="black" />
+                  </svg>
+                </div>
 
-              <div className="bg-black/40 border border-accent-600/30 p-8 mb-8 transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(228,197,144,0.3)]">
-                <Leaf className="w-16 h-16 mx-auto mb-6 text-accent-600" />
-                <h3 className="text-2xl font-serif font-light text-white mb-4">Durabilité</h3>
-                <p className="text-primary-200 font-light">
-                  Soutien aux producteurs locaux et aux pratiques respectueuses
-                </p>
-              </div>
+                <div className="bg-black/40 border border-accent-600/30 p-8 mb-8 transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(228,197,144,0.3)]">
+                  <Leaf className="w-16 h-16 mx-auto mb-6 text-accent-600" />
+                  <h3 className="text-2xl font-serif font-light text-white mb-4">Durabilité</h3>
+                  <p className="text-primary-200 font-light">
+                    Soutien aux producteurs locaux et aux pratiques respectueuses
+                  </p>
+                </div>
 
-              <div className="flex justify-center">
-                <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
-                  <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
-                  <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
-                </svg>
+                <div className="flex justify-center">
+                  <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
+                    <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5" />
+                    <circle cx="32" cy="6" r="1.5" fill="currentColor" />
+                  </svg>
+                </div>
               </div>
-            </div>
             </FadeInSection>
           </div>
         </div>
@@ -258,43 +258,43 @@ export default function AProposPage() {
               {SITE_DATA.team.members.map((member, idx) => (
                 <FadeInSection key={idx} delay={0.4 + idx * 0.1} direction="up">
                   <div className="group text-center">
-                  <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
-                    <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
-                      <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
-                      <circle cx="16" cy="16" r="2" fill="black"/>
-                    </svg>
-                  </div>
+                    <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
+                      <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
+                        <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor" />
+                        <circle cx="16" cy="16" r="2" fill="black" />
+                      </svg>
+                    </div>
 
-                  <div className="bg-black/40 border border-accent-600/30 overflow-hidden transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(228,197,144,0.3)]">
-                    <div className="relative h-64 bg-gradient-to-br from-primary-800 to-primary-700 flex items-center justify-center">
-                      <div className="text-6xl font-serif font-light text-accent-600">
-                        {member.name.split(' ').map(n => n[0]).join('')}
+                    <div className="bg-black/40 border border-accent-600/30 overflow-hidden transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(228,197,144,0.3)]">
+                      <div className="relative h-64 bg-gradient-to-br from-primary-800 to-primary-700 flex items-center justify-center">
+                        <div className="text-6xl font-serif font-light text-accent-600">
+                          {member.name.split(' ').map(n => n[0]).join('')}
+                        </div>
+                      </div>
+                      <div className="p-8">
+                        <h3 className="text-2xl font-serif font-light text-white mb-2">{member.name}</h3>
+                        <div className="text-accent-600 text-sm tracking-[0.2em] uppercase mb-4">{member.role}</div>
+                        <p className="text-primary-200 font-light mb-4">{member.experience}</p>
+                        {member.certifications && member.certifications.length > 0 && (
+                          <div className="space-y-2 border-t border-accent-600/30 pt-4">
+                            {member.certifications.map((cert, certIdx) => (
+                              <div key={certIdx} className="flex items-center gap-2 text-sm text-primary-300 font-light">
+                                <CheckCircle className="w-4 h-4 text-accent-600" />
+                                <span>{cert}</span>
+                              </div>
+                            ))}
+                          </div>
+                        )}
                       </div>
                     </div>
-                    <div className="p-8">
-                      <h3 className="text-2xl font-serif font-light text-white mb-2">{member.name}</h3>
-                      <div className="text-accent-600 text-sm tracking-[0.2em] uppercase mb-4">{member.role}</div>
-                      <p className="text-primary-200 font-light mb-4">{member.experience}</p>
-                      {member.certifications && member.certifications.length > 0 && (
-                        <div className="space-y-2 border-t border-accent-600/30 pt-4">
-                          {member.certifications.map((cert, certIdx) => (
-                            <div key={certIdx} className="flex items-center gap-2 text-sm text-primary-300 font-light">
-                              <CheckCircle className="w-4 h-4 text-accent-600" />
-                              <span>{cert}</span>
-                            </div>
-                          ))}
-                        </div>
-                      )}
+
+                    <div className="mt-8 flex justify-center">
+                      <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
+                        <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5" />
+                        <circle cx="32" cy="6" r="1.5" fill="currentColor" />
+                      </svg>
                     </div>
                   </div>
-
-                  <div className="mt-8 flex justify-center">
-                    <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
-                      <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
-                      <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
-                    </svg>
-                  </div>
-                </div>
                 </FadeInSection>
               ))}
             </div>
@@ -322,9 +322,9 @@ export default function AProposPage() {
               {SITE_DATA.sustainability && SITE_DATA.sustainability.commitments && SITE_DATA.sustainability.commitments.map((commitment, idx) => (
                 <FadeInSection key={idx} delay={0.4 + idx * 0.1} direction="left">
                   <div className="flex items-start gap-4 bg-black/40 border border-accent-600/30 p-8">
-                  <CheckCircle className="w-6 h-6 text-accent-600 flex-shrink-0 mt-1" />
-                  <p className="text-primary-200 font-light">{commitment}</p>
-                </div>
+                    <CheckCircle className="w-6 h-6 text-accent-600 flex-shrink-0 mt-1" />
+                    <p className="text-primary-200 font-light">{commitment}</p>
+                  </div>
                 </FadeInSection>
               ))}
             </div>
@@ -352,25 +352,25 @@ export default function AProposPage() {
               {SITE_DATA.certifications.map((cert, idx) => (
                 <FadeInSection key={idx} delay={0.4 + idx * 0.1} direction="up">
                   <div className="group text-center">
-                  <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
-                    <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
-                      <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor"/>
-                      <circle cx="16" cy="16" r="2" fill="black"/>
-                    </svg>
-                  </div>
+                    <div className="mb-8 flex justify-center transition-all duration-500 group-hover:scale-110">
+                      <svg className="w-8 h-8 text-accent-600 transition-all duration-500 group-hover:drop-shadow-[0_0_8px_rgba(228,197,144,0.6)]" viewBox="0 0 32 32" fill="none">
+                        <path d="M16 0l2 14 14 2-14 2-2 14-2-14L0 16l14-2z" fill="currentColor" />
+                        <circle cx="16" cy="16" r="2" fill="black" />
+                      </svg>
+                    </div>
 
-                  <div className="bg-black/40 border border-accent-600/30 p-8 transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(228,197,144,0.3)]">
-                    <Award className="w-12 h-12 mx-auto mb-4 text-accent-600" />
-                    <div className="text-white font-light">{cert}</div>
-                  </div>
+                    <div className="bg-black/40 border border-accent-600/30 p-8 transition-all duration-700 group-hover:-translate-y-2 group-hover:shadow-[0_20px_60px_-15px_rgba(0,0,0,0.8),0_0_40px_rgba(228,197,144,0.3)]">
+                      <Award className="w-12 h-12 mx-auto mb-4 text-accent-600" />
+                      <div className="text-white font-light">{cert}</div>
+                    </div>
 
-                  <div className="mt-8 flex justify-center">
-                    <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
-                      <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5"/>
-                      <circle cx="32" cy="6" r="1.5" fill="currentColor"/>
-                    </svg>
+                    <div className="mt-8 flex justify-center">
+                      <svg className="w-16 h-3 text-accent-600" viewBox="0 0 64 12" fill="none">
+                        <path d="M0 6h28M32 0v12M36 6h28" stroke="currentColor" strokeWidth="0.5" />
+                        <circle cx="32" cy="6" r="1.5" fill="currentColor" />
+                      </svg>
+                    </div>
                   </div>
-                </div>
                 </FadeInSection>
               ))}
             </div>

@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Button } from '@/components/ui/Button'
+import { MagneticButton } from '@/components/ui/MagneticButton'
 import { SITE_DATA } from '@/lib/constants'
 import { Menu, X, Phone, Clock, MapPin, Mail } from 'lucide-react'
 
@@ -82,60 +83,71 @@ export function Header() {
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-8">
-              <Link
-                href="/"
-                className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300"
-              >
-                Accueil
-              </Link>
-              <Link
-                href="/fromages"
-                className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300"
-              >
-                Nos Fromages
-              </Link>
-              <Link
-                href="/producteurs"
-                className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300"
-              >
-                Nos Producteurs
-              </Link>
-              <Link
-                href="/box-fromage-vin"
-                className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300"
-              >
-                Box Fromage & Vin
-              </Link>
-              <Link
-                href="/evenements"
-                className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300"
-              >
-                Événements
-              </Link>
-              <Link
-                href="/traiteur"
-                className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300"
-              >
-                Traiteur
-              </Link>
-              <Link
-                href="/a-propos"
-                className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300"
-              >
-                À Propos
-              </Link>
-              <Link
-                href="/contact"
-                className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300"
-              >
-                Contact
-              </Link>
-              <Link
-                href="/reserver"
-                className="px-6 py-2.5 bg-accent-600 border border-accent-600 text-black text-xs tracking-[0.2em] uppercase hover:bg-transparent hover:text-accent-600 transition-all duration-500 hover-glow"
-              >
-                Réserver
-              </Link>
+              <MagneticButton>
+                <Link
+                  href="/"
+                  className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300 block px-2 py-1"
+                >
+                  Accueil
+                </Link>
+              </MagneticButton>
+              <MagneticButton>
+                <Link
+                  href="/fromages"
+                  className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300 block px-2 py-1"
+                >
+                  Nos Fromages
+                </Link>
+              </MagneticButton>
+
+              <MagneticButton>
+                <Link
+                  href="/box-fromage-vin"
+                  className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300 block px-2 py-1"
+                >
+                  Box Fromage & Vin
+                </Link>
+              </MagneticButton>
+              <MagneticButton>
+                <Link
+                  href="/evenements"
+                  className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300 block px-2 py-1"
+                >
+                  Événements
+                </Link>
+              </MagneticButton>
+              <MagneticButton>
+                <Link
+                  href="/traiteur"
+                  className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300 block px-2 py-1"
+                >
+                  Traiteur
+                </Link>
+              </MagneticButton>
+              <MagneticButton>
+                <Link
+                  href="/a-propos"
+                  className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300 block px-2 py-1"
+                >
+                  À Propos
+                </Link>
+              </MagneticButton>
+              <MagneticButton>
+                <Link
+                  href="/contact"
+                  className="text-white hover:text-accent-600 font-light text-sm transition-all duration-300 block px-2 py-1"
+                >
+                  Contact
+                </Link>
+              </MagneticButton>
+              <MagneticButton strength={0.2}>
+                <Link
+                  href="/reserver"
+                  className="px-6 py-2.5 bg-accent-600 border border-accent-600 text-black text-xs tracking-[0.2em] uppercase hover:bg-transparent hover:text-accent-600 transition-all duration-500 hover-glow block"
+                >
+                  Réserver
+                </Link>
+              </MagneticButton>
             </nav>
 
             {/* Mobile menu button */}
@@ -156,9 +168,8 @@ export function Header() {
 
       {/* Mobile menu - Fullscreen optimisé conversion */}
       <div
-        className={`fixed inset-0 lg:hidden bg-black/95 backdrop-blur-md transition-all duration-500 ${
-          mobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
-        }`}
+        className={`fixed inset-0 lg:hidden bg-black/95 backdrop-blur-md transition-all duration-500 ${mobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+          }`}
         style={{ top: 0 }}
       >
         <div className="h-full flex flex-col">
@@ -211,13 +222,7 @@ export function Header() {
                 >
                   Nos Fromages
                 </Link>
-                <Link
-                  href="/producteurs"
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="block py-4 px-4 text-white hover:text-accent-600 hover:bg-accent-600/10 font-light text-lg transition-all duration-300 border-b border-accent-600/10"
-                >
-                  Nos Producteurs
-                </Link>
+
                 <Link
                   href="/box-fromage-vin"
                   onClick={() => setMobileMenuOpen(false)}
